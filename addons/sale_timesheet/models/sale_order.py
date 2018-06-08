@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
-from odoo import api, fields, models, _
+from izi import api, fields, models, _
 
-from odoo.exceptions import ValidationError
-from odoo.osv import expression
-from odoo.tools.safe_eval import safe_eval
-from odoo.tools import float_is_zero
+from izi.exceptions import ValidationError
+from izi.osv import expression
+from izi.tools.safe_eval import safe_eval
+from izi.tools import float_is_zero
 
 
 class SaleOrder(models.Model):
@@ -168,7 +168,7 @@ class SaleOrderLine(models.Model):
 
     def _timesheet_compute_delivered_quantity_domain(self):
         # TODO JEM: avoid increment delivered for all AAL or just timesheet ?
-        # see nim commit https://github.com/odoo/odoo/commit/21fbb9776a5fbd1838b189f1f7cf8c5d40663e14
+        # see nim commit https://github.com/izi/izi.asiamit/21fbb9776a5fbd1838b189f1f7cf8c5d40663e14
         so_line_ids = self.filtered(lambda sol: sol.product_id.service_type != 'manual').ids
         return ['&', ('so_line', 'in', so_line_ids), ('project_id', '!=', False)]
 

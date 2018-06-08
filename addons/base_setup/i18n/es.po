@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * base_setup
 # 
@@ -8,20 +8,20 @@
 # Antonio Trueba, 2017
 # Nicolás Broggi <rnbroggi@gmail.com>, 2017
 # Martin Trigaux, 2017
-# RGB Consulting <odoo@rgbconsulting.com>, 2017
+# RGB Consulting <izi@rgbconsulting.com>, 2017
 # Cristóbal Martí Oliver <info@moblesmarti.com>, 2017
 # Sergio Flores <vitavitae1@gmail.com>, 2017
 # Juan José Scarafía <scarafia.juanjose@gmail.com>, 2017
-# Pierre-Antoine Magnet <pma@odoo.com>, 2017
+# Pierre-Antoine Magnet <pma@izi.asia>, 2017
 # JOSE ALEJANDRO ECHEVERRI VALENCIA <josealejandroeche@gmail.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-16 08:08+0000\n"
 "PO-Revision-Date: 2017-11-16 08:08+0000\n"
 "Last-Translator: JOSE ALEJANDRO ECHEVERRI VALENCIA <josealejandroeche@gmail.com>, 2018\n"
-"Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
+"Language-Team: Spanish (https://www.transifex.com/izi/teams/41243/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -168,8 +168,8 @@ msgstr "Servidor de correo externo"
 
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "Extract and analyze Odoo data from Google Spreadsheet"
-msgstr "Extraiga y analice los datos de Odoo desde Google Spreadsheet"
+msgid "Extract and analyze izi data from Google Spreadsheet"
+msgstr "Extraiga y analice los datos de izi desde Google Spreadsheet"
 
 #. module: base_setup
 #: model:ir.model.fields,help:base_setup.field_res_config_settings_report_footer
@@ -336,8 +336,8 @@ msgstr "Uso de proveedores de autentificación externos (OAuth)"
 
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "Use external pads in Odoo Notes"
-msgstr "Usar pads externos  en Notas de Odoo"
+msgid "Use external pads in izi Notes"
+msgstr "Usar pads externos  en Notas de izi"
 
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.res_config_settings_view_form

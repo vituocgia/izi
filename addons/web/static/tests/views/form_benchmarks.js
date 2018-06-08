@@ -1,4 +1,4 @@
-odoo.define('web.list_benchmarks', function (require) {
+izi.define('web.list_benchmarks', function (require) {
 "use strict";
 
 var FormView = require('web.FormView');

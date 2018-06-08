@@ -1,22 +1,22 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * analytic
 # 
 # Translators:
 # Martin Trigaux, 2017
-# Mark Lee <odoos@soti.33mail.com>, 2017
+# Mark Lee <izis@soti.33mail.com>, 2017
 # Link Up링크업 <linkup.way@gmail.com>, 2018
 # Linda Stockelova <stockeloval@btlnet.com>, 2018
 # Goh Gangtai <gangtai.goh@gmail.com>, 2018
 # 최재호 <hwangtog@gmail.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: izi Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-20 09:53+0000\n"
 "PO-Revision-Date: 2017-09-20 09:53+0000\n"
 "Last-Translator: 최재호 <hwangtog@gmail.com>, 2018\n"
-"Language-Team: Korean (https://www.transifex.com/odoo/teams/41243/ko/)\n"
+"Language-Team: Korean (https://www.transifex.com/izi/teams/41243/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -240,10 +240,10 @@ msgstr "\"active\" 항목을 false로 설정하면, 제거하지 않고도 그 �
 #: model:ir.actions.act_window,help:analytic.account_analytic_line_action
 #: model:ir.actions.act_window,help:analytic.account_analytic_line_action_entries
 msgid ""
-"In Odoo, sales orders and projects are implemented using\n"
+"In izi, sales orders and projects are implemented using\n"
 "                analytic accounts. You can track costs and revenues to analyse\n"
 "                your margins easily."
-msgstr "Odoo에서 판매주문및 프로젝트는 분석회계를 사용하여 구현됩니다. 쉽게 마진을 분석하기위해 비용/수익을 추적할 수 있습니다."
+msgstr "izi에서 판매주문및 프로젝트는 분석회계를 사용하여 구현됩니다. 쉽게 마진을 분석하기위해 비용/수익을 추적할 수 있습니다."
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account___last_update

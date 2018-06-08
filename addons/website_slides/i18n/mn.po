@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * website_slides
 # 
@@ -11,12 +11,12 @@
 # Batzul B <batzul.active@gmail.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: izi Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-02 11:27+0000\n"
 "PO-Revision-Date: 2017-10-02 11:27+0000\n"
 "Last-Translator: Batzul B <batzul.active@gmail.com>, 2018\n"
-"Language-Team: Mongolian (https://www.transifex.com/odoo/teams/41243/mn/)\n"
+"Language-Team: Mongolian (https://www.transifex.com/izi/teams/41243/mn/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -358,8 +358,8 @@ msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_5
-msgid "Awesome Timesheet by Odoo"
-msgstr "Odoo - н гайхалтай Цагийн хуудас"
+msgid "Awesome Timesheet by izi"
+msgstr "izi - н гайхалтай Цагийн хуудас"
 
 #. module: website_slides
 #: model:slide.tag,name:website_slides.tag1
@@ -539,7 +539,7 @@ msgstr "Үл хэрэгсэх"
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_6
-msgid "Discover how easy marketing your business can be with Odoo"
+msgid "Discover how easy marketing your business can be with izi"
 msgstr ""
 
 #. module: website_slides
@@ -547,14 +547,14 @@ msgstr ""
 msgid ""
 "Discover how you can integrate MRP, PLM, Quality and Maintenance in a single application to maximize the efficiency of your manufacturing operations.\n"
 "\n"
-"Read more about the features at: https://www.odoo.com/page/manufacturing-features\n"
+"Read more about the features at: https://www.izi.asia/page/manufacturing-features\n"
 "\n"
-"Discover Odoo MRP: https://www.odoo.com/page/manufacturing"
+"Discover izi MRP: https://www.izi.asia/page/manufacturing"
 msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_1
-msgid "Discover the CRM sales people love https://www.odoo.com/page/crm"
+msgid "Discover the CRM sales people love https://www.izi.asia/page/crm"
 msgstr ""
 
 #. module: website_slides
@@ -562,11 +562,11 @@ msgstr ""
 msgid ""
 "Discover the all-in-one business management software solution that fits any business size and use case.\n"
 "\n"
-"Learn more at https://odoo.com"
+"Learn more at https://izi.asia"
 msgstr ""
 "Аль ч хэмжээний бизнес болон ашиглах тохиолдолд тохирох бүгд-нэг-дор бизнес менежментийн програм хангамжийн шийдлийг сонирхоорой.\n"
 "\n"
-"Илүүг https://odoo.com - оос"
+"Илүүг https://izi.asia - оос"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide_dislikes
@@ -617,12 +617,12 @@ msgstr "Татах"
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_5
 msgid ""
-"Download Awesome Timesheet by Odoo and discover how easy time tracking and employee management can be!\n"
+"Download Awesome Timesheet by izi and discover how easy time tracking and employee management can be!\n"
 "\n"
 "Chrome: http://bit.ly/2613LcY\n"
 "iOS: http://bit.ly/1ZUZsZD"
 msgstr ""
-"Odoo - н гайхамшигт Цагийн хуудсыг татаж аваад цаг хөтлөлт, ажилтны менежмент ямар хялбар байх боломжтойг хараарай!\n"
+"izi - н гайхамшигт Цагийн хуудсыг татаж аваад цаг хөтлөлт, ажилтны менежмент ямар хялбар байх боломжтойг хараарай!\n"
 "\n"
 "Chrome: http://bit.ly/2613LcY\n"
 "iOS: http://bit.ly/1ZUZsZD"
@@ -830,7 +830,7 @@ msgstr "Хамгийн сүүлд Нийтэлсэн"
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_8
-msgid "Learn more at https://www.odoo.com/page/sales"
+msgid "Learn more at https://www.izi.asia/page/sales"
 msgstr ""
 
 #. module: website_slides
@@ -943,44 +943,44 @@ msgstr "Видеоны тоо"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_2
-msgid "Odoo All-in-One Software Demonstration"
-msgstr "Odoo бүгд-нэг-дор програм хангамжийн үзүүлэн"
+msgid "izi All-in-One Software Demonstration"
+msgstr "izi бүгд-нэг-дор програм хангамжийн үзүүлэн"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_1
-msgid "Odoo CRM"
+msgid "izi CRM"
 msgstr ""
 
 #. module: website_slides
 #: model:slide.category,name:website_slides.category_2
 #: model:slide.tag,name:website_slides.tag5
-msgid "Odoo Days"
-msgstr "Odoo өдрүүд"
+msgid "izi Days"
+msgstr "izi өдрүүд"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_7
-msgid "Odoo Inventory"
+msgid "izi Inventory"
 msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_0
-msgid "Odoo MRP"
+msgid "izi MRP"
 msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_6
-msgid "Odoo Marketing"
+msgid "izi Marketing"
 msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_8
-msgid "Odoo Sales"
+msgid "izi Sales"
 msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_3
-msgid "Odoo Sign Demonstration"
-msgstr "Odoo Тэмдгийн Үзүүлэн"
+msgid "izi Sign Demonstration"
+msgstr "izi Тэмдгийн Үзүүлэн"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_9
@@ -1213,13 +1213,13 @@ msgstr "Уучлаарай, таны хайлтад тохирох зүйл ал
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_3
 msgid ""
-"Stop doing manual printing and scanning. Move to electronic signature with Odoo Sign!\n"
+"Stop doing manual printing and scanning. Move to electronic signature with izi Sign!\n"
 "\n"
-"Discover more at https://www.odoo.com/page/sign"
+"Discover more at https://www.izi.asia/page/sign"
 msgstr ""
-"Гараар хэвлэх, скандахаа боль. Odoo Sign - ыг ашиглан цахим гарын үсэг рүү шилж!\n"
+"Гараар хэвлэх, скандахаа боль. izi Sign - ыг ашиглан цахим гарын үсэг рүү шилж!\n"
 "\n"
-"Дэлгэрэнгүйг эндээс https://www.odoo.com/page/sign"
+"Дэлгэрэнгүйг эндээс https://www.izi.asia/page/sign"
 
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.view_slide_tag_form
@@ -1417,7 +1417,7 @@ msgstr "Батлахыг хүлээж буй"
 msgid ""
 "Warehouse management software for the 21st century.\n"
 "\n"
-"Discover Odoo Inventory: https://www.odoo.com/page/warehouse"
+"Discover izi Inventory: https://www.izi.asia/page/warehouse"
 msgstr ""
 
 #. module: website_slides

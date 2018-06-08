@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from odoo import api, models
+from izi import api, models
 
 
 class WizardMultiChartsAccounts(models.TransientModel):

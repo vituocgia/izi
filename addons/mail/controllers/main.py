@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 import base64
 import logging
@@ -8,11 +8,11 @@ import werkzeug
 
 from werkzeug import url_encode
 
-from odoo import api, http, registry, SUPERUSER_ID, _
-from odoo.addons.web.controllers.main import binary_content
-from odoo.exceptions import AccessError
-from odoo.http import request
-from odoo.tools import consteq, pycompat
+from izi import api, http, registry, SUPERUSER_ID, _
+from izi.addons.web.controllers.main import binary_content
+from izi.exceptions import AccessError
+from izi.http import request
+from izi.tools import consteq, pycompat
 
 _logger = logging.getLogger(__name__)
 

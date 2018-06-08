@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * fleet
 # 
@@ -8,12 +8,12 @@
 # Michael Yeung, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: izi Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-20 09:54+0000\n"
 "PO-Revision-Date: 2017-09-20 09:54+0000\n"
 "Last-Translator: Michael Yeung, 2017\n"
-"Language-Team: Chinese (Taiwan) (https://www.transifex.com/odoo/teams/41243/zh_TW/)\n"
+"Language-Team: Chinese (Taiwan) (https://www.transifex.com/izi/teams/41243/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1114,11 +1114,11 @@ msgstr "車輛的品牌"
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_log_contract_action
 msgid ""
 "Manage all your contracts (leasing, insurances, etc.) with\n"
-"            their related services, costs. Odoo will automatically warn\n"
+"            their related services, costs. izi will automatically warn\n"
 "            you when some contracts have to be renewed."
 msgstr ""
 "管理所有合同（租賃、保險等）及\n"
-" 其相關服務、費用。當某些合同必須續訂時，Odoo 將自動提醒\n"
+" 其相關服務、費用。當某些合同必須續訂時，izi 將自動提醒\n"
 " 您。"
 
 #. module: fleet
@@ -1340,22 +1340,22 @@ msgstr "查看此日誌中那一刻的車輛里程表"
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_log_services_action
 msgid ""
-"Odoo helps you keeping track of all the services done\n"
+"izi helps you keeping track of all the services done\n"
 "            on your vehicle. Services can be of many type: occasional\n"
 "            repair, fixed maintenance, etc."
 msgstr ""
-"Odoo 幫助您記錄車輛已進行\n"
+"izi 幫助您記錄車輛已進行\n"
 " 的所有服務。服務包括多種類型：臨時\n"
 " 修理、定期保養等"
 
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_costs_action
 msgid ""
-"Odoo helps you managing the costs for your different\n"
+"izi helps you managing the costs for your different\n"
 "                vehicles. Costs are created automatically from services,\n"
 "                contracts (fixed or recurring) and fuel logs."
 msgstr ""
-"Odoo幫您管理不同\n"
+"izi幫您管理不同\n"
 "汽車的成本費用。成本費用自動從服務、\n"
 "合同(固定或者定期的)和燃油記錄中創建。"
 
@@ -1363,20 +1363,20 @@ msgstr ""
 #: model:ir.actions.act_window,help:fleet.fleet_costs_reporting_action
 #: model:ir.actions.act_window,help:fleet.fleet_costs_reporting_non_effective_action
 msgid ""
-"Odoo helps you managing the costs for your different vehicles\n"
+"izi helps you managing the costs for your different vehicles\n"
 "          Costs are generally created from services and contract and appears here."
 msgstr ""
-"Odoo能幫您管理不同車輛\n"
+"izi能幫您管理不同車輛\n"
 "的費用。費用從服務，合同中產生並顯示在這裡。"
 
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_action
 msgid ""
-"Odoo will warn you when services or contract have to be\n"
+"izi will warn you when services or contract have to be\n"
 "            renewed."
 msgstr ""
 "當服務或合同必須\n"
-" 續訂時，Odoo 會提醒您。"
+" 續訂時，izi 會提醒您。"
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_31
@@ -1730,10 +1730,10 @@ msgstr "條款和條件"
 #: model:ir.actions.act_window,help:fleet.fleet_costs_reporting_action
 #: model:ir.actions.act_window,help:fleet.fleet_costs_reporting_non_effective_action
 msgid ""
-"Thanks to the different filters, Odoo can only print the effective\n"
+"Thanks to the different filters, izi can only print the effective\n"
 "          costs, sort them by type and by vehicle."
 msgstr ""
-"感謝有不同的篩選，Odoo 能只列印生效\n"
+"感謝有不同的篩選，izi 能只列印生效\n"
 "的費用，並且用類型和車輛尋找它們。"
 
 #. module: fleet

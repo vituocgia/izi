@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
-from odoo import models, api
-from odoo.tools.translate import _
-from odoo.exceptions import UserError
+# Part of izi. See LICENSE file for full copyright and licensing details.
+from izi import models, api
+from izi.tools.translate import _
+from izi.exceptions import UserError
 
 
 class AccountBankStatement(models.Model):

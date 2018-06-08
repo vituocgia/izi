@@ -2,7 +2,7 @@
 import requests
 import logging
 
-from odoo.tools import html2plaintext
+from izi.tools import html2plaintext
 
 _logger = logging.getLogger(__name__)
 

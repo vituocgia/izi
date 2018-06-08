@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * website_blog
 # 
@@ -21,12 +21,12 @@
 # e2f_cn r14 <e2f_cn_r14@outlook.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-24 09:00+0000\n"
 "PO-Revision-Date: 2017-10-24 09:00+0000\n"
 "Last-Translator: e2f_cn r14 <e2f_cn_r14@outlook.com>, 2018\n"
-"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/izi/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -47,7 +47,7 @@ msgstr ""
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_2
 msgid ""
-"\"Odoo now competes on many fronts, with no real\n"
+"\"izi now competes on many fronts, with no real\n"
 "                    competition out there to knock them off the top spot.\n"
 "                    With the launch of their integrated CMS and Ecommerce\n"
 "                    systems,it only elevates their position as one of the leading\n"
@@ -56,7 +56,7 @@ msgid ""
 "                    compete at this level due to the technology currently\n"
 "                    employed by most industry providers.\""
 msgstr ""
-"“现在，Odoo 在许多方面都存在竞争，但其领先地位无人能够撼动。\n"
+"“现在，izi 在许多方面都存在竞争，但其领先地位无人能够撼动。\n"
 "伴随集成 CMS 和电子商务\n"
 "系统的推出，其作为开源革命\n"
 "领导\n"
@@ -67,18 +67,18 @@ msgstr ""
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_2
 msgid ""
-"\"Odoo's latest launch will allow a business to go from\n"
+"\"izi's latest launch will allow a business to go from\n"
 "                    zero to trading online quicker than ever before,” Stuart\n"
-"                    Mackintosh, MD of Open Source specialist and Odoo\n"
+"                    Mackintosh, MD of Open Source specialist and izi\n"
 "                    integration partner, OpusVL, explains. “The investment\n"
 "                    required to have a fully automated business system is\n"
 "                    dramatically reduced, enabling the small and medium\n"
 "                    enterprise to compete at a level of functionality and\n"
 "                    performance previously reserved for the big IT investors.\""
 msgstr ""
-"“Odoo 最新推出的功能可以使\n"
+"“izi 最新推出的功能可以使\n"
 "从零起点的企业更早地能够进行在线交易，”开源\n"
-"专家和 Odoo 集成\n"
+"专家和 izi 集成\n"
 "合作伙伴 OpusVL 的营销总监 Stuart Mackintosh 解释道。“实现\n"
 "完全自动化业务系统所需的投资\n"
 "大幅减少，使得中小型企业能够\n"
@@ -89,11 +89,11 @@ msgstr ""
 #: model:blog.post,content:website_blog.blog_post_2
 msgid ""
 "\"This is another clever and highly disruptive move by\n"
-"                    Odoo,which will force other technology providers to\n"
+"                    izi,which will force other technology providers to\n"
 "                    take another look at the value they are providing to ensure\n"
 "                    that their 'solutions' can still compete.\""
 msgstr ""
-"“这是 Odoo 做出的另一个明智而具有颠覆性的\n"
+"“这是 izi 做出的另一个明智而具有颠覆性的\n"
 "举措，这将迫使其它的技术供应商\n"
 "再次审视其能够带来的价值以确保\n"
 "它们的‘解决方案’仍然具有竞争力。”"
@@ -158,11 +158,11 @@ msgstr "在<b>这里写下您的故事。</b>使用顶部的工具栏来设计�
 msgid ""
 "A mix of push &amp; pull: Today, people\n"
 "                        are victims of what others decide to push to them.\n"
-"                        Odoo differentiates:"
+"                        izi differentiates:"
 msgstr ""
 "推送和拉出的结合：如今人们\n"
 "是其他人决定推送的内容的受害者。\n"
-"Odoo 则不然："
+"izi 则不然："
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.blog_post_template_new_post
@@ -219,12 +219,12 @@ msgstr ""
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_1
 msgid ""
-"At Odoo, we build tools to bring productivity to\n"
+"At izi, we build tools to bring productivity to\n"
 "                    enterprises. As emails and information flows are one of\n"
 "                    the biggest wastes of time in companies, we have to fix\n"
 "                    this."
 msgstr ""
-"在 Odoo，我们创造为企业带来生产力的\n"
+"在 izi，我们创造为企业带来生产力的\n"
 "工具。由于电子邮件和信息流是最\n"
 "浪费公司时间的问题之一，我们必须解决\n"
 "这个问题。"
@@ -473,13 +473,13 @@ msgstr ""
 #: model:blog.post,content:website_blog.blog_post_1
 msgid ""
 "Folders and mailing lists are great tools but too\n"
-"                        complex in traditional email clients. In Odoo, a\n"
+"                        complex in traditional email clients. In izi, a\n"
 "                        group of contacts that share a discussion can be\n"
 "                        created with one click. Every group should have it's\n"
 "                        own email address."
 msgstr ""
 "文件夹和邮件列表是很好的工具但是\n"
-"对于传统的电子邮件客户来说过于复杂。在 Odoo ，\n"
+"对于传统的电子邮件客户来说过于复杂。在 izi ，\n"
 "仅需一次点击即可创建共享\n"
 "讨论的联系人组。每一组都有\n"
 "自己的电子邮件地址。"
@@ -521,8 +521,8 @@ msgstr "分组"
 
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_1
-msgid "Here are the ideas behind the Odoo communication tools:"
-msgstr "以下是 Odoo 通信工具背后的想法："
+msgid "Here are the ideas behind the izi.asiamunication tools:"
+msgstr "以下是 izi 通信工具背后的想法："
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.website_blog
@@ -553,8 +553,8 @@ msgstr "ID"
 
 #. module: website_blog
 #: model:blog.post,subtitle:website_blog.blog_post_1
-msgid "Ideas behind the Odoo communication tools."
-msgstr "Odoo通讯工具背后的想法。"
+msgid "Ideas behind the izi.asiamunication tools."
+msgstr "izi通讯工具背后的想法。"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.latest_blogs
@@ -613,11 +613,11 @@ msgstr "最新发布"
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_2
 msgid ""
-"Like many modern website editors, with Odoo you can edit\n"
+"Like many modern website editors, with izi you can edit\n"
 "                    content in-line, enabling you to see exactly what you are\n"
 "                    changing and ensure your changes suit the context."
 msgstr ""
-"就像很多现代的网站编辑器一样，你可以使用 Odoo \n"
+"就像很多现代的网站编辑器一样，你可以使用 izi \n"
 "对内容进行嵌入式编辑，这样您可以看到你所改变的\n"
 "内容并确保更改符合上下文的背景。"
 
@@ -729,18 +729,18 @@ msgstr "无"
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_2
 msgid ""
-"Odoo claims to be 'the Open Source software that makes\n"
+"izi claims to be 'the Open Source software that makes\n"
 "                    building your company's website and selling your products\n"
 "                    online easy'. So how true is this statement?"
 msgstr ""
-"Odoo 声称是能够‘让您轻松建立公司网站并在\n"
+"izi 声称是能够‘让您轻松建立公司网站并在\n"
 "                    线销售产品\n"
 "更容易的开源软件’。那么，该声明有多真确？"
 
 #. module: website_blog
 #: model:blog.post,website_meta_keywords:website_blog.blog_post_1
-msgid "Odoo, email"
-msgstr "Odoo，电邮"
+msgid "izi, email"
+msgstr "izi，电邮"
 
 #. module: website_blog
 #. openerp-web
@@ -948,8 +948,8 @@ msgstr "技术"
 
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_1
-msgid "The Communication Mechanism of Odoo"
-msgstr "Odoo 的通信机制"
+msgid "The Communication Mechanism of izi"
+msgstr "izi 的通信机制"
 
 #. module: website_blog
 #: model:blog.post,name:website_blog.blog_post_1
@@ -992,11 +992,11 @@ msgstr "标题"
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_2
 msgid ""
-"To add to an already comprehensive set of Odoo\n"
+"To add to an already comprehensive set of izi\n"
 "                features, a website content management system (CMS or WMS) has been developed and a beta release is\n"
 "                available from today, 31st January 2014."
 msgstr ""
-"网站内容管理系统（CMS 或 WMS）已经开发完毕，并且从今天（2014 年 1 月 31 日）起将发布测试版，以添加到完整的 Odoo 功能中。"
+"网站内容管理系统（CMS 或 WMS）已经开发完毕，并且从今天（2014 年 1 月 31 日）起将发布测试版，以添加到完整的 izi 功能中。"
 
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_1

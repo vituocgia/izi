@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * website_event_track
 # 
@@ -12,12 +12,12 @@
 # BATKHUYAG GANBOLD <gbatkhuyag@gmail.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: izi Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-02 11:26+0000\n"
 "PO-Revision-Date: 2017-10-02 11:26+0000\n"
 "Last-Translator: BATKHUYAG GANBOLD <gbatkhuyag@gmail.com>, 2018\n"
-"Language-Team: Mongolian (https://www.transifex.com/odoo/teams/41243/mn/)\n"
+"Language-Team: Mongolian (https://www.transifex.com/izi/teams/41243/mn/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -125,10 +125,10 @@ msgstr ""
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track7
 msgid ""
-"A technical explanation of Odoo as a CMS and a eCommerce platform for "
+"A technical explanation of izi as a CMS and a eCommerce platform for "
 "version 8."
 msgstr ""
-"CMS ба онлайн борлуулалтын платформын хувьд Odoo - н хувилбар 8 - н техник "
+"CMS ба онлайн борлуулалтын платформын хувьд izi - н хувилбар 8 - н техник "
 "тайлбар."
 
 #. module: website_event_track
@@ -157,9 +157,9 @@ msgstr "Идэвхитэй"
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track19
-msgid "Advanced lead management with Odoo: tips and tricks from the fields"
+msgid "Advanced lead management with izi: tips and tricks from the fields"
 msgstr ""
-"Odoo - г ашигласан дэвшилтэт сэжмийн менежмент: талбаруудын зөвлөгөө ба "
+"izi - г ашигласан дэвшилтэт сэжмийн менежмент: талбаруудын зөвлөгөө ба "
 "мэхүүд"
 
 #. module: website_event_track
@@ -310,16 +310,16 @@ msgstr ""
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track8
 msgid ""
-"Discover Odoo CRM: How to optimize your sales, from leads to sales orders."
+"Discover izi CRM: How to optimize your sales, from leads to sales orders."
 msgstr ""
-"Odoo CRM - г сонирхоорой: Сэжимээс борлуулалтын захиалга хүртэлх "
+"izi CRM - г сонирхоорой: Сэжимээс борлуулалтын захиалга хүртэлх "
 "борлуулалтаа хэрхэн оновчтой болгох."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track11
-msgid "Discover Odoo Point-of-Sale: Your shop ready to use in 30 minutes."
+msgid "Discover izi Point-of-Sale: Your shop ready to use in 30 minutes."
 msgstr ""
-"Odoo Борлуулалтын Цэгийг сонирхоорой: Таны дэлгүүр 30 минутын дотор "
+"izi Борлуулалтын Цэгийг сонирхоорой: Таны дэлгүүр 30 минутын дотор "
 "ашиглахад бэлэн болно."
 
 #. module: website_event_track
@@ -483,9 +483,9 @@ msgstr "Хамгийн Өндөр"
 #: model:event.track,name:website_event_track.event_track18
 msgid ""
 "How to build your marketing strategy for the purpose of generating leads "
-"with Odoo."
+"with izi."
 msgstr ""
-"Odoo - г ашиглан сэжим дуудах зорилготойгоор хэрхэн маркетингийн бодлогыг "
+"izi - г ашиглан сэжим дуудах зорилготойгоор хэрхэн маркетингийн бодлогыг "
 "гаргах вэ."
 
 #. module: website_event_track
@@ -495,8 +495,8 @@ msgstr "Яаж вэбсайт модуль хөгжүүлэх."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track4
-msgid "How to develop automated tests in the Odoo web client."
-msgstr "Odoo вэб клиент дээр хэрхэн автомат тестүүдийг хөгжүүлэх."
+msgid "How to develop automated tests in the izi web client."
+msgstr "izi вэб клиент дээр хэрхэн автомат тестүүдийг хөгжүүлэх."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track3
@@ -507,18 +507,18 @@ msgstr ""
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track2
-msgid "How to integrate hardware materials with the Odoo point of sale."
+msgid "How to integrate hardware materials with the izi point of sale."
 msgstr ""
-"Хэрхэн тоног төхөөрөмжийн материалуудыг Odoo борлуулалтын цэгтэй интеграци "
+"Хэрхэн тоног төхөөрөмжийн материалуудыг izi борлуулалтын цэгтэй интеграци "
 "хийх."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track9
 msgid ""
-"How to use Odoo for your HR process: recruitment, leaves management, "
+"How to use izi for your HR process: recruitment, leaves management, "
 "appraisals, expenses, etc."
 msgstr ""
-"Odoo - г хэрхэн ХН явцад ашиглах: ажилд авах, чөлөөний менежмент, үнэлгээ, "
+"izi - г хэрхэн ХН явцад ашиглах: ажилд авах, чөлөөний менежмент, үнэлгээ, "
 "зардал, г.м."
 
 #. module: website_event_track
@@ -555,8 +555,8 @@ msgstr "Канбан Төлөв"
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track23
-msgid "Key Success factors selling Odoo."
-msgstr "Odoo - г борлуулж буй түлхүүр амжилтын хүчин зүйлс."
+msgid "Key Success factors selling izi."
+msgstr "izi - г борлуулж буй түлхүүр амжилтын хүчин зүйлс."
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_sponsor___last_update
@@ -620,8 +620,8 @@ msgstr "KPI - г удирдах (openERP түншүүдэд санал болг�
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track12
-msgid "Manage your events with Odoo, the new training modules."
-msgstr "Арга хэмжээнүүдээ Odoo - г ашиглан удирдах, шинэ сургалтын модулиуд."
+msgid "Manage your events with izi, the new training modules."
+msgstr "Арга хэмжээнүүдээ izi - г ашиглан удирдах, шинэ сургалтын модулиуд."
 
 #. module: website_event_track
 #: selection:event.track,priority:0
@@ -692,23 +692,23 @@ msgstr "Зам олдсонгүй!"
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track15
-msgid "Odoo Mobile for Notes, Meetings and Messages."
-msgstr "Odoo Mobile - ыг Тэмдэглэл, Уулзалт, Зурваст ашиглах."
+msgid "izi Mobile for Notes, Meetings and Messages."
+msgstr "izi Mobile - ыг Тэмдэглэл, Уулзалт, Зурваст ашиглах."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track28
-msgid "Odoo Status & Strategy 2014"
-msgstr "Odoo Байдал & Бодол 2014"
+msgid "izi Status & Strategy 2014"
+msgstr "izi Байдал & Бодол 2014"
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track16
-msgid "Odoo as your Enterprise Social Network."
-msgstr "Odoo таны Байгууллагын Нийгмийн Сүлжээ."
+msgid "izi as your Enterprise Social Network."
+msgstr "izi таны Байгууллагын Нийгмийн Сүлжээ."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track27
-msgid "Odoo in 2014"
-msgstr "Odoo 2014 онд"
+msgid "izi in 2014"
+msgstr "izi 2014 онд"
 
 #. module: website_event_track
 #: model:ir.ui.view,arch_db:website_event_track.event_sponsor
@@ -768,8 +768,8 @@ msgstr "Санал асуулгын апп-ыг ашиглан чанарын т
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track21
-msgid "Recruiting high skilled talents with Odoo HR apps"
-msgstr "Odoo ХН апп-уудыг ашиглан өндөр чадвартай авьяастнуудыг ажилд авах"
+msgid "Recruiting high skilled talents with izi HR apps"
+msgstr "izi ХН апп-уудыг ашиглан өндөр чадвартай авьяастнуудыг ажилд авах"
 
 #. module: website_event_track
 #: selection:event.track,kanban_state:0
@@ -956,8 +956,8 @@ msgstr "Санал тависанд баярлалаа."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track17
-msgid "The Art of Making an Odoo Demo."
-msgstr "Odoo Demo хийх урлаг."
+msgid "The Art of Making an izi Demo."
+msgstr "izi Demo хийх урлаг."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track29
@@ -967,8 +967,8 @@ msgstr "Шинэ маркетингийн бодлого."
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track5
 msgid ""
-"The new way to promote your modules in the Apps platform and Odoo website."
-msgstr "Апп платформ ба Odoo вэбсайт дээр модулиудаа сурталчилах шинэ арга."
+"The new way to promote your modules in the Apps platform and izi website."
+msgstr "Апп платформ ба izi вэбсайт дээр модулиудаа сурталчилах шинэ арга."
 
 #. module: website_event_track
 #: model:ir.ui.view,arch_db:website_event_track.event_track_proposal

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * website
 # 
@@ -10,12 +10,12 @@
 # Bill Hsu <hcm86@icloud.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 13:42+0000\n"
 "PO-Revision-Date: 2018-02-19 13:42+0000\n"
 "Last-Translator: Bill Hsu <hcm86@icloud.com>, 2018\n"
-"Language-Team: Chinese (Taiwan) (https://www.transifex.com/odoo/teams/41243/zh_TW/)\n"
+"Language-Team: Chinese (Taiwan) (https://www.transifex.com/izi/teams/41243/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -123,8 +123,8 @@ msgstr ", 已更新:"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
-msgid "- The Odoo Team"
-msgstr "- Odoo團隊"
+msgid "- The izi Team"
+msgstr "- izi團隊"
 
 #. module: website
 #. openerp-web
@@ -611,8 +611,8 @@ msgstr "<strong>3. 您的頁尾標題</strong> 和 4. 您的頁尾鏈接"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_button
-msgid "<strong>50,000+ companies run Odoo to grow their businesses.</strong>"
-msgstr "<STRONG>50000+ 公司使用Odoo發展其業務。</STRONG>"
+msgid "<strong>50,000+ companies run izi to grow their businesses.</strong>"
+msgstr "<STRONG>50000+ 公司使用izi發展其業務。</STRONG>"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -640,11 +640,11 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid ""
-"<strong>Be announced on the Odoo Twitter account</strong><br/>\n"
-"                                We like to hear from people using Odoo to build their website. Tweet us"
+"<strong>Be announced on the izi Twitter account</strong><br/>\n"
+"                                We like to hear from people using izi to build their website. Tweet us"
 msgstr ""
-"<strong>於Odoo Twitter帳戶發佈</strong><br/>\n"
-"我們喜歡聽到使用Odoo建立自己的網站的人們。通過Twitter聯繫我們"
+"<strong>於izi Twitter帳戶發佈</strong><br/>\n"
+"我們喜歡聽到使用izi建立自己的網站的人們。通過Twitter聯繫我們"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -816,8 +816,8 @@ msgstr "<strong>您網站的目標</strong>按優先排序："
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
-msgid "@odoo"
-msgstr "@odoo"
+msgid "@izi"
+msgstr "@izi"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.res_config_settings_view_form
@@ -1877,10 +1877,10 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid ""
-"For the Odoo Team,<br/>\n"
+"For the izi Team,<br/>\n"
 "                            Fabien Pinckaers, Founder"
 msgstr ""
-"關於Odoo團隊,<br/>\n"
+"關於izi團隊,<br/>\n"
 "Fabien Pinckaers, 創始人"
 
 #. module: website
@@ -2328,8 +2328,8 @@ msgstr "似乎以下對像調用了您的文件"
 #, python-format
 msgid ""
 "It might be possible to edit the relevant items or fix the issue in <a "
-"href=\"%s\">the classic Odoo interface</a>"
-msgstr "在<a href=\"%s\">經典 Odoo 界面</a>上可以編輯相關專案或修改問題。"
+"href=\"%s\">the classic izi interface</a>"
+msgstr "在<a href=\"%s\">經典 izi 界面</a>上可以編輯相關專案或修改問題。"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -2758,57 +2758,57 @@ msgstr "目標"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.layout_footer_copyright
-msgid "Odoo"
-msgstr "Odoo"
+msgid "izi"
+msgstr "izi"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_three_columns
-msgid "Odoo - Sample 1 for three columns"
-msgstr "Odoo－三列示例 1"
+msgid "izi - Sample 1 for three columns"
+msgstr "izi－三列示例 1"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_three_columns
-msgid "Odoo - Sample 2 for three columns"
-msgstr "Odoo－三列示例 2"
+msgid "izi - Sample 2 for three columns"
+msgstr "izi－三列示例 2"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_three_columns
-msgid "Odoo - Sample 3 for three columns"
-msgstr "Odoo－三列示例 3"
+msgid "izi - Sample 3 for three columns"
+msgstr "izi－三列示例 3"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_big_picture
-msgid "Odoo CMS - a big picture"
-msgstr "Odoo CMS－大圖"
+msgid "izi CMS - a big picture"
+msgstr "izi CMS－大圖"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_image_floating
-msgid "Odoo CMS- Sample image floating"
-msgstr "Odoo CMS－圖像浮動示例"
+msgid "izi CMS- Sample image floating"
+msgstr "izi CMS－圖像浮動示例"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.show_website_info
-msgid "Odoo Version"
-msgstr "Odoo版本"
+msgid "izi Version"
+msgstr "izi版本"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_image_text
-msgid "Odoo image and text block"
-msgstr "Odoo圖像和文字塊"
+msgid "izi image and text block"
+msgstr "izi圖像和文字塊"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_parallax_slider
 msgid ""
-"Odoo provides essential platform for our project management.\n"
+"izi provides essential platform for our project management.\n"
 "                                                Things are better organized and more visible with it."
 msgstr ""
-"Odoo為我們的專案管理提供了一個必須的平台。\n"
+"izi為我們的專案管理提供了一個必須的平台。\n"
 "事情組織得更好和更加清晰。"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_text_image
-msgid "Odoo text and image block"
-msgstr "Odoo文本和圖像塊"
+msgid "izi text and image block"
+msgstr "izi文本和圖像塊"
 
 #. module: website
 #. openerp-web
@@ -3459,8 +3459,8 @@ msgstr "簡單和顯而易見的"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_banner
-msgid "Slider Odoo Image"
-msgstr "Odoo 圖像滑塊"
+msgid "Slider izi Image"
+msgstr "izi 圖像滑塊"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
@@ -4573,23 +4573,23 @@ msgstr "此網頁將如何在Google列出"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.view_website_form
-msgid "https://plus.google.com/+Odooapps"
-msgstr "https://plus.google.com/+Odooapps"
+msgid "https://plus.google.com/+iziapps"
+msgstr "https://plus.google.com/+iziapps"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.view_website_form
-msgid "https://twitter.com/Odoo"
-msgstr "https://twitter.com/Odoo"
+msgid "https://twitter.com/izi"
+msgstr "https://twitter.com/izi"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.view_website_form
-msgid "https://www.facebook.com/odoo"
-msgstr "https://www.facebook.com/odoo"
+msgid "https://www.facebook.com/izi"
+msgstr "https://www.facebook.com/izi"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.view_website_form
-msgid "https://www.linkedin.com/company/odoo"
-msgstr "https://www.linkedin.com/company/odoo"
+msgid "https://www.linkedin.com/company/izi"
+msgstr "https://www.linkedin.com/company/izi"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.view_website_form
@@ -4608,8 +4608,8 @@ msgstr "在 SEO 元數據中進行，包含標籤、標題和描述。"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.show_website_info
-msgid "instance of Odoo, the"
-msgstr "Odoo實例，"
+msgid "instance of izi, the"
+msgstr "izi實例，"
 
 #. module: website
 #: model:ir.model,name:website.model_ir_actions_server

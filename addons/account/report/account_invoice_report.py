@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-from odoo import tools
-from odoo import models, fields, api
+from izi import tools
+from izi import models, fields, api
 
 
 class AccountInvoiceReport(models.Model):

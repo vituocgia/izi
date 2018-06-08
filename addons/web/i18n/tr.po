@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * web
 # 
@@ -21,12 +21,12 @@
 # Umur Akın <umura@projetgrup.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-01-09 10:16+0000\n"
 "PO-Revision-Date: 2018-01-09 10:16+0000\n"
 "Last-Translator: Umur Akın <umura@projetgrup.com>, 2018\n"
-"Language-Team: Turkish (https://www.transifex.com/odoo/teams/41243/tr/)\n"
+"Language-Team: Turkish (https://www.transifex.com/izi/teams/41243/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -241,8 +241,8 @@ msgstr "<span class=\"oe_logo_edit\">Şirket bilgilerini düzenle</span>"
 
 #. module: web
 #: model:ir.ui.view,arch_db:web.menu_secondary
-msgid "<span>Odoo</span>"
-msgstr "<span>Odoo </span>"
+msgid "<span>izi</span>"
+msgstr "<span>izi </span>"
 
 #. module: web
 #. openerp-web
@@ -1323,9 +1323,9 @@ msgstr "Form"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1339
 #, python-format
-msgid "Get this feature and much more with Odoo Enterprise!"
+msgid "Get this feature and much more with izi Enterprise!"
 msgstr ""
-"Odoo Enterprise ile bu özellik ve hatta daha fazlasına sahip olabilirsiniz!"
+"izi Enterprise ile bu özellik ve hatta daha fazlasına sahip olabilirsiniz!"
 
 #. module: web
 #. openerp-web
@@ -1682,8 +1682,8 @@ msgstr "Yukarı Taşı"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1324
 #, python-format
-msgid "My Odoo.com account"
-msgstr "Odoo.com hesabım"
+msgid "My izi.asia account"
+msgstr "izi.asia hesabım"
 
 #. module: web
 #. openerp-web
@@ -1817,15 +1817,15 @@ msgstr "Nesne:"
 #. openerp-web
 #: code:addons/web/static/src/js/core/dialog.js:51
 #, python-format
-msgid "Odoo"
-msgstr "Odoo"
+msgid "izi"
+msgstr "izi"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/apps.js:148
 #, python-format
-msgid "Odoo Apps will be available soon"
-msgstr "Odoo Apps yakında hazır olacak"
+msgid "izi Apps will be available soon"
+msgstr "izi Apps yakında hazır olacak"
 
 #. module: web
 #. openerp-web
@@ -1833,37 +1833,37 @@ msgstr "Odoo Apps yakında hazır olacak"
 #: code:addons/web/static/src/js/chrome/abstract_web_client.js:194
 #: code:addons/web/static/src/js/services/crash_manager.js:156
 #, python-format
-msgid "Odoo Client Error"
-msgstr "Odoo Müşteri Hatası"
+msgid "izi Client Error"
+msgstr "izi Müşteri Hatası"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/fields/upgrade_fields.js:86
 #, python-format
-msgid "Odoo Enterprise"
-msgstr "Odoo Enterprise"
+msgid "izi Enterprise"
+msgstr "izi Enterprise"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:118
 #, python-format
-msgid "Odoo Error"
-msgstr "Odoo Hatası"
+msgid "izi Error"
+msgstr "izi Hatası"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:58
 #, python-format
-msgid "Odoo Session Expired"
-msgstr "Odoo Oturumu Sonlandı"
+msgid "izi Session Expired"
+msgstr "izi Oturumu Sonlandı"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:108
 #: code:addons/web/static/src/js/services/crash_manager.js:197
 #, python-format
-msgid "Odoo Warning"
-msgstr "Odoo Uyarısı"
+msgid "izi Warning"
+msgstr "izi Uyarısı"
 
 #. module: web
 #. openerp-web
@@ -2082,8 +2082,8 @@ msgstr "Hazırlayan"
 
 #. module: web
 #: model:ir.ui.view,arch_db:web.login_layout
-msgid "Powered by <span>Odoo</span>"
-msgstr "Hazırlayan <span>Odoo</span>"
+msgid "Powered by <span>izi</span>"
+msgstr "Hazırlayan <span>izi</span>"
 
 #. module: web
 #. openerp-web
@@ -2596,7 +2596,7 @@ msgstr ""
 #, python-format
 msgid ""
 "Timezone Mismatch : The timezone of your browser doesn't match the selected "
-"one. The time in Odoo is displayed according to your field timezone."
+"one. The time in izi is displayed according to your field timezone."
 msgstr ""
 "Saat Dilimi uyuşmazlığı: Bağlandığınız tarayıcının saat dilimi ile kullanıcı"
 " ayarlarınızdaki saat dilimi farklı. Hatalı olanı düzeltin."
@@ -2945,7 +2945,7 @@ msgid ""
 "You need to start OpenERP with at least two \n"
 "workers to print a pdf version of the reports."
 msgstr ""
-"Çıktıların pdf versiyonunu bastırmak için Odoo'yu en az iki worker ile "
+"Çıktıların pdf versiyonunu bastırmak için izi'yu en az iki worker ile "
 "başlatmalısınız."
 
 #. module: web
@@ -2967,8 +2967,8 @@ msgstr ""
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:58
 #, python-format
-msgid "Your Odoo session expired. Please refresh the current web page."
-msgstr "Odoo oturumunuz sona erdi. Geçerli web sayfasını yenileyin."
+msgid "Your izi session expired. Please refresh the current web page."
+msgstr "izi oturumunuz sona erdi. Geçerli web sayfasını yenileyin."
 
 #. module: web
 #. openerp-web

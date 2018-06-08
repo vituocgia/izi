@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * purchase
 # 
@@ -7,15 +7,15 @@
 # Sandra Franch <sandra.franch@upc.edu>, 2018
 # Marc Tormo i Bochaca <mtbochaca@gmail.com>, 2018
 # Eric Antones <eantones@users.noreply.github.com>, 2018
-# RGB Consulting <odoo@rgbconsulting.com>, 2018
+# RGB Consulting <izi@rgbconsulting.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-27 14:51+0000\n"
 "PO-Revision-Date: 2018-04-27 14:51+0000\n"
-"Last-Translator: RGB Consulting <odoo@rgbconsulting.com>, 2018\n"
-"Language-Team: Catalan (https://www.transifex.com/odoo/teams/41243/ca/)\n"
+"Last-Translator: RGB Consulting <izi@rgbconsulting.com>, 2018\n"
+"Language-Team: Catalan (https://www.transifex.com/izi/teams/41243/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -199,7 +199,7 @@ msgid ""
 "                      </tr>\n"
 "                      <tr>\n"
 "                        <td align=\"center\">\n"
-"                            Powered by <a href=\"https://www.odoo.com\">Odoo</a>.\n"
+"                            Powered by <a href=\"https://www.izi.asia\">izi</a>.\n"
 "                        </td>\n"
 "                      </tr>\n"
 "                    </tbody>\n"
@@ -1018,10 +1018,10 @@ msgstr "Compres mensuals"
 #: model:ir.actions.act_window,help:purchase.purchase_rfq
 msgid ""
 "Most propositions of purchase orders are created automatically\n"
-"                by Odoo based on inventory needs."
+"                by izi based on inventory needs."
 msgstr ""
 "La major part de les proposicions per a comandes de compra que es creïn "
-"automàticament per Odoo en base amb les necessitats d'inventari."
+"automàticament per izi en base amb les necessitats d'inventari."
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.res_config_settings_view_form_stock
@@ -2013,12 +2013,12 @@ msgstr "Base imposable:"
 msgid ""
 "Use this menu to control the invoices to be received from your\n"
 "            vendors. When registering a new bill, set the purchase order\n"
-"            and Odoo will fill the bill automatically according to ordered\n"
+"            and izi will fill the bill automatically according to ordered\n"
 "            or received quantities."
 msgstr ""
 "Utilitza aquest menú per controlar les factures que han de ser rebudes dels "
 "teus proveïdors. Quan registri una nova factura, estableixi l'ordre de "
-"compra i Odoo emplenarà la factura automàticament acordat amb les quantitats"
+"compra i izi emplenarà la factura automàticament acordat amb les quantitats"
 " rebudes o ordenades."
 
 #. module: purchase
@@ -2087,11 +2087,11 @@ msgid ""
 "Vendors bills can be pre-generated based on purchase\n"
 "                    orders or receipts. This allows you to control bills\n"
 "                    you receive from your vendor according to the draft\n"
-"                    document in Odoo."
+"                    document in izi."
 msgstr ""
 "Les factures de proveïdor pregenerades basades en comandes de compra o "
 "rebuts. Això permet controlar les factures que rep d'un venedor d'acord amb "
-"el document esborrany en Odoo."
+"el document esborrany en izi."
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_report_volume

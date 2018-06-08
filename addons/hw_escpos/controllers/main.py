@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 from __future__ import print_function
 import logging
@@ -28,9 +28,9 @@ try:
 except ImportError:
     usb = None
 
-from odoo import http, _
+from izi import http, _
 
-from odoo.addons.hw_proxy.controllers import main as hw_proxy
+from izi.addons.hw_proxy.controllers import main as hw_proxy
 
 _logger = logging.getLogger(__name__)
 

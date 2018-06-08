@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
-import odoo
+import izi
 
 def migrate(cr, version):
-    registry = odoo.registry(cr.dbname)
-    from odoo.addons.account.models.chart_template import migrate_tags_on_taxes
+    registry = izi.registry(cr.dbname)
+    from izi.addons.account.models.chart_template import migrate_tags_on_taxes
     migrate_tags_on_taxes(cr, registry)

@@ -1,9 +1,9 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 {
     'name': 'Purchase Agreements',
     'version': '0.1',
     'category': 'Purchases',
-    'website': 'https://www.odoo.com/page/purchase',
+    'website': 'https://www.izi.asia/page/purchase',
     'description': """
 This module allows you to manage your Purchase Agreements.
 ===========================================================

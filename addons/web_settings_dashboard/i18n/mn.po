@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * web_settings_dashboard
 # 
@@ -9,12 +9,12 @@
 # Otgonbayar.A <gobi.mn@gmail.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: izi Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-20 09:54+0000\n"
 "PO-Revision-Date: 2017-09-20 09:54+0000\n"
 "Last-Translator: Otgonbayar.A <gobi.mn@gmail.com>, 2018\n"
-"Language-Team: Mongolian (https://www.transifex.com/odoo/teams/41243/mn/)\n"
+"Language-Team: Mongolian (https://www.transifex.com/izi/teams/41243/mn/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -119,8 +119,8 @@ msgstr "Имэйл хаягуудыг орууна уу (нэг мөрөнд н�
 #. openerp-web
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:100
 #, python-format
-msgid "Follow these implementation guides to get the most out of Odoo."
-msgstr "Odoo-н бүх боломжийг ашиглахын тулд энэ зааврыг дагана уу."
+msgid "Follow these implementation guides to get the most out of izi."
+msgstr "izi-н бүх боломжийг ашиглахын тулд энэ зааврыг дагана уу."
 
 #. module: web_settings_dashboard
 #. openerp-web
@@ -140,9 +140,9 @@ msgstr "Байгууллагын Хувилбараар илүү олон бол
 #. openerp-web
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:140
 #, python-format
-msgid "Help us spread the word: Share Odoo's awesomeness with your friends!"
+msgid "Help us spread the word: Share izi's awesomeness with your friends!"
 msgstr ""
-"Дэлхий даяар түгээхэд туслана уу: Odoo-н гайхалтай байдлыг найзууддаа "
+"Дэлхий даяар түгээхэд туслана уу: izi-н гайхалтай байдлыг найзууддаа "
 "хуваалцана уу!"
 
 #. module: web_settings_dashboard
@@ -205,22 +205,22 @@ msgstr "Апп суулгагдаагүй байна"
 #. openerp-web
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:155
 #, python-format
-msgid "Odoo"
-msgstr "Odoo"
+msgid "izi"
+msgstr "izi"
 
 #. module: web_settings_dashboard
 #. openerp-web
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:186
 #, python-format
-msgid "Odoo Enterprise"
-msgstr "Odoo Байгууллага"
+msgid "izi Enterprise"
+msgstr "izi Байгууллага"
 
 #. module: web_settings_dashboard
 #. openerp-web
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:163
 #, python-format
-msgid "Odoo S.A."
-msgstr "Odoo S.A."
+msgid "izi S.A."
+msgstr "izi S.A."
 
 #. module: web_settings_dashboard
 #. openerp-web

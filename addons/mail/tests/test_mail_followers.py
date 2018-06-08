@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 from psycopg2 import IntegrityError
 
-from odoo.addons.mail.tests.common import TestMail
-from odoo.tools.misc import mute_logger
+from izi.addons.mail.tests.common import TestMail
+from izi.tools.misc import mute_logger
 
 
 class TestMailFollowers(TestMail):
@@ -135,7 +135,7 @@ class TestMailFollowers(TestMail):
             'name': 'I used to be schizo, but now we are alright.'
         })
         test_channel = self.env['mail.channel'].create({'name': 'Follower Channel'})
-        with self.assertRaises(IntegrityError), mute_logger('odoo.sql_db'):
+        with self.assertRaises(IntegrityError), mute_logger('izi.sql_db'):
             self.env['mail.followers'].create({
                 'res_model': test_record._name,
                 'res_id': test_record.id,

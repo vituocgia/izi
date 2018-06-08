@@ -1,4 +1,4 @@
-odoo.define('website_sale.tracking', function(require) {
+izi.define('website_sale.tracking', function(require) {
 
 var ajax = require('web.ajax');
 

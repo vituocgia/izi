@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 import logging
 from datetime import datetime, timedelta, date
 from dateutil.relativedelta import relativedelta
 
-from odoo import api, fields, models, tools, SUPERUSER_ID
-from odoo.tools.translate import _
-from odoo.tools import email_re, email_split
-from odoo.exceptions import UserError, AccessError
+from izi import api, fields, models, tools, SUPERUSER_ID
+from izi.tools.translate import _
+from izi.tools import email_re, email_split
+from izi.exceptions import UserError, AccessError
 
 from . import crm_stage
 

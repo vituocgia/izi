@@ -1,4 +1,4 @@
-odoo.define('web.basic_fields', function (require) {
+izi.define('web.basic_fields', function (require) {
 "use strict";
 
 /**
@@ -286,7 +286,7 @@ var InputField = DebouncedField.extend({
      * has been trigerred. This allows to detect that all changes have been
      * acknowledged by the environment.
      *
-     * @param {OdooEvent} event 'field_changed' event
+     * @param {iziEvent} event 'field_changed' event
      */
     _onFieldChanged: function (event) {
         this.lastChangeEvent = event;
@@ -307,7 +307,7 @@ var InputField = DebouncedField.extend({
      * start/end of the input element.
      *
      * @private
-     * @param {OdooEvent} ev
+     * @param {iziEvent} ev
      */
     _onNavigationMove: function (ev) {
         this._super.apply(this, arguments);
@@ -883,7 +883,7 @@ var FieldText = InputField.extend(TranslatableFieldMixin, {
      * Stops the enter navigation in a text area.
      *
      * @private
-     * @param {OdooEvent} ev
+     * @param {iziEvent} ev
      */
     _onKeydown: function (ev) {
         if (ev.which === $.ui.keyCode.ENTER) {
@@ -2363,7 +2363,7 @@ var FieldDomain = AbstractField.extend({
      * one which is in a dialog (@see _onDomainSelectorDialogValueChange))
      * -> Adapt the internal value state
      *
-     * @param {OdooEvent} e
+     * @param {iziEvent} e
      */
     _onDomainSelectorValueChange: function (e) {
         if (this.inDialog) return;
@@ -2373,7 +2373,7 @@ var FieldDomain = AbstractField.extend({
      * Called when the in-dialog domain selector value is confirmed
      * -> Adapt the internal value state
      *
-     * @param {OdooEvent} e
+     * @param {iziEvent} e
      */
     _onDomainSelectorDialogValueChange: function (e) {
         this._setValue(Domain.prototype.arrayToString(e.data.domain));
@@ -2382,7 +2382,7 @@ var FieldDomain = AbstractField.extend({
      * Stops the propagation of the 'open_record' event, as we don't want the
      * user to be able to open records from the list opened in a dialog.
      *
-     * @param {OdooEvent} event
+     * @param {iziEvent} event
      */
     _onOpenRecord: function (event) {
         event.stopPropagation();
@@ -2396,7 +2396,7 @@ var FieldDomain = AbstractField.extend({
 var AceEditor = DebouncedField.extend({
     template: "AceEditor",
     jsLibs: [
-        '/web/static/lib/ace/ace.odoo-custom.js',
+        '/web/static/lib/ace/ace.izi-custom.js',
         [
             '/web/static/lib/ace/mode-python.js',
             '/web/static/lib/ace/mode-xml.js'

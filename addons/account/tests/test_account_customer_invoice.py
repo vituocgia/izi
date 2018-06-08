@@ -1,4 +1,4 @@
-from odoo.addons.account.tests.account_test_users import AccountTestUsers
+from izi.addons.account.tests.account_test_users import AccountTestUsers
 import datetime
 
 

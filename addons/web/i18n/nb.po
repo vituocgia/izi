@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * web
 # 
@@ -10,12 +10,12 @@
 # Eirik Halvorsen <eirik386@gmail.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-01-09 10:16+0000\n"
 "PO-Revision-Date: 2018-01-09 10:16+0000\n"
 "Last-Translator: Eirik Halvorsen <eirik386@gmail.com>, 2018\n"
-"Language-Team: Norwegian Bokmål (https://www.transifex.com/odoo/teams/41243/nb/)\n"
+"Language-Team: Norwegian Bokmål (https://www.transifex.com/izi/teams/41243/nb/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -230,8 +230,8 @@ msgstr "<span class=\"oe_logo_edit\">Rediger firmainformasjon</span>"
 
 #. module: web
 #: model:ir.ui.view,arch_db:web.menu_secondary
-msgid "<span>Odoo</span>"
-msgstr "<span>Odoo</span>"
+msgid "<span>izi</span>"
+msgstr "<span>izi</span>"
 
 #. module: web
 #. openerp-web
@@ -1310,8 +1310,8 @@ msgstr "Skjema"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1339
 #, python-format
-msgid "Get this feature and much more with Odoo Enterprise!"
-msgstr "Få denne funksjonaliteten og mye mer med Odoo Enterprise!"
+msgid "Get this feature and much more with izi Enterprise!"
+msgstr "Få denne funksjonaliteten og mye mer med izi Enterprise!"
 
 #. module: web
 #. openerp-web
@@ -1668,8 +1668,8 @@ msgstr "Flytt opp"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1324
 #, python-format
-msgid "My Odoo.com account"
-msgstr "Min konto på odoo.com"
+msgid "My izi.asia account"
+msgstr "Min konto på izi.asia"
 
 #. module: web
 #. openerp-web
@@ -1799,15 +1799,15 @@ msgstr "Objekt:"
 #. openerp-web
 #: code:addons/web/static/src/js/core/dialog.js:51
 #, python-format
-msgid "Odoo"
-msgstr "Odoo"
+msgid "izi"
+msgstr "izi"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/apps.js:148
 #, python-format
-msgid "Odoo Apps will be available soon"
-msgstr "Apper fra Odoo vil snart være tilgjengelige"
+msgid "izi Apps will be available soon"
+msgstr "Apper fra izi vil snart være tilgjengelige"
 
 #. module: web
 #. openerp-web
@@ -1815,37 +1815,37 @@ msgstr "Apper fra Odoo vil snart være tilgjengelige"
 #: code:addons/web/static/src/js/chrome/abstract_web_client.js:194
 #: code:addons/web/static/src/js/services/crash_manager.js:156
 #, python-format
-msgid "Odoo Client Error"
-msgstr "Odoo-klientfeil"
+msgid "izi Client Error"
+msgstr "izi-klientfeil"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/fields/upgrade_fields.js:86
 #, python-format
-msgid "Odoo Enterprise"
-msgstr "Odoo Enterprise"
+msgid "izi Enterprise"
+msgstr "izi Enterprise"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:118
 #, python-format
-msgid "Odoo Error"
-msgstr "Odoo-feil"
+msgid "izi Error"
+msgstr "izi-feil"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:58
 #, python-format
-msgid "Odoo Session Expired"
-msgstr "Odoo-økt har utløpt"
+msgid "izi Session Expired"
+msgstr "izi-økt har utløpt"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:108
 #: code:addons/web/static/src/js/services/crash_manager.js:197
 #, python-format
-msgid "Odoo Warning"
-msgstr "Odoo-advarsel"
+msgid "izi Warning"
+msgstr "izi-advarsel"
 
 #. module: web
 #. openerp-web
@@ -2063,8 +2063,8 @@ msgstr "Drevet av"
 
 #. module: web
 #: model:ir.ui.view,arch_db:web.login_layout
-msgid "Powered by <span>Odoo</span>"
-msgstr "Drevet av <span>Odoo</span>"
+msgid "Powered by <span>izi</span>"
+msgstr "Drevet av <span>izi</span>"
 
 #. module: web
 #. openerp-web
@@ -2580,10 +2580,10 @@ msgstr ""
 #, python-format
 msgid ""
 "Timezone Mismatch : The timezone of your browser doesn't match the selected "
-"one. The time in Odoo is displayed according to your field timezone."
+"one. The time in izi is displayed according to your field timezone."
 msgstr ""
 "Tidssonefeil: Tidssonen i nettleseren din stemmer ikke med den valgte "
-"tidssonen. Tiden i Odoo vises i henhold til tidssonen i feltet."
+"tidssonen. Tiden i izi vises i henhold til tidssonen i feltet."
 
 #. module: web
 #. openerp-web
@@ -2946,8 +2946,8 @@ msgstr ""
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:58
 #, python-format
-msgid "Your Odoo session expired. Please refresh the current web page."
-msgstr "Odoo-økten din har utløpt. Last inn nettsiden på nytt."
+msgid "Your izi session expired. Please refresh the current web page."
+msgstr "izi-økten din har utløpt. Last inn nettsiden på nytt."
 
 #. module: web
 #. openerp-web

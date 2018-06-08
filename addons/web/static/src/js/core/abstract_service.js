@@ -1,4 +1,4 @@
-odoo.define('web.AbstractService', function (require) {
+izi.define('web.AbstractService', function (require) {
 "use strict";
 
 var Class = require('web.Class');

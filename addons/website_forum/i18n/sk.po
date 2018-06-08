@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * website_forum
 # 
@@ -11,12 +11,12 @@
 # Radoslav Sloboda <rado.sloboda@gmail.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-24 09:00+0000\n"
 "PO-Revision-Date: 2017-10-24 09:00+0000\n"
 "Last-Translator: Radoslav Sloboda <rado.sloboda@gmail.com>, 2018\n"
-"Language-Team: Slovak (https://www.transifex.com/odoo/teams/41243/sk/)\n"
+"Language-Team: Slovak (https://www.transifex.com/izi/teams/41243/sk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -2535,10 +2535,10 @@ msgstr "Fronta označených príspevkov je prázdna."
 #: model:forum.forum,faq:website_forum.forum_help
 msgid ""
 "The goal of this site is create a relevant knowledge base that would answer\n"
-"    questions related to Odoo."
+"    questions related to izi."
 msgstr ""
 "Cieľom týchto stránok je vytvoriť relevantnú vedomostnú základňu, ktorá zodpovie\n"
-"otázky týkajúce sa Odoo."
+"otázky týkajúce sa izi."
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.moderation_queue
@@ -3025,8 +3025,8 @@ msgstr "duplicitný príspevok"
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.new_link
-msgid "e.g. https://www.odoo.com"
-msgstr "napr. https://www.odoo.com"
+msgid "e.g. https://www.izi.asia"
+msgstr "napr. https://www.izi.asia"
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.faq
@@ -3099,9 +3099,9 @@ msgstr "tu"
 
 #. module: website_forum
 #: model:forum.forum,faq:website_forum.forum_help
-msgid "how to configure or customize Odoo to specific business needs,"
+msgid "how to configure or customize izi to specific business needs,"
 msgstr ""
-"ako konfigurovať alebo prispôsobiť Odoo špecifickým obchodným potrebám,"
+"ako konfigurovať alebo prispôsobiť izi špecifickým obchodným potrebám,"
 
 #. module: website_forum
 #: model:forum.forum,faq:website_forum.forum_help
@@ -3110,8 +3110,8 @@ msgstr "ako vyvinúťmodly pre vlastnú potrebu,"
 
 #. module: website_forum
 #: model:forum.forum,faq:website_forum.forum_help
-msgid "how to install Odoo on a specific infrastructure,"
-msgstr "ako nainštalovať Odoo na špecifickej infraštruktúre,"
+msgid "how to install izi on a specific infrastructure,"
+msgstr "ako nainštalovať izi na špecifickej infraštruktúre,"
 
 #. module: website_forum
 #. openerp-web
@@ -3227,8 +3227,8 @@ msgstr "spam alebo reklama"
 
 #. module: website_forum
 #: model:forum.forum,faq:website_forum.forum_help
-msgid "specific questions about Odoo service offers, etc."
-msgstr "konkrétne otázky týkajúce sa ponuky služieb Odoo atď."
+msgid "specific questions about izi service offers, etc."
+msgstr "konkrétne otázky týkajúce sa ponuky služieb izi atď."
 
 #. module: website_forum
 #: model:forum.forum,faq:website_forum.forum_help
@@ -3305,9 +3305,9 @@ msgstr "webstránka"
 
 #. module: website_forum
 #: model:forum.forum,faq:website_forum.forum_help
-msgid "what's the best way to use Odoo for a specific business need,"
+msgid "what's the best way to use izi for a specific business need,"
 msgstr ""
-"čo je najlepší spôsob, ako využiť Odoo pre konkrétne obchodné potreby,"
+"čo je najlepší spôsob, ako využiť izi pre konkrétne obchodné potreby,"
 
 #. module: website_forum
 #: model:forum.forum,faq:website_forum.forum_help

@@ -2,8 +2,8 @@
 
 import re
 
-from odoo import api, models, _
-from odoo.exceptions import UserError, ValidationError
+from izi import api, models, _
+from izi.exceptions import UserError, ValidationError
 
 
 def normalize_iban(iban):

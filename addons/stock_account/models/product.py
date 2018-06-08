@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
-from odoo import api, fields, models, tools, _
-from odoo.exceptions import UserError
-from odoo.tools import float_is_zero, pycompat
-from odoo.addons import decimal_precision as dp
+from izi import api, fields, models, tools, _
+from izi.exceptions import UserError
+from izi.tools import float_is_zero, pycompat
+from izi.addons import decimal_precision as dp
 
 
 

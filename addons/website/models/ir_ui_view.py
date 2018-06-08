@@ -1,14 +1,14 @@
 # -*- coding: ascii -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 import logging
 from itertools import groupby
 
-from odoo import api, fields, models
-from odoo import tools
-from odoo.addons.http_routing.models.ir_http import url_for
-from odoo.http import request
-from odoo.tools import pycompat
+from izi import api, fields, models
+from izi import tools
+from izi.addons.http_routing.models.ir_http import url_for
+from izi.http import request
+from izi.tools import pycompat
 
 _logger = logging.getLogger(__name__)
 

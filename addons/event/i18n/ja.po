@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * event
 # 
@@ -13,12 +13,12 @@
 # 前園義博 <yoshihiro.maezono@pro-spire.co.jp>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 13:43+0000\n"
 "PO-Revision-Date: 2018-02-19 13:43+0000\n"
 "Last-Translator: 前園義博 <yoshihiro.maezono@pro-spire.co.jp>, 2017\n"
-"Language-Team: Japanese (https://www.transifex.com/odoo/teams/41243/ja/)\n"
+"Language-Team: Japanese (https://www.transifex.com/izi/teams/41243/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -560,10 +560,10 @@ msgstr "<em>(チャンバー・ワークスは、イベントを取り消し、�
 #. module: event
 #: model:event.event,description:event.event_0
 msgid ""
-"<font style=\"color: rgb(255, 255, 255); font-size: 24px;\">to learn <i>Odoo"
+"<font style=\"color: rgb(255, 255, 255); font-size: 24px;\">to learn <i>izi"
 " Programming</i></font>"
 msgstr ""
-"<font style=\"color: rgb(255, 255, 255); font-size: 24px;\">Odoo "
+"<font style=\"color: rgb(255, 255, 255); font-size: 24px;\">izi "
 "<i>プログラミングを学ぶこと</i></font>"
 
 #. module: event
@@ -1677,24 +1677,24 @@ msgstr "パートナー参加したイベント数"
 #: model:event.event,description:event.event_0
 #: model:event.event,description:event.event_1
 #: model:event.event,description:event.event_3
-msgid "Odoo Official Website"
-msgstr "Odoo 公式サイト"
+msgid "izi Official Website"
+msgstr "izi 公式サイト"
 
 #. module: event
 #: model:event.event,description:event.event_0
 #: model:event.event,description:event.event_1
 #: model:event.event,description:event.event_3
-msgid "Odoo Web Client"
-msgstr "Odooウェブクライアント"
+msgid "izi Web Client"
+msgstr "iziウェブクライアント"
 
 #. module: event
 #: model:ir.actions.act_window,help:event.action_event_view
 msgid ""
-"Odoo helps you schedule and efficiently organize your events:\n"
+"izi helps you schedule and efficiently organize your events:\n"
 "    track registrations and participations, automate the confirmation emails,\n"
 "    sell tickets, etc."
 msgstr ""
-"Odooは、あなたのイベントをスケジュールし、効率的に整理するのに役立ちます：\n"
+"iziは、あなたのイベントをスケジュールし、効率的に整理するのに役立ちます：\n"
 "     確認の電子メールを自動化したり、チケットを販売したりすることができます。"
 
 #. module: event
@@ -2246,8 +2246,8 @@ msgstr "event.confirm"
 
 #. module: event
 #: model:event.event,description:event.event_2
-msgid "events@odoo.com"
-msgstr "events@odoo.com"
+msgid "events@izi.asia"
+msgstr "events@izi.asia"
 
 #. module: event
 #: code:addons/event/models/event.py:503

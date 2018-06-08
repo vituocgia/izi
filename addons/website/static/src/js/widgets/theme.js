@@ -1,4 +1,4 @@
-odoo.define('website.theme', function (require) {
+izi.define('website.theme', function (require) {
 'use strict';
 
 var ajax = require('web.ajax');

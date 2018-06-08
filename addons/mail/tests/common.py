@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-from odoo import api
-from odoo.tests import common
+from izi import api
+from izi.tests import common
 
 
 class BaseFunctionalTest(common.SavepointCase):

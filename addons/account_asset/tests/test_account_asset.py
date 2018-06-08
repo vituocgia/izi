@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
-from odoo import tools
-from odoo.tests import common
-from odoo.modules.module import get_resource_path
+from izi import tools
+from izi.tests import common
+from izi.modules.module import get_resource_path
 
 
 class TestAccountAsset(common.TransactionCase):

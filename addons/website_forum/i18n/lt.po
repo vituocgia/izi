@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * website_forum
 # 
@@ -16,12 +16,12 @@
 # Silvija Butko <silvija.butko@gmail.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-24 09:00+0000\n"
 "PO-Revision-Date: 2017-10-24 09:00+0000\n"
 "Last-Translator: Silvija Butko <silvija.butko@gmail.com>, 2018\n"
-"Language-Team: Lithuanian (https://www.transifex.com/odoo/teams/41243/lt/)\n"
+"Language-Team: Lithuanian (https://www.transifex.com/izi/teams/41243/lt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -2522,10 +2522,10 @@ msgstr "Pažymėta eilė yra tuščia."
 #: model:forum.forum,faq:website_forum.forum_help
 msgid ""
 "The goal of this site is create a relevant knowledge base that would answer\n"
-"    questions related to Odoo."
+"    questions related to izi."
 msgstr ""
 "Šio puslapio tikslas yra sukurti atitinkamą žinių bazę, kuri atsakytų \n"
-"    į klausimus, susijusius su Odoo."
+"    į klausimus, susijusius su izi."
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.moderation_queue
@@ -2994,8 +2994,8 @@ msgstr "Kurti įrašo kopiją"
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.new_link
-msgid "e.g. https://www.odoo.com"
-msgstr "pvz. https://www.odoo.com"
+msgid "e.g. https://www.izi.asia"
+msgstr "pvz. https://www.izi.asia"
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.faq
@@ -3072,8 +3072,8 @@ msgstr "čia"
 
 #. module: website_forum
 #: model:forum.forum,faq:website_forum.forum_help
-msgid "how to configure or customize Odoo to specific business needs,"
-msgstr "kaip konfigūruoti ar pritaikyti Odoo konkretiems verslo poreikiams,"
+msgid "how to configure or customize izi to specific business needs,"
+msgstr "kaip konfigūruoti ar pritaikyti izi konkretiems verslo poreikiams,"
 
 #. module: website_forum
 #: model:forum.forum,faq:website_forum.forum_help
@@ -3082,8 +3082,8 @@ msgstr "kaip kurti modulius savo reikmėms,"
 
 #. module: website_forum
 #: model:forum.forum,faq:website_forum.forum_help
-msgid "how to install Odoo on a specific infrastructure,"
-msgstr "kaip diegti Odoo konkrečioje infrastruktūroje,"
+msgid "how to install izi on a specific infrastructure,"
+msgstr "kaip diegti izi konkrečioje infrastruktūroje,"
 
 #. module: website_forum
 #. openerp-web
@@ -3199,8 +3199,8 @@ msgstr "brukalas ar reklama"
 
 #. module: website_forum
 #: model:forum.forum,faq:website_forum.forum_help
-msgid "specific questions about Odoo service offers, etc."
-msgstr "specifiniai klausimai apie Odoo paslaugų pasiūlymus ir t. t. "
+msgid "specific questions about izi service offers, etc."
+msgstr "specifiniai klausimai apie izi paslaugų pasiūlymus ir t. t. "
 
 #. module: website_forum
 #: model:forum.forum,faq:website_forum.forum_help
@@ -3275,8 +3275,8 @@ msgstr "tinklalapis"
 
 #. module: website_forum
 #: model:forum.forum,faq:website_forum.forum_help
-msgid "what's the best way to use Odoo for a specific business need,"
-msgstr "koks geriausias būdas naudoti Odoo specifiniam verslo poreikiui?"
+msgid "what's the best way to use izi for a specific business need,"
+msgstr "koks geriausias būdas naudoti izi specifiniam verslo poreikiui?"
 
 #. module: website_forum
 #: model:forum.forum,faq:website_forum.forum_help

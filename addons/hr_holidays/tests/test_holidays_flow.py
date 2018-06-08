@@ -1,17 +1,17 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
 
-from odoo.exceptions import AccessError, ValidationError, UserError
-from odoo.tools import mute_logger, test_reports
+from izi.exceptions import AccessError, ValidationError, UserError
+from izi.tools import mute_logger, test_reports
 
-from odoo.addons.hr_holidays.tests.common import TestHrHolidaysBase
+from izi.addons.hr_holidays.tests.common import TestHrHolidaysBase
 
 
 class TestHolidaysFlow(TestHrHolidaysBase):
 
-    @mute_logger('odoo.addons.base.ir.ir_model', 'odoo.models')
+    @mute_logger('izi.addons.base.ir.ir_model', 'izi.models')
     def test_00_leave_request_flow(self):
         """ Testing leave request flow """
         Holidays = self.env['hr.holidays']

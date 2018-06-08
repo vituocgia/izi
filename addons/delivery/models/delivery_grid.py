@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
-from odoo import models, fields, api, _
-from odoo.addons import decimal_precision as dp
-from odoo.tools.safe_eval import safe_eval
-from odoo.exceptions import UserError, ValidationError
+from izi import models, fields, api, _
+from izi.addons import decimal_precision as dp
+from izi.tools.safe_eval import safe_eval
+from izi.exceptions import UserError, ValidationError
 
 
 class PriceRule(models.Model):

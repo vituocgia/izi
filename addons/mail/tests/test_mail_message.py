@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 import base64
 import itertools
 
-from odoo.addons.mail.tests.common import TestMail
-from odoo.exceptions import AccessError, except_orm
-from odoo.tools import mute_logger
+from izi.addons.mail.tests.common import TestMail
+from izi.exceptions import AccessError, except_orm
+from izi.tools import mute_logger
 
 
 class TestMailMessage(TestMail):
@@ -152,7 +152,7 @@ class TestMailMessageAccess(TestMail):
             'res_id': cls.group_private.id,
         })
 
-    @mute_logger('odoo.addons.mail.models.mail_mail')
+    @mute_logger('izi.addons.mail.models.mail_mail')
     def test_mail_message_access_search(self):
         # Data: various author_ids, partner_ids, documents
         msg1 = self.env['mail.message'].create({
@@ -205,7 +205,7 @@ class TestMailMessageAccess(TestMail):
         messages = self.env['mail.message'].sudo(self.user_portal).search([('subject', 'like', '_Test')])
         self.assertEqual(messages, msg4 | msg5)
 
-    @mute_logger('odoo.addons.base.ir.ir_model', 'odoo.models')
+    @mute_logger('izi.addons.base.ir.ir_model', 'izi.models')
     def test_mail_message_access_read_crash(self):
         # TODO: Change the except_orm to Warning ( Because here it's call check_access_rule
         # which still generate exception in except_orm.So we need to change all
@@ -213,7 +213,7 @@ class TestMailMessageAccess(TestMail):
         with self.assertRaises(except_orm):
             self.message.sudo(self.user_employee).read()
 
-    @mute_logger('odoo.models')
+    @mute_logger('izi.models')
     def test_mail_message_access_read_crash_portal(self):
         with self.assertRaises(except_orm):
             self.message.sudo(self.user_portal).read(['body', 'message_type', 'subtype_id'])
@@ -243,7 +243,7 @@ class TestMailMessageAccess(TestMail):
         # Test: Bert reads the message, ok because linked to a doc he is allowed to read
         self.message.sudo(self.user_employee).read()
 
-    @mute_logger('odoo.addons.base.ir.ir_model')
+    @mute_logger('izi.addons.base.ir.ir_model')
     def test_mail_message_access_create_crash_public(self):
         # Do: Bert creates a message on Pigs -> ko, no creation rights
         with self.assertRaises(AccessError):
@@ -253,13 +253,13 @@ class TestMailMessageAccess(TestMail):
         with self.assertRaises(AccessError):
             self.env['mail.message'].sudo(self.user_public).create({'model': 'mail.channel', 'res_id': self.group_public.id, 'body': 'Test'})
 
-    @mute_logger('odoo.models')
+    @mute_logger('izi.models')
     def test_mail_message_access_create_crash(self):
         # Do: Bert create a private message -> ko, no creation rights
         with self.assertRaises(except_orm):
             self.env['mail.message'].sudo(self.user_employee).create({'model': 'mail.channel', 'res_id': self.group_private.id, 'body': 'Test'})
 
-    @mute_logger('odoo.models')
+    @mute_logger('izi.models')
     def test_mail_message_access_create_doc(self):
         # TODO Change the except_orm to Warning
         Message = self.env['mail.message'].sudo(self.user_employee)

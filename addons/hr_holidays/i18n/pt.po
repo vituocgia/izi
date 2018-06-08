@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * hr_holidays
 # 
@@ -11,12 +11,12 @@
 # Daniel C Santos <dcs@thinkopensolutions.pt>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 13:42+0000\n"
 "PO-Revision-Date: 2018-02-19 13:42+0000\n"
 "Last-Translator: Daniel C Santos <dcs@thinkopensolutions.pt>, 2018\n"
-"Language-Team: Portuguese (https://www.transifex.com/odoo/teams/41243/pt/)\n"
+"Language-Team: Portuguese (https://www.transifex.com/izi/teams/41243/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -607,7 +607,7 @@ msgid ""
 "leaves than the available ones for this type and will not take them into "
 "account for the \"Remaining Legal Leaves\" defined on the employee form."
 msgstr ""
-"Se selecionar esta opção, o Odoo permite que os funcionários tenham mais "
+"Se selecionar esta opção, o izi permite que os funcionários tenham mais "
 "dias de ausência do que os estabelecidos neste tipo e estes não contam como "
 "dias que 'estiveram ausentes' no formulário do funcionário."
 
@@ -1004,10 +1004,10 @@ msgstr "Escritório"
 #. module: hr_holidays
 #: model:ir.model.fields,help:hr_holidays.field_hr_holidays_status_categ_id
 msgid ""
-"Once a leave is validated, Odoo will create a corresponding meeting of this "
+"Once a leave is validated, izi will create a corresponding meeting of this "
 "type in the calendar."
 msgstr ""
-"Uma vez que uma ausência é validada, Odoo criará uma Ausência/Evento "
+"Uma vez que uma ausência é validada, izi criará uma Ausência/Evento "
 "correspondente a este tipo no calendário."
 
 #. module: hr_holidays
@@ -1416,7 +1416,7 @@ msgstr ""
 #. module: hr_holidays
 #: model:ir.actions.act_window,help:hr_holidays.hr_holidays_leaves_assign_legal
 msgid ""
-"You can assign remaining Legal Leaves for each employee, Odoo\n"
+"You can assign remaining Legal Leaves for each employee, izi\n"
 "               will automatically create and validate allocation requests."
 msgstr ""
 

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * web_editor
 # 
@@ -8,7 +8,7 @@
 # Sanne Kristensen <sanne@vkdata.dk>, 2017
 # Martin Trigaux, 2017
 # Per Rasmussen <perhgrasmussen@gmail.com>, 2017
-# Jesper Carstensen <jc@danodoo.dk>, 2017
+# Jesper Carstensen <jc@danizi.dk>, 2017
 # jonas jensen <j.jensen@tcomp.dk>, 2017
 # Hans Henrik Gabelgaard <hhg@gabelgaard.org>, 2017
 # Morten Schou <ms@msteknik.dk>, 2017
@@ -17,12 +17,12 @@
 # lhmflexerp <lhm@flexerp.dk>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 13:43+0000\n"
 "PO-Revision-Date: 2018-02-19 13:43+0000\n"
 "Last-Translator: lhmflexerp <lhm@flexerp.dk>, 2017\n"
-"Language-Team: Danish (https://www.transifex.com/odoo/teams/41243/da/)\n"
+"Language-Team: Danish (https://www.transifex.com/izi/teams/41243/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1638,8 +1638,8 @@ msgstr "auto"
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/editor.xml:113
 #, python-format
-msgid "https://www.odoo.com/logo.png"
-msgstr "https://www.odoo.com/logo.png"
+msgid "https://www.izi.asia/logo.png"
+msgstr "https://www.izi.asia/logo.png"
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_attachment

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-from odoo import models, api, _
-from odoo.exceptions import UserError
+from izi import models, api, _
+from izi.exceptions import UserError
 
 
 class AccountInvoiceConfirm(models.TransientModel):

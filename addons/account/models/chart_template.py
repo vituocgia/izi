@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
-from odoo.exceptions import AccessError
-from odoo import api, fields, models, _
-from odoo import SUPERUSER_ID
-from odoo.exceptions import UserError
+from izi.exceptions import AccessError
+from izi import api, fields, models, _
+from izi import SUPERUSER_ID
+from izi.exceptions import UserError
 
 import logging
 

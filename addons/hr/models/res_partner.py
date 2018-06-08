@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
-from odoo import api, models
-from odoo.exceptions import AccessError
+from izi import api, models
+from izi.exceptions import AccessError
 
 
 class Partner(models.Model):

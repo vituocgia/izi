@@ -1,4 +1,4 @@
-odoo.define('web.bootstrap.extensions', function () {
+izi.define('web.bootstrap.extensions', function () {
 'use strict';
 
 /**

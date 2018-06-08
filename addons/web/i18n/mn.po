@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * web
 # 
@@ -13,12 +13,12 @@
 # BATKHUYAG GANBOLD <gbatkhuyag@gmail.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-01-09 10:16+0000\n"
 "PO-Revision-Date: 2018-01-09 10:16+0000\n"
 "Last-Translator: BATKHUYAG GANBOLD <gbatkhuyag@gmail.com>, 2018\n"
-"Language-Team: Mongolian (https://www.transifex.com/odoo/teams/41243/mn/)\n"
+"Language-Team: Mongolian (https://www.transifex.com/izi/teams/41243/mn/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -233,8 +233,8 @@ msgstr "<span class=\"oe_logo_edit\">Компанийн өгөгдлийг за�
 
 #. module: web
 #: model:ir.ui.view,arch_db:web.menu_secondary
-msgid "<span>Odoo</span>"
-msgstr "<span>Odoo</span>"
+msgid "<span>izi</span>"
+msgstr "<span>izi</span>"
 
 #. module: web
 #. openerp-web
@@ -1309,8 +1309,8 @@ msgstr "Форм"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1339
 #, python-format
-msgid "Get this feature and much more with Odoo Enterprise!"
-msgstr "Энэ болон бусад олон боломжийг Odoo Байгууллага-аас авна уу!"
+msgid "Get this feature and much more with izi Enterprise!"
+msgstr "Энэ болон бусад олон боломжийг izi Байгууллага-аас авна уу!"
 
 #. module: web
 #. openerp-web
@@ -1669,8 +1669,8 @@ msgstr "Дээшлүүлэх"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1324
 #, python-format
-msgid "My Odoo.com account"
-msgstr "Миний Odoo.com данс"
+msgid "My izi.asia account"
+msgstr "Миний izi.asia данс"
 
 #. module: web
 #. openerp-web
@@ -1805,15 +1805,15 @@ msgstr "Объект:"
 #. openerp-web
 #: code:addons/web/static/src/js/core/dialog.js:51
 #, python-format
-msgid "Odoo"
-msgstr "Odoo"
+msgid "izi"
+msgstr "izi"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/apps.js:148
 #, python-format
-msgid "Odoo Apps will be available soon"
-msgstr "Odoo Апп-ууд удахгүй боломжтой болно"
+msgid "izi Apps will be available soon"
+msgstr "izi Апп-ууд удахгүй боломжтой болно"
 
 #. module: web
 #. openerp-web
@@ -1821,28 +1821,28 @@ msgstr "Odoo Апп-ууд удахгүй боломжтой болно"
 #: code:addons/web/static/src/js/chrome/abstract_web_client.js:194
 #: code:addons/web/static/src/js/services/crash_manager.js:156
 #, python-format
-msgid "Odoo Client Error"
+msgid "izi Client Error"
 msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/fields/upgrade_fields.js:86
 #, python-format
-msgid "Odoo Enterprise"
-msgstr "Odoo Байгууллага"
+msgid "izi Enterprise"
+msgstr "izi Байгууллага"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:118
 #, python-format
-msgid "Odoo Error"
+msgid "izi Error"
 msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:58
 #, python-format
-msgid "Odoo Session Expired"
+msgid "izi Session Expired"
 msgstr ""
 
 #. module: web
@@ -1850,7 +1850,7 @@ msgstr ""
 #: code:addons/web/static/src/js/services/crash_manager.js:108
 #: code:addons/web/static/src/js/services/crash_manager.js:197
 #, python-format
-msgid "Odoo Warning"
+msgid "izi Warning"
 msgstr ""
 
 #. module: web
@@ -2067,8 +2067,8 @@ msgstr "Дэмжсэн"
 
 #. module: web
 #: model:ir.ui.view,arch_db:web.login_layout
-msgid "Powered by <span>Odoo</span>"
-msgstr "Дэмжсэн <span>Odoo</span>"
+msgid "Powered by <span>izi</span>"
+msgstr "Дэмжсэн <span>izi</span>"
 
 #. module: web
 #. openerp-web
@@ -2582,10 +2582,10 @@ msgstr ""
 #, python-format
 msgid ""
 "Timezone Mismatch : The timezone of your browser doesn't match the selected "
-"one. The time in Odoo is displayed according to your field timezone."
+"one. The time in izi is displayed according to your field timezone."
 msgstr ""
 "Цагийн бүс таарсангүй: Таны вэб хөтчийн цагийн бүс сонгосонтой таарахгүй "
-"байна. Odoo - н цаг нь таны цагийн бүс дагуу гардаг."
+"байна. izi - н цаг нь таны цагийн бүс дагуу гардаг."
 
 #. module: web
 #. openerp-web
@@ -2954,9 +2954,9 @@ msgstr ""
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:58
 #, python-format
-msgid "Your Odoo session expired. Please refresh the current web page."
+msgid "Your izi session expired. Please refresh the current web page."
 msgstr ""
-"Танай Odoo харилцаа дууссан байна. Одоогийн веб хуудсаа дахин ачаална уу."
+"Танай izi харилцаа дууссан байна. Одоогийн веб хуудсаа дахин ачаална уу."
 
 #. module: web
 #. openerp-web

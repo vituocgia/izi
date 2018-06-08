@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
 import time
-from odoo import api, models, _
-from odoo.exceptions import UserError
+from izi import api, models, _
+from izi.exceptions import UserError
 
 
 class ReportGeneralLedger(models.AbstractModel):

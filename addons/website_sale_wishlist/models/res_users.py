@@ -1,5 +1,5 @@
-from odoo import api, fields, models
-from odoo.http import request
+from izi import api, fields, models
+from izi.http import request
 
 
 class ResUsers(models.Model):

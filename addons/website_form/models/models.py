@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 import itertools
 
-from odoo import models, fields, api
-from odoo.http import request
+from izi import models, fields, api
+from izi.http import request
 
 
 class website_form_config(models.Model):

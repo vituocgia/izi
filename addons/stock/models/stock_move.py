@@ -1,16 +1,16 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 from datetime import datetime
 from dateutil import relativedelta
 from itertools import groupby
 from operator import itemgetter
 
-from odoo import api, fields, models, _
-from odoo.addons import decimal_precision as dp
-from odoo.exceptions import UserError
-from odoo.tools import DEFAULT_SERVER_DATETIME_FORMAT
-from odoo.tools.float_utils import float_compare, float_round, float_is_zero
+from izi import api, fields, models, _
+from izi.addons import decimal_precision as dp
+from izi.exceptions import UserError
+from izi.tools import DEFAULT_SERVER_DATETIME_FORMAT
+from izi.tools.float_utils import float_compare, float_round, float_is_zero
 
 PROCUREMENT_PRIORITIES = [('0', 'Not urgent'), ('1', 'Normal'), ('2', 'Urgent'), ('3', 'Very Urgent')]
 
@@ -642,7 +642,7 @@ class StockMove(models.Model):
             warning_mess = {
                 'title': _('Quantity decreased!'),
                 'message' : _("By changing this quantity here, you accept the "
-                              "new quantity as complete: Odoo will not "
+                              "new quantity as complete: izi will not "
                               "automatically generate a back order."),
             }
             return {'warning': warning_mess}

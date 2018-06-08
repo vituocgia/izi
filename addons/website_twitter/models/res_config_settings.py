@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 import logging
 
 import requests
 
-from odoo import api, fields, models, _
-from odoo.exceptions import UserError
+from izi import api, fields, models, _
+from izi.exceptions import UserError
 
 _logger = logging.getLogger(__name__)
 

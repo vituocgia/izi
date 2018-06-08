@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
 
-from odoo import api, fields, models
-from odoo.tools import html2plaintext
+from izi import api, fields, models
+from izi.tools import html2plaintext
 
 
 class MrpProductionMessage(models.Model):

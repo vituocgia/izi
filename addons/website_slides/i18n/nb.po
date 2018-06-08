@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * website_slides
 # 
@@ -8,12 +8,12 @@
 # Viktor Basso <viktor@voit.no>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: izi Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-02 11:27+0000\n"
 "PO-Revision-Date: 2017-10-02 11:27+0000\n"
 "Last-Translator: Viktor Basso <viktor@voit.no>, 2017\n"
-"Language-Team: Norwegian Bokmål (https://www.transifex.com/odoo/teams/41243/nb/)\n"
+"Language-Team: Norwegian Bokmål (https://www.transifex.com/izi/teams/41243/nb/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -351,8 +351,8 @@ msgstr "Bare autentiserte brukere"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_5
-msgid "Awesome Timesheet by Odoo"
-msgstr "Awesome Timesheet fra Odoo"
+msgid "Awesome Timesheet by izi"
+msgstr "Awesome Timesheet fra izi"
 
 #. module: website_slides
 #: model:slide.tag,name:website_slides.tag1
@@ -528,31 +528,31 @@ msgstr "Avbryt"
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_6
-msgid "Discover how easy marketing your business can be with Odoo"
+msgid "Discover how easy marketing your business can be with izi"
 msgstr ""
-"Oppdag hvor enkelt det kan være å markedsføre virksomheten din med Odoo"
+"Oppdag hvor enkelt det kan være å markedsføre virksomheten din med izi"
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_0
 msgid ""
 "Discover how you can integrate MRP, PLM, Quality and Maintenance in a single application to maximize the efficiency of your manufacturing operations.\n"
 "\n"
-"Read more about the features at: https://www.odoo.com/page/manufacturing-features\n"
+"Read more about the features at: https://www.izi.asia/page/manufacturing-features\n"
 "\n"
-"Discover Odoo MRP: https://www.odoo.com/page/manufacturing"
+"Discover izi MRP: https://www.izi.asia/page/manufacturing"
 msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_1
-msgid "Discover the CRM sales people love https://www.odoo.com/page/crm"
-msgstr "Oppdag CRM-systemet selgere elsker https://www.odoo.com/page/crm"
+msgid "Discover the CRM sales people love https://www.izi.asia/page/crm"
+msgstr "Oppdag CRM-systemet selgere elsker https://www.izi.asia/page/crm"
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_2
 msgid ""
 "Discover the all-in-one business management software solution that fits any business size and use case.\n"
 "\n"
-"Learn more at https://odoo.com"
+"Learn more at https://izi.asia"
 msgstr ""
 
 #. module: website_slides
@@ -604,7 +604,7 @@ msgstr "Last ned"
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_5
 msgid ""
-"Download Awesome Timesheet by Odoo and discover how easy time tracking and employee management can be!\n"
+"Download Awesome Timesheet by izi and discover how easy time tracking and employee management can be!\n"
 "\n"
 "Chrome: http://bit.ly/2613LcY\n"
 "iOS: http://bit.ly/1ZUZsZD"
@@ -813,8 +813,8 @@ msgstr "Siste publisert"
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_8
-msgid "Learn more at https://www.odoo.com/page/sales"
-msgstr "Finn ut mer på https://www.odoo.com/page/sales"
+msgid "Learn more at https://www.izi.asia/page/sales"
+msgstr "Finn ut mer på https://www.izi.asia/page/sales"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide_likes
@@ -925,44 +925,44 @@ msgstr "Antall videoer"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_2
-msgid "Odoo All-in-One Software Demonstration"
-msgstr "Demonstrasjon av Odoos alt-i-ett-programvare"
+msgid "izi All-in-One Software Demonstration"
+msgstr "Demonstrasjon av izis alt-i-ett-programvare"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_1
-msgid "Odoo CRM"
-msgstr "Odoo CRM"
+msgid "izi CRM"
+msgstr "izi CRM"
 
 #. module: website_slides
 #: model:slide.category,name:website_slides.category_2
 #: model:slide.tag,name:website_slides.tag5
-msgid "Odoo Days"
-msgstr "Odoo Dager"
+msgid "izi Days"
+msgstr "izi Dager"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_7
-msgid "Odoo Inventory"
-msgstr "Odoo Lagerbeholdning"
+msgid "izi Inventory"
+msgstr "izi Lagerbeholdning"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_0
-msgid "Odoo MRP"
-msgstr "Odoo MRP"
+msgid "izi MRP"
+msgstr "izi MRP"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_6
-msgid "Odoo Marketing"
-msgstr "Odoo Markedsføring"
+msgid "izi Marketing"
+msgstr "izi Markedsføring"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_8
-msgid "Odoo Sales"
-msgstr "Odoo Salg"
+msgid "izi Sales"
+msgstr "izi Salg"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_3
-msgid "Odoo Sign Demonstration"
-msgstr "Demonstrasjon av Odoo Signer"
+msgid "izi Sign Demonstration"
+msgstr "Demonstrasjon av izi Signer"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_9
@@ -1194,9 +1194,9 @@ msgstr "Beklager, ingenting passet med søkekriteriene"
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_3
 msgid ""
-"Stop doing manual printing and scanning. Move to electronic signature with Odoo Sign!\n"
+"Stop doing manual printing and scanning. Move to electronic signature with izi Sign!\n"
 "\n"
-"Discover more at https://www.odoo.com/page/sign"
+"Discover more at https://www.izi.asia/page/sign"
 msgstr ""
 
 #. module: website_slides
@@ -1393,11 +1393,11 @@ msgstr "Venter på validering"
 msgid ""
 "Warehouse management software for the 21st century.\n"
 "\n"
-"Discover Odoo Inventory: https://www.odoo.com/page/warehouse"
+"Discover izi Inventory: https://www.izi.asia/page/warehouse"
 msgstr ""
 "Lagerstyringsprogramvare for det 21. århundret.\n"
 "\n"
-"Oppdag Odoo Lagerbeholdning: https://www.odoo.com/page/warehouse"
+"Oppdag izi Lagerbeholdning: https://www.izi.asia/page/warehouse"
 
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.view_slide_slide_form

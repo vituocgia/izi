@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 import logging
 from datetime import timedelta
 from functools import partial
@@ -7,11 +7,11 @@ from functools import partial
 import psycopg2
 import pytz
 
-from odoo import api, fields, models, tools, _
-from odoo.tools import float_is_zero
-from odoo.exceptions import UserError
-from odoo.http import request
-from odoo.addons import decimal_precision as dp
+from izi import api, fields, models, tools, _
+from izi.tools import float_is_zero
+from izi.exceptions import UserError
+from izi.http import request
+from izi.addons import decimal_precision as dp
 
 _logger = logging.getLogger(__name__)
 

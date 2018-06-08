@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
-from odoo import fields, models
+from izi import fields, models
 
 
 class MassMailingList(models.Model):
@@ -9,7 +9,7 @@ class MassMailingList(models.Model):
 
     def _default_popup_content(self):
         return """<div class="modal-header text-center">
-    <h3 class="modal-title mt8">Odoo Presents</h3>
+    <h3 class="modal-title mt8">izi Presents</h3>
 </div>
 <div class="o_popup_message">
     <font>7</font>

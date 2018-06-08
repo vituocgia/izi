@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'Employee Directory',
@@ -8,7 +8,7 @@
     'sequence': 75,
     'summary': 'Jobs, Departments, Employees Details',
     'description': "",
-    'website': 'https://www.odoo.com/page/employees',
+    'website': 'https://www.izi.asia/page/employees',
     'images': [
         'images/hr_department.jpeg',
         'images/hr_employee.jpeg',

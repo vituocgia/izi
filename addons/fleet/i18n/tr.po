@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * fleet
 # 
@@ -14,12 +14,12 @@
 # Umur Akın <umura@projetgrup.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: izi Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-20 09:54+0000\n"
 "PO-Revision-Date: 2017-09-20 09:54+0000\n"
 "Last-Translator: Umur Akın <umura@projetgrup.com>, 2018\n"
-"Language-Team: Turkish (https://www.transifex.com/odoo/teams/41243/tr/)\n"
+"Language-Team: Turkish (https://www.transifex.com/izi/teams/41243/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1128,11 +1128,11 @@ msgstr "Aracın markası"
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_log_contract_action
 msgid ""
 "Manage all your contracts (leasing, insurances, etc.) with\n"
-"            their related services, costs. Odoo will automatically warn\n"
+"            their related services, costs. izi will automatically warn\n"
 "            you when some contracts have to be renewed."
 msgstr ""
 "İlgili servisler ve maliyetleri ile bütün sözleşmelerinizi (lesaing, sigorta"
-" gibi) yönetin. Odoo herhangi bir sözleşme yenilendiğinde sizi otomatik "
+" gibi) yönetin. izi herhangi bir sözleşme yenilendiğinde sizi otomatik "
 "olarak uyaracak."
 
 #. module: fleet
@@ -1357,21 +1357,21 @@ msgstr "Araçın bu kayıt anındaki odometre ölçümü"
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_log_services_action
 msgid ""
-"Odoo helps you keeping track of all the services done\n"
+"izi helps you keeping track of all the services done\n"
 "            on your vehicle. Services can be of many type: occasional\n"
 "            repair, fixed maintenance, etc."
 msgstr ""
-"Odoo aracınızın tüm hizmetlerini izlemenize yardımcı olur. Hizmetler birçok "
+"izi aracınızın tüm hizmetlerini izlemenize yardımcı olur. Hizmetler birçok "
 "farklı türde olabilirler: beklenmedik tamirler, belirli bakımlar vs."
 
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_costs_action
 msgid ""
-"Odoo helps you managing the costs for your different\n"
+"izi helps you managing the costs for your different\n"
 "                vehicles. Costs are created automatically from services,\n"
 "                contracts (fixed or recurring) and fuel logs."
 msgstr ""
-" Odoo farklı araçlarınızın maliyetlerini yönetmenize yardımcı\n"
+" izi farklı araçlarınızın maliyetlerini yönetmenize yardımcı\n"
 "olur. Maliyetler servislerden, sözleşmelerden, (sabit ya da\n"
 "yinelenen) yakıt kayıtlarından otomatik olarak hesaplanır. "
 
@@ -1379,19 +1379,19 @@ msgstr ""
 #: model:ir.actions.act_window,help:fleet.fleet_costs_reporting_action
 #: model:ir.actions.act_window,help:fleet.fleet_costs_reporting_non_effective_action
 msgid ""
-"Odoo helps you managing the costs for your different vehicles\n"
+"izi helps you managing the costs for your different vehicles\n"
 "          Costs are generally created from services and contract and appears here."
 msgstr ""
-"Odoo farklı araçlarınızın maliyetlerini yönetmenize yardımcı olur.\n"
+"izi farklı araçlarınızın maliyetlerini yönetmenize yardımcı olur.\n"
 "Maliyetler genellikle servis ve sözleşmelerden oluşturulur ve burada görünür."
 
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_action
 msgid ""
-"Odoo will warn you when services or contract have to be\n"
+"izi will warn you when services or contract have to be\n"
 "            renewed."
 msgstr ""
-" Odoo hizmetin ya da sözleşmenin yenilenmesi gerektiğinde sizi uyaracak."
+" izi hizmetin ya da sözleşmenin yenilenmesi gerektiğinde sizi uyaracak."
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_31
@@ -1748,10 +1748,10 @@ msgstr "Şartlar ve Koşullar"
 #: model:ir.actions.act_window,help:fleet.fleet_costs_reporting_action
 #: model:ir.actions.act_window,help:fleet.fleet_costs_reporting_non_effective_action
 msgid ""
-"Thanks to the different filters, Odoo can only print the effective\n"
+"Thanks to the different filters, izi can only print the effective\n"
 "          costs, sort them by type and by vehicle."
 msgstr ""
-"Odoo, çeşitli süzgeçleri sayesinde, yalnızca etkili maliyetleri "
+"izi, çeşitli süzgeçleri sayesinde, yalnızca etkili maliyetleri "
 "yazdırabilir, onları türüne göre ve araca göre sıralayabilirsiniz."
 
 #. module: fleet

@@ -1,9 +1,9 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * account_bank_statement_import
 # 
 # Translators:
-# Gab_Odoo <gab@odoo.com>, 2017
+# Gab_izi <gab@izi.asia>, 2017
 # Tina Rittmüller <tr@ife.de>, 2017
 # Thorsten Vocks <thorsten.vocks@openbig.org>, 2017
 # Martin Trigaux, 2017
@@ -23,12 +23,12 @@
 # Katharina Moritz <kmo@e2f.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-30 13:11+0000\n"
 "PO-Revision-Date: 2017-11-30 13:11+0000\n"
 "Last-Translator: Katharina Moritz <kmo@e2f.com>, 2018\n"
-"Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
+"Language-Team: German (https://www.transifex.com/izi/teams/41243/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -406,23 +406,23 @@ msgstr "Verlustkonto"
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation_inbound_payment_method_ids
 msgid ""
-"Manual: Get paid by cash, check or any other method outside of Odoo.\n"
+"Manual: Get paid by cash, check or any other method outside of izi.\n"
 "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
-"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Odoo,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
+"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in izi,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
 msgstr ""
-"Manuell: Lassen Sie sich per Bargeld, Scheck oder über eine andere Methode außerhalb von Odoo bezahlen.\n"
+"Manuell: Lassen Sie sich per Bargeld, Scheck oder über eine andere Methode außerhalb von izi bezahlen.\n"
 "Elektronisch: Lassen Sie sich automatisch durch einen Zahlungs-Akquierer bezahlen, indem Sie eine Transaktion auf einer Karte anfordern, die vom Kunden gespeichert wird, wenn dieser online einen Kauf oder ein Abonnement tätigt (Zahlungs-Token).\n"
-"Stapelbuchung: Über eine Stapelbuchung, die an Ihre Bank gesendet wird, können Sie mehrere Kunden-Schecks auf einmal entgegennehmen. Wenn Sie den Bankauszug in Odoo kodieren, sollten Sie die Transaktion mit der Stapelbuchung abstimmen. Diese Option aktivieren Sie in den Einstellungen."
+"Stapelbuchung: Über eine Stapelbuchung, die an Ihre Bank gesendet wird, können Sie mehrere Kunden-Schecks auf einmal entgegennehmen. Wenn Sie den Bankauszug in izi kodieren, sollten Sie die Transaktion mit der Stapelbuchung abstimmen. Diese Option aktivieren Sie in den Einstellungen."
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation_outbound_payment_method_ids
 msgid ""
-"Manual:Pay bill by cash or any other method outside of Odoo.\n"
-"Check:Pay bill by check and print it from Odoo.\n"
+"Manual:Pay bill by cash or any other method outside of izi.\n"
+"Check:Pay bill by check and print it from izi.\n"
 "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. Enable this option from the settings."
 msgstr ""
-"Manuell: Bezahlen Sie die Rechnung per Bargeld oder über eine andere Methode außerhalb von Odoo.\n"
-"Scheck: Bezahlen Sie die Rechnung per Scheck und drucken Sie das Ganze in Odoo aus.\n"
+"Manuell: Bezahlen Sie die Rechnung per Bargeld oder über eine andere Methode außerhalb von izi.\n"
+"Scheck: Bezahlen Sie die Rechnung per Scheck und drucken Sie das Ganze in izi aus.\n"
 "SEPA-Überweisung: Bezahlen Sie die Rechnung über eine SEPA-Überweisungsdatei, die Sie Ihrer Bank übermitteln. Diese Option aktivieren Sie in den Einstellungen."
 
 #. module: account_bank_statement_import
@@ -501,7 +501,7 @@ msgstr ""
 #. module: account_bank_statement_import
 #: model:ir.ui.view,arch_db:account_bank_statement_import.account_bank_statement_import_journal_creation_view
 msgid ""
-"The account of the statement you are importing is not yet recorded in Odoo. "
+"The account of the statement you are importing is not yet recorded in izi. "
 "In order to proceed with the import, you need to create a bank journal for "
 "this account."
 msgstr ""

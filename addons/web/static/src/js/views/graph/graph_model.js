@@ -1,4 +1,4 @@
-odoo.define('web.GraphModel', function (require) {
+izi.define('web.GraphModel', function (require) {
 "use strict";
 
 /**

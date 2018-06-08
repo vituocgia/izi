@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-from odoo import http, _
-from odoo.http import request
-from odoo.addons.website_sale.controllers.main import WebsiteSale
+from izi import http, _
+from izi.http import request
+from izi.addons.website_sale.controllers.main import WebsiteSale
 import json
 
 

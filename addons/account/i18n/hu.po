@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * account
 # 
@@ -11,12 +11,12 @@
 # picibucor <picibucor@gmail.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-27 14:47+0000\n"
 "PO-Revision-Date: 2018-04-27 14:47+0000\n"
 "Last-Translator: picibucor <picibucor@gmail.com>, 2017\n"
-"Language-Team: Hungarian (https://www.transifex.com/odoo/teams/41243/hu/)\n"
+"Language-Team: Hungarian (https://www.transifex.com/izi/teams/41243/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -239,7 +239,7 @@ msgid ""
 "    </tr>\n"
 "    <tr>\n"
 "        <td align=\"center\">\n"
-"            Powered by <a target=\"_blank\" href=\"https://www.odoo.com\">Odoo</a>.\n"
+"            Powered by <a target=\"_blank\" href=\"https://www.izi.asia\">izi</a>.\n"
 "        </td>\n"
 "    </tr>\n"
 "</tbody>\n"
@@ -475,8 +475,8 @@ msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
-msgid "<span title=\"Balance in Odoo\">Balance in GL</span>"
-msgstr "<span title=\"Balance in Odoo\">Egyenleg a főkönyvi kartonon</span>"
+msgid "<span title=\"Balance in izi\">Balance in GL</span>"
+msgstr "<span title=\"Balance in izi\">Egyenleg a főkönyvi kartonon</span>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
@@ -540,8 +540,8 @@ msgstr "<span>Nézet</span>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
-msgid "<strong>-The Odoo Team</strong>"
-msgstr "<strong>-Az Odoo csapat</strong>"
+msgid "<strong>-The izi Team</strong>"
+msgstr "<strong>-Az izi csapat</strong>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -647,10 +647,10 @@ msgstr ""
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
-"<strong>Create the bill in Odoo</strong><br/> with a proper due date, and "
+"<strong>Create the bill in izi</strong><br/> with a proper due date, and "
 "create the vendor if it doesnt' exist yet."
 msgstr ""
-"<strong>Számla létrehozása az Odoo rendszerben</strong><br/> egy megfelelő "
+"<strong>Számla létrehozása az izi rendszerben</strong><br/> egy megfelelő "
 "fizetési határidővel, és hozza létre a beszállítót, ha még nem létezik."
 
 #. module: account
@@ -839,10 +839,10 @@ msgstr "<strong>Bank kivonat könyvelési egyeztetése</strong>"
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
 "<strong>Reconcile with existing transaction</strong><br/>\n"
-"                                        In this case, Odoo should automatically match the bank statement with the previously recorded check transaction."
+"                                        In this case, izi should automatically match the bank statement with the previously recorded check transaction."
 msgstr ""
 "<strong>Egyeztetés meglévő tranzakciókkal</strong><br/>\n"
-"                                        Ebben az esetben, Odoo rendszernek automatikusan egyeznie kell a bank kivonatokat az előzőleg rögzített csekk tranzakciókkal."
+"                                        Ebben az esetben, izi rendszernek automatikusan egyeznie kell a bank kivonatokat az előzőleg rögzített csekk tranzakciókkal."
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -939,17 +939,17 @@ msgstr "<strong>Listázni kívánt tételek:</strong>"
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
 "<strong>Test the following three scenarios in order to assist you in "
-"familiarizing yourself with Odoo:</strong>"
+"familiarizing yourself with izi:</strong>"
 msgstr ""
 "<strong>Próbálja ki a következő három esetet, hogy jobban megismerkedjen az "
-"Odoo-val:</strong>"
+"izi-val:</strong>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
-"<strong>There are three different levels of access rights in Odoo:</strong>"
+"<strong>There are three different levels of access rights in izi:</strong>"
 msgstr ""
-"<strong>Három különböző hozzáférési jogosultsági szint létezik az Odoo "
+"<strong>Három különböző hozzáférési jogosultsági szint létezik az izi "
 "rendszerben:</strong>"
 
 #. module: account
@@ -1074,11 +1074,11 @@ msgstr "Lista a vásárlói és beszállítói fizetési feltételeiről."
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
-"A product in Odoo is something you sell or buy \n"
+"A product in izi is something you sell or buy \n"
 "                        whether or not it is goods, consumables, or services.\n"
 "                        Choose how you want to create your products:"
 msgstr ""
-"A termék az Odoo rendszerben, olyan valami, amit értékesíthet és vásárolhat, akár\n"
+"A termék az izi rendszerben, olyan valami, amit értékesíthet és vásárolhat, akár\n"
 "                    termékek, fogyasztási cikkek, vagy szolgáltatások. Válasszon, hogyan szeretné \n"
 "                    létrehozni a termékeit:"
 
@@ -1707,14 +1707,14 @@ msgstr "Több időszakos partner folyószámla számlaegyenleg"
 #: model:ir.ui.view,arch_db:account.account_aged_balance_view
 msgid ""
 "Aged Partner Balance is a more detailed report of your receivables by "
-"intervals. Odoo calculates a table of credit balance by start Date. So if "
-"you request an interval of 30 days Odoo generates an analysis of creditors "
+"intervals. izi calculates a table of credit balance by start Date. So if "
+"you request an interval of 30 days izi generates an analysis of creditors "
 "for the past month, past two months, and so on."
 msgstr ""
 "Korosított ügyfél egyenleg egy sokkal részletesebb intervallumok szerinti "
-"Kintlévőség jelentés. Odoo rendszer az indulási dátumtól számolja a "
+"Kintlévőség jelentés. izi rendszer az indulási dátumtól számolja a "
 "Követelés egyenleg táblát. Ezért, ha 30 napos intervallumot adott meg, akkor"
-" az Odoo rendszer átfogó képet ad a hitelezőkre vonatkozóan az elmúlt "
+" az izi rendszer átfogó képet ad a hitelezőkre vonatkozóan az elmúlt "
 "hónapról, elmúlt két hónapról, és így tovább."
 
 #. module: account
@@ -3922,7 +3922,7 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_financial_year_op_opening_date
 msgid ""
-"Date from which the accounting is managed in Odoo. It is the date of the "
+"Date from which the accounting is managed in izi. It is the date of the "
 "opening entry."
 msgstr ""
 
@@ -4509,8 +4509,8 @@ msgstr "Kassza zárás"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
-msgid "Enjoy your Odoo experience,"
-msgstr "Élvezze az Odoo élményt,"
+msgid "Enjoy your izi experience,"
+msgstr "Élvezze az izi élményt,"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_move_line_form
@@ -4853,7 +4853,7 @@ msgstr "A százalékhoz adjon meg egy 0-100 közti arányszám értéket."
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
-"For the Odoo Team,<br/>\n"
+"For the izi Team,<br/>\n"
 "                            Fabien Pinckaers, Founder"
 msgstr ""
 "Az Oddo rendszer csapata nevében,<br/>\n"
@@ -5332,20 +5332,20 @@ msgstr ""
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
-"If you want to be able to send customer statements from Odoo, you must:"
+"If you want to be able to send customer statements from izi, you must:"
 msgstr ""
-"Ha alkalmassá szeretné tenni az Odoo rendszert vásárlók részére kimutatások "
+"Ha alkalmassá szeretné tenni az izi rendszert vásárlók részére kimutatások "
 "küldésére, akkor ezt kell:"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
 "If you want to be able to send your customers their statements \n"
-"                        from Odoo, you first need to record all outstanding transactions \n"
+"                        from izi, you first need to record all outstanding transactions \n"
 "                        in the payable and receivable accounts. These would be invoices \n"
 "                        that have not been paid or payments that have not been reconciled."
 msgstr ""
-"Ha szeretné a vásárlói részére a folyószámla kivonatukat elküldeni az Odoo \n"
+"Ha szeretné a vásárlói részére a folyószámla kivonatukat elküldeni az izi \n"
 "                        rendszerből, Akkor először rögzítenie kell az összes kifizetetlen tranzakciót \n"
 "                        a befizetendő és vevői, Kintlévőség számlákra. Ezek lesznek azok a \n"
 "                        számlák, melyeket nem egyenlítettek ki vagy befizetések melyeket még nem egyeztettek."
@@ -5442,8 +5442,8 @@ msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
-msgid "In Odoo,"
-msgstr "Odoo rendszerben"
+msgid "In izi,"
+msgstr "izi rendszerben"
 
 #. module: account
 #: code:addons/account/models/account_bank_statement.py:409
@@ -5908,13 +5908,13 @@ msgid ""
 "It's common practice to change your accounting software \n"
 "                            at the end of a fiscal year. This allows you to have less \n"
 "                            data to import and balances to set. If you plan to do so, \n"
-"                            we recommend you start using Odoo for invoicing and payments \n"
+"                            we recommend you start using izi for invoicing and payments \n"
 "                            now, and then move all other accounting transactions at a later time."
 msgstr ""
 "Ez ismert gyakorlat, hogy egy üzleti év végén   \n"
 "                            megváltoztatja a könyvviteli szoftverét. Ez lehetővé teszi, hogy \n"
 "                            kevesebb adatot importáljon és egyenleget állítson be. Ha ezt tervezi, \n"
-"                            ajánljuk az Odoo használatának elkezdését most, a számlázásokhoz és fizetésekhez, \n"
+"                            ajánljuk az izi használatának elkezdését most, a számlázásokhoz és fizetésekhez, \n"
 "                           és a könyvelési tranzakciók későbbi átvitelét."
 
 #. module: account
@@ -6485,9 +6485,9 @@ msgstr "Befizetésekkel csökkentet"
 #. openerp-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:24
 #, python-format
-msgid "Let odoo try to reconcile entries for the user"
+msgid "Let izi try to reconcile entries for the user"
 msgstr ""
-"Hagyja az odoo rendszert a tételek főkönyvi egyeztetésére ehhez a "
+"Hagyja az izi rendszert a tételek főkönyvi egyeztetésére ehhez a "
 "felhasználóhoz"
 
 #. module: account
@@ -6658,9 +6658,9 @@ msgstr "Kézi egyeztetés"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal_inbound_payment_method_ids
 msgid ""
-"Manual: Get paid by cash, check or any other method outside of Odoo.\n"
+"Manual: Get paid by cash, check or any other method outside of izi.\n"
 "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
-"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Odoo,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
+"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in izi,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
 msgstr ""
 
 #. module: account
@@ -6668,18 +6668,18 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_payment_payment_method_id
 #: model:ir.model.fields,help:account.field_account_register_payments_payment_method_id
 msgid ""
-"Manual: Get paid by cash, check or any other method outside of Odoo.\n"
+"Manual: Get paid by cash, check or any other method outside of izi.\n"
 "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
-"Check: Pay bill by check and print it from Odoo.\n"
-"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Odoo, you are suggested to reconcile the transaction with the batch deposit.To enable batch deposit,module account_batch_deposit must be installed.\n"
+"Check: Pay bill by check and print it from izi.\n"
+"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in izi, you are suggested to reconcile the transaction with the batch deposit.To enable batch deposit,module account_batch_deposit must be installed.\n"
 "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. To enable sepa credit transfer, module account_sepa must be installed "
 msgstr ""
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal_outbound_payment_method_ids
 msgid ""
-"Manual:Pay bill by cash or any other method outside of Odoo.\n"
-"Check:Pay bill by check and print it from Odoo.\n"
+"Manual:Pay bill by cash or any other method outside of izi.\n"
+"Check:Pay bill by check and print it from izi.\n"
 "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. Enable this option from the settings."
 msgstr ""
 
@@ -7156,36 +7156,36 @@ msgstr "Október"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
-msgid "Odoo Accounting has many free extra-features:"
-msgstr "Odoo Könyvelésnek sok ingyenes extra-tulajdonsága van:"
+msgid "izi Accounting has many free extra-features:"
+msgstr "izi Könyvelésnek sok ingyenes extra-tulajdonsága van:"
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_bank_statement_line
 msgid ""
-"Odoo allows you to reconcile a statement line directly with\n"
+"izi allows you to reconcile a statement line directly with\n"
 "                the related sale or puchase invoice(s)."
 msgstr ""
-"Odoo rendszer lehetővé teszi egy kivonat tételsor egyeztetését közvetlenül az\n"
+"izi rendszer lehetővé teszi egy kivonat tételsor egyeztetését közvetlenül az\n"
 "                vonatkozó vásárlói vagy beszerzési számláv(k)al."
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_bank_statement_tree
 msgid ""
-"Odoo allows you to reconcile a statement line directly with\n"
+"izi allows you to reconcile a statement line directly with\n"
 "                the related sale or puchase invoices."
 msgstr ""
-"Odoo rendszer lehetővé teszi egy kivonat tételsor egyeztetését közvetlenül az\n"
+"izi rendszer lehetővé teszi egy kivonat tételsor egyeztetését közvetlenül az\n"
 "                vonatkozó vásárlói vagy beszerzési számlákkal."
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_move_journal_line
 msgid ""
-"Odoo automatically creates one journal entry per accounting\n"
+"izi automatically creates one journal entry per accounting\n"
 "                document: invoice, refund, vendor payment, bank statements,\n"
 "                etc. So, you should record journal entries manually only/mainly\n"
 "                for miscellaneous operations."
 msgstr ""
-" Odoo rendszer automatikusan a könyvelési dokumentumnak\n"
+" izi rendszer automatikusan a könyvelési dokumentumnak\n"
 "                megfelelően létrehoz egy napló bejegyzést: számla, visszatérítés, beszállítók fizetése, banki kivonatok,\n"
 "                 stb. alapján. Így, csak akkor kell/főként napló bejegyzést létrehoznia \n"
 "                kézzel ha egyéb műveletet végez. "
@@ -7193,42 +7193,42 @@ msgstr ""
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
-"Odoo can manage multiple companies, but we suggest to setup everything for "
+"izi can manage multiple companies, but we suggest to setup everything for "
 "your first company before configuring the other ones."
 msgstr ""
-"Odoo rendszer több vállalkozást is tud kezelni, de azt javasoljuk először a "
+"izi rendszer több vállalkozást is tud kezelni, de azt javasoljuk először a "
 "saját vállalkozásához állítson be mindent, másik vállalat beállítása előtt."
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
-"Odoo has already preconfigured a few taxes according to your "
+"izi has already preconfigured a few taxes according to your "
 "country.<br/>Simply review them and check if you need more."
 msgstr ""
-"Odoo rendszer már előre beállított egy pár adót az országa "
+"izi rendszer már előre beállított egy pár adót az országa "
 "alapján.<br/>Egyszerűen csak nézze át és ellenőrizze, ha többet is kell "
 "rögzítenie."
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
-"Odoo should do most of the reconciliation work automatically, so you'll only"
+"izi should do most of the reconciliation work automatically, so you'll only"
 " need to review a few of them when a <strong>'Reconcile Items'</strong> "
 "button appears on your Vendor Bills dash."
 msgstr ""
-"Odoo rendszer készíti el automatikusan a legtöbb főkönyvi egyeztetést, Így "
+"izi rendszer készíti el automatikusan a legtöbb főkönyvi egyeztetést, Így "
 "csak egy párat kell kézzel elvégezni, ha a  <strong>'Egyeztetendő "
 "tételek'</strong> gombot látja a beszállítói számlák műszerfalán."
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_invoice_tree1
 msgid ""
-"Odoo's electronic invoicing allows to ease and fasten the\n"
+"izi's electronic invoicing allows to ease and fasten the\n"
 "                collection of customer payments. Your customer receives the\n"
 "                invoice by email and he can pay online and/or import it\n"
 "                in his own system."
 msgstr ""
-"Odoo rendszer számlázása lehetővé teszi a könnyű és\n"
+"izi rendszer számlázása lehetővé teszi a könnyű és\n"
 "                gyors ügyfél számla összegyűjtését. Az ügyfelei e-mail-ben kapják\n"
 "                meg számláikat, melyet kifizethet online és/vagy betöltheti\n"
 "                saját rendszerébe."
@@ -8502,10 +8502,10 @@ msgstr " Több számlára történt befizetések rögzítése"
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
 "Registering outstanding invoices and payments can be a huge undertaking, \n"
-"                        but you can start using Odoo without it by:"
+"                        but you can start using izi without it by:"
 msgstr ""
 "Kiegyenlítetlen számlák és azok befizetéseinek rögzítése nagy teher lehet, \n"
-"                        de elkezdheti az Odoo rendszer használatát anélkül így:"
+"                        de elkezdheti az izi rendszer használatát anélkül így:"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -10388,10 +10388,10 @@ msgstr ""
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
-"This guide will help you get started with Odoo Accounting.\n"
+"This guide will help you get started with izi Accounting.\n"
 "                        Once you're done, you'll benefit from:"
 msgstr ""
-"Ez az útmutató segít az Odoo Könyvelés elsajátításában.\n"
+"Ez az útmutató segít az izi Könyvelés elsajátításában.\n"
 "                        Miután elvégezte, ezekből profitál:"
 
 #. module: account
@@ -10587,11 +10587,11 @@ msgstr "Fizetendő"
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
-"To manage the tax applied when invoicing a Company, Odoo uses the concept of"
+"To manage the tax applied when invoicing a Company, izi uses the concept of"
 " Fiscal Position: they serve to automatically set the right tax and/or "
 "account according to the customer country and state."
 msgstr ""
-"A felhasznált adó kezeléséhez egy vállalat részére kiadott számlán, az Odoo "
+"A felhasznált adó kezeléséhez egy vállalat részére kiadott számlán, az izi "
 "rendszer a következő  Költségvetési hely koncepciót használja: kezeli az "
 "automatikus adó és/vagy főkönyvi számla beállítását  a vásárlóhoz beállított"
 " ország vagy állam alapján."
@@ -11258,12 +11258,12 @@ msgstr "Figyelmeztetések"
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
 "We can handle the whole import process\n"
-"                                        for you: simply send your Odoo project\n"
+"                                        for you: simply send your izi project\n"
 "                                        manager a CSV file containing all your\n"
 "                                        data."
 msgstr ""
 "Kezelni tudjuk a teljes import műveletet\n"
-"                                        Önnek: egyszerűen csak küldje el az Odoo\n"
+"                                        Önnek: egyszerűen csak küldje el az izi\n"
 "                                        rendszergazda a CSV fájlt az összes \n"
 "                                        adatával."
 
@@ -11271,12 +11271,12 @@ msgstr ""
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
 "We can handle the whole import process\n"
-"                                        for you: simply send your Odoo project\n"
+"                                        for you: simply send your izi project\n"
 "                                        manager a CSV file containing all your\n"
 "                                        products."
 msgstr ""
 "Kezelni tudjuk a teljes import műveletet\n"
-"                                        Önnek: egyszerűen csak küldje el az Odoo\n"
+"                                        Önnek: egyszerűen csak küldje el az izi\n"
 "                                        rendszergazda a CSV fájlt az összes \n"
 "                                        termékével."
 

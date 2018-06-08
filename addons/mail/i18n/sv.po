@@ -1,10 +1,10 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * mail
 # 
 # Translators:
 # Kristoffer Grundström <kristoffer.grundstrom1983@gmail.com>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux <mat@izi.asia>, 2017
 # Anders Wallenquist <anders.wallenquist@vertel.se>, 2017
 # Martin Wilderoth <martin.wilderoth@linserv.se>, 2017
 # Christelle Wehbe <libanon_cristelle@hotmail.com>, 2017
@@ -18,12 +18,12 @@
 # Robert Frykelius <robert.frykelius@linserv.se>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-30 13:11+0000\n"
 "PO-Revision-Date: 2017-11-30 13:11+0000\n"
 "Last-Translator: Robert Frykelius <robert.frykelius@linserv.se>, 2017\n"
-"Language-Team: Swedish (https://www.transifex.com/odoo/teams/41243/sv/)\n"
+"Language-Team: Swedish (https://www.transifex.com/izi/teams/41243/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -116,7 +116,7 @@ msgid ""
 "    </a>\n"
 "    % endif\n"
 "    using\n"
-"    <a target=\"_blank\" href=\"https://www.odoo.com\" style=\"text-decoration:none; color: #875A7B;\">Odoo</a>.\n"
+"    <a target=\"_blank\" href=\"https://www.izi.asia\" style=\"text-decoration:none; color: #875A7B;\">izi</a>.\n"
 "</p>\n"
 "</div>"
 msgstr ""
@@ -2078,7 +2078,7 @@ msgstr ""
 
 #. module: mail
 #: selection:res.users,notification_type:0
-msgid "Handle in Odoo"
+msgid "Handle in izi"
 msgstr ""
 
 #. module: mail
@@ -2336,10 +2336,10 @@ msgstr ""
 #. module: mail
 #: model:ir.model.fields,help:mail.field_res_config_settings_alias_domain
 msgid ""
-"If you have setup a catch-all email domain redirected to the Odoo server, "
+"If you have setup a catch-all email domain redirected to the izi server, "
 "enter the domain name here."
 msgstr ""
-"Om du har en \"catch-all\" e-post-domän som pekar på Odoo-servern, ange "
+"Om du har en \"catch-all\" e-post-domän som pekar på izi-servern, ange "
 "domänen här."
 
 #. module: mail
@@ -3668,22 +3668,22 @@ msgstr "Antal olästa meddelanden"
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.message_user_assigned
-msgid "Odoo"
-msgstr "Odoo"
+msgid "izi"
+msgstr "izi"
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/js/client_action.js:895
 #, python-format
 msgid ""
-"Odoo has now the permission to send you native notifications on this device."
+"izi has now the permission to send you native notifications on this device."
 msgstr ""
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/xml/client_action.xml:11
 #, python-format
-msgid "Odoo needs your permission to"
+msgid "izi needs your permission to"
 msgstr ""
 
 #. module: mail
@@ -3691,7 +3691,7 @@ msgstr ""
 #: code:addons/mail/static/src/js/client_action.js:892
 #, python-format
 msgid ""
-"Odoo will not have the permission to send native notifications on this "
+"izi will not have the permission to send native notifications on this "
 "device."
 msgstr ""
 
@@ -4086,7 +4086,7 @@ msgstr "Vänligen vänta tills filen är uppladdad."
 msgid ""
 "Policy on how to handle Chatter notifications:\n"
 "- Emails: notifications are sent to your email\n"
-"- Odoo: notifications appear in your Odoo Inbox"
+"- izi: notifications appear in your izi Inbox"
 msgstr ""
 
 #. module: mail
@@ -4797,11 +4797,11 @@ msgstr ""
 #: model:ir.model.fields,help:mail.field_mail_channel_alias_model_id
 #: model:ir.model.fields,help:mail.field_mail_test_alias_model_id
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
+"The model (izi Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
-"Klassen (Odoo-dokumenttyp) som detta alias är knutet till. All inkommande "
+"Klassen (izi-dokumenttyp) som detta alias är knutet till. All inkommande "
 "e-post som inte ingår i en pågående diskussion skapar en ny post av denna "
 "klass (t ex Aktivitet)"
 
@@ -4812,7 +4812,7 @@ msgstr ""
 #: model:ir.model.fields,help:mail.field_mail_test_alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
+"<jobs@example.izi.asia>"
 msgstr ""
 "Namnet på e-post-alias, eg 'jobb' om du vill fånga e-post för "
 "<jobb@example.se>"
@@ -5279,7 +5279,7 @@ msgstr ""
 msgid ""
 "Using your own email server is required to send/receive emails in Community "
 "and Enterprise versions. Online users already benefit from a ready-to-use "
-"email server (@mycompany.odoo.com)."
+"email server (@mycompany.izi.asia)."
 msgstr ""
 
 #. module: mail
@@ -5612,7 +5612,7 @@ msgstr ""
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.res_config_settings_view_form
-msgid "mycompany.odoo.com"
+msgid "mycompany.izi.asia"
 msgstr ""
 
 #. module: mail

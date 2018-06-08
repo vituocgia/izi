@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * website_sale
 # 
@@ -10,12 +10,12 @@
 # Stefanos Nikou <stefanos.nikou@gmail.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 13:43+0000\n"
 "PO-Revision-Date: 2018-02-19 13:43+0000\n"
 "Last-Translator: Stefanos Nikou <stefanos.nikou@gmail.com>, 2017\n"
-"Language-Team: Greek (https://www.transifex.com/odoo/teams/41243/el/)\n"
+"Language-Team: Greek (https://www.transifex.com/izi/teams/41243/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -247,10 +247,10 @@ msgstr ""
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid ""
 "<span class=\"fa fa-lightbulb-o fa-2x\"/>\n"
-"                                Everything is editable in your Odoo website. Feel free to edit any page title, field or button label. Simply hit *Edit* in upper-right corner to start editing the page."
+"                                Everything is editable in your izi website. Feel free to edit any page title, field or button label. Simply hit *Edit* in upper-right corner to start editing the page."
 msgstr ""
 "<span class=\"fa fa-lightbulb-o fa-2x\"/>\n"
-"Όλα είναι επεξεργάσιμα στον Odoo ιστότοπό σας. Μπορείτε να επεξεργαστείτε οποιονδήποτε τίτλο σελίδας, ετικέτα πεδίου ή κουμπιού. Απλώς πατήστε στο κουμπί *Επεξεργασία* στην επάνω δεξιά γωνία για να ξεκινήσετε την επεξεργασία της σελίδας."
+"Όλα είναι επεξεργάσιμα στον izi ιστότοπό σας. Μπορείτε να επεξεργαστείτε οποιονδήποτε τίτλο σελίδας, ετικέτα πεδίου ή κουμπιού. Απλώς πατήστε στο κουμπί *Επεξεργασία* στην επάνω δεξιά γωνία για να ξεκινήσετε την επεξεργασία της σελίδας."
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
@@ -700,8 +700,8 @@ msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
-msgid "<strong>See it in action in Odoo</strong><br/>"
-msgstr "<strong>Δείτε το στην πράξη στο Odoo</strong><br/>"
+msgid "<strong>See it in action in izi</strong><br/>"
+msgstr "<strong>Δείτε το στην πράξη στο izi</strong><br/>"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
@@ -1866,7 +1866,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid ""
 "If you deal with a major shipper (UPS, FedEx, DHL, etc.), activate the "
-"related connector in Odoo to compute accurate costs and print labels."
+"related connector in izi to compute accurate costs and print labels."
 msgstr ""
 
 #. module: website_sale
@@ -3443,10 +3443,10 @@ msgstr ""
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid ""
-"To do so, take the most out of Odoo's <strong>pricing options</strong>:<br/>"
+"To do so, take the most out of izi's <strong>pricing options</strong>:<br/>"
 msgstr ""
 "Για να το κάνετε αυτό, εκμεταλλευτείτε στο έπακρο τις <strong>επιλογές "
-"τιμολόγησης</strong> του Odoo:<br/>"
+"τιμολόγησης</strong> του izi:<br/>"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.report_shop_saleorder_document
@@ -3650,9 +3650,9 @@ msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
-msgid "You can setup 3 types of <strong>payment acquirers in Odoo:</strong>"
+msgid "You can setup 3 types of <strong>payment acquirers in izi:</strong>"
 msgstr ""
-"Μπορείτε να ορίσετε 3 τύπους <strong>Αποδεκτών Πληρωμών στο Odoo:</strong>"
+"Μπορείτε να ορίσετε 3 τύπους <strong>Αποδεκτών Πληρωμών στο izi:</strong>"
 
 #. module: website_sale
 #: model:ir.actions.act_window,help:website_sale.action_orders_ecommerce
@@ -3844,8 +3844,8 @@ msgstr "όροι &amp; προϋποθέσεις"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
-msgid "use Odoo API to import through scripts"
-msgstr "χρησιμοποιήστε το API του Odoo για εισαγωγή μέσω κώδικα"
+msgid "use izi API to import through scripts"
+msgstr "χρησιμοποιήστε το API του izi για εισαγωγή μέσω κώδικα"
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_pricelist_website_id

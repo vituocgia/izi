@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * payment
 # 
@@ -10,7 +10,7 @@
 # Sergio Flores <vitavitae1@gmail.com>, 2017
 # José Vicente <txusev@gmail.com>, 2017
 # Martin Trigaux, 2017
-# RGB Consulting <odoo@rgbconsulting.com>, 2017
+# RGB Consulting <izi@rgbconsulting.com>, 2017
 # Nicolás Broggi <rnbroggi@gmail.com>, 2017
 # Antonio Trueba, 2017
 # Alejandro Die Sanchis <marketing@domatix.com>, 2017
@@ -35,12 +35,12 @@
 # Cristóbal Martí Oliver <info@moblesmarti.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 13:43+0000\n"
 "PO-Revision-Date: 2018-02-19 13:43+0000\n"
 "Last-Translator: Cristóbal Martí Oliver <info@moblesmarti.com>, 2018\n"
-"Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
+"Language-Team: Spanish (https://www.transifex.com/izi/teams/41243/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -370,8 +370,8 @@ msgstr "Capturar transacción"
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer_capture_manually
-msgid "Capture the amount from Odoo, when the delivery is completed."
-msgstr "Capturar el importe de Odoo cuando se complete la entrega."
+msgid "Capture the amount from izi, when the delivery is completed."
+msgstr "Capturar el importe de izi cuando se complete la entrega."
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_partner_city
@@ -975,8 +975,8 @@ msgstr "Transacciones de pago"
 
 #. module: payment
 #: selection:payment.acquirer,payment_flow:0
-msgid "Payment from Odoo"
-msgstr "Pago de Odoo"
+msgid "Payment from izi"
+msgstr "Pago de izi"
 
 #. module: payment
 #: code:addons/payment/models/account_payment.py:59

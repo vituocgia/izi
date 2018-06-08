@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
-from odoo import _
-from odoo.exceptions import UserError
+from izi import _
+from izi.exceptions import UserError
 
 import logging
 

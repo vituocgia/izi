@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * web
 # 
@@ -15,12 +15,12 @@
 # 城谷 龍弥 <tatsuya.shirotani@pro-spire.co.jp>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-01-09 10:16+0000\n"
 "PO-Revision-Date: 2018-01-09 10:16+0000\n"
 "Last-Translator: 城谷 龍弥 <tatsuya.shirotani@pro-spire.co.jp>, 2018\n"
-"Language-Team: Japanese (https://www.transifex.com/odoo/teams/41243/ja/)\n"
+"Language-Team: Japanese (https://www.transifex.com/izi/teams/41243/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -235,8 +235,8 @@ msgstr "<span class=\"oe_logo_edit\">会社データを編集</span>"
 
 #. module: web
 #: model:ir.ui.view,arch_db:web.menu_secondary
-msgid "<span>Odoo</span>"
-msgstr "<span>Odoo</span>"
+msgid "<span>izi</span>"
+msgstr "<span>izi</span>"
 
 #. module: web
 #. openerp-web
@@ -1312,8 +1312,8 @@ msgstr "フォーム"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1339
 #, python-format
-msgid "Get this feature and much more with Odoo Enterprise!"
-msgstr "Odooエンタープライズ版では、この機能やその他多数の機能がご利用いただけます。"
+msgid "Get this feature and much more with izi Enterprise!"
+msgstr "iziエンタープライズ版では、この機能やその他多数の機能がご利用いただけます。"
 
 #. module: web
 #. openerp-web
@@ -1668,8 +1668,8 @@ msgstr "上に移動"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1324
 #, python-format
-msgid "My Odoo.com account"
-msgstr "Odoo.comアカウント"
+msgid "My izi.asia account"
+msgstr "izi.asiaアカウント"
 
 #. module: web
 #. openerp-web
@@ -1803,15 +1803,15 @@ msgstr "オブジェクト:"
 #. openerp-web
 #: code:addons/web/static/src/js/core/dialog.js:51
 #, python-format
-msgid "Odoo"
-msgstr "Odoo"
+msgid "izi"
+msgstr "izi"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/apps.js:148
 #, python-format
-msgid "Odoo Apps will be available soon"
-msgstr "Odooアプリがそのうち利用できるようになるかもしれません"
+msgid "izi Apps will be available soon"
+msgstr "iziアプリがそのうち利用できるようになるかもしれません"
 
 #. module: web
 #. openerp-web
@@ -1819,36 +1819,36 @@ msgstr "Odooアプリがそのうち利用できるようになるかもしれ�
 #: code:addons/web/static/src/js/chrome/abstract_web_client.js:194
 #: code:addons/web/static/src/js/services/crash_manager.js:156
 #, python-format
-msgid "Odoo Client Error"
-msgstr "Odooクライアントエラー"
+msgid "izi Client Error"
+msgstr "iziクライアントエラー"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/fields/upgrade_fields.js:86
 #, python-format
-msgid "Odoo Enterprise"
-msgstr "Odooエンタープライズ"
+msgid "izi Enterprise"
+msgstr "iziエンタープライズ"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:118
 #, python-format
-msgid "Odoo Error"
+msgid "izi Error"
 msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:58
 #, python-format
-msgid "Odoo Session Expired"
-msgstr "Odooセッションが無効になりました"
+msgid "izi Session Expired"
+msgstr "iziセッションが無効になりました"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:108
 #: code:addons/web/static/src/js/services/crash_manager.js:197
 #, python-format
-msgid "Odoo Warning"
+msgid "izi Warning"
 msgstr ""
 
 #. module: web
@@ -2063,8 +2063,8 @@ msgstr "Powered by"
 
 #. module: web
 #: model:ir.ui.view,arch_db:web.login_layout
-msgid "Powered by <span>Odoo</span>"
-msgstr "Powered by <span>Odoo</span>"
+msgid "Powered by <span>izi</span>"
+msgstr "Powered by <span>izi</span>"
 
 #. module: web
 #. openerp-web
@@ -2572,10 +2572,10 @@ msgstr ""
 #, python-format
 msgid ""
 "Timezone Mismatch : The timezone of your browser doesn't match the selected "
-"one. The time in Odoo is displayed according to your field timezone."
+"one. The time in izi is displayed according to your field timezone."
 msgstr ""
 "タイムゾーンの不一致：ブラウザのタイムゾーンが選択したタイムゾーンと一致しません。 "
-"Odooの時間は、あなたのフィールドタイムゾーンに従って表示されます。"
+"iziの時間は、あなたのフィールドタイムゾーンに従って表示されます。"
 
 #. module: web
 #. openerp-web
@@ -2916,7 +2916,7 @@ msgstr "信じられないかもしれませんが、<br />アプリケーショ
 msgid ""
 "You need to start OpenERP with at least two \n"
 "workers to print a pdf version of the reports."
-msgstr "レポートのpdf版を印刷するには、最低2人の作業者を使用してodooを起動する必要があります。"
+msgstr "レポートのpdf版を印刷するには、最低2人の作業者を使用してiziを起動する必要があります。"
 
 #. module: web
 #. openerp-web
@@ -2933,8 +2933,8 @@ msgstr ""
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:58
 #, python-format
-msgid "Your Odoo session expired. Please refresh the current web page."
-msgstr "Odooのセッションが無効になりました。画面をリフレッシュしてください。"
+msgid "Your izi session expired. Please refresh the current web page."
+msgstr "iziのセッションが無効になりました。画面をリフレッシュしてください。"
 
 #. module: web
 #. openerp-web

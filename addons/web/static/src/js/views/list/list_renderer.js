@@ -1,4 +1,4 @@
-odoo.define('web.ListRenderer', function (require) {
+izi.define('web.ListRenderer', function (require) {
 "use strict";
 
 var BasicRenderer = require('web.BasicRenderer');

@@ -1,17 +1,17 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * event
 #
 # Translators:
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux <mat@izi.asia>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-16 08:08+0000\n"
 "PO-Revision-Date: 2017-11-16 08:08+0000\n"
-"Last-Translator: Martin Trigaux <mat@odoo.com>, 2017\n"
-"Language-Team: Spanish (Bolivia) (https://www.transifex.com/odoo/teams/41243/"
+"Last-Translator: Martin Trigaux <mat@izi.asia>, 2017\n"
+"Language-Team: Spanish (Bolivia) (https://www.transifex.com/izi/teams/41243/"
 "es_BO/)\n"
 "Language: es_BO\n"
 "MIME-Version: 1.0\n"
@@ -528,7 +528,7 @@ msgstr ""
 #. module: event
 #: model:event.event,description:event.event_0
 msgid ""
-"2 technical rooms: one dedicated to advanced Odoo developers, one for new "
+"2 technical rooms: one dedicated to advanced izi developers, one for new "
 "developers."
 msgstr ""
 
@@ -1558,7 +1558,7 @@ msgstr ""
 #. module: event
 #: model:ir.actions.act_window,help:event.action_event_view
 msgid ""
-"Odoo helps you schedule and efficiently organize your events:\n"
+"izi helps you schedule and efficiently organize your events:\n"
 "    track registrations and participations, automate the confirmation "
 "emails,\n"
 "    sell tickets, etc."
@@ -2111,7 +2111,7 @@ msgstr ""
 #. module: event
 #: model:event.event,description:event.event_2
 #: model:event.event,description:event.event_3
-msgid "events@odoo.com"
+msgid "events@izi.asia"
 msgstr ""
 
 #. module: event
@@ -2128,7 +2128,7 @@ msgstr ""
 
 #. module: event
 #: model:event.event,description:event.event_3
-msgid "https://www.odoo.com/services/technical-training"
+msgid "https://www.izi.asia/services/technical-training"
 msgstr ""
 
 #. module: event

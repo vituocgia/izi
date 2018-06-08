@@ -1,4 +1,4 @@
-odoo.define('web_diagram.diagram_tests', function (require) {
+izi.define('web_diagram.diagram_tests', function (require) {
 "use strict";
 
 var DiagramView = require('web_diagram.DiagramView');

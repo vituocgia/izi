@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
-from odoo.exceptions import UserError
-from odoo.tests.common import TransactionCase
+from izi.exceptions import UserError
+from izi.tests.common import TransactionCase
 
 
 class StockMove(TransactionCase):
@@ -3398,7 +3398,7 @@ class StockMove(TransactionCase):
         # As lot1 has an older date and FIFO is set by default, it's the one that should be
         # in pack.
         self.assertEqual(len(quant_in_pack), 1)
-        from odoo.fields import Datetime
+        from izi.fields import Datetime
         self.assertEqual(quant_in_pack.in_date, Datetime.to_string(initial_in_date_lot1))
         self.assertEqual(quant_in_pack.lot_id, lot1)
 
@@ -3513,7 +3513,7 @@ class StockMove(TransactionCase):
             ('product_id', '=', self.product3.id),
         ])
         self.assertEqual(len(quants), 2)
-        from odoo.fields import Datetime
+        from izi.fields import Datetime
         for quant in quants:
             if quant.lot_id == lot1:
                 self.assertEqual(quant.in_date, Datetime.to_string(initial_in_date_lot1))

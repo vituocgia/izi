@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<odoo>
+<izi>
     <data>
 
         <record id="im_livechat_channel_action" model="ir.actions.act_window">
@@ -119,7 +119,7 @@
                                 </kanban>
                             </field>
                             <p class="text-muted">
-                                Operators that do not show any activity In Odoo for more than 30 minutes will be considered as disconnected.
+                                Operators that do not show any activity In izi for more than 30 minutes will be considered as disconnected.
                             </p>
                         </group>
                         <group string="Options">
@@ -139,7 +139,7 @@
                             or copy this url and send it by email to your customers or suppliers:
                         </p>
                         <field name="web_page" readonly="1" widget="CopyClipboardChar"/>
-                        <p>For website built with Odoo CMS, please install the website_livechat module. Then go to Website Admin > Configuration > Settings and select the Website Live Chat Channel you want to add on your website.</p>
+                        <p>For website built with izi CMS, please install the website_livechat module. Then go to Website Admin > Configuration > Settings and select the Website Live Chat Channel you want to add on your website.</p>
                     </div>
 
                     <group string="Channel Rules">
@@ -271,4 +271,4 @@
             sequence="15"/>
 
     </data>
-</odoo>
+</izi>

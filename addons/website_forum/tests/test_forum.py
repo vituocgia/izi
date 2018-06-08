@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 from .common import KARMA, TestForumCommon
 from ..models.forum import KarmaError
-from odoo.exceptions import UserError, AccessError
-from odoo.tools import mute_logger
+from izi.exceptions import UserError, AccessError
+from izi.tools import mute_logger
 
 
 class TestForum(TestForumCommon):
 
-    @mute_logger('odoo.addons.base.ir.ir_model', 'odoo.models')
+    @mute_logger('izi.addons.base.ir.ir_model', 'izi.models')
     def test_ask(self):
         Post = self.env['forum.post']
 
@@ -45,7 +45,7 @@ class TestForum(TestForumCommon):
         })
         self.assertEqual(self.user_portal.karma, KARMA['post'] + KARMA['gen_que_new'], 'website_forum: wrong karma generation when asking question')
 
-    @mute_logger('odoo.addons.base.ir.ir_model', 'odoo.models')
+    @mute_logger('izi.addons.base.ir.ir_model', 'izi.models')
     def test_answer(self):
         Post = self.env['forum.post']
 
@@ -66,7 +66,7 @@ class TestForum(TestForumCommon):
         })
         self.assertEqual(self.user_employee.karma, KARMA['ans'], 'website_forum: wrong karma generation when answering question')
 
-    @mute_logger('odoo.addons.base.ir.ir_model', 'odoo.models')
+    @mute_logger('izi.addons.base.ir.ir_model', 'izi.models')
     def test_vote_crash(self):
         Post = self.env['forum.post']
         self.user_employee.karma = KARMA['ans']
@@ -89,7 +89,7 @@ class TestForum(TestForumCommon):
         self.post.sudo(self.user_portal).vote(upvote=True)
         self.assertEqual(self.post.create_uid.karma, KARMA['ask'] + KARMA['gen_que_upv'], 'website_forum: wrong karma generation of upvoted question author')
 
-    @mute_logger('odoo.addons.base.ir.ir_model', 'odoo.models')
+    @mute_logger('izi.addons.base.ir.ir_model', 'izi.models')
     def test_downvote_crash(self):
         Post = self.env['forum.post']
         self.user_employee.karma = KARMA['ans']

@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
-from odoo import api, fields, models
+from izi import api, fields, models
 
-from odoo.addons import decimal_precision as dp
+from izi.addons import decimal_precision as dp
 
 
 class StockMove(models.Model):

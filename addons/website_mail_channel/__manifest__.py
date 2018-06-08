@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 {
     'name': 'Mailing List Archive',
     'category': 'Website',
     'description': """
-Odoo Mail Group : Mailing List Archives
+izi Mail Group : Mailing List Archives
 ==========================================
 
         """,

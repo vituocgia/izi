@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * survey
 # 
@@ -7,7 +7,7 @@
 # grazziano <gra.negocia@gmail.com>, 2017
 # Mateus Lopes <mateus1@gmail.com>, 2017
 # Luiz Carlos de Lima <luiz.carlos@akretion.com.br>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux <mat@izi.asia>, 2017
 # Rodrigo de Almeida Sottomaior Macedo <rmsolucoeseminformatic4@gmail.com>, 2017
 # Clemilton Clementino <clemylton@hotmail.com>, 2017
 # Adriel Kotviski <kotviski@gmail.com>, 2017
@@ -17,12 +17,12 @@
 # SILMAR PINHEIRO VIANA <pinheirosilmar@gmail.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: izi Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-02 11:26+0000\n"
 "PO-Revision-Date: 2017-10-02 11:26+0000\n"
 "Last-Translator: SILMAR PINHEIRO VIANA <pinheirosilmar@gmail.com>, 2017\n"
-"Language-Team: Portuguese (Brazil) (https://www.transifex.com/odoo/teams/41243/pt_BR/)\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/izi/teams/41243/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -254,8 +254,8 @@ msgstr "Um token deve ser único!"
 
 #. module: survey
 #: model:survey.page,title:survey.feedback_1
-msgid "About your Odoo usage"
-msgstr "Sobre a utilização do Odoo"
+msgid "About your izi usage"
+msgstr "Sobre a utilização do izi"
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey_active
@@ -330,8 +330,8 @@ msgstr "Arquivado"
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_1_1
-msgid "Are you using Odoo on a daily basis?"
-msgstr "Você está usando Odoo diariamente?"
+msgid "Are you using izi on a daily basis?"
+msgstr "Você está usando izi diariamente?"
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_mail_compose_message_attachment_ids
@@ -705,8 +705,8 @@ msgstr "Agrupar Por"
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_3_1
-msgid "How do you contribute or plan to contribute to Odoo?"
-msgstr "Como você contribui ou pretende contribuir com Odoo?"
+msgid "How do you contribute or plan to contribute to izi?"
+msgstr "Como você contribui ou pretende contribuir com izi?"
 
 #. module: survey
 #: model:survey.label,value:survey.choice_1_2_6
@@ -740,8 +740,8 @@ msgstr "Eu participo de discussão e fóruns"
 
 #. module: survey
 #: model:survey.label,value:survey.choice_4_1_1
-msgid "I use Github, like all official Odoo projects"
-msgstr "Eu uso Github, como todos os projetos oficiais Odoo"
+msgid "I use Github, like all official izi projects"
+msgstr "Eu uso Github, como todos os projetos oficiais izi"
 
 #. module: survey
 #: model:survey.label,value:survey.choice_4_1_2
@@ -750,8 +750,8 @@ msgstr "Eu uso um outro sistema de repositório (SourceForge ...)"
 
 #. module: survey
 #: model:survey.label,value:survey.frow_2_1_3
-msgid "I use the contextual help in Odoo"
-msgstr "Eu uso a ajuda contextual no Odoo"
+msgid "I use the contextual help in izi"
+msgstr "Eu uso a ajuda contextual no izi"
 
 #. module: survey
 #: model:survey.label,value:survey.choice_3_1_5
@@ -814,8 +814,8 @@ msgstr "Se outro, por favor especifique:"
 
 #. module: survey
 #: model:survey.page,description:survey.feedback_4
-msgid "If you do not contribute or develop in Odoo, skip this page."
-msgstr "Se você não contribui ou se desenvolve em Odoo, pule esta página."
+msgid "If you do not contribute or develop in izi, skip this page."
+msgstr "Se você não contribui ou se desenvolve em izi, pule esta página."
 
 #. module: survey
 #: model:ir.ui.view,arch_db:survey.sfinished
@@ -1782,10 +1782,10 @@ msgstr "Existem muito menus, é complexo compreender"
 #. module: survey
 #: model:survey.page,description:survey.feedback_2
 msgid ""
-"These questions relate to the ergonomy and ease of use of Odoo. Try to remind your firsts days on Odoo and\n"
+"These questions relate to the ergonomy and ease of use of izi. Try to remind your firsts days on izi and\n"
 "what have been your difficulties."
 msgstr ""
-"<p>Essas questões dizem respeito à ergonomia e facilidade de uso de Odoo. Tente lembrar seus primeiros dias no Odoo e\n"
+"<p>Essas questões dizem respeito à ergonomia e facilidade de uso de izi. Tente lembrar seus primeiros dias no izi e\n"
 "Quais foram suas dificuldades.</p>"
 
 #. module: survey
@@ -1800,8 +1800,8 @@ msgstr "Eles são úteis no uso diário"
 
 #. module: survey
 #: model:survey.label,value:survey.frow_2_2_1
-msgid "They help new users to understand Odoo"
-msgstr "Eles ajudam novos usuários a entender o Odoo"
+msgid "They help new users to understand izi"
+msgstr "Eles ajudam novos usuários a entender o izi"
 
 #. module: survey
 #: code:addons/survey/models/survey.py:544
@@ -2040,8 +2040,8 @@ msgstr "O que você acha do assistente de configuração?"
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_2_1
-msgid "What do you think about the documentation available on doc.odoo.com?"
-msgstr "O que você acha sobre a documentação disponível em doc.odoo.com?"
+msgid "What do you think about the documentation available on doc.izi.asia?"
+msgstr "O que você acha sobre a documentação disponível em doc.izi.asia?"
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_2_5
@@ -2051,10 +2051,10 @@ msgstr "O que você acha dos grupos de usuários?"
 #. module: survey
 #: model:survey.question,question:survey.feedback_2_2
 msgid ""
-"What do you think about the process views of Odoo, available in the web "
+"What do you think about the process views of izi, available in the web "
 "client ?"
 msgstr ""
-"O que você acha dos processo de vista do Odoo, disponiveis no cliente web?"
+"O que você acha dos processo de vista do izi, disponiveis no cliente web?"
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_2_4
@@ -2091,8 +2091,8 @@ msgstr "Sim, eu uso a versão 7.0, instalada localmente"
 
 #. module: survey
 #: model:survey.label,value:survey.choice_1_1_3
-msgid "Yes, I use the online version of Odoo"
-msgstr "Sim, eu uso a versão online do Odoo"
+msgid "Yes, I use the online version of izi"
+msgstr "Sim, eu uso a versão online do izi"
 
 #. module: survey
 #: model:ir.actions.act_window,help:survey.action_survey_form

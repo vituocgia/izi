@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * point_of_sale
 # 
@@ -8,12 +8,12 @@
 # Anica Milanova, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-01-08 10:30+0000\n"
 "PO-Revision-Date: 2018-01-08 10:30+0000\n"
 "Last-Translator: Anica Milanova, 2018\n"
-"Language-Team: Macedonian (https://www.transifex.com/odoo/teams/41243/mk/)\n"
+"Language-Team: Macedonian (https://www.transifex.com/izi/teams/41243/mk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1628,7 +1628,7 @@ msgstr "ID"
 #. openerp-web
 #: code:addons/point_of_sale/static/src/js/popups.js:115
 #, python-format
-msgid "IMPORTANT: Bug Report From Odoo Point Of Sale"
+msgid "IMPORTANT: Bug Report From izi Point Of Sale"
 msgstr ""
 
 #. module: point_of_sale
@@ -2103,7 +2103,7 @@ msgstr "Број на печатење"
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.customer_facing_display_html
 #: model:pos.config,customer_facing_display_html:point_of_sale.pos_config_main
-msgid "Odoo Logo"
+msgid "izi Logo"
 msgstr ""
 
 #. module: point_of_sale
@@ -3872,17 +3872,17 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config_sequence_line_id
 msgid ""
-"This sequence is automatically created by Odoo but you can change it to "
+"This sequence is automatically created by izi but you can change it to "
 "customize the reference numbers of your orders lines."
 msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config_sequence_id
 msgid ""
-"This sequence is automatically created by Odoo but you can change it to "
+"This sequence is automatically created by izi but you can change it to "
 "customize the reference numbers of your orders."
 msgstr ""
-"Оваа секвенца е автоматски креирана од Odoo но можете да ја промените за да "
+"Оваа секвенца е автоматски креирана од izi но можете да ја промените за да "
 "ги персонализирате референтните броеви на вашите нарачки."
 
 #. module: point_of_sale

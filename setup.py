@@ -8,15 +8,15 @@ from setuptools import find_packages, setup
 from os.path import join, dirname
 
 
-exec(open(join(dirname(__file__), 'odoo', 'release.py'), 'rb').read())  # Load release variables
-lib_name = 'odoo'
+exec(open(join(dirname(__file__), 'izi', 'release.py'), 'rb').read())  # Load release variables
+lib_name = 'izi'
 
 
 def py2exe_datafiles():
     data_files = {}
     data_files['Microsoft.VC90.CRT'] = glob('C:\Microsoft.VC90.CRT\*.*')
 
-    for root, dirnames, filenames in os.walk('odoo'):
+    for root, dirnames, filenames in os.walk('izi'):
         for filename in filenames:
             if not re.match(r'.*(\.pyc|\.pyo|\~)$', filename):
                 data_files.setdefault(root, []).append(join(root, filename))
@@ -59,7 +59,7 @@ def py2exe_options():
         import py2exe
         return {
             'console': [
-                {'script': 'odoo-bin', 'icon_resources': [
+                {'script': 'izi-bin', 'icon_resources': [
                     (1, join('setup', 'win32', 'static', 'pixmaps', 'openerp-icon.ico'))
                 ]},
             ],
@@ -85,7 +85,7 @@ def py2exe_options():
                         'markupsafe',
                         'mock',
                         'ofxparse',
-                        'odoo',
+                        'izi',
                         'passlib',
                         'PIL',
                         'poplib',
@@ -120,7 +120,7 @@ def py2exe_options():
 
 
 setup(
-    name='odoo',
+    name='izi',
     version=version,
     description=description,
     long_description=long_desc,
@@ -129,9 +129,9 @@ setup(
     author_email=author_email,
     classifiers=[c for c in classifiers.split('\n') if c],
     license=license,
-    scripts=['setup/odoo'],
+    scripts=['setup/izi'],
     packages=find_packages(),
-    package_dir={'%s' % lib_name: 'odoo'},
+    package_dir={'%s' % lib_name: 'izi'},
     include_package_data=True,
     install_requires=[
         'babel >= 1.0',

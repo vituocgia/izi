@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * website_sale
 # 
@@ -20,7 +20,7 @@
 # Renzo Meister, 2017
 # Andi, 2017
 # aNj <anj2j@yahoo.de>, 2017
-# Gab_Odoo <gab@odoo.com>, 2017
+# Gab_izi <gab@izi.asia>, 2017
 # JackTheHunter <Maximilian.N98@gmail.com>, 2017
 # Anja Funk <anja.funk@afimage.de>, 2017
 # Thomas Neu <t.neu@runbox.com>, 2017
@@ -39,12 +39,12 @@
 # e2f <projects@e2f.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 13:43+0000\n"
 "PO-Revision-Date: 2018-02-19 13:43+0000\n"
 "Last-Translator: e2f <projects@e2f.com>, 2018\n"
-"Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
+"Language-Team: German (https://www.transifex.com/izi/teams/41243/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -274,10 +274,10 @@ msgstr ""
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid ""
 "<span class=\"fa fa-lightbulb-o fa-2x\"/>\n"
-"                                Everything is editable in your Odoo website. Feel free to edit any page title, field or button label. Simply hit *Edit* in upper-right corner to start editing the page."
+"                                Everything is editable in your izi website. Feel free to edit any page title, field or button label. Simply hit *Edit* in upper-right corner to start editing the page."
 msgstr ""
 "<span class=\"fa fa-lightbulb-o fa-2x\"/>\n"
-"                                Alles ist editierbar in Ihrer Odoo-Website. Fühlen Sie sich frei, jeden Seitentitel, jedes Feld oder Button-Label zu bearbeiten. Drücken Sie einfach *Edit* in der oberen rechten Ecke, um die Bearbeitung der Seite zu starten."
+"                                Alles ist editierbar in Ihrer izi-Website. Fühlen Sie sich frei, jeden Seitentitel, jedes Feld oder Button-Label zu bearbeiten. Drücken Sie einfach *Edit* in der oberen rechten Ecke, um die Bearbeitung der Seite zu starten."
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
@@ -725,8 +725,8 @@ msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
-msgid "<strong>See it in action in Odoo</strong><br/>"
-msgstr "<strong>Bei Odoo in Aktion erleben</strong><br/>"
+msgid "<strong>See it in action in izi</strong><br/>"
+msgstr "<strong>Bei izi in Aktion erleben</strong><br/>"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
@@ -1928,10 +1928,10 @@ msgstr "Wenn es beim iPad funktioniert, dann auch beim iPad mini."
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid ""
 "If you deal with a major shipper (UPS, FedEx, DHL, etc.), activate the "
-"related connector in Odoo to compute accurate costs and print labels."
+"related connector in izi to compute accurate costs and print labels."
 msgstr ""
 "Wenn Sie mit einem großen Versandanbieter zusammenarbeiten (UPS, FedEx, DHL "
-"usw.), aktivieren Sie bei Odoo den entsprechenden Konnektor, um exakte "
+"usw.), aktivieren Sie bei izi den entsprechenden Konnektor, um exakte "
 "Kosten und zu berechnen und Etiketten zu drucken."
 
 #. module: website_sale
@@ -3545,9 +3545,9 @@ msgstr ""
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid ""
-"To do so, take the most out of Odoo's <strong>pricing options</strong>:<br/>"
+"To do so, take the most out of izi's <strong>pricing options</strong>:<br/>"
 msgstr ""
-"Nutzen Sie dazu die <strong>Preisoptionen</strong> von Odoo optimal:<br/>"
+"Nutzen Sie dazu die <strong>Preisoptionen</strong> von izi optimal:<br/>"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.report_shop_saleorder_document
@@ -3753,10 +3753,10 @@ msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
-msgid "You can setup 3 types of <strong>payment acquirers in Odoo:</strong>"
+msgid "You can setup 3 types of <strong>payment acquirers in izi:</strong>"
 msgstr ""
 "Sie können 3 verschiedene <strong>Arten von Zahlungsanbietern in "
-"Odoo</strong> einrichten:"
+"izi</strong> einrichten:"
 
 #. module: website_sale
 #: model:ir.actions.act_window,help:website_sale.action_orders_ecommerce
@@ -3954,8 +3954,8 @@ msgstr "Geschäftsbedingungen"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
-msgid "use Odoo API to import through scripts"
-msgstr "Verwenden Sie Odoo API, um mithilfe von Skripten zu importieren"
+msgid "use izi API to import through scripts"
+msgstr "Verwenden Sie izi API, um mithilfe von Skripten zu importieren"
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_pricelist_website_id

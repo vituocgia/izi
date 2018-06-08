@@ -1,4 +1,4 @@
-odoo.define('web.core', function (require) {
+izi.define('web.core', function (require) {
 "use strict";
 
 var Bus = require('web.Bus');
@@ -51,7 +51,7 @@ return {
     /**
      * @type {String}
      */
-    csrf_token: odoo.csrf_token,
+    csrf_token: izi.csrf_token,
     a_thing: 42,
 };
 

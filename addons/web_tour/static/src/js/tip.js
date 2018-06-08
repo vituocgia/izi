@@ -1,4 +1,4 @@
-odoo.define('web_tour.Tip', function(require) {
+izi.define('web_tour.Tip', function(require) {
 "use strict";
 
 var core = require('web.core');

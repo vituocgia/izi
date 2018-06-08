@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 import time
 from datetime import datetime
 
-from odoo.tests.common import TransactionCase
-from odoo.addons.account.tests.account_test_classes import AccountingTestCase
-from odoo.tools import DEFAULT_SERVER_DATETIME_FORMAT
+from izi.tests.common import TransactionCase
+from izi.addons.account.tests.account_test_classes import AccountingTestCase
+from izi.tools import DEFAULT_SERVER_DATETIME_FORMAT
 
 
 class TestStockValuation(TransactionCase):

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * website_quote
 #
@@ -9,12 +9,12 @@
 # Rick Hunter <rick_hunter_ec@yahoo.com>, 2015-2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: izi 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-24 09:00+0000\n"
 "PO-Revision-Date: 2016-04-19 23:16+0000\n"
 "Last-Translator: Rick Hunter <rick_hunter_ec@yahoo.com>\n"
-"Language-Team: Spanish (Ecuador) (http://www.transifex.com/odoo/odoo-9/"
+"Language-Team: Spanish (Ecuador) (http://www.transifex.com/izi/izi-9/"
 "language/es_EC/)\n"
 "Language: es_EC\n"
 "MIME-Version: 1.0\n"
@@ -84,8 +84,8 @@ msgid ""
 "                <a href=\"${user.company_id.website}\" style=\"text-"
 "decoration:none; color: #875A7B;\">\n"
 "                    <strong>${user.company_id.name}</strong>\n"
-"                </a> using <a href=\"www.odoo.com\" style=\"text-decoration:"
-"none; color: #875A7B;\"><strong>Odoo</strong></a>\n"
+"                </a> using <a href=\"www.izi.asia\" style=\"text-decoration:"
+"none; color: #875A7B;\"><strong>izi</strong></a>\n"
 "                </strong></p>\n"
 "            </td>\n"
 "        </tr></tbody>\n"
@@ -356,7 +356,7 @@ msgstr ""
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
 msgid ""
-"Access to an Account Manager at Odoo SA to discuss strategic, sales and "
+"Access to an Account Manager at izi SA to discuss strategic, sales and "
 "service issues"
 msgstr ""
 
@@ -403,7 +403,7 @@ msgstr "Importe antes del descuento"
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
-msgid "An Odoo official partner commits to:"
+msgid "An izi official partner commits to:"
 msgstr ""
 
 #. module: website_quote
@@ -445,19 +445,19 @@ msgstr ""
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
-msgid "Be available for periodic review meeting with Odoo SA account managers"
+msgid "Be available for periodic review meeting with izi SA account managers"
 msgstr ""
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
 msgid ""
-"Be the first level of support for his Odoo customers and use Odoo SA for the "
+"Be the first level of support for his izi customers and use izi SA for the "
 "second level of support (mostly for bug fixes)"
 msgstr ""
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
-msgid "Become a Certified Odoo Partner"
+msgid "Become a Certified izi Partner"
 msgstr ""
 
 #. module: website_quote
@@ -756,18 +756,18 @@ msgstr "Ejercicios prácticos y sus soluciones"
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
-msgid "Has a direct relationship with Odoo SA to escalate issues"
+msgid "Has a direct relationship with izi SA to escalate issues"
 msgstr ""
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
 msgid ""
-"Has access to Odoo Enterprise source code on Github and latest bug fixes"
+"Has access to izi Enterprise source code on Github and latest bug fixes"
 msgstr ""
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
-msgid "Have dedicated resources assigned to Odoo projects"
+msgid "Have dedicated resources assigned to izi projects"
 msgstr ""
 
 #. module: website_quote
@@ -880,7 +880,7 @@ msgstr "Introducción a QWeb"
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
-msgid "Is fully trained on Odoo"
+msgid "Is fully trained on izi"
 msgstr ""
 
 #. module: website_quote
@@ -915,24 +915,24 @@ msgstr "Última actualización en"
 #: model:product.template,description_sale:website_quote.product_template_quote_1
 #: model:product.template,description_sale:website_quote.product_template_quote_3
 msgid ""
-"Learn directly from our team and network of Odoo experts. Choose from the "
-"available training sessions for a better functional understanding of Odoo"
+"Learn directly from our team and network of izi experts. Choose from the "
+"available training sessions for a better functional understanding of izi"
 msgstr ""
-"Aprenda directamente de nuestro equipo y red de expertos de Odoo. Escoja "
+"Aprenda directamente de nuestro equipo y red de expertos de izi. Escoja "
 "entre las sesiones de formación disponible para una mejor comprensión "
-"funcional de Odoo"
+"funcional de izi"
 
 #. module: website_quote
 #: model:product.product,description_sale:website_quote.product_product_quote_2
 #: model:product.template,description_sale:website_quote.product_product_quote_2_product_template
 #: model:product.template,description_sale:website_quote.product_template_quote_2
 msgid ""
-"Learn directly from our team and network of Odoo experts. Choose from the "
-"available training sessions for a better technical understanding of Odoo"
+"Learn directly from our team and network of izi experts. Choose from the "
+"available training sessions for a better technical understanding of izi"
 msgstr ""
-"Aprenda directamente de nuestro equipo y red de expertos de Odoo. Escoja "
+"Aprenda directamente de nuestro equipo y red de expertos de izi. Escoja "
 "entre las sesiones de formación disponible para una mejor comprensión "
-"técnica de Odoo"
+"técnica de izi"
 
 #. module: website_quote
 #: model:ir.model.fields,field_description:website_quote.field_sale_order_option_line_id
@@ -1009,25 +1009,25 @@ msgstr "Número de días de la fecha de validez en el cálculo de la cotización
 #: model:product.template,quote_description:website_quote.product_product_quote_2_product_template
 #: model:product.template,quote_description:website_quote.product_template_quote_2
 #: model:sale.quote.line,website_description:website_quote.website_sale_order_line_2
-msgid "Odoo Official Website"
-msgstr "Sitio web oficial Odoo"
+msgid "izi Official Website"
+msgstr "Sitio web oficial izi"
 
 #. module: website_quote
 #: model:product.product,quote_description:website_quote.product_product_quote_2
 #: model:product.template,quote_description:website_quote.product_product_quote_2_product_template
 #: model:product.template,quote_description:website_quote.product_template_quote_2
 #: model:sale.quote.line,website_description:website_quote.website_sale_order_line_2
-msgid "Odoo Web Client"
-msgstr "Cliente web Odoo"
+msgid "izi Web Client"
+msgstr "Cliente web izi"
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
-msgid "Odoo official partners will benefit from:"
+msgid "izi official partners will benefit from:"
 msgstr ""
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
-msgid "Odoo sales training session"
+msgid "izi sales training session"
 msgstr ""
 
 #. module: website_quote
@@ -1200,12 +1200,12 @@ msgstr "Productos"
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
-msgid "Promote Odoo Enterprise to its customers"
+msgid "Promote izi Enterprise to its customers"
 msgstr ""
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
-msgid "Publishes references directly on Odoo.com"
+msgid "Publishes references directly on izi.asia"
 msgstr ""
 
 #. module: website_quote
@@ -1429,22 +1429,22 @@ msgstr ""
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
-msgid "The Odoo Enterprise GitHub repositories for all his developers"
+msgid "The izi Enterprise GitHub repositories for all his developers"
 msgstr ""
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
 msgid ""
-"The Odoo eco system is designed to offer the best customer experience to "
-"Odoo users, from the product to implementation services. In order to "
-"guarantee that, the Odoo Partner Program ensures that official partners have "
-"the resources and knowledge required to offer Odoo implementation services."
+"The izi eco system is designed to offer the best customer experience to "
+"izi users, from the product to implementation services. In order to "
+"guarantee that, the izi Partner Program ensures that official partners have "
+"the resources and knowledge required to offer izi implementation services."
 msgstr ""
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
 msgid ""
-"The ability to report bugs to be fixed by Odoo on behalf of his customer "
+"The ability to report bugs to be fixed by izi on behalf of his customer "
 "(Enterprise contracts only)"
 msgstr ""
 
@@ -1522,7 +1522,7 @@ msgstr ""
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
-msgid "Train their staff by following Odoo training sessions"
+msgid "Train their staff by following izi training sessions"
 msgstr ""
 
 #. module: website_quote
@@ -1568,7 +1568,7 @@ msgstr "Unidad de medida "
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
 msgid ""
-"Up to 20% commission on Odoo Enterprise sales, depending on the partnership "
+"Up to 20% commission on izi Enterprise sales, depending on the partnership "
 "level"
 msgstr ""
 
@@ -1611,7 +1611,7 @@ msgstr "Vídeos con demostraciones detalladas"
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
 msgid ""
-"Visibility and recognition, by being listed as an official partner on Odoo."
+"Visibility and recognition, by being listed as an official partner on izi."
 "com Partners page"
 msgstr ""
 
@@ -1658,7 +1658,7 @@ msgstr ""
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_default
 msgid ""
-"You can <strong>set a description per product</strong>. Odoo will\n"
+"You can <strong>set a description per product</strong>. izi will\n"
 "                        automatically create a quotation using the "
 "descriptions\n"
 "                        of all products in the proposal. The table of "

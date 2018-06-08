@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * hr
 # 
@@ -16,12 +16,12 @@
 # Umur Akın <umura@projetgrup.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 13:43+0000\n"
 "PO-Revision-Date: 2018-02-19 13:43+0000\n"
 "Last-Translator: Umur Akın <umura@projetgrup.com>, 2018\n"
-"Language-Team: Turkish (https://www.transifex.com/odoo/teams/41243/tr/)\n"
+"Language-Team: Turkish (https://www.transifex.com/izi/teams/41243/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -338,8 +338,8 @@ msgstr "Açık bir iletişim stratejisi tanımlayın"
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_consultant
-msgid "Deliver generic Odoo functional training sessions"
-msgstr "Genel Odoo işlevsel eğitim oturum sununları"
+msgid "Deliver generic izi functional training sessions"
+msgstr "Genel izi işlevsel eğitim oturum sununları"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_department_id
@@ -861,11 +861,11 @@ msgstr "İşe alınacak yeni personel sayısı."
 #. module: hr
 #: model:ir.actions.act_window,help:hr.open_module_tree_department
 msgid ""
-"Odoo's department structure is used to manage all documents\n"
+"izi's department structure is used to manage all documents\n"
 "                related to employees by departments: expenses, timesheets,\n"
 "                leaves, recruitments, etc."
 msgstr ""
-"Odoo'nun departman yapısı ilişkili çalışanların bütün\n"
+"izi'nun departman yapısı ilişkili çalışanların bütün\n"
 "                bilgilerini yönetmeniz için kullanılır: giderler, zaman çizelgeleri,\n"
 "                masraflar, işe alım, vb."
 
@@ -1309,11 +1309,11 @@ msgstr "Profesyonel Servisler Başkanına raporlanacak."
 #: model:ir.actions.act_window,help:hr.act_employee_from_department
 #: model:ir.actions.act_window,help:hr.open_view_employee_list_my
 msgid ""
-"With just a quick glance on the Odoo employee screen, you\n"
+"With just a quick glance on the izi employee screen, you\n"
 "                can easily find all the information you need for each person;\n"
 "                contact data, job position, availability, etc."
 msgstr ""
-"Odoo personel ekranına hızlıca göz atarak, \n"
+"izi personel ekranına hızlıca göz atarak, \n"
 "                herkesle ilgili bilgileri kolayca bulabilirsiniz;\n"
 "                kontak bilgisi, iş posizyonu, contact data, job position, müsaitlik, vb."
 

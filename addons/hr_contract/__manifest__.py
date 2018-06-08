@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'Employee Contracts',
@@ -16,7 +16,7 @@ Add all information on the employee form to manage contracts.
 
 You can assign several contracts per employee.
     """,
-    'website': 'https://www.odoo.com/page/employees',
+    'website': 'https://www.izi.asia/page/employees',
     'depends': ['hr'],
     'data': [
         'security/ir.model.access.csv',

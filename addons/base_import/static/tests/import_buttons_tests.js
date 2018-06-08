@@ -1,4 +1,4 @@
-odoo.define('web.base_import_tests', function (require) {
+izi.define('web.base_import_tests', function (require) {
 "use strict";
 
 var KanbanView = require('web.KanbanView');

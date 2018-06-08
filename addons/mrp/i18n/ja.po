@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * mrp
 # 
@@ -17,12 +17,12 @@
 # Masako Ogawa <masako.ogawa@pro-spire.co.jp>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 13:42+0000\n"
 "PO-Revision-Date: 2018-02-19 13:42+0000\n"
 "Last-Translator: Masako Ogawa <masako.ogawa@pro-spire.co.jp>, 2018\n"
-"Language-Team: Japanese (https://www.transifex.com/odoo/teams/41243/ja/)\n"
+"Language-Team: Japanese (https://www.transifex.com/izi/teams/41243/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1884,10 +1884,10 @@ msgstr "パーセンテージでのOEEターゲット"
 #. module: mrp
 #: model:ir.actions.act_window,help:mrp.mrp_bom_form_action
 msgid ""
-"Odoo uses these BoMs to automatically propose manufacturing\n"
+"izi uses these BoMs to automatically propose manufacturing\n"
 "                orders according to procurement needs."
 msgstr ""
-"Odooはこれらの部品表を自動的に調達ニーズに応じて製造指図を\n"
+"iziはこれらの部品表を自動的に調達ニーズに応じて製造指図を\n"
 "提案するために使用しています。"
 
 #. module: mrp

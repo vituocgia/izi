@@ -1,4 +1,4 @@
-odoo.define('web_editor.rte', function (require) {
+izi.define('web_editor.rte', function (require) {
 'use strict';
 
 var concurrency = require('web.concurrency');
@@ -281,7 +281,7 @@ var RTEWidget = Widget.extend({
         .each(function () {
             var $node = $(this);
 
-            // fallback for firefox iframe display:none see https://github.com/odoo/odoo/pull/22610
+            // fallback for firefox iframe display:none see https://github.com/izi/izi/pull/22610
             var computedStyles = window.getComputedStyle(this) || window.parent.getComputedStyle(this);
             // add class to display inline-block for empty t-field
             if (computedStyles.display === 'inline' && $node.data('oe-type') !== 'image') {
@@ -514,7 +514,7 @@ var RTEWidget = Widget.extend({
             ],
             'styleWithSpan': false,
             'inlinemedia' : ['p'],
-            'lang': 'odoo',
+            'lang': 'izi',
             'onChange': function (html, $editable) {
                 $editable.trigger('content_changed');
             }

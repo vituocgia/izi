@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 from psycopg2 import OperationalError, Error
 
-from odoo import api, fields, models, _
-from odoo.exceptions import UserError, ValidationError
-from odoo.osv import expression
-from odoo.tools.float_utils import float_compare, float_is_zero
+from izi import api, fields, models, _
+from izi.exceptions import UserError, ValidationError
+from izi.osv import expression
+from izi.tools.float_utils import float_compare, float_is_zero
 
 import logging
 

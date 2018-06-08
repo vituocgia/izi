@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * survey
 # 
@@ -7,7 +7,7 @@
 # Wahyu Setiawan <wahyusetiaaa@gmail.com>, 2017
 # William Surya Permana <zarambie_game@yahoo.com>, 2017
 # Edy Kend <edy@azmall.co.id>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux <mat@izi.asia>, 2017
 # oon arfiandwi (OonID) <oon.arfiandwi@gmail.com>, 2017
 # Deddy Ddr <deddy.ddr@gmail.com>, 2017
 # Febrasari Almania <febrasari.almania@gmail.com>, 2017
@@ -17,12 +17,12 @@
 # Ryanto The <ry.the77@gmail.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: izi Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-02 11:26+0000\n"
 "PO-Revision-Date: 2017-10-02 11:26+0000\n"
 "Last-Translator: Ryanto The <ry.the77@gmail.com>, 2017\n"
-"Language-Team: Indonesian (https://www.transifex.com/odoo/teams/41243/id/)\n"
+"Language-Team: Indonesian (https://www.transifex.com/izi/teams/41243/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -226,8 +226,8 @@ msgstr "Tanda harus unik!"
 
 #. module: survey
 #: model:survey.page,title:survey.feedback_1
-msgid "About your Odoo usage"
-msgstr "Tentang penggunaan Odoo Anda"
+msgid "About your izi usage"
+msgstr "Tentang penggunaan izi Anda"
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_survey_active
@@ -302,8 +302,8 @@ msgstr "Diarsipkan"
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_1_1
-msgid "Are you using Odoo on a daily basis?"
-msgstr "Apakah Anda menggunakan Odoo setiap hari?"
+msgid "Are you using izi on a daily basis?"
+msgstr "Apakah Anda menggunakan izi setiap hari?"
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_mail_compose_message_attachment_ids
@@ -679,9 +679,9 @@ msgstr "Dikelompokkan berdasarkan"
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_3_1
-msgid "How do you contribute or plan to contribute to Odoo?"
+msgid "How do you contribute or plan to contribute to izi?"
 msgstr ""
-"<p>Jika Anda tidak memberikan kontribusi atau mengembangkan di Odoo, "
+"<p>Jika Anda tidak memberikan kontribusi atau mengembangkan di izi, "
 "melewati halaman ini.</p>"
 
 #. module: survey
@@ -716,7 +716,7 @@ msgstr "Saya ikut diskusi dan forum"
 
 #. module: survey
 #: model:survey.label,value:survey.choice_4_1_1
-msgid "I use Github, like all official Odoo projects"
+msgid "I use Github, like all official izi projects"
 msgstr ""
 
 #. module: survey
@@ -726,8 +726,8 @@ msgstr "Saya menggunakan sistem repositori lain (SourceForge ...)"
 
 #. module: survey
 #: model:survey.label,value:survey.frow_2_1_3
-msgid "I use the contextual help in Odoo"
-msgstr "Saya menggunakan bantuan kontekstual di Odoo"
+msgid "I use the contextual help in izi"
+msgstr "Saya menggunakan bantuan kontekstual di izi"
 
 #. module: survey
 #: model:survey.label,value:survey.choice_3_1_5
@@ -788,7 +788,7 @@ msgstr "Jika tidak ada, silahkan sebutkan:"
 
 #. module: survey
 #: model:survey.page,description:survey.feedback_4
-msgid "If you do not contribute or develop in Odoo, skip this page."
+msgid "If you do not contribute or develop in izi, skip this page."
 msgstr ""
 
 #. module: survey
@@ -1759,7 +1759,7 @@ msgstr "Ada terlalu banyak menu, itu kompleks untuk memahami"
 #. module: survey
 #: model:survey.page,description:survey.feedback_2
 msgid ""
-"These questions relate to the ergonomy and ease of use of Odoo. Try to remind your firsts days on Odoo and\n"
+"These questions relate to the ergonomy and ease of use of izi. Try to remind your firsts days on izi and\n"
 "what have been your difficulties."
 msgstr ""
 
@@ -1775,8 +1775,8 @@ msgstr "Mereka berguna pada penggunaan sehari-hari"
 
 #. module: survey
 #: model:survey.label,value:survey.frow_2_2_1
-msgid "They help new users to understand Odoo"
-msgstr "Mereka membantu pengguna baru memahami Odoo"
+msgid "They help new users to understand izi"
+msgstr "Mereka membantu pengguna baru memahami izi"
 
 #. module: survey
 #: code:addons/survey/models/survey.py:544
@@ -2011,7 +2011,7 @@ msgstr "Apa pendapat Anda tentang penyihir konfigurasi?"
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_2_1
-msgid "What do you think about the documentation available on doc.odoo.com?"
+msgid "What do you think about the documentation available on doc.izi.asia?"
 msgstr ""
 
 #. module: survey
@@ -2022,10 +2022,10 @@ msgstr "Apa pendapat Anda tentang kelompok pengguna?"
 #. module: survey
 #: model:survey.question,question:survey.feedback_2_2
 msgid ""
-"What do you think about the process views of Odoo, available in the web "
+"What do you think about the process views of izi, available in the web "
 "client ?"
 msgstr ""
-"Apa pendapat Anda tentang pandangan proses Odoo, tersedia dalam klien web?"
+"Apa pendapat Anda tentang pandangan proses izi, tersedia dalam klien web?"
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_2_4
@@ -2062,8 +2062,8 @@ msgstr "Ya, saya menggunakan versi 7.0, yang diinstal secara lokal"
 
 #. module: survey
 #: model:survey.label,value:survey.choice_1_1_3
-msgid "Yes, I use the online version of Odoo"
-msgstr "Ya, saya menggunakan versi online Odoo"
+msgid "Yes, I use the online version of izi"
+msgstr "Ya, saya menggunakan versi online izi"
 
 #. module: survey
 #: model:ir.actions.act_window,help:survey.action_survey_form

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 import datetime
 import werkzeug
@@ -7,15 +7,15 @@ import werkzeug
 from collections import OrderedDict
 from werkzeug.exceptions import NotFound
 
-from odoo import fields
-from odoo import http
-from odoo.http import request
-from odoo.addons.http_routing.models.ir_http import slug, unslug
-from odoo.addons.website.models.ir_http import sitemap_qs2dom
-from odoo.addons.portal.controllers.portal import CustomerPortal
-from odoo.addons.website_partner.controllers.main import WebsitePartnerPage
+from izi import fields
+from izi import http
+from izi.http import request
+from izi.addons.http_routing.models.ir_http import slug, unslug
+from izi.addons.website.models.ir_http import sitemap_qs2dom
+from izi.addons.portal.controllers.portal import CustomerPortal
+from izi.addons.website_partner.controllers.main import WebsitePartnerPage
 
-from odoo.tools.translate import _
+from izi.tools.translate import _
 
 
 class WebsiteAccount(CustomerPortal):

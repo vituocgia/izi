@@ -1,4 +1,4 @@
-odoo.define('web.data_export_tests', function (require) {
+izi.define('web.data_export_tests', function (require) {
 "use strict";
 
 var framework = require('web.framework');

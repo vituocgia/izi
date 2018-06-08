@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 try:
     from unittest.mock import patch
 except ImportError:
     from mock import patch
-from odoo.tests.common import TransactionCase
+from izi.tests.common import TransactionCase
 
 
 class TestWebsitePriceList(TransactionCase):
@@ -38,7 +38,7 @@ class TestWebsitePriceList(TransactionCase):
             'country_group_ids': [(6, 0, [ca_group.id])],
             'sequence': 10
         })
-        patcher = patch('odoo.addons.website_sale.models.website.Website.get_pricelist_available', wraps=self._get_pricelist_available)
+        patcher = patch('izi.addons.website_sale.models.website.Website.get_pricelist_available', wraps=self._get_pricelist_available)
         patcher.start()
         self.addCleanup(patcher.stop)
 

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'CRM',
@@ -8,7 +8,7 @@
     'sequence': 5,
     'summary': 'Leads, Opportunities, Activities',
     'description': "",
-    'website': 'https://www.odoo.com/page/crm',
+    'website': 'https://www.izi.asia/page/crm',
     'depends': [
         'base_setup',
         'sales_team',

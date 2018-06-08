@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 import random
 
-from odoo import api, fields, models, _
-from odoo.addons.base_geolocalize.models.res_partner import geo_find, geo_query_address
-from odoo.exceptions import AccessDenied
+from izi import api, fields, models, _
+from izi.addons.base_geolocalize.models.res_partner import geo_find, geo_query_address
+from izi.exceptions import AccessDenied
 
 class CrmLead(models.Model):
     _inherit = "crm.lead"

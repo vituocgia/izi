@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 from collections import deque
 import json
 
-from odoo import http
-from odoo.http import request
-from odoo.tools import ustr
-from odoo.tools.misc import xlwt
+from izi import http
+from izi.http import request
+from izi.tools import ustr
+from izi.tools.misc import xlwt
 
 
 class TableExporter(http.Controller):

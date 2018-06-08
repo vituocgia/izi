@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 import logging
 import threading
 
-from odoo.tools.misc import split_every
+from izi.tools.misc import split_every
 
-from odoo import _, api, fields, models, registry, SUPERUSER_ID
-from odoo.osv import expression
+from izi import _, api, fields, models, registry, SUPERUSER_ID
+from izi.osv import expression
 
 _logger = logging.getLogger(__name__)
 

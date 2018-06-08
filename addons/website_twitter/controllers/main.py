@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 import json
-from odoo import _
-from odoo import http
-from odoo.http import request
+from izi import _
+from izi import http
+from izi.http import request
 
 
 class Twitter(http.Controller):

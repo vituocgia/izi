@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'Website Sale Stock&Options',
     'category': 'Website',
     'description': """
-Odoo E-Commerce
+izi E-Commerce
 ==================
 Adds stock limitations on products options.
 """,

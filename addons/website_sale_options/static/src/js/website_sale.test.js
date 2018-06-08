@@ -1,4 +1,4 @@
-odoo.define('website_sale.test', function (require) {
+izi.define('website_sale.test', function (require) {
 'use strict';
 
 require("website_sale.tour");
@@ -52,7 +52,7 @@ tour.register('shop_customize', {
             run: function() {
                 // ENABLE VARIANT GROUP
                 $('body').addClass('notReady');
-                var ajax = odoo.__DEBUG__.services['web.ajax'];
+                var ajax = izi.__DEBUG__.services['web.ajax'];
                 var get_group_payload = {
                     model: 'ir.model.data',
                     method: 'xmlid_to_res_id',

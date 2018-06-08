@@ -8,7 +8,7 @@ Web Services
 .. toctree::
     :titlesonly:
 
-    webservices/odoo
+    webservices/izi
     webservices/iap
     webservices/upgrade
     webservices/localization

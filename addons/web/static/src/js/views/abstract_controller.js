@@ -1,9 +1,9 @@
-odoo.define('web.AbstractController', function (require) {
+izi.define('web.AbstractController', function (require) {
 "use strict";
 
 /**
  * The Controller class is the class coordinating the model and the renderer.
- * It is the C in MVC, and is what was formerly known in Odoo as a View.
+ * It is the C in MVC, and is what was formerly known in izi as a View.
  *
  * Its role is to listen to events bubbling up from the model/renderer, and call
  * the appropriate methods if necessary.  It also render control panel buttons,
@@ -157,7 +157,7 @@ var AbstractController = Widget.extend({
      *
      * Note that there is no guarantee that this method will be called. The
      * controller is supposed to work even without a view manager, for example
-     * in the frontend (odoo frontend = public website)
+     * in the frontend (izi frontend = public website)
      *
      * @param {jQuery Node} $node
      */
@@ -260,7 +260,7 @@ var AbstractController = Widget.extend({
     //--------------------------------------------------------------------------
 
     /**
-     * When an Odoo event arrives requesting a record to be opened, this method
+     * When an izi event arrives requesting a record to be opened, this method
      * gets the res_id, and request a switch view in the appropriate mode
      *
      * Note: this method seems wrong, it relies on the model being a basic model,
@@ -268,7 +268,7 @@ var AbstractController = Widget.extend({
      * @todo move this to basic controller? or view manager
      *
      * @private
-     * @param {OdooEvent} event
+     * @param {iziEvent} event
      * @param {number} event.data.id The local model ID for the record to be
      *   opened
      * @param {string} [event.data.mode='readonly']
@@ -288,7 +288,7 @@ var AbstractController = Widget.extend({
      * do the action. This kind of links is used a lot in no-content helpers.
      *
      * @private
-     * @param {OdooEvent} event
+     * @param {iziEvent} event
      */
     _onActionClicked: function (event) {
         event.preventDefault();

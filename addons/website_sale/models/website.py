@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 import logging
 
-from odoo import api, fields, models, tools
+from izi import api, fields, models, tools
 
-from odoo.http import request
+from izi.http import request
 
 _logger = logging.getLogger(__name__)
 
@@ -82,7 +82,7 @@ class Website(models.Model):
             if self.env.context.get('website_id'):
                 website = self.browse(self.env.context['website_id'])
             else:
-                # In the weird case we are coming from the backend (https://github.com/odoo/odoo/issues/20245)
+                # In the weird case we are coming from the backend (https://github.com/izi/izi/issues/20245)
                 website = len(self) == 1 and self or self.search([], limit=1)
         isocountry = request and request.session.geoip and request.session.geoip.get('country_code') or False
         partner = self.env.user.partner_id

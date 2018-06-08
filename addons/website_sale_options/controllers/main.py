@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
-from odoo import http
-from odoo.http import request
-from odoo.addons.website_sale.controllers.main import WebsiteSale
+from izi import http
+from izi.http import request
+from izi.addons.website_sale.controllers.main import WebsiteSale
 
 
 class WebsiteSaleOptions(WebsiteSale):

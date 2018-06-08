@@ -1,4 +1,4 @@
-odoo.define('web.field_utils', function (require) {
+izi.define('web.field_utils', function (require) {
 "use strict";
 
 /**

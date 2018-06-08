@@ -1,4 +1,4 @@
-odoo.define('web.search_tests', function (require) {
+izi.define('web.search_tests', function (require) {
 "use strict";
 
 var SearchView = require('web.SearchView');

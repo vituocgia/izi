@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 import babel.messages.pofile
 import base64
@@ -31,20 +31,20 @@ from xml.etree import ElementTree
 import unicodedata
 
 
-import odoo
-import odoo.modules.registry
-from odoo.api import call_kw, Environment
-from odoo.modules import get_resource_path
-from odoo.tools import crop_image, topological_sort, html_escape, pycompat
-from odoo.tools.translate import _
-from odoo.tools.misc import str2bool, xlwt, file_open
-from odoo.tools.safe_eval import safe_eval
-from odoo import http
-from odoo.http import content_disposition, dispatch_rpc, request, \
+import izi
+import izi.modules.registry
+from izi.api import call_kw, Environment
+from izi.modules import get_resource_path
+from izi.tools import crop_image, topological_sort, html_escape, pycompat
+from izi.tools.translate import _
+from izi.tools.misc import str2bool, xlwt, file_open
+from izi.tools.safe_eval import safe_eval
+from izi import http
+from izi.http import content_disposition, dispatch_rpc, request, \
     serialize_exception as _serialize_exception, Response
-from odoo.exceptions import AccessError, UserError
-from odoo.models import check_method_name
-from odoo.service import db
+from izi.exceptions import AccessError, UserError
+from izi.models import check_method_name
+from izi.service import db
 
 _logger = logging.getLogger(__name__)
 
@@ -53,7 +53,7 @@ if hasattr(sys, 'frozen'):
     path = os.path.realpath(os.path.join(os.path.dirname(__file__), '..', 'views'))
     loader = jinja2.FileSystemLoader(path)
 else:
-    loader = jinja2.PackageLoader('odoo.addons.web', "views")
+    loader = jinja2.PackageLoader('izi.addons.web', "views")
 
 env = jinja2.Environment(loader=loader, autoescape=True)
 env.filters["json"] = json.dumps
@@ -64,7 +64,7 @@ BUNDLE_MAXAGE = 60 * 60 * 24 * 7
 DBNAME_PATTERN = '^[a-zA-Z0-9][a-zA-Z0-9_.-]+$'
 
 #----------------------------------------------------------
-# Odoo Web helpers
+# izi Web helpers
 #----------------------------------------------------------
 
 db_list = http.db_list
@@ -81,7 +81,7 @@ def serialize_exception(f):
             se = _serialize_exception(e)
             error = {
                 'code': 200,
-                'message': "Odoo Server Error",
+                'message': "izi Server Error",
                 'data': se
             }
             return werkzeug.exceptions.InternalServerError(json.dumps(error))
@@ -169,16 +169,16 @@ def module_installed(environment):
 
 def module_installed_bypass_session(dbname):
     try:
-        registry = odoo.registry(dbname)
+        registry = izi.registry(dbname)
         with registry.cursor() as cr:
             return module_installed(
-                environment=Environment(cr, odoo.SUPERUSER_ID, {}))
+                environment=Environment(cr, izi.SUPERUSER_ID, {}))
     except Exception:
         pass
     return {}
 
 def module_boot(db=None):
-    server_wide_modules = odoo.conf.server_wide_modules or ['web']
+    server_wide_modules = izi.conf.server_wide_modules or ['web']
     serverside = []
     dbside = []
     for i in server_wide_modules:
@@ -255,7 +255,7 @@ def manifest_list(extension, mods=None, db=None, debug=None):
     db: a database name (return all installed modules in that database)
     """
     if debug is not None:
-        _logger.warning("odoo.addons.web.main.manifest_list(): debug parameter is deprecated")
+        _logger.warning("izi.addons.web.main.manifest_list(): debug parameter is deprecated")
     files = manifest_glob(extension, addons=mods, db=db, include_remotes=True)
     return [wp for _fp, wp in files]
 
@@ -350,7 +350,7 @@ def generate_views(action):
     action['views'] = [(view_id, view_modes[0])]
 
 def fix_view_modes(action):
-    """ For historical reasons, Odoo has weird dealings in relation to
+    """ For historical reasons, izi has weird dealings in relation to
     view_mode and the view_type attribute (on window actions):
 
     * one of the view modes is ``tree``, which stands for both list views
@@ -431,7 +431,7 @@ def binary_content(xmlid=None, model='ir.attachment', id=None, field='datas', un
         default_mimetype=default_mimetype, access_token=access_token, env=env)
 
 #----------------------------------------------------------
-# Odoo Web web Controllers
+# izi Web web Controllers
 #----------------------------------------------------------
 class Home(http.Controller):
 
@@ -473,12 +473,12 @@ class Home(http.Controller):
             return http.redirect_with_hash(redirect)
 
         if not request.uid:
-            request.uid = odoo.SUPERUSER_ID
+            request.uid = izi.SUPERUSER_ID
 
         values = request.params.copy()
         try:
             values['databases'] = http.db_list()
-        except odoo.exceptions.AccessDenied:
+        except izi.exceptions.AccessDenied:
             values['databases'] = None
 
         if request.httprequest.method == 'POST':
@@ -496,7 +496,7 @@ class Home(http.Controller):
         if 'login' not in values and request.session.get('auth_login'):
             values['login'] = request.session.get('auth_login')
 
-        if not odoo.tools.config['list_db']:
+        if not izi.tools.config['list_db']:
             values['disable_database_manager'] = True
 
         response = request.render('web.login', values)
@@ -610,7 +610,7 @@ class WebClient(http.Controller):
 
     @http.route('/web/webclient/version_info', type='json', auth="none")
     def version_info(self):
-        return odoo.service.common.exp_version()
+        return izi.service.common.exp_version()
 
     @http.route('/web/tests', type='http', auth="user")
     def test_suite(self, mod=None, **kwargs):
@@ -662,17 +662,17 @@ class Database(http.Controller):
 
     def _render_template(self, **d):
         d.setdefault('manage',True)
-        d['insecure'] = odoo.tools.config.verify_admin_password('admin')
-        d['list_db'] = odoo.tools.config['list_db']
-        d['langs'] = odoo.service.db.exp_list_lang()
-        d['countries'] = odoo.service.db.exp_list_countries()
+        d['insecure'] = izi.tools.config.verify_admin_password('admin')
+        d['list_db'] = izi.tools.config['list_db']
+        d['langs'] = izi.service.db.exp_list_lang()
+        d['countries'] = izi.service.db.exp_list_countries()
         d['pattern'] = DBNAME_PATTERN
         # databases list
         d['databases'] = []
         try:
             d['databases'] = http.db_list()
-            d['incompatible_databases'] = odoo.service.db.list_db_incompatible(d['databases'])
-        except odoo.exceptions.AccessDenied:
+            d['incompatible_databases'] = izi.service.db.list_db_incompatible(d['databases'])
+        except izi.exceptions.AccessDenied:
             monodb = db_monodb()
             if monodb:
                 d['databases'] = [monodb]
@@ -726,14 +726,14 @@ class Database(http.Controller):
     @http.route('/web/database/backup', type='http', auth="none", methods=['POST'], csrf=False)
     def backup(self, master_pwd, name, backup_format = 'zip'):
         try:
-            odoo.service.db.check_super(master_pwd)
+            izi.service.db.check_super(master_pwd)
             ts = datetime.datetime.utcnow().strftime("%Y-%m-%d_%H-%M-%S")
             filename = "%s_%s.%s" % (name, ts, backup_format)
             headers = [
                 ('Content-Type', 'application/octet-stream; charset=binary'),
                 ('Content-Disposition', content_disposition(filename)),
             ]
-            dump_stream = odoo.service.db.dump_db(name, None, backup_format)
+            dump_stream = izi.service.db.dump_db(name, None, backup_format)
             response = werkzeug.wrappers.Response(dump_stream, headers=headers, direct_passthrough=True)
             return response
         except Exception as e:
@@ -811,7 +811,7 @@ class Session(http.Controller):
     @http.route('/web/session/modules', type='json', auth="user")
     def modules(self):
         # return all installed modules. Web client is smart enough to not load a module twice
-        return module_installed(environment=request.env(user=odoo.SUPERUSER_ID))
+        return module_installed(environment=request.env(user=izi.SUPERUSER_ID))
 
     @http.route('/web/session/save_session_action', type='json', auth="user")
     def save_session_action(self, the_action):
@@ -854,7 +854,7 @@ class Session(http.Controller):
             'state': json.dumps({'d': request.db, 'u': ICP.get_param('web.base.url')}),
             'scope': 'userinfo',
         }
-        return 'https://accounts.odoo.com/oauth2/auth?' + werkzeug.url_encode(params)
+        return 'https://accounts.izi.asia/oauth2/auth?' + werkzeug.url_encode(params)
 
     @http.route('/web/session/destroy', type='json', auth="user")
     def destroy(self):
@@ -1063,7 +1063,7 @@ class Binary(http.Controller):
                 width = 500
             if height > 500:
                 height = 500
-            content = odoo.tools.image_resize_image(base64_source=content, size=(width or None, height or None), encoding='base64', filetype='PNG')
+            content = izi.tools.image_resize_image(base64_source=content, size=(width or None, height or None), encoding='base64', filetype='PNG')
             # resize force png as filetype
             headers = self.force_contenttype(headers, contenttype='image/png')
 
@@ -1158,14 +1158,14 @@ class Binary(http.Controller):
             dbname = db_monodb()
 
         if not uid:
-            uid = odoo.SUPERUSER_ID
+            uid = izi.SUPERUSER_ID
 
         if not dbname:
             response = http.send_file(placeholder(imgname + imgext))
         else:
             try:
                 # create an empty registry
-                registry = odoo.modules.registry.Registry(dbname)
+                registry = izi.modules.registry.Registry(dbname)
                 with registry.cursor() as cr:
                     company = int(kw['company']) if kw and kw.get('company') else False
                     if company:
@@ -1263,7 +1263,7 @@ class Export(http.Controller):
             fields['.id'] = fields.pop('id', {'string': 'ID'})
 
         fields_sequence = sorted(fields.items(),
-            key=lambda field: odoo.tools.ustr(field[1].get('string', '')))
+            key=lambda field: izi.tools.ustr(field[1].get('string', '')))
 
         records = []
         for field_name, field in fields_sequence:
@@ -1382,7 +1382,7 @@ class ExportFormat(object):
         raise NotImplementedError()
 
     def from_data(self, fields, rows):
-        """ Conversion method from Odoo's export data to whatever the
+        """ Conversion method from izi's export data to whatever the
         current export class outputs
 
         :params list fields: a list of fields to export
@@ -1635,7 +1635,7 @@ class ReportController(http.Controller):
             se = _serialize_exception(e)
             error = {
                 'code': 200,
-                'message': "Odoo Server Error",
+                'message': "izi Server Error",
                 'data': se
             }
             return request.make_response(html_escape(json.dumps(error)))

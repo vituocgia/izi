@@ -1,4 +1,4 @@
-odoo.define('web.kanban_benchmarks', function (require) {
+izi.define('web.kanban_benchmarks', function (require) {
 "use strict";
 
 var KanbanView = require('web.KanbanView');

@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 import logging
 import re
 
 from email.utils import formataddr
 
-from odoo import _, api, fields, models, modules, SUPERUSER_ID, tools
-from odoo.exceptions import UserError, AccessError
-from odoo.osv import expression
+from izi import _, api, fields, models, modules, SUPERUSER_ID, tools
+from izi.exceptions import UserError, AccessError
+from izi.osv import expression
 
 _logger = logging.getLogger(__name__)
 _image_dataurl = re.compile(r'(data:image/[a-z]+?);base64,([a-z0-9+/\n]{3,}=*)\n*([\'"])', re.I)

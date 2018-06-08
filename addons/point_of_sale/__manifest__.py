@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'Point of Sale',
@@ -47,5 +47,5 @@
     'installable': True,
     'application': True,
     'qweb': ['static/src/xml/pos.xml'],
-    'website': 'https://www.odoo.com/page/point-of-sale',
+    'website': 'https://www.izi.asia/page/point-of-sale',
 }

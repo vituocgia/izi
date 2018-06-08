@@ -1,20 +1,20 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * gamification
 # 
 # Translators:
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux <mat@izi.asia>, 2017
 # Jorunn D. Newth <jdn@eyenetworks.no>, 2017
 # Viktor Basso <viktor@voit.no>, 2017
 # Jan Pedro Tumusok <jpt@eyenetworks.no>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: izi Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-02 11:27+0000\n"
 "PO-Revision-Date: 2017-10-02 11:27+0000\n"
 "Last-Translator: Jan Pedro Tumusok <jpt@eyenetworks.no>, 2017\n"
-"Language-Team: Norwegian Bokmål (https://www.transifex.com/odoo/teams/41243/nb/)\n"
+"Language-Team: Norwegian Bokmål (https://www.transifex.com/izi/teams/41243/nb/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -249,7 +249,7 @@ msgid ""
 "                    </tr> \n"
 "                    <tr>\n"
 "                        <td align=\"center\">\n"
-"                            Powered by <a target=\"_blank\" href=\"https://www.odoo.com\">Odoo</a>.\n"
+"                            Powered by <a target=\"_blank\" href=\"https://www.izi.asia\">izi</a>.\n"
 "                        </td>\n"
 "                    </tr>\n"
 "                </table>\n"
@@ -486,7 +486,7 @@ msgstr ""
 "                    </tr> \n"
 "                    <tr>\n"
 "                        <td align=\"center\">\n"
-"                            Drevet av <a target=\"_blank\" href=\"https://www.odoo.com\">Odoo</a>.\n"
+"                            Drevet av <a target=\"_blank\" href=\"https://www.izi.asia\">izi</a>.\n"
 "                        </td>\n"
 "                    </tr>\n"
 "                </table>\n"

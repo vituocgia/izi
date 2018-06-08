@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * website
 # 
@@ -8,18 +8,18 @@
 # Link Up링크업 <linkup.way@gmail.com>, 2018
 # Linkup <link-up@naver.com>, 2018
 # Seongseok Shin <shinss61@hotmail.com>, 2018
-# Mark Lee <odoos@soti.33mail.com>, 2018
+# Mark Lee <izis@soti.33mail.com>, 2018
 # heejun lee <tkm01b@gmail.com>, 2018
 # Spike Lee <rurouni24@gmail.com>, 2018
 # Jongkwan, Yeom <jongkwanyeom@gmail.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 13:42+0000\n"
 "PO-Revision-Date: 2018-02-19 13:42+0000\n"
 "Last-Translator: Jongkwan, Yeom <jongkwanyeom@gmail.com>, 2018\n"
-"Language-Team: Korean (https://www.transifex.com/odoo/teams/41243/ko/)\n"
+"Language-Team: Korean (https://www.transifex.com/izi/teams/41243/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -127,8 +127,8 @@ msgstr ", 갱신됨 :"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
-msgid "- The Odoo Team"
-msgstr "- The Odoo Team"
+msgid "- The izi Team"
+msgstr "- The izi Team"
 
 #. module: website
 #. openerp-web
@@ -614,8 +614,8 @@ msgstr "<strong>3. 바닥 글 제목</strong> 및 4. 바닥 글 링크"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_button
-msgid "<strong>50,000+ companies run Odoo to grow their businesses.</strong>"
-msgstr "<strong>50,000 이상의 회사들이 그들의 사업을 성장시키는데 Odoo를 사용합니다.</strong>"
+msgid "<strong>50,000+ companies run izi to grow their businesses.</strong>"
+msgstr "<strong>50,000 이상의 회사들이 그들의 사업을 성장시키는데 izi를 사용합니다.</strong>"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -644,11 +644,11 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid ""
-"<strong>Be announced on the Odoo Twitter account</strong><br/>\n"
-"                                We like to hear from people using Odoo to build their website. Tweet us"
+"<strong>Be announced on the izi Twitter account</strong><br/>\n"
+"                                We like to hear from people using izi to build their website. Tweet us"
 msgstr ""
-"<strong>Odoo 트위터 계정에 공시</strong><br/>\n"
-"                                우리는 Odoo를 사용하여 웹 사이트를 구축하는 사람들의 의견을 듣고자 합니다. Tweet us"
+"<strong>izi 트위터 계정에 공시</strong><br/>\n"
+"                                우리는 izi를 사용하여 웹 사이트를 구축하는 사람들의 의견을 듣고자 합니다. Tweet us"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -826,8 +826,8 @@ msgstr "<strong>귀하의 웹 사이트 목표</strong> 우선 순위:"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
-msgid "@odoo"
-msgstr "@odoo"
+msgid "@izi"
+msgstr "@izi"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.res_config_settings_view_form
@@ -1880,7 +1880,7 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid ""
-"For the Odoo Team,<br/>\n"
+"For the izi Team,<br/>\n"
 "                            Fabien Pinckaers, Founder"
 msgstr ""
 
@@ -2321,7 +2321,7 @@ msgstr ""
 #, python-format
 msgid ""
 "It might be possible to edit the relevant items or fix the issue in <a "
-"href=\"%s\">the classic Odoo interface</a>"
+"href=\"%s\">the classic izi interface</a>"
 msgstr ""
 
 #. module: website
@@ -2744,54 +2744,54 @@ msgstr "목표"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.layout_footer_copyright
-msgid "Odoo"
-msgstr "Odoo"
+msgid "izi"
+msgstr "izi"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_three_columns
-msgid "Odoo - Sample 1 for three columns"
+msgid "izi - Sample 1 for three columns"
 msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_three_columns
-msgid "Odoo - Sample 2 for three columns"
+msgid "izi - Sample 2 for three columns"
 msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_three_columns
-msgid "Odoo - Sample 3 for three columns"
+msgid "izi - Sample 3 for three columns"
 msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_big_picture
-msgid "Odoo CMS - a big picture"
+msgid "izi CMS - a big picture"
 msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_image_floating
-msgid "Odoo CMS- Sample image floating"
+msgid "izi CMS- Sample image floating"
 msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.show_website_info
-msgid "Odoo Version"
-msgstr "Odoo 버전"
+msgid "izi Version"
+msgstr "izi 버전"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_image_text
-msgid "Odoo image and text block"
+msgid "izi image and text block"
 msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_parallax_slider
 msgid ""
-"Odoo provides essential platform for our project management.\n"
+"izi provides essential platform for our project management.\n"
 "                                                Things are better organized and more visible with it."
 msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_text_image
-msgid "Odoo text and image block"
+msgid "izi text and image block"
 msgstr ""
 
 #. module: website
@@ -3441,7 +3441,7 @@ msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_banner
-msgid "Slider Odoo Image"
+msgid "Slider izi Image"
 msgstr ""
 
 #. module: website
@@ -4519,22 +4519,22 @@ msgstr "어떻게 귀하의 페이지가 Google에 나열될까요"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.view_website_form
-msgid "https://plus.google.com/+Odooapps"
-msgstr "https://plus.google.com/+Odooapps"
+msgid "https://plus.google.com/+iziapps"
+msgstr "https://plus.google.com/+iziapps"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.view_website_form
-msgid "https://twitter.com/Odoo"
+msgid "https://twitter.com/izi"
 msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.view_website_form
-msgid "https://www.facebook.com/odoo"
+msgid "https://www.facebook.com/izi"
 msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.view_website_form
-msgid "https://www.linkedin.com/company/odoo"
+msgid "https://www.linkedin.com/company/izi"
 msgstr ""
 
 #. module: website
@@ -4554,8 +4554,8 @@ msgstr ""
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.show_website_info
-msgid "instance of Odoo, the"
-msgstr "Odoo의 경우, "
+msgid "instance of izi, the"
+msgstr "izi의 경우, "
 
 #. module: website
 #: model:ir.model,name:website.model_ir_actions_server

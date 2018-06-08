@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 import base64
 import json
 import lxml
@@ -10,11 +10,11 @@ import werkzeug.wrappers
 
 from datetime import datetime
 
-from odoo import http, modules, SUPERUSER_ID, tools, _
-from odoo.addons.http_routing.models.ir_http import slug
-from odoo.addons.web.controllers.main import binary_content
-from odoo.addons.website.models.ir_http import sitemap_qs2dom
-from odoo.http import request
+from izi import http, modules, SUPERUSER_ID, tools, _
+from izi.addons.http_routing.models.ir_http import slug
+from izi.addons.web.controllers.main import binary_content
+from izi.addons.website.models.ir_http import sitemap_qs2dom
+from izi.http import request
 
 
 class WebsiteForum(http.Controller):

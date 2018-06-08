@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * hr_recruitment
 # 
@@ -12,12 +12,12 @@
 # Olga Lugova <trolka.olug@gmail.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-16 08:08+0000\n"
 "PO-Revision-Date: 2017-11-16 08:08+0000\n"
 "Last-Translator: Olga Lugova <trolka.olug@gmail.com>, 2018\n"
-"Language-Team: Ukrainian (https://www.transifex.com/odoo/teams/41243/uk/)\n"
+"Language-Team: Ukrainian (https://www.transifex.com/izi/teams/41243/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -165,7 +165,7 @@ msgid ""
 "                        See you soon,\n"
 "                    </p><p style=\"font-size:16px;color: grey;\">\n"
 "                        -- <br/>\n"
-"                        Odoo HR Team\n"
+"                        izi HR Team\n"
 "                    </p>\n"
 "\n"
 "                    <hr style=\"margin: 30px 0\"/>\n"
@@ -182,9 +182,9 @@ msgid ""
 "\n"
 "                    <h3 style=\"color:#9A6C8E;\"><strong>Want to learn about us?</strong></h3>\n"
 "                    <ol>\n"
-"                        <li><a style=\"color:#1CC5A9\" href=\"https://www.odoo.com/blog/odoo-news-5/post/the-odoo-story-56\">Founders' story</a></li>\n"
-"                        <li><a style=\"color:#1CC5A9\" href=\"https://www.slideshare.net/openobject/the-odoo-culture\">The Odoo Culture</a></li>\n"
-"                        <li><a style=\"color:#1CC5A9\" href=\"https://www.odoo.com/page/about-us\">About us</a></li>\n"
+"                        <li><a style=\"color:#1CC5A9\" href=\"https://www.izi.asia/blog/izi-news-5/post/the-izi-story-56\">Founders' story</a></li>\n"
+"                        <li><a style=\"color:#1CC5A9\" href=\"https://www.slideshare.net/openobject/the-izi-culture\">The izi Culture</a></li>\n"
+"                        <li><a style=\"color:#1CC5A9\" href=\"https://www.izi.asia/page/about-us\">About us</a></li>\n"
 "                    </ol>\n"
 "\n"
 "                    <hr style=\"margin: 30px 0\"/>\n"
@@ -316,9 +316,9 @@ msgid ""
 "\n"
 "                    <h3 style=\"color:#9A6C8E;\"><strong>Want to learn more?</strong></h3>\n"
 "                    <ol>\n"
-"                        <li><a style=\"color:#1CC5A9\" href=\"https://www.odoo.com/blog/odoo-news-5/post/the-odoo-story-56\">Founders' story</a></li>\n"
-"                        <li><a style=\"color:#1CC5A9\" href=\"https://www.slideshare.net/openobject/the-odoo-culture\">The Odoo Culture</a></li>\n"
-"                        <li><a style=\"color:#1CC5A9\" href=\"https://www.odoo.com/page/about-us\">About us</a></li>\n"
+"                        <li><a style=\"color:#1CC5A9\" href=\"https://www.izi.asia/blog/izi-news-5/post/the-izi-story-56\">Founders' story</a></li>\n"
+"                        <li><a style=\"color:#1CC5A9\" href=\"https://www.slideshare.net/openobject/the-izi-culture\">The izi Culture</a></li>\n"
+"                        <li><a style=\"color:#1CC5A9\" href=\"https://www.izi.asia/page/about-us\">About us</a></li>\n"
 "                    </ol>\n"
 "\n"
 "                    <hr style=\"margin: 30px 0\"/>\n"
@@ -1391,19 +1391,19 @@ msgstr ""
 #. module: hr_recruitment
 #: model:ir.actions.act_window,help:hr_recruitment.action_hr_job_applications
 msgid ""
-"Odoo helps you track applicants in the recruitment\n"
+"izi helps you track applicants in the recruitment\n"
 "                process and follow up all operations: meetings, interviews, etc."
 msgstr ""
-"Odoo допомагає відстежувати заявників при наборі\n"
+"izi допомагає відстежувати заявників при наборі\n"
 "і дотримуватися всіх операцій: зустрічей, інтерв'ю тощо."
 
 #. module: hr_recruitment
 #: model:ir.actions.act_window,help:hr_recruitment.crm_case_categ0_act_job
 msgid ""
-"Odoo helps you track applicants in the recruitment\n"
+"izi helps you track applicants in the recruitment\n"
 "            process and follow up all operations: meetings, interviews, etc."
 msgstr ""
-"Odoo допомагає відстежувати заявників при наборі\n"
+"izi допомагає відстежувати заявників при наборі\n"
 "і дотримуватися всіх операцій: зустрічей, інтерв'ю тощо."
 
 #. module: hr_recruitment
@@ -1788,11 +1788,11 @@ msgstr "Дата, коли кандидат зможе почати працюв
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job_alias_model_id
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
+"The model (izi Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
-"Модель (тип документу Odoo), до якої відповідає цей псевдонім. Будь-яка "
+"Модель (тип документу izi), до якої відповідає цей псевдонім. Будь-яка "
 "вхідна електронна пошта, яка не відповідає існуючому запису, призведе до "
 "створення нового запису цієї моделі (наприклад, завдання проекту)"
 
@@ -1805,10 +1805,10 @@ msgstr "Назва рівня рекрутингу має бути унікал�
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job_alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
+"<jobs@example.izi.asia>"
 msgstr ""
 "Ім'я псевдоніма електронної пошти, наприклад, \"Робота\", якщо ви хочете "
-"отримувати повідомлення електронної пошти на <jobs@example.odoo.com>"
+"отримувати повідомлення електронної пошти на <jobs@example.izi.asia>"
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job_alias_user_id
@@ -1859,12 +1859,12 @@ msgstr "Поточного року"
 #: model:ir.actions.act_window,help:hr_recruitment.hr_applicant_resumes
 msgid ""
 "This menu helps you search through resumes and motivation\n"
-"                letters. Odoo automatically indexes .PDF, .DOC, DOCX, .TXT\n"
+"                letters. izi automatically indexes .PDF, .DOC, DOCX, .TXT\n"
 "                files so that you can search keywords from the content of these\n"
 "                files."
 msgstr ""
 "Це меню допомагає вам шукати резюме та мотиваційні\n"
-"листи. Odoo автоматично показує .PDF, .DOC, DOCX, .TXT\n"
+"листи. izi автоматично показує .PDF, .DOC, DOCX, .TXT\n"
 "файли, щоби ви могли шукати ключові слова з вмісту\n"
 "файлів."
 
@@ -1962,11 +1962,11 @@ msgstr "Вітаємо ${object.name} "
 #. module: hr_recruitment
 #: model:ir.actions.act_window,help:hr_recruitment.action_hr_job_no_employee
 msgid ""
-"With just a quick glance on the Odoo employee screen, you\n"
+"With just a quick glance on the izi employee screen, you\n"
 "                can easily find all the information you need for each person;\n"
 "                contact data, job position, availability, etc."
 msgstr ""
-"Просто швидко подивіться на екран працівника Odoo, ви\n"
+"Просто швидко подивіться на екран працівника izi, ви\n"
 "можете легко знайти всю необхідну інформації для кожної людини;\n"
 "контактні дані, робоче місце, наявність і т. д."
 

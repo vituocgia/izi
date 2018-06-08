@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 import werkzeug
 
-from odoo import http
-from odoo.http import request
+from izi import http
+from izi.http import request
 
 
 class WebsiteUrl(http.Controller):

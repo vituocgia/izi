@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * website_slides
 # 
@@ -9,12 +9,12 @@
 # Bill Hsu <hcm86@icloud.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: izi Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-02 11:27+0000\n"
 "PO-Revision-Date: 2017-10-02 11:27+0000\n"
 "Last-Translator: Bill Hsu <hcm86@icloud.com>, 2018\n"
-"Language-Team: Chinese (Taiwan) (https://www.transifex.com/odoo/teams/41243/zh_TW/)\n"
+"Language-Team: Chinese (Taiwan) (https://www.transifex.com/izi/teams/41243/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -350,8 +350,8 @@ msgstr "僅限已驗證的使用者"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_5
-msgid "Awesome Timesheet by Odoo"
-msgstr "Odoo 超棒的時間表"
+msgid "Awesome Timesheet by izi"
+msgstr "izi 超棒的時間表"
 
 #. module: website_slides
 #: model:slide.tag,name:website_slides.tag1
@@ -527,39 +527,39 @@ msgstr "放棄"
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_6
-msgid "Discover how easy marketing your business can be with Odoo"
-msgstr "瞭解 Odoo 如何輕鬆實現業務行銷"
+msgid "Discover how easy marketing your business can be with izi"
+msgstr "瞭解 izi 如何輕鬆實現業務行銷"
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_0
 msgid ""
 "Discover how you can integrate MRP, PLM, Quality and Maintenance in a single application to maximize the efficiency of your manufacturing operations.\n"
 "\n"
-"Read more about the features at: https://www.odoo.com/page/manufacturing-features\n"
+"Read more about the features at: https://www.izi.asia/page/manufacturing-features\n"
 "\n"
-"Discover Odoo MRP: https://www.odoo.com/page/manufacturing"
+"Discover izi MRP: https://www.izi.asia/page/manufacturing"
 msgstr ""
 "瞭解如何在單個應用程序上集成 MRP、 PLM、品質和維護，以便最大化製造業務的效率。\n"
 "\n"
-" 欲瞭解更多功能，請訪問以下網址：https://www.odoo.com/page/manufacturing-features  \n"
+" 欲瞭解更多功能，請訪問以下網址：https://www.izi.asia/page/manufacturing-features  \n"
 "\n"
-" 瞭解 Odoo MRP：https://www.odoo.com/page/manufacturing"
+" 瞭解 izi MRP：https://www.izi.asia/page/manufacturing"
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_1
-msgid "Discover the CRM sales people love https://www.odoo.com/page/crm"
-msgstr "瞭解銷售人員喜愛的客戶關係管理 https://www.odoo.com/page/crm"
+msgid "Discover the CRM sales people love https://www.izi.asia/page/crm"
+msgstr "瞭解銷售人員喜愛的客戶關係管理 https://www.izi.asia/page/crm"
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_2
 msgid ""
 "Discover the all-in-one business management software solution that fits any business size and use case.\n"
 "\n"
-"Learn more at https://odoo.com"
+"Learn more at https://izi.asia"
 msgstr ""
 "瞭解適合任何業務規模和用例的一體化業務管理軟體解決方案。\n"
 "\n"
-" 欲瞭解更多內容，請訪問 https://odoo.com "
+" 欲瞭解更多內容，請訪問 https://izi.asia "
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide_dislikes
@@ -610,12 +610,12 @@ msgstr "下載"
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_5
 msgid ""
-"Download Awesome Timesheet by Odoo and discover how easy time tracking and employee management can be!\n"
+"Download Awesome Timesheet by izi and discover how easy time tracking and employee management can be!\n"
 "\n"
 "Chrome: http://bit.ly/2613LcY\n"
 "iOS: http://bit.ly/1ZUZsZD"
 msgstr ""
-"下載 Odoo Awesome Timesheet，瞭解時間追蹤和員工管理可以變得多麼輕鬆！\n"
+"下載 izi Awesome Timesheet，瞭解時間追蹤和員工管理可以變得多麼輕鬆！\n"
 "\n"
 "Chrome: http://bit.ly/2613LcY\n"
 "iOS: http://bit.ly/1ZUZsZD"
@@ -821,8 +821,8 @@ msgstr "最新發佈"
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_8
-msgid "Learn more at https://www.odoo.com/page/sales"
-msgstr "欲瞭解更多內容，請訪問 https://www.odoo.com/page/sales"
+msgid "Learn more at https://www.izi.asia/page/sales"
+msgstr "欲瞭解更多內容，請訪問 https://www.izi.asia/page/sales"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide_likes
@@ -933,44 +933,44 @@ msgstr "視頻數量"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_2
-msgid "Odoo All-in-One Software Demonstration"
-msgstr "Odoo 一體化軟體演示"
+msgid "izi All-in-One Software Demonstration"
+msgstr "izi 一體化軟體演示"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_1
-msgid "Odoo CRM"
-msgstr "Odoo 客戶關係管理"
+msgid "izi CRM"
+msgstr "izi 客戶關係管理"
 
 #. module: website_slides
 #: model:slide.category,name:website_slides.category_2
 #: model:slide.tag,name:website_slides.tag5
-msgid "Odoo Days"
-msgstr "Odoo 日"
+msgid "izi Days"
+msgstr "izi 日"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_7
-msgid "Odoo Inventory"
-msgstr "Odoo 庫存"
+msgid "izi Inventory"
+msgstr "izi 庫存"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_0
-msgid "Odoo MRP"
-msgstr "Odoo 物料需求計劃"
+msgid "izi MRP"
+msgstr "izi 物料需求計劃"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_6
-msgid "Odoo Marketing"
-msgstr "Odoo 市場行銷"
+msgid "izi Marketing"
+msgstr "izi 市場行銷"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_8
-msgid "Odoo Sales"
-msgstr "Odoo 銷售"
+msgid "izi Sales"
+msgstr "izi 銷售"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_3
-msgid "Odoo Sign Demonstration"
-msgstr "Odoo 標誌演示"
+msgid "izi Sign Demonstration"
+msgstr "izi 標誌演示"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_9
@@ -1200,13 +1200,13 @@ msgstr "抱歉，沒有符合您的搜尋條件"
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_3
 msgid ""
-"Stop doing manual printing and scanning. Move to electronic signature with Odoo Sign!\n"
+"Stop doing manual printing and scanning. Move to electronic signature with izi Sign!\n"
 "\n"
-"Discover more at https://www.odoo.com/page/sign"
+"Discover more at https://www.izi.asia/page/sign"
 msgstr ""
-"告別手動列印和掃瞄。轉投帶有 Odoo 標誌的電子簽名！\n"
+"告別手動列印和掃瞄。轉投帶有 izi 標誌的電子簽名！\n"
 "\n"
-" 欲瞭解更多內容，請訪問 https://www.odoo.com/page/sign"
+" 欲瞭解更多內容，請訪問 https://www.izi.asia/page/sign"
 
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.view_slide_tag_form
@@ -1398,11 +1398,11 @@ msgstr "等待驗證"
 msgid ""
 "Warehouse management software for the 21st century.\n"
 "\n"
-"Discover Odoo Inventory: https://www.odoo.com/page/warehouse"
+"Discover izi Inventory: https://www.izi.asia/page/warehouse"
 msgstr ""
 "面向 21 世紀的倉庫管理軟體 \n"
 "\n"
-" 瞭解 Odoo 庫存：https://www.odoo.com/page/warehouse"
+" 瞭解 izi 庫存：https://www.izi.asia/page/warehouse"
 
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.view_slide_slide_form

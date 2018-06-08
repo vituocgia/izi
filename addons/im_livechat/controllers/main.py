@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 import base64
 
-from odoo import http, _
-from odoo.http import request
-from odoo.addons.base.ir.ir_qweb import AssetsBundle
-from odoo.addons.web.controllers.main import binary_content
+from izi import http, _
+from izi.http import request
+from izi.addons.base.ir.ir_qweb import AssetsBundle
+from izi.addons.web.controllers.main import binary_content
 
 
 class LivechatController(http.Controller):

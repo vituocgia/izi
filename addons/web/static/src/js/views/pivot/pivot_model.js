@@ -1,4 +1,4 @@
-odoo.define('web.PivotModel', function (require) {
+izi.define('web.PivotModel', function (require) {
 "use strict";
 
 /**

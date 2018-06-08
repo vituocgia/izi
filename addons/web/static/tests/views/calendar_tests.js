@@ -1,4 +1,4 @@
-odoo.define('web.calendar_tests', function (require) {
+izi.define('web.calendar_tests', function (require) {
 "use strict";
 
 var CalendarView = require('web.CalendarView');
@@ -403,7 +403,7 @@ QUnit.module('Views', {
                     return $.Deferred().reject({
                         code: 200,
                         data: {},
-                        message: "Odoo server error",
+                        message: "izi server error",
                     }, event);
                 }
                 return this._super(route, args);

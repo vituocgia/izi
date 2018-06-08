@@ -3,9 +3,9 @@ import pprint
 import logging
 from werkzeug import urls, utils
 
-from odoo import http, _
-from odoo.http import request
-from odoo.exceptions import ValidationError
+from izi import http, _
+from izi.http import request
+from izi.exceptions import ValidationError
 
 _logger = logging.getLogger(__name__)
 

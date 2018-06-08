@@ -1,9 +1,9 @@
 # -*- encoding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
-from odoo import api, fields, models, _
-from odoo.addons import decimal_precision as dp
-from odoo.exceptions import UserError
+from izi import api, fields, models, _
+from izi.addons import decimal_precision as dp
+from izi.exceptions import UserError
 
 
 class PurchaseRequisitionType(models.Model):

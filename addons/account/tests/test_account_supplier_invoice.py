@@ -1,5 +1,5 @@
-from odoo.addons.account.tests.account_test_classes import AccountingTestCase
-from odoo.exceptions import Warning
+from izi.addons.account.tests.account_test_classes import AccountingTestCase
+from izi.exceptions import Warning
 
 class TestAccountSupplierInvoice(AccountingTestCase):
 

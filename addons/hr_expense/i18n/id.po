@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * hr_expense
 # 
@@ -16,12 +16,12 @@
 # Ngalim Siregar <ngalim.siregar@gmail.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 13:43+0000\n"
 "PO-Revision-Date: 2018-02-19 13:43+0000\n"
 "Last-Translator: Ngalim Siregar <ngalim.siregar@gmail.com>, 2017\n"
-"Language-Team: Indonesian (https://www.transifex.com/odoo/teams/41243/id/)\n"
+"Language-Team: Indonesian (https://www.transifex.com/izi/teams/41243/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -30,8 +30,8 @@ msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
-msgid "(e.g. expenses@mycompany.odoo.com)"
-msgstr "(mis: expenses@mycompany.odoo.com)"
+msgid "(e.g. expenses@mycompany.izi.asia)"
+msgstr "(mis: expenses@mycompany.izi.asia)"
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
@@ -621,8 +621,8 @@ msgstr "Akhir"
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
-msgid "Enjoy your Odoo experience,"
-msgstr "Nikmati pengalaman Anda dengan Odoo,"
+msgid "Enjoy your izi experience,"
+msgstr "Nikmati pengalaman Anda dengan izi,"
 
 #. module: hr_expense
 #: model:ir.model,name:hr_expense.model_hr_expense
@@ -890,9 +890,9 @@ msgstr "Secara eksplisit ditolak oleh manajer atau akuntan"
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid ""
-"For the Odoo Team,<br/>\n"
+"For the izi Team,<br/>\n"
 "                            Fabien Pinckaers, Founder"
-msgstr "Untuk tim Odoo,<br/>Fabien Pinckaers, pendiri"
+msgstr "Untuk tim izi,<br/>Fabien Pinckaers, pendiri"
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.view_hr_expense_filter
@@ -949,8 +949,8 @@ msgstr "Departemen HR"
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
-msgid "Have a wonderful day,<br/>- The Odoo Team"
-msgstr "Semoga hari Anda menyenangkan,<br/>- Tim Odoo"
+msgid "Have a wonderful day,<br/>- The izi Team"
+msgstr "Semoga hari Anda menyenangkan,<br/>- Tim izi"
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet_register_payment_wizard_hide_payment_method
@@ -1651,8 +1651,8 @@ msgstr "Langkah untuk memproses pengeluaran adalah:"
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
-msgid "This guide helps you start with Odoo Expenses."
-msgstr "Panduan ini membantu Anda memulai Pengeluaran Odoo."
+msgid "This guide helps you start with izi Expenses."
+msgstr "Panduan ini membantu Anda memulai Pengeluaran izi."
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form

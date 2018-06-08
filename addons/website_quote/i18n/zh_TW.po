@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * website_quote
 # 
@@ -8,12 +8,12 @@
 # Michael Yeung, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 13:43+0000\n"
 "PO-Revision-Date: 2018-02-19 13:43+0000\n"
 "Last-Translator: Michael Yeung, 2017\n"
-"Language-Team: Chinese (Taiwan) (https://www.transifex.com/odoo/teams/41243/zh_TW/)\n"
+"Language-Team: Chinese (Taiwan) (https://www.transifex.com/izi/teams/41243/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -65,7 +65,7 @@ msgid ""
 "                <p style=\"font-size: 11px;\"><strong>Sent by\n"
 "                <a href=\"${user.company_id.website}\" style=\"text-decoration:none; color: #875A7B;\">\n"
 "                    <strong>${user.company_id.name}</strong>\n"
-"                </a> using <a href=\"www.odoo.com\" style=\"text-decoration:none; color: #875A7B;\"><strong>Odoo</strong></a>\n"
+"                </a> using <a href=\"www.izi.asia\" style=\"text-decoration:none; color: #875A7B;\"><strong>izi</strong></a>\n"
 "                </strong></p>\n"
 "            </td>\n"
 "        </tr></tbody>\n"
@@ -114,7 +114,7 @@ msgstr ""
 "                <p style=\"font-size: 11px;\"><strong>由\n"
 "                <a href=\"${user.company_id.website}\" style=\"text-decoration:none; color: #875A7B;\">\n"
 "                    <strong>${user.company_id.name}</strong>\n"
-"                </a>使用 <a href=\"www.odoo.com\" style=\"text-decoration:none; color: #875A7B;\"><strong>Odoo</strong> 發送</a>\n"
+"                </a>使用 <a href=\"www.izi.asia\" style=\"text-decoration:none; color: #875A7B;\"><strong>izi</strong> 發送</a>\n"
 "                </strong></p>\n"
 "            </td>\n"
 "        </tr></tbody>\n"
@@ -369,9 +369,9 @@ msgstr "關於我們"
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
 msgid ""
-"Access to an Account Manager at Odoo SA to discuss strategic, sales and "
+"Access to an Account Manager at izi SA to discuss strategic, sales and "
 "service issues"
-msgstr "可跟 Odoo SA 的客戶經理商談策略、銷售及服務等事宜"
+msgstr "可跟 izi SA 的客戶經理商談策略、銷售及服務等事宜"
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
@@ -416,8 +416,8 @@ msgstr "折扣前金額"
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
-msgid "An Odoo official partner commits to:"
-msgstr "Odoo 官方合作夥伴承諾："
+msgid "An izi official partner commits to:"
+msgstr "izi 官方合作夥伴承諾："
 
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.view_sale_quote_template_search
@@ -460,20 +460,20 @@ msgstr "返回銷售訂單"
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
-msgid "Be available for periodic review meeting with Odoo SA account managers"
-msgstr "可與 Odoo SA 客戶經理進行週期性評估"
+msgid "Be available for periodic review meeting with izi SA account managers"
+msgstr "可與 izi SA 客戶經理進行週期性評估"
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
 msgid ""
-"Be the first level of support for his Odoo customers and use Odoo SA for the"
+"Be the first level of support for his izi customers and use izi SA for the"
 " second level of support (mostly for bug fixes)"
-msgstr "成為其 Odoo 客戶的第一級支援，並使用 Odoo SA 提供第二級支援（主要用於錯誤修復）"
+msgstr "成為其 izi 客戶的第一級支援，並使用 izi SA 提供第二級支援（主要用於錯誤修復）"
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
-msgid "Become a Certified Odoo Partner"
-msgstr "成為認證的 Odoo 合作夥伴"
+msgid "Become a Certified izi Partner"
+msgstr "成為認證的 izi 合作夥伴"
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
@@ -771,19 +771,19 @@ msgstr "實際操作練習和其解決方案"
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
-msgid "Has a direct relationship with Odoo SA to escalate issues"
-msgstr "與 Odoo SA 直接聯繫上報問題"
+msgid "Has a direct relationship with izi SA to escalate issues"
+msgstr "與 izi SA 直接聯繫上報問題"
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
 msgid ""
-"Has access to Odoo Enterprise source code on Github and latest bug fixes"
-msgstr "有權訪問 Github 上的 Odoo 企業版源代碼和最新的錯誤修復"
+"Has access to izi Enterprise source code on Github and latest bug fixes"
+msgstr "有權訪問 Github 上的 izi 企業版源代碼和最新的錯誤修復"
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
-msgid "Have dedicated resources assigned to Odoo projects"
-msgstr "已向 Odoo 專案分配專用資源"
+msgid "Have dedicated resources assigned to izi projects"
+msgstr "已向 izi 專案分配專用資源"
 
 #. module: website_quote
 #: model:product.product,quote_description:website_quote.product_product_quote_2
@@ -895,8 +895,8 @@ msgstr "Qweb介紹"
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
-msgid "Is fully trained on Odoo"
-msgstr "接受了有關 Odoo 的完整培訓"
+msgid "Is fully trained on izi"
+msgstr "接受了有關 izi 的完整培訓"
 
 #. module: website_quote
 #: model:ir.model.fields,field_description:website_quote.field_sale_order_option___last_update
@@ -930,18 +930,18 @@ msgstr "最後更新時間"
 #: model:product.template,description_sale:website_quote.product_template_quote_1
 #: model:product.template,description_sale:website_quote.product_template_quote_3
 msgid ""
-"Learn directly from our team and network of Odoo experts. Choose from the "
-"available training sessions for a better functional understanding of Odoo"
-msgstr "從我們團隊和Odoo專家網路直接學習。為更好理解Odoo技術，選擇可用的培訓課程"
+"Learn directly from our team and network of izi experts. Choose from the "
+"available training sessions for a better functional understanding of izi"
+msgstr "從我們團隊和izi專家網路直接學習。為更好理解izi技術，選擇可用的培訓課程"
 
 #. module: website_quote
 #: model:product.product,description_sale:website_quote.product_product_quote_2
 #: model:product.template,description_sale:website_quote.product_product_quote_2_product_template
 #: model:product.template,description_sale:website_quote.product_template_quote_2
 msgid ""
-"Learn directly from our team and network of Odoo experts. Choose from the "
-"available training sessions for a better technical understanding of Odoo"
-msgstr "從我們的團隊和Odoo專家網路直接瞭解。為更好的理解Odoo的技術功能，請選擇可用的培訓課程"
+"Learn directly from our team and network of izi experts. Choose from the "
+"available training sessions for a better technical understanding of izi"
+msgstr "從我們的團隊和izi專家網路直接瞭解。為更好的理解izi的技術功能，請選擇可用的培訓課程"
 
 #. module: website_quote
 #: model:ir.model.fields,field_description:website_quote.field_sale_order_option_line_id
@@ -1018,26 +1018,26 @@ msgstr "用於報價單有效日期計算的天數"
 #: model:product.template,quote_description:website_quote.product_product_quote_2_product_template
 #: model:product.template,quote_description:website_quote.product_template_quote_2
 #: model:sale.quote.line,website_description:website_quote.website_sale_order_line_2
-msgid "Odoo Official Website"
-msgstr "Odoo官方網站"
+msgid "izi Official Website"
+msgstr "izi官方網站"
 
 #. module: website_quote
 #: model:product.product,quote_description:website_quote.product_product_quote_2
 #: model:product.template,quote_description:website_quote.product_product_quote_2_product_template
 #: model:product.template,quote_description:website_quote.product_template_quote_2
 #: model:sale.quote.line,website_description:website_quote.website_sale_order_line_2
-msgid "Odoo Web Client"
-msgstr "Odoo 的Web客戶"
+msgid "izi Web Client"
+msgstr "izi 的Web客戶"
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
-msgid "Odoo official partners will benefit from:"
-msgstr "Odoo 官方合作夥伴將受益於："
+msgid "izi official partners will benefit from:"
+msgstr "izi 官方合作夥伴將受益於："
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
-msgid "Odoo sales training session"
-msgstr "Odoo 銷售培訓會議"
+msgid "izi sales training session"
+msgstr "izi 銷售培訓會議"
 
 #. module: website_quote
 #: selection:sale.order,require_payment:0
@@ -1200,13 +1200,13 @@ msgstr "產品"
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
-msgid "Promote Odoo Enterprise to its customers"
-msgstr "向客戶推廣 Odoo 企業版"
+msgid "Promote izi Enterprise to its customers"
+msgstr "向客戶推廣 izi 企業版"
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
-msgid "Publishes references directly on Odoo.com"
-msgstr "直接在 Odoo.com 上發佈參考"
+msgid "Publishes references directly on izi.asia"
+msgstr "直接在 izi.asia 上發佈參考"
 
 #. module: website_quote
 #: model:product.product,quote_description:website_quote.product_product_quote_2
@@ -1427,26 +1427,26 @@ msgstr "管理員可以在「銷售設定」中設定預設條款和條件。如
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
-msgid "The Odoo Enterprise GitHub repositories for all his developers"
-msgstr "Odoo 企業版 GitHub 資源庫適用於所有開發人員"
+msgid "The izi Enterprise GitHub repositories for all his developers"
+msgstr "izi 企業版 GitHub 資源庫適用於所有開發人員"
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
 msgid ""
-"The Odoo eco system is designed to offer the best customer experience to "
-"Odoo users, from the product to implementation services. In order to "
-"guarantee that, the Odoo Partner Program ensures that official partners have"
-" the resources and knowledge required to offer Odoo implementation services."
+"The izi eco system is designed to offer the best customer experience to "
+"izi users, from the product to implementation services. In order to "
+"guarantee that, the izi Partner Program ensures that official partners have"
+" the resources and knowledge required to offer izi implementation services."
 msgstr ""
-"Odoo 生態系統旨在為 Odoo 使用者提供從產品到實施服務的最佳客戶體驗。為了保證這一點，Odoo 合作夥伴計劃需確保官方合作夥伴擁有提供 Odoo"
+"izi 生態系統旨在為 izi 使用者提供從產品到實施服務的最佳客戶體驗。為了保證這一點，izi 合作夥伴計劃需確保官方合作夥伴擁有提供 izi"
 " 實施服務所需的資源和知識。"
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
 msgid ""
-"The ability to report bugs to be fixed by Odoo on behalf of his customer "
+"The ability to report bugs to be fixed by izi on behalf of his customer "
 "(Enterprise contracts only)"
-msgstr "代表客戶報告由 Odoo 修復的錯誤的能力（僅為企業合同）"
+msgstr "代表客戶報告由 izi 修復的錯誤的能力（僅為企業合同）"
 
 #. module: website_quote
 #: model:product.product,quote_description:website_quote.product_product_quote_1
@@ -1523,8 +1523,8 @@ msgstr "總價"
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
-msgid "Train their staff by following Odoo training sessions"
-msgstr "通過以下 Odoo 培訓課程對員工進行培訓"
+msgid "Train their staff by following izi training sessions"
+msgstr "通過以下 izi 培訓課程對員工進行培訓"
 
 #. module: website_quote
 #: model:product.product,quote_description:website_quote.product_product_quote_2
@@ -1569,9 +1569,9 @@ msgstr "計量單位 "
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
 msgid ""
-"Up to 20% commission on Odoo Enterprise sales, depending on the partnership "
+"Up to 20% commission on izi Enterprise sales, depending on the partnership "
 "level"
-msgstr "Odoo 企業版銷售佣金最多可高達 20％，具體取決於合作夥伴級別"
+msgstr "izi 企業版銷售佣金最多可高達 20％，具體取決於合作夥伴級別"
 
 #. module: website_quote
 #: model:ir.actions.act_window,help:website_quote.action_sale_quotation_template
@@ -1609,8 +1609,8 @@ msgstr "視頻詳細的演示"
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_1
 msgid ""
 "Visibility and recognition, by being listed as an official partner on "
-"Odoo.com Partners page"
-msgstr "通過在 Odoo.com 合作夥伴頁面上被列為官方合作夥伴提高知名度和認可度"
+"izi.asia Partners page"
+msgstr "通過在 izi.asia 合作夥伴頁面上被列為官方合作夥伴提高知名度和認可度"
 
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_default
@@ -1662,13 +1662,13 @@ msgstr ""
 #. module: website_quote
 #: model:sale.quote.template,website_description:website_quote.website_quote_template_default
 msgid ""
-"You can <strong>set a description per product</strong>. Odoo will\n"
+"You can <strong>set a description per product</strong>. izi will\n"
 "                        automatically create a quotation using the descriptions\n"
 "                        of all products in the proposal. The table of content\n"
 "                        on the left is generated automatically using the styles you\n"
 "                        used in your description (heading 1, heading 2, ...)"
 msgstr ""
-"您可以<strong>設定每個產品描述。</strong>Odoo 將\n"
+"您可以<strong>設定每個產品描述。</strong>izi 將\n"
 "                        使用建議中所有產品的描述\n"
 "                        自動創建一個報價。左邊的內容表\n"
 "                        是根據您描述中使用的樣式\n"

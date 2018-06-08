@@ -1,20 +1,20 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * contacts
 # 
 # Translators:
 # Murat Kaplan <muratk@projetgrup.com>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux <mat@izi.asia>, 2017
 # Emre Akayoğlu <emre.akayoglu@mechsoft.com.tr>, 2017
 # Ediz Duman <neps1192@gmail.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: izi Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-20 09:53+0000\n"
 "PO-Revision-Date: 2017-09-20 09:53+0000\n"
 "Last-Translator: Ediz Duman <neps1192@gmail.com>, 2017\n"
-"Language-Team: Turkish (https://www.transifex.com/odoo/teams/41243/tr/)\n"
+"Language-Team: Turkish (https://www.transifex.com/izi/teams/41243/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -82,11 +82,11 @@ msgstr "Yerelleştirme"
 #. module: contacts
 #: model:ir.actions.act_window,help:contacts.action_contacts
 msgid ""
-"Odoo helps you easily track all activities related to\n"
+"izi helps you easily track all activities related to\n"
 "            a customer: discussions, history of business opportunities,\n"
 "            documents, etc."
 msgstr ""
-"Odoo müşteri ile ilgili tüm aktiviteleri kolayca takip etmenizi\n"
+"izi müşteri ile ilgili tüm aktiviteleri kolayca takip etmenizi\n"
 "            sağlar: yapılan görüşmeler, tüm fırsat geçmişleri,\n"
 "            dokümanlar, vb."
 

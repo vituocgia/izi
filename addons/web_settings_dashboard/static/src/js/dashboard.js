@@ -1,4 +1,4 @@
-odoo.define('web_settings_dashboard', function (require) {
+izi.define('web_settings_dashboard', function (require) {
 "use strict";
 
 var core = require('web.core');
@@ -242,7 +242,7 @@ var DashboardApps = Widget.extend({
 
     start: function() {
         this._super.apply(this, arguments);
-        if (odoo.db_info && _.last(odoo.db_info.server_version_info) !== 'e') {
+        if (izi.db_info && _.last(izi.db_info.server_version_info) !== 'e') {
             $(QWeb.render("DashboardEnterprise")).appendTo(this.$el);
         }
     },
@@ -252,7 +252,7 @@ var DashboardApps = Widget.extend({
     },
 
     confirm_upgrade: function() {
-        framework.redirect("https://www.odoo.com/odoo-enterprise/upgrade?num_users=" + (this.data.enterprise_users || 1));
+        framework.redirect("https://www.izi.asia/izi-enterprise/upgrade?num_users=" + (this.data.enterprise_users || 1));
     },
 });
 
@@ -268,8 +268,8 @@ var DashboardShare = Widget.extend({
     init: function(parent, data){
         this.data = data;
         this.parent = parent;
-        this.share_url = 'https://www.odoo.com';
-        this.share_text = encodeURIComponent("I am using #Odoo - Awesome open source business apps.");
+        this.share_url = 'https://www.izi.asia';
+        this.share_text = encodeURIComponent("I am using #izi - Awesome open source business apps.");
     },
 
     share_twitter: function(){
@@ -283,7 +283,7 @@ var DashboardShare = Widget.extend({
     },
 
     share_linkedin: function(){
-        var popup_url = _.str.sprintf('http://www.linkedin.com/shareArticle?mini=true&url=%s&title=I am using odoo&summary=%s&source=www.odoo.com', encodeURIComponent(this.share_url), this.share_text);
+        var popup_url = _.str.sprintf('http://www.linkedin.com/shareArticle?mini=true&url=%s&title=I am using izi&summary=%s&source=www.izi.asia', encodeURIComponent(this.share_url), this.share_text);
         this.sharer(popup_url);
     },
 

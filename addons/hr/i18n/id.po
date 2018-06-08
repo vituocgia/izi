@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * hr
 # 
@@ -16,12 +16,12 @@
 # Gusti Rini <gustirini@gmail.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 13:43+0000\n"
 "PO-Revision-Date: 2018-02-19 13:43+0000\n"
 "Last-Translator: Gusti Rini <gustirini@gmail.com>, 2017\n"
-"Language-Team: Indonesian (https://www.transifex.com/odoo/teams/41243/id/)\n"
+"Language-Team: Indonesian (https://www.transifex.com/izi/teams/41243/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -340,8 +340,8 @@ msgstr "Mendefinisikan strategi komunikasi yang jelas"
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_consultant
-msgid "Deliver generic Odoo functional training sessions"
-msgstr "Memberikan Odoo generik yang fungsional pelatihan"
+msgid "Deliver generic izi functional training sessions"
+msgstr "Memberikan izi generik yang fungsional pelatihan"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_department_id
@@ -862,11 +862,11 @@ msgstr "Jumlah karyawan baru yang Anda harapkan untuk direkrut."
 #. module: hr
 #: model:ir.actions.act_window,help:hr.open_module_tree_department
 msgid ""
-"Odoo's department structure is used to manage all documents\n"
+"izi's department structure is used to manage all documents\n"
 "                related to employees by departments: expenses, timesheets,\n"
 "                leaves, recruitments, etc."
 msgstr ""
-"Struktur departemen Odoo digunakan untuk mengelola semua dokumen yang "
+"Struktur departemen izi digunakan untuk mengelola semua dokumen yang "
 "berhubungan dengan karyawan menurut departemen: pengeluaran, lembar kerja, "
 "cuti, perekrutan, dll."
 
@@ -1312,11 +1312,11 @@ msgstr "Akan melaporkan kepada kepala layanan profesional"
 #: model:ir.actions.act_window,help:hr.act_employee_from_department
 #: model:ir.actions.act_window,help:hr.open_view_employee_list_my
 msgid ""
-"With just a quick glance on the Odoo employee screen, you\n"
+"With just a quick glance on the izi employee screen, you\n"
 "                can easily find all the information you need for each person;\n"
 "                contact data, job position, availability, etc."
 msgstr ""
-"Dengan melihat tampilan karyawan Odoo, Anda dapat dengan mudah menemukan semua informasi yang Anda butuhkan untuk setiap orang;\n"
+"Dengan melihat tampilan karyawan izi, Anda dapat dengan mudah menemukan semua informasi yang Anda butuhkan untuk setiap orang;\n"
 "                data kontak, jabatan, ketersediaan, dll."
 
 #. module: hr

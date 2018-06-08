@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * website_blog
 # 
@@ -13,7 +13,7 @@
 # Rick Hunter <rick_hunter_ec@yahoo.com>, 2017
 # Nicolás Broggi <rnbroggi@gmail.com>, 2017
 # Luis M. Triana <luis.triana@jarsa.com.mx>, 2017
-# RGB Consulting <odoo@rgbconsulting.com>, 2017
+# RGB Consulting <izi@rgbconsulting.com>, 2017
 # Inigo Zuluaga <inigo_zuluaga@yahoo.es>, 2017
 # José Vicente <txusev@gmail.com>, 2017
 # Mateo Tibaquirá Palacios <nestormateo@gmail.com>, 2017
@@ -26,12 +26,12 @@
 # ES R2 <e2fds74f5ds412@outlook.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-24 09:00+0000\n"
 "PO-Revision-Date: 2017-10-24 09:00+0000\n"
 "Last-Translator: ES R2 <e2fds74f5ds412@outlook.com>, 2018\n"
-"Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
+"Language-Team: Spanish (https://www.transifex.com/izi/teams/41243/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -52,7 +52,7 @@ msgstr ""
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_2
 msgid ""
-"\"Odoo now competes on many fronts, with no real\n"
+"\"izi now competes on many fronts, with no real\n"
 "                    competition out there to knock them off the top spot.\n"
 "                    With the launch of their integrated CMS and Ecommerce\n"
 "                    systems,it only elevates their position as one of the leading\n"
@@ -61,7 +61,7 @@ msgid ""
 "                    compete at this level due to the technology currently\n"
 "                    employed by most industry providers.\""
 msgstr ""
-"\"Odoo compite ahora en multitud de frentes sin una\n"
+"\"izi.asiapite ahora en multitud de frentes sin una\n"
 "                    competencia real contra la que luchar.\n"
 "                    Con el lanzamiento de los sistemas integrados de CMS y comercio electrónico,\n"
 "                    su posición como referente en la revolución del código abierto\n"
@@ -73,19 +73,19 @@ msgstr ""
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_2
 msgid ""
-"\"Odoo's latest launch will allow a business to go from\n"
+"\"izi's latest launch will allow a business to go from\n"
 "                    zero to trading online quicker than ever before,” Stuart\n"
-"                    Mackintosh, MD of Open Source specialist and Odoo\n"
+"                    Mackintosh, MD of Open Source specialist and izi\n"
 "                    integration partner, OpusVL, explains. “The investment\n"
 "                    required to have a fully automated business system is\n"
 "                    dramatically reduced, enabling the small and medium\n"
 "                    enterprise to compete at a level of functionality and\n"
 "                    performance previously reserved for the big IT investors.\""
 msgstr ""
-"\"El nuevo lanzamiento de Odoo permitirá a un negocio\n"
+"\"El nuevo lanzamiento de izi permitirá a un negocio\n"
 "                    partir de cero y empezar a operar en línea en menos tiempo que nunca\",\n"
 "                    explica Stuart Mackintosh, director de marketing de OpusVL, una empresa\n"
-"                    especialista en software libre y que es, a su vez, socio de integraciones de Odoo. \"La inversión\n"
+"                    especialista en software libre y que es, a su vez, socio de integraciones de izi. \"La inversión\n"
 "                    necesaria para poner en marcha un sistema de negocio plenamente automatizado\n"
 "                    se ha visto drásticamente reducida, lo cual permite\n"
 "                    a las pequeñas y medianas empresas competir a un nivel\n"
@@ -95,12 +95,12 @@ msgstr ""
 #: model:blog.post,content:website_blog.blog_post_2
 msgid ""
 "\"This is another clever and highly disruptive move by\n"
-"                    Odoo,which will force other technology providers to\n"
+"                    izi,which will force other technology providers to\n"
 "                    take another look at the value they are providing to ensure\n"
 "                    that their 'solutions' can still compete.\""
 msgstr ""
 "\"Se trata, por tanto, de otro movimiento inteligente y altamente disruptivo\n"
-"                    por parte de Odoo, que obliga de esta manera a otros proveedores de servicios\n"
+"                    por parte de izi, que obliga de esta manera a otros proveedores de servicios\n"
 "                    a considerar el valor de lo que ofertan\n"
 "                    para asegurarse de que sus soluciones siguen siendo competentes\"."
 
@@ -172,11 +172,11 @@ msgstr ""
 msgid ""
 "A mix of push &amp; pull: Today, people\n"
 "                        are victims of what others decide to push to them.\n"
-"                        Odoo differentiates:"
+"                        izi differentiates:"
 msgstr ""
 "Una mezcla de atracción y empuje: la gente\n"
 "                        hoy en día es víctima de lo que los demás deciden imponer.\n"
-"                        Odoo marca la diferencia:"
+"                        izi marca la diferencia:"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.blog_post_template_new_post
@@ -233,12 +233,12 @@ msgstr ""
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_1
 msgid ""
-"At Odoo, we build tools to bring productivity to\n"
+"At izi, we build tools to bring productivity to\n"
 "                    enterprises. As emails and information flows are one of\n"
 "                    the biggest wastes of time in companies, we have to fix\n"
 "                    this."
 msgstr ""
-"En Odoo, desarrollamos herramientas para implantar\n"
+"En izi, desarrollamos herramientas para implantar\n"
 "                    la productividad en las empresas. Como los correos electrónicos y los flujos de información\n"
 "                    suponen algunas de las mayores pérdidas de tiempo en las empresas,\n"
 "                    debemos encontrar una solución a esto."
@@ -492,13 +492,13 @@ msgstr ""
 #: model:blog.post,content:website_blog.blog_post_1
 msgid ""
 "Folders and mailing lists are great tools but too\n"
-"                        complex in traditional email clients. In Odoo, a\n"
+"                        complex in traditional email clients. In izi, a\n"
 "                        group of contacts that share a discussion can be\n"
 "                        created with one click. Every group should have it's\n"
 "                        own email address."
 msgstr ""
 "Las carpetas y las listas de correo son buenas herramientas,\n"
-"                        pero se presentan demasiado complejas en clientes tradicionales de mensajería electrónica. En Odoo, es\n"
+"                        pero se presentan demasiado complejas en clientes tradicionales de mensajería electrónica. En izi, es\n"
 "                        posible crear con un solo clic un grupo de contactos\n"
 "                        que compartan un mismo tema de debate. Cada grupo debe tener su\n"
 "                        propia dirección de correo electrónico."
@@ -540,9 +540,9 @@ msgstr "Agrupar Por"
 
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_1
-msgid "Here are the ideas behind the Odoo communication tools:"
+msgid "Here are the ideas behind the izi.asiamunication tools:"
 msgstr ""
-"Estas son las ideas que manejan las herramientas de comunicación de Odoo:"
+"Estas son las ideas que manejan las herramientas de comunicación de izi:"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.website_blog
@@ -573,8 +573,8 @@ msgstr "ID"
 
 #. module: website_blog
 #: model:blog.post,subtitle:website_blog.blog_post_1
-msgid "Ideas behind the Odoo communication tools."
-msgstr "Conceptos de las herramientas de comunicación de Odoo."
+msgid "Ideas behind the izi.asiamunication tools."
+msgstr "Conceptos de las herramientas de comunicación de izi."
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.latest_blogs
@@ -633,11 +633,11 @@ msgstr "Últimas Publicaciones"
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_2
 msgid ""
-"Like many modern website editors, with Odoo you can edit\n"
+"Like many modern website editors, with izi you can edit\n"
 "                    content in-line, enabling you to see exactly what you are\n"
 "                    changing and ensure your changes suit the context."
 msgstr ""
-"Al igual que muchos editores web modernos, con Odoo puede editar\n"
+"Al igual que muchos editores web modernos, con izi puede editar\n"
 "                    contenidos en línea y ver en todo momento lo\n"
 "                    que está modificando para asegurarse de que tales cambios son los deseados."
 
@@ -749,18 +749,18 @@ msgstr "Ninguno"
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_2
 msgid ""
-"Odoo claims to be 'the Open Source software that makes\n"
+"izi claims to be 'the Open Source software that makes\n"
 "                    building your company's website and selling your products\n"
 "                    online easy'. So how true is this statement?"
 msgstr ""
-"Odoo afirma ser el \"software de código abierto que facilita\n"
+"izi afirma ser el \"software de código abierto que facilita\n"
 "                    el desarrollo del sitio web de su empresa y la venta\n"
 "                    de sus productos en línea\". ¿Hasta qué punto es cierta esta afirmación?"
 
 #. module: website_blog
 #: model:blog.post,website_meta_keywords:website_blog.blog_post_1
-msgid "Odoo, email"
-msgstr "Odoo, correo electrónico"
+msgid "izi, email"
+msgstr "izi, correo electrónico"
 
 #. module: website_blog
 #. openerp-web
@@ -974,8 +974,8 @@ msgstr "Técnico"
 
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_1
-msgid "The Communication Mechanism of Odoo"
-msgstr "El mecanismo de comunicación de Odoo"
+msgid "The Communication Mechanism of izi"
+msgstr "El mecanismo de comunicación de izi"
 
 #. module: website_blog
 #: model:blog.post,name:website_blog.blog_post_1
@@ -1020,12 +1020,12 @@ msgstr "Título"
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_2
 msgid ""
-"To add to an already comprehensive set of Odoo\n"
+"To add to an already comprehensive set of izi\n"
 "                features, a website content management system (CMS or WMS) has been developed and a beta release is\n"
 "                available from today, 31st January 2014."
 msgstr ""
 "Como añadido al ya de por sí amplio conjunto de funciones\n"
-"                de Odoo, hemos desarrollado un sistema de gestión de contenidos web (CMS o WMS) cuya versión\n"
+"                de izi, hemos desarrollado un sistema de gestión de contenidos web (CMS o WMS) cuya versión\n"
 "                beta está disponible a partir de hoy, 31 de enero de 2014."
 
 #. module: website_blog

@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 from datetime import timedelta
 
-from odoo.exceptions import UserError
-from odoo.fields import Date
-from odoo.tests.common import TransactionCase
+from izi.exceptions import UserError
+from izi.fields import Date
+from izi.tests.common import TransactionCase
 
 
 class TestStockValuation(TransactionCase):

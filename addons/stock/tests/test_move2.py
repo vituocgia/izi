@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
-from odoo.addons.stock.tests.common import TestStockCommon
-from odoo.exceptions import UserError
-from odoo import api, registry
-from odoo.tests.common import TransactionCase
+from izi.addons.stock.tests.common import TestStockCommon
+from izi.exceptions import UserError
+from izi import api, registry
+from izi.tests.common import TransactionCase
 
 
 class TestPickShip(TestStockCommon):

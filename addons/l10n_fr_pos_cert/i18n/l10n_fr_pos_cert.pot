@@ -1,10 +1,10 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 #	* l10n_fr_pos_cert
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 9.0c\n"
+"Project-Id-Version: izi Server 9.0c\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-12-06 16:08+0000\n"
 "PO-Revision-Date: 2017-12-06 16:08+0000\n"
@@ -121,7 +121,7 @@ msgid "Successful test !\n"
 "                         From: %(start_order_name)s %(start_order_ref)s recorded on %(start_order_date)s\n"
 "                         To: %(end_order_name)s %(end_order_ref)s recorded on %(end_order_date)s\n"
 "\n"
-"                         For this report to be legally meaningful, please download your certification from your customer account on Odoo.com (Only for Odoo Enterprise users)."
+"                         For this report to be legally meaningful, please download your certification from your customer account on izi.asia (Only for izi Enterprise users)."
 msgstr ""
 
 #. module: l10n_fr_pos_cert

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from odoo.tests.common import HttpCase
+from izi.tests.common import HttpCase
 
 
 class AccountingTestTemplConsistency(HttpCase):

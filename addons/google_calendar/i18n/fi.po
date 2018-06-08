@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * google_calendar
 # 
@@ -8,16 +8,16 @@
 # Kari Lindgren <kari.lindgren@emsystems.fi>, 2017
 # Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2017
 # Miku Laitinen <miku.laitinen@gmail.com>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux <mat@izi.asia>, 2017
 # Svante Suominen <svante.suominen@web-veistamo.fi>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-10 11:35+0000\n"
 "PO-Revision-Date: 2017-10-10 11:35+0000\n"
 "Last-Translator: Svante Suominen <svante.suominen@web-veistamo.fi>, 2017\n"
-"Language-Team: Finnish (https://www.transifex.com/odoo/teams/41243/fi/)\n"
+"Language-Team: Finnish (https://www.transifex.com/izi/teams/41243/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -193,10 +193,10 @@ msgstr ""
 #: model:ir.model.fields,help:google_calendar.field_res_users_google_calendar_cal_id
 msgid ""
 "Last Calendar ID who has been synchronized. If it is changed, we remove all "
-"links between GoogleID and Odoo Google Internal ID"
+"links between GoogleID and izi Google Internal ID"
 msgstr ""
 "Viimeinen Calendar ID, joka on synkronoitu.  Jos tätä muutetaan, kaikki "
-"linkitykset poistetaan GoogleID:n ja Odoon sisäisen Google Internal ID:n "
+"linkitykset poistetaan GoogleID:n ja izin sisäisen Google Internal ID:n "
 "väliltä"
 
 #. module: google_calendar
@@ -211,13 +211,13 @@ msgstr "Viimeisin synkronointi päivä"
 
 #. module: google_calendar
 #: model:ir.model.fields,field_description:google_calendar.field_calendar_attendee_oe_synchro_date
-msgid "Odoo Synchro Date"
-msgstr "Odoo synkronointi päivä"
+msgid "izi Synchro Date"
+msgstr "izi synkronointi päivä"
 
 #. module: google_calendar
 #: model:ir.model.fields,field_description:google_calendar.field_calendar_event_oe_update_date
-msgid "Odoo Update Date"
-msgstr "Odoo päivityspäivä"
+msgid "izi Update Date"
+msgstr "izi päivityspäivä"
 
 #. module: google_calendar
 #. openerp-web

@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
-from odoo.tests import common
-from odoo.modules.module import get_module_resource
+from izi.tests import common
+from izi.modules.module import get_module_resource
 
 
 class TestRecruitmentProcess(common.TransactionCase):

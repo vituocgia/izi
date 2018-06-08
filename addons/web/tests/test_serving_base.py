@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 import random
 import unittest
 
-from odoo.tools import topological_sort
+from izi.tools import topological_sort
 
 
 def sample(population):

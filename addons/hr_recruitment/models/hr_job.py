@@ -1,6 +1,6 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
-from odoo import api, fields, models, _
+from izi import api, fields, models, _
 
 
 class Job(models.Model):

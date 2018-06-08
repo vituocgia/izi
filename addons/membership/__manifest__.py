@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 
 {
@@ -32,7 +32,7 @@ invoice and send propositions for membership renewal.
     'demo': [
         'data/membership_demo.xml',
     ],
-    'website': 'https://www.odoo.com/page/community-builder',
+    'website': 'https://www.izi.asia/page/community-builder',
     'test': [
         '../account/test/account_minimal_test.xml',
     ],

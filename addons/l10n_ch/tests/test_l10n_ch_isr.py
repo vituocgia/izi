@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 import time
 
-from odoo.addons.account.tests.account_test_classes import AccountingTestCase
-from odoo.exceptions import ValidationError
+from izi.addons.account.tests.account_test_classes import AccountingTestCase
+from izi.exceptions import ValidationError
 
 
 class ISRTest(AccountingTestCase):
@@ -85,7 +85,7 @@ class ISRTest(AccountingTestCase):
 
     def test_isr(self):
         #Let us test the generation of an ISR for an invoice, first by showing an
-        #ISR report is only generated when Odoo has all the data it needs.
+        #ISR report is only generated when izi has all the data it needs.
         invoice_1 = self.create_invoice('base.CHF')
         self.isr_not_generated(invoice_1)
 

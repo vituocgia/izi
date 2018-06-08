@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 import logging
 import time
 from datetime import date, datetime, timedelta
 
-from odoo import api, fields, models, _, exceptions
-from odoo.osv import expression
-from odoo.tools import pycompat
-from odoo.tools.safe_eval import safe_eval
+from izi import api, fields, models, _, exceptions
+from izi.osv import expression
+from izi.tools import pycompat
+from izi.tools.safe_eval import safe_eval
 
 _logger = logging.getLogger(__name__)
 

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 import base64
 import json
@@ -8,12 +8,12 @@ import pytz
 from datetime import datetime
 from psycopg2 import IntegrityError
 
-from odoo import http
-from odoo.http import request
-from odoo.tools import DEFAULT_SERVER_DATE_FORMAT, DEFAULT_SERVER_DATETIME_FORMAT
-from odoo.tools.translate import _
-from odoo.exceptions import ValidationError
-from odoo.addons.base.ir.ir_qweb.fields import nl2br
+from izi import http
+from izi.http import request
+from izi.tools import DEFAULT_SERVER_DATE_FORMAT, DEFAULT_SERVER_DATETIME_FORMAT
+from izi.tools.translate import _
+from izi.exceptions import ValidationError
+from izi.addons.base.ir.ir_qweb.fields import nl2br
 
 
 class WebsiteForm(http.Controller):

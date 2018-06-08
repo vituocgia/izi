@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * website
 # 
@@ -14,12 +14,12 @@
 # Erdenebold Ts <erdenebold10@gmail.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 13:42+0000\n"
 "PO-Revision-Date: 2018-02-19 13:42+0000\n"
 "Last-Translator: Erdenebold Ts <erdenebold10@gmail.com>, 2018\n"
-"Language-Team: Mongolian (https://www.transifex.com/odoo/teams/41243/mn/)\n"
+"Language-Team: Mongolian (https://www.transifex.com/izi/teams/41243/mn/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -129,8 +129,8 @@ msgstr ", шинэчлэгдсэн:"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
-msgid "- The Odoo Team"
-msgstr "- Odoo баг"
+msgid "- The izi Team"
+msgstr "- izi баг"
 
 #. module: website
 #. openerp-web
@@ -620,9 +620,9 @@ msgstr "<strong>3. Хөлийн гарчигууд</strong> ба 4. Хөлийн
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_button
-msgid "<strong>50,000+ companies run Odoo to grow their businesses.</strong>"
+msgid "<strong>50,000+ companies run izi to grow their businesses.</strong>"
 msgstr ""
-"<strong>50,000+ компаниуд өөрийн бизнесийг хөгжүүлэхийн тулд Odoo-г ашиглаж "
+"<strong>50,000+ компаниуд өөрийн бизнесийг хөгжүүлэхийн тулд izi-г ашиглаж "
 "байна.</strong>"
 
 #. module: website
@@ -652,11 +652,11 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid ""
-"<strong>Be announced on the Odoo Twitter account</strong><br/>\n"
-"                                We like to hear from people using Odoo to build their website. Tweet us"
+"<strong>Be announced on the izi Twitter account</strong><br/>\n"
+"                                We like to hear from people using izi to build their website. Tweet us"
 msgstr ""
-"<strong>Odoo Twitter бүртгэл дээр зарлуулах</strong><br/>\n"
-"Вэбсайтаа босгохын тулд Odoo -г ашиглаж буй хүмүүсийн саналыг бид сонсох дуртай. Бидэн рүү жиргээрэй"
+"<strong>izi Twitter бүртгэл дээр зарлуулах</strong><br/>\n"
+"Вэбсайтаа босгохын тулд izi -г ашиглаж буй хүмүүсийн саналыг бид сонсох дуртай. Бидэн рүү жиргээрэй"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -835,8 +835,8 @@ msgstr "<strong>Таны вэбсайтын зорилтууд</strong> зэрэ
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
-msgid "@odoo"
-msgstr "@odoo"
+msgid "@izi"
+msgstr "@izi"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.res_config_settings_view_form
@@ -1919,10 +1919,10 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid ""
-"For the Odoo Team,<br/>\n"
+"For the izi Team,<br/>\n"
 "                            Fabien Pinckaers, Founder"
 msgstr ""
-"Odoo-н багт<br/>\n"
+"izi-н багт<br/>\n"
 "Fabien Pinckaers, Үүсгэн байгуулагч"
 
 #. module: website
@@ -2378,7 +2378,7 @@ msgstr ""
 #, python-format
 msgid ""
 "It might be possible to edit the relevant items or fix the issue in <a "
-"href=\"%s\">the classic Odoo interface</a>"
+"href=\"%s\">the classic izi interface</a>"
 msgstr ""
 
 #. module: website
@@ -2808,57 +2808,57 @@ msgstr "Зорилтууд"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.layout_footer_copyright
-msgid "Odoo"
-msgstr "Odoo"
+msgid "izi"
+msgstr "izi"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_three_columns
-msgid "Odoo - Sample 1 for three columns"
-msgstr "Odoo - Жишээ 1 гурван багана"
+msgid "izi - Sample 1 for three columns"
+msgstr "izi - Жишээ 1 гурван багана"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_three_columns
-msgid "Odoo - Sample 2 for three columns"
-msgstr "Odoo - Жишээ 2 гурван багана"
+msgid "izi - Sample 2 for three columns"
+msgstr "izi - Жишээ 2 гурван багана"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_three_columns
-msgid "Odoo - Sample 3 for three columns"
-msgstr "Odoo - Жишээ 3 гурван багана"
+msgid "izi - Sample 3 for three columns"
+msgstr "izi - Жишээ 3 гурван багана"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_big_picture
-msgid "Odoo CMS - a big picture"
-msgstr "Odoo CMS - том зураг"
+msgid "izi CMS - a big picture"
+msgstr "izi CMS - том зураг"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_image_floating
-msgid "Odoo CMS- Sample image floating"
-msgstr "Odoo CMS- Жишээ зургийн зай"
+msgid "izi CMS- Sample image floating"
+msgstr "izi CMS- Жишээ зургийн зай"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.show_website_info
-msgid "Odoo Version"
-msgstr "Odoo-н хувилбар"
+msgid "izi Version"
+msgstr "izi-н хувилбар"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_image_text
-msgid "Odoo image and text block"
-msgstr "Odoo зураг ба текст блок"
+msgid "izi image and text block"
+msgstr "izi зураг ба текст блок"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_parallax_slider
 msgid ""
-"Odoo provides essential platform for our project management.\n"
+"izi provides essential platform for our project management.\n"
 "                                                Things are better organized and more visible with it."
 msgstr ""
-"Odoo нь төслийн менежментийн хамгийн чухал зүйлсийг тусгасан хөрсийг бий болгодог.\n"
+"izi нь төслийн менежментийн хамгийн чухал зүйлсийг тусгасан хөрсийг бий болгодог.\n"
 "                                                    Юмс илүү сайн зохион байгуулалттай болж илүү ил тод харагдацтай болдог."
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_text_image
-msgid "Odoo text and image block"
-msgstr "Odoo текст ба зургийн блок"
+msgid "izi text and image block"
+msgstr "izi текст ба зургийн блок"
 
 #. module: website
 #. openerp-web
@@ -3525,7 +3525,7 @@ msgstr "Энгийн бас тодорхой"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_banner
-msgid "Slider Odoo Image"
+msgid "Slider izi Image"
 msgstr ""
 
 #. module: website
@@ -4675,23 +4675,23 @@ msgstr "Google дээр таны хуудас харагдах байдал"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.view_website_form
-msgid "https://plus.google.com/+Odooapps"
-msgstr "https://plus.google.com/+Odooapps"
+msgid "https://plus.google.com/+iziapps"
+msgstr "https://plus.google.com/+iziapps"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.view_website_form
-msgid "https://twitter.com/Odoo"
-msgstr "https://twitter.com/Odoo"
+msgid "https://twitter.com/izi"
+msgstr "https://twitter.com/izi"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.view_website_form
-msgid "https://www.facebook.com/odoo"
-msgstr "https://www.facebook.com/odoo"
+msgid "https://www.facebook.com/izi"
+msgstr "https://www.facebook.com/izi"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.view_website_form
-msgid "https://www.linkedin.com/company/odoo"
-msgstr "https://www.linkedin.com/company/odoo"
+msgid "https://www.linkedin.com/company/izi"
+msgstr "https://www.linkedin.com/company/izi"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.view_website_form
@@ -4710,8 +4710,8 @@ msgstr "өөрсдийн SEO метадатанд шошго, гарчиг, т�
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.show_website_info
-msgid "instance of Odoo, the"
-msgstr "Odoo тусгал,"
+msgid "instance of izi, the"
+msgstr "izi тусгал,"
 
 #. module: website
 #: model:ir.model,name:website.model_ir_actions_server

@@ -1,4 +1,4 @@
-odoo.define('base_calendar.base_calendar', function (require) {
+izi.define('base_calendar.base_calendar', function (require) {
 "use strict";
 
 var bus = require('bus.bus').bus;

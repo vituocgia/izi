@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
-from odoo import http, _
-from odoo.addons.portal.controllers.portal import CustomerPortal, pager as portal_pager
-from odoo.exceptions import AccessError
-from odoo.http import request
-from odoo.tools import consteq
+from izi import http, _
+from izi.addons.portal.controllers.portal import CustomerPortal, pager as portal_pager
+from izi.exceptions import AccessError
+from izi.http import request
+from izi.tools import consteq
 
 
 class PortalAccount(CustomerPortal):

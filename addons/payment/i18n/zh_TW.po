@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * payment
 # 
@@ -8,12 +8,12 @@
 # Michael Yeung, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 13:43+0000\n"
 "PO-Revision-Date: 2018-02-19 13:43+0000\n"
 "Last-Translator: Michael Yeung, 2017\n"
-"Language-Team: Chinese (Taiwan) (https://www.transifex.com/odoo/teams/41243/zh_TW/)\n"
+"Language-Team: Chinese (Taiwan) (https://www.transifex.com/izi/teams/41243/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -326,8 +326,8 @@ msgstr "捕捉交易"
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer_capture_manually
-msgid "Capture the amount from Odoo, when the delivery is completed."
-msgstr "完成交貨後，從 Odoo 獲取金額。"
+msgid "Capture the amount from izi, when the delivery is completed."
+msgstr "完成交貨後，從 izi 獲取金額。"
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_partner_city
@@ -912,7 +912,7 @@ msgstr "付款交易"
 
 #. module: payment
 #: selection:payment.acquirer,payment_flow:0
-msgid "Payment from Odoo"
+msgid "Payment from izi"
 msgstr ""
 
 #. module: payment

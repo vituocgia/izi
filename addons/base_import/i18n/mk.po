@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * base_import
 # 
@@ -7,12 +7,12 @@
 # Aleksandar Vangelovski <aleksandarv@hbee.eu>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 13:43+0000\n"
 "PO-Revision-Date: 2018-02-19 13:43+0000\n"
 "Last-Translator: Aleksandar Vangelovski <aleksandarv@hbee.eu>, 2018\n"
-"Language-Team: Macedonian (https://www.transifex.com/odoo/teams/41243/mk/)\n"
+"Language-Team: Macedonian (https://www.transifex.com/izi/teams/41243/mk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -283,12 +283,12 @@ msgstr "ID"
 #, python-format
 msgid ""
 "If the file contains\n"
-"                the column names, Odoo can try auto-detecting the\n"
+"                the column names, izi can try auto-detecting the\n"
 "                field corresponding to the column. This makes imports\n"
 "                simpler especially when the file has many columns."
 msgstr ""
 "Ако датотеката содржи\n"
-"                имиња на колоните, Odoo може да се обиде автоматски да ги детектира\n"
+"                имиња на колоните, izi може да се обиде автоматски да ги детектира\n"
 "                полињата кои кореспондираат со колоната. Ова ги прави увезувањата\n"
 "                поедноставни особено кога датотеката има многу колони."
 

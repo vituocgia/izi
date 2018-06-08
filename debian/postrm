@@ -2,22 +2,22 @@
 
 set -e
 
-ODOO_LIB_DIR=/var/lib/odoo
-ODOO_USER="odoo"
-ODOO_GROUP="odoo"
+izi_LIB_DIR=/var/lib/izi
+izi_USER="izi"
+izi_GROUP="izi"
 
 case "${1}" in
     remove)
-        deluser --quiet --system $ODOO_USER || true
-        delgroup --quiet --system --only-if-empty $ODOO_GROUP || true
-        if [ -d "$ODOO_LIB_DIR" ]; then
-            rm -rf $ODOO_LIB_DIR
+        deluser --quiet --system $izi_USER || true
+        delgroup --quiet --system --only-if-empty $izi_GROUP || true
+        if [ -d "$izi_LIB_DIR" ]; then
+            rm -rf $izi_LIB_DIR
         fi
         ;;
 
     purge)
-        if [ -d "$ODOO_LIB_DIR" ]; then
-            rm -rf $ODOO_LIB_DIR
+        if [ -d "$izi_LIB_DIR" ]; then
+            rm -rf $izi_LIB_DIR
         fi
         ;;
 

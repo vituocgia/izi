@@ -1,23 +1,23 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * web
 # 
 # Translators:
 # Xavier Belmere <Info@cartmeleon.com>, 2017
 # Martin Trigaux, 2017
-# Eloïse Stilmant <est@odoo.com>, 2017
+# Eloïse Stilmant <est@izi.asia>, 2017
 # Olivier Lenoir <olivier.lenoir@free.fr>, 2017
-# Olivier Dony <odo@odoo.com>, 2017
+# Olivier Dony <odo@izi.asia>, 2017
 # Micky Jault <micky037@hotmail.fr>, 2017
-# Richard Mathot <rim@odoo.com>, 2017
+# Richard Mathot <rim@izi.asia>, 2017
 # Fabien Pinckaers <fp@openerp.com>, 2017
 # Florian Hatat, 2017
 # Benoît Fontaine <benoitfontaine.ba@gmail.com>, 2017
-# lap.odoo <lap@odoo.com>, 2017
+# lap.izi <lap@izi.asia>, 2017
 # Lionel Sausin <ls@numerigraphe.com>, 2017
 # Bertrand LATOUR <divoir@gmail.com>, 2017
 # Jérémy Donas <LeDistordu@users.noreply.github.com>, 2017
-# Melanie Bernard <mbe@odoo.com>, 2017
+# Melanie Bernard <mbe@izi.asia>, 2017
 # Maxime Chambreuil <mchambreuil@ursainfosystems.com>, 2017
 # Christophe CHAUVET <christophe.chauvet@gmail.com>, 2017
 # Jerther, 2017
@@ -25,12 +25,12 @@
 # fr rev <e2ffr02@hotmail.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-01-09 10:16+0000\n"
 "PO-Revision-Date: 2018-01-09 10:16+0000\n"
 "Last-Translator: fr rev <e2ffr02@hotmail.com>, 2018\n"
-"Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
+"Language-Team: French (https://www.transifex.com/izi/teams/41243/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -245,8 +245,8 @@ msgstr "<span class=\"oe_logo_edit\">Modifier les données de la société</span
 
 #. module: web
 #: model:ir.ui.view,arch_db:web.menu_secondary
-msgid "<span>Odoo</span>"
-msgstr "<span>Odoo</span>"
+msgid "<span>izi</span>"
+msgstr "<span>izi</span>"
 
 #. module: web
 #. openerp-web
@@ -1329,8 +1329,8 @@ msgstr "Formulaire"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1339
 #, python-format
-msgid "Get this feature and much more with Odoo Enterprise!"
-msgstr "Activez cette application et bien d'autres via Odoo Entreprise !"
+msgid "Get this feature and much more with izi Enterprise!"
+msgstr "Activez cette application et bien d'autres via izi Entreprise !"
 
 #. module: web
 #. openerp-web
@@ -1691,8 +1691,8 @@ msgstr "Déplacer vers le haut"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1324
 #, python-format
-msgid "My Odoo.com account"
-msgstr "Mon compte Odoo.com"
+msgid "My izi.asia account"
+msgstr "Mon compte izi.asia"
 
 #. module: web
 #. openerp-web
@@ -1827,15 +1827,15 @@ msgstr "Objet :"
 #. openerp-web
 #: code:addons/web/static/src/js/core/dialog.js:51
 #, python-format
-msgid "Odoo"
-msgstr "Odoo"
+msgid "izi"
+msgstr "izi"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/apps.js:148
 #, python-format
-msgid "Odoo Apps will be available soon"
-msgstr "Les applications Odoo seront bientôt disponibles"
+msgid "izi Apps will be available soon"
+msgstr "Les applications izi seront bientôt disponibles"
 
 #. module: web
 #. openerp-web
@@ -1843,37 +1843,37 @@ msgstr "Les applications Odoo seront bientôt disponibles"
 #: code:addons/web/static/src/js/chrome/abstract_web_client.js:194
 #: code:addons/web/static/src/js/services/crash_manager.js:156
 #, python-format
-msgid "Odoo Client Error"
-msgstr "Erreur client Odoo "
+msgid "izi Client Error"
+msgstr "Erreur client izi "
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/fields/upgrade_fields.js:86
 #, python-format
-msgid "Odoo Enterprise"
-msgstr "Entreprise Odoo"
+msgid "izi Enterprise"
+msgstr "Entreprise izi"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:118
 #, python-format
-msgid "Odoo Error"
-msgstr "Erreur Odoo"
+msgid "izi Error"
+msgstr "Erreur izi"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:58
 #, python-format
-msgid "Odoo Session Expired"
-msgstr "Session Odoo Expirée"
+msgid "izi Session Expired"
+msgstr "Session izi Expirée"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:108
 #: code:addons/web/static/src/js/services/crash_manager.js:197
 #, python-format
-msgid "Odoo Warning"
-msgstr "Avertissement Odoo"
+msgid "izi Warning"
+msgstr "Avertissement izi"
 
 #. module: web
 #. openerp-web
@@ -2097,8 +2097,8 @@ msgstr "Fourni par"
 
 #. module: web
 #: model:ir.ui.view,arch_db:web.login_layout
-msgid "Powered by <span>Odoo</span>"
-msgstr "Propulsé par <span>Odoo</span>"
+msgid "Powered by <span>izi</span>"
+msgstr "Propulsé par <span>izi</span>"
 
 #. module: web
 #. openerp-web
@@ -2620,10 +2620,10 @@ msgstr ""
 #, python-format
 msgid ""
 "Timezone Mismatch : The timezone of your browser doesn't match the selected "
-"one. The time in Odoo is displayed according to your field timezone."
+"one. The time in izi is displayed according to your field timezone."
 msgstr ""
 "Différence de fuseau horaire : Le fuseau horaire de votre navigateur ne "
-"correspond pas à celui sélectionné. Le temps dans Odoo est affiché selon "
+"correspond pas à celui sélectionné. Le temps dans izi est affiché selon "
 "votre champ fuseau horaire"
 
 #. module: web
@@ -2973,7 +2973,7 @@ msgid ""
 "You need to start OpenERP with at least two \n"
 "workers to print a pdf version of the reports."
 msgstr ""
-"Vous devez démarrer Odoo avec au moins 2 workers pour imprimer une version "
+"Vous devez démarrer izi avec au moins 2 workers pour imprimer une version "
 "PDF des rapports."
 
 #. module: web
@@ -2994,8 +2994,8 @@ msgstr ""
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:58
 #, python-format
-msgid "Your Odoo session expired. Please refresh the current web page."
-msgstr "Votre session Odoo a expiré. Merci d'actualiser la page."
+msgid "Your izi session expired. Please refresh the current web page."
+msgstr "Votre session izi a expiré. Merci d'actualiser la page."
 
 #. module: web
 #. openerp-web

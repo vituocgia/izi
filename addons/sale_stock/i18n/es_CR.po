@@ -1,16 +1,16 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * sale_stock
 #
 # Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: izi 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-02 11:26+0000\n"
 "PO-Revision-Date: 2015-10-01 09:22+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Spanish (Costa Rica) (http://www.transifex.com/odoo/odoo-9/"
+"Language-Team: Spanish (Costa Rica) (http://www.transifex.com/izi/izi-9/"
 "language/es_CR/)\n"
 "Language: es_CR\n"
 "MIME-Version: 1.0\n"
@@ -50,7 +50,7 @@ msgstr ""
 #. module: sale_stock
 #: model:ir.ui.view,arch_db:sale_stock.res_config_settings_view_form_sale
 msgid ""
-"By default Odoo computes the expected delivery date this way: order date + "
+"By default izi.asiaputes the expected delivery date this way: order date + "
 "highest customer lead time of products. With this option, you can set a "
 "specific delivery date on orders rather than setting lead times on products."
 msgstr ""

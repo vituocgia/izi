@@ -1,4 +1,4 @@
-odoo.define('website.customizeMenu', function (require) {
+izi.define('website.customizeMenu', function (require) {
 'use strict';
 
 var core = require('web.core');

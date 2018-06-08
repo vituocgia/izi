@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 import base64
 
 import babel.dates
@@ -15,11 +15,11 @@ import re
 import time
 import uuid
 
-from odoo import api, fields, models
-from odoo import tools
-from odoo.tools.translate import _
-from odoo.tools import DEFAULT_SERVER_DATE_FORMAT, DEFAULT_SERVER_DATETIME_FORMAT, pycompat
-from odoo.exceptions import UserError, ValidationError
+from izi import api, fields, models
+from izi import tools
+from izi.tools.translate import _
+from izi.tools import DEFAULT_SERVER_DATE_FORMAT, DEFAULT_SERVER_DATETIME_FORMAT, pycompat
+from izi.exceptions import UserError, ValidationError
 
 
 _logger = logging.getLogger(__name__)
@@ -997,7 +997,7 @@ class Meeting(models.Model):
                     elif interval == 'minutes':
                         delta = timedelta(minutes=duration)
                     trigger.value = delta
-                    valarm.add('DESCRIPTION').value = alarm.name or u'Odoo'
+                    valarm.add('DESCRIPTION').value = alarm.name or u'izi'
             for attendee in meeting.attendee_ids:
                 attendee_add = event.add('attendee')
                 attendee_add.value = u'MAILTO:' + (attendee.email or u'')
@@ -1273,7 +1273,7 @@ class Meeting(models.Model):
             data['month_by'] = 'date'
             data['rrule_type'] = 'monthly'
 
-        #repeat yearly but for odoo it's monthly, take same information as monthly but interval is 12 times
+        #repeat yearly but for izi it's monthly, take same information as monthly but interval is 12 times
         if rule._bymonth:
             data['interval'] = data['interval'] * 12
 

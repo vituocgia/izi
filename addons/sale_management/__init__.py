@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
-from odoo.api import Environment, SUPERUSER_ID
+from izi.api import Environment, SUPERUSER_ID
 
 
 def uninstall_hook(cr, registry):

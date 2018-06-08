@@ -4,9 +4,9 @@ import babel
 
 from datetime import datetime, timedelta, time
 
-from odoo import fields, http, _
-from odoo.addons.website.controllers.backend import WebsiteBackend
-from odoo.http import request
+from izi import fields, http, _
+from izi.addons.website.controllers.backend import WebsiteBackend
+from izi.http import request
 
 
 class WebsiteSaleBackend(WebsiteBackend):

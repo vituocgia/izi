@@ -1,8 +1,8 @@
-import odoo.tests
+import izi.tests
 
 
-@odoo.tests.common.at_install(False)
-@odoo.tests.common.post_install(True)
-class TestUi(odoo.tests.HttpCase):
+@izi.tests.common.at_install(False)
+@izi.tests.common.post_install(True)
+class TestUi(izi.tests.HttpCase):
     def test_admin(self):
-        self.phantom_js("/", "odoo.__DEBUG__.services['web_tour.tour'].run('event')", "odoo.__DEBUG__.services['web_tour.tour'].tours.event.ready", login='admin')
+        self.phantom_js("/", "izi.__DEBUG__.services['web_tour.tour'].run('event')", "izi.__DEBUG__.services['web_tour.tour'].tours.event.ready", login='admin')

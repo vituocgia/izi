@@ -4,11 +4,11 @@ import hmac
 import logging
 import datetime
 
-from odoo import api, exceptions, fields, models, _
-from odoo.tools import consteq, float_round, image_resize_images, image_resize_image, ustr
-from odoo.addons.base.module import module
-from odoo.exceptions import ValidationError
-from odoo import api, SUPERUSER_ID
+from izi import api, exceptions, fields, models, _
+from izi.tools import consteq, float_round, image_resize_images, image_resize_image, ustr
+from izi.addons.base.module import module
+from izi.exceptions import ValidationError
+from izi import api, SUPERUSER_ID
 
 _logger = logging.getLogger(__name__)
 
@@ -84,7 +84,7 @@ class PaymentAcquirer(models.Model):
         help="Make this payment acquirer available (Customer invoices, etc.)")
     # Formerly associated to `authorize` option from auto_confirm
     capture_manually = fields.Boolean(string="Capture Amount Manually",
-        help="Capture the amount from Odoo, when the delivery is completed.")
+        help="Capture the amount from izi, when the delivery is completed.")
     # Formerly associated to `generate_and_pay_invoice` option from auto_confirm
     journal_id = fields.Many2one(
         'account.journal', 'Payment Journal', domain=[('type', 'in', ['bank', 'cash'])],
@@ -162,7 +162,7 @@ class PaymentAcquirer(models.Model):
 
     payment_icon_ids = fields.Many2many('payment.icon', string='Supported Payment Icons')
     payment_flow = fields.Selection(selection=[('form', 'Redirection to the acquirer website'),
-        ('s2s','Payment from Odoo')],
+        ('s2s','Payment from izi')],
         default='form', required=True, string='Payment Flow',
         help="""Note: Subscriptions does not take this field in account, it uses server to server by default.""")
 
@@ -336,7 +336,7 @@ class PaymentAcquirer(models.Model):
          - 'return_url': URL for coming back after payment validation (wihout base url) -> FIXME
          - 'cancel_url': URL if the client cancels the payment -> FIXME
          - 'error_url': URL if there is an issue with the payment -> FIXME
-         - context: Odoo context
+         - context: izi context
 
         """
         if values is None:

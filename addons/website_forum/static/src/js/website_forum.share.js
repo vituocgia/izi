@@ -1,4 +1,4 @@
-odoo.define('website_forum.share', function (require) {
+izi.define('website_forum.share', function (require) {
 'use strict';
 
 require('web.dom_ready');

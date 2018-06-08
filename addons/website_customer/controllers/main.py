@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 import werkzeug.urls
 
-from odoo import http
-from odoo.addons.http_routing.models.ir_http import unslug, slug
-from odoo.addons.website.models.ir_http import sitemap_qs2dom
-from odoo.tools.translate import _
-from odoo.http import request
+from izi import http
+from izi.addons.http_routing.models.ir_http import unslug, slug
+from izi.addons.website.models.ir_http import sitemap_qs2dom
+from izi.tools.translate import _
+from izi.http import request
 
 
 class WebsiteCustomer(http.Controller):

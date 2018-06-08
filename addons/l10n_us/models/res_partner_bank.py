@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 import re
-from odoo import fields, models, api, _
-from odoo.exceptions import UserError
+from izi import fields, models, api, _
+from izi.exceptions import UserError
 
 
 class ResPartnerBank(models.Model):

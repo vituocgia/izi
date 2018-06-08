@@ -1,11 +1,11 @@
 (function() {
 "use strict";
 
-odoo.__DEBUG__.didLogInfo.then(function() {
+izi.__DEBUG__.didLogInfo.then(function() {
 
-    var modulesInfo = odoo.__DEBUG__.js_modules;
+    var modulesInfo = izi.__DEBUG__.js_modules;
 
-    QUnit.module('Odoo JS Modules');
+    QUnit.module('izi JS Modules');
 
     QUnit.test('all modules are properly loaded', function(assert) {
         assert.expect(2);

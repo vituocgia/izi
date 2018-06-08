@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 from datetime import datetime, time
 from dateutil.relativedelta import relativedelta
 
-from odoo import fields
+from izi import fields
 
-from odoo.tests import common
-from odoo.addons.hr_timesheet.tests.test_timesheet import TestTimesheet
+from izi.tests import common
+from izi.addons.hr_timesheet.tests.test_timesheet import TestTimesheet
 
 
 class TestTimesheetHolidaysCreate(common.TransactionCase):

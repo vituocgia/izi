@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 import werkzeug
 
-from odoo.addons.mail.controllers.main import MailController
-from odoo.exceptions import AccessError
-from odoo.http import request
-from odoo.tools.misc import consteq
+from izi.addons.mail.controllers.main import MailController
+from izi.exceptions import AccessError
+from izi.http import request
+from izi.tools.misc import consteq
 
 
 class MailController(MailController):

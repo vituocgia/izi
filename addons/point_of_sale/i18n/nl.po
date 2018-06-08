@@ -1,11 +1,11 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * point_of_sale
 # 
 # Translators:
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux <mat@izi.asia>, 2017
 # Yenthe Van Ginneken <yenthespam@gmail.com>, 2017
-# Erwin van der Ploeg <erwin@odooexperts.nl>, 2017
+# Erwin van der Ploeg <erwin@iziexperts.nl>, 2017
 # Cas Vissers <casvissers@brahoo.nl>, 2017
 # Eric Geens <ericgeens@yahoo.com>, 2017
 # Stephan Van Dyck <stephan.vandyck@vanroey.be>, 2017
@@ -13,12 +13,12 @@
 # Pol Van Dingenen <pol.vandingenen@vanroey.be>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-01-08 10:30+0000\n"
 "PO-Revision-Date: 2018-01-08 10:30+0000\n"
 "Last-Translator: Pol Van Dingenen <pol.vandingenen@vanroey.be>, 2017\n"
-"Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
+"Language-Team: Dutch (https://www.transifex.com/izi/teams/41243/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1679,8 +1679,8 @@ msgstr "ID"
 #. openerp-web
 #: code:addons/point_of_sale/static/src/js/popups.js:115
 #, python-format
-msgid "IMPORTANT: Bug Report From Odoo Point Of Sale"
-msgstr "BELANGRIJK: Foutrapport van Odoo kassa"
+msgid "IMPORTANT: Bug Report From izi Point Of Sale"
+msgstr "BELANGRIJK: Foutrapport van izi kassa"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config_proxy_ip
@@ -2169,8 +2169,8 @@ msgstr "Aantal Kopieën"
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.customer_facing_display_html
 #: model:pos.config,customer_facing_display_html:point_of_sale.pos_config_main
-msgid "Odoo Logo"
-msgstr "Odoo logo"
+msgid "izi Logo"
+msgstr "izi logo"
 
 #. module: point_of_sale
 #. openerp-web
@@ -3981,19 +3981,19 @@ msgstr "Dit product wordt gebruikt als referentie op klantticketten."
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config_sequence_line_id
 msgid ""
-"This sequence is automatically created by Odoo but you can change it to "
+"This sequence is automatically created by izi but you can change it to "
 "customize the reference numbers of your orders lines."
 msgstr ""
-"Deze nummering zal automatisch gegenereerd worden door Odoo, maar u kunt ook"
+"Deze nummering zal automatisch gegenereerd worden door izi, maar u kunt ook"
 " uw eigen nummering samenstellen voor uw orderregels."
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config_sequence_id
 msgid ""
-"This sequence is automatically created by Odoo but you can change it to "
+"This sequence is automatically created by izi but you can change it to "
 "customize the reference numbers of your orders."
 msgstr ""
-"Deze nummering zal automatisch gegenereerd worden door Odoo, maar u kunt ook"
+"Deze nummering zal automatisch gegenereerd worden door izi, maar u kunt ook"
 " uw eigen nummering samenstellen."
 
 #. module: point_of_sale

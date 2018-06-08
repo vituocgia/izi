@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * website_event_track
 # 
@@ -10,12 +10,12 @@
 # Jaroslav Bosansky <jaro.bosansky@ekoenergo.sk>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: izi Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-02 11:26+0000\n"
 "PO-Revision-Date: 2017-10-02 11:26+0000\n"
 "Last-Translator: Jaroslav Bosansky <jaro.bosansky@ekoenergo.sk>, 2018\n"
-"Language-Team: Slovak (https://www.transifex.com/odoo/teams/41243/sk/)\n"
+"Language-Team: Slovak (https://www.transifex.com/izi/teams/41243/sk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -123,10 +123,10 @@ msgstr ""
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track7
 msgid ""
-"A technical explanation of Odoo as a CMS and a eCommerce platform for "
+"A technical explanation of izi as a CMS and a eCommerce platform for "
 "version 8."
 msgstr ""
-"Technická vysvetlenie Odoo ako CMS a eCommerce platformy pre verziu 8."
+"Technická vysvetlenie izi ako CMS a eCommerce platformy pre verziu 8."
 
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_event_track_kanban_state
@@ -154,8 +154,8 @@ msgstr "Aktívne"
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track19
-msgid "Advanced lead management with Odoo: tips and tricks from the fields"
-msgstr "Pokročilá spravovanie iniciatív s Odoo: tipy a triky z odboru"
+msgid "Advanced lead management with izi: tips and tricks from the fields"
+msgstr "Pokročilá spravovanie iniciatív s izi: tipy a triky z odboru"
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track13
@@ -303,16 +303,16 @@ msgstr "Podrobný plán účtovných nových modulov a vylepšenia vo verzii 8."
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track8
 msgid ""
-"Discover Odoo CRM: How to optimize your sales, from leads to sales orders."
+"Discover izi CRM: How to optimize your sales, from leads to sales orders."
 msgstr ""
-"Objavte Odoo CRM: Ako optimalizovať vašee predaje, od iniciatív k predajným "
+"Objavte izi CRM: Ako optimalizovať vašee predaje, od iniciatív k predajným "
 "objednávkam."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track11
-msgid "Discover Odoo Point-of-Sale: Your shop ready to use in 30 minutes."
+msgid "Discover izi Point-of-Sale: Your shop ready to use in 30 minutes."
 msgstr ""
-"Objavte Odoo Miesto Predaja: Váš obchod pripravený na použitie za 30 minút."
+"Objavte izi Miesto Predaja: Váš obchod pripravený na použitie za 30 minút."
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_sponsor_display_name
@@ -473,10 +473,10 @@ msgstr "Najvyššia"
 #: model:event.track,name:website_event_track.event_track18
 msgid ""
 "How to build your marketing strategy for the purpose of generating leads "
-"with Odoo."
+"with izi."
 msgstr ""
 "Ako postaviť svoju marketingovú stratégiu za účelom vytvárania iniciatív s "
-"Odoo."
+"izi."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track1
@@ -485,8 +485,8 @@ msgstr "Ako vyvinúť modul webstránky."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track4
-msgid "How to develop automated tests in the Odoo web client."
-msgstr "Ako vytvoriť automatizované testy v Odoo web klientovi."
+msgid "How to develop automated tests in the izi web client."
+msgstr "Ako vytvoriť automatizované testy v izi web klientovi."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track3
@@ -496,16 +496,16 @@ msgstr ""
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track2
-msgid "How to integrate hardware materials with the Odoo point of sale."
-msgstr "Ako integrovať hardvérové materiály s Odoo miesotm predaja."
+msgid "How to integrate hardware materials with the izi point of sale."
+msgstr "Ako integrovať hardvérové materiály s izi miesotm predaja."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track9
 msgid ""
-"How to use Odoo for your HR process: recruitment, leaves management, "
+"How to use izi for your HR process: recruitment, leaves management, "
 "appraisals, expenses, etc."
 msgstr ""
-"Ako použiť Odoo pre váš HR proces: prijímanie, spravovanie voľna, ocenenia, "
+"Ako použiť izi pre váš HR proces: prijímanie, spravovanie voľna, ocenenia, "
 "výdaje, atď."
 
 #. module: website_event_track
@@ -542,8 +542,8 @@ msgstr "Kanban stav"
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track23
-msgid "Key Success factors selling Odoo."
-msgstr "Kľúčové faktory úspechu predaja Odoo."
+msgid "Key Success factors selling izi."
+msgstr "Kľúčové faktory úspechu predaja izi."
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_sponsor___last_update
@@ -607,8 +607,8 @@ msgstr "Spravujte svoje KPI (odporúčané openERP partnerom)."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track12
-msgid "Manage your events with Odoo, the new training modules."
-msgstr "Spravujte vaše udalosti s Odoo, nové tréningové moduly."
+msgid "Manage your events with izi, the new training modules."
+msgstr "Spravujte vaše udalosti s izi, nové tréningové moduly."
 
 #. module: website_event_track
 #: selection:event.track,priority:0
@@ -679,23 +679,23 @@ msgstr "Žiadne sledovania neboli nájdené!"
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track15
-msgid "Odoo Mobile for Notes, Meetings and Messages."
-msgstr "Odoo Mobile pre Poznámky, Stretnutia a Správy."
+msgid "izi Mobile for Notes, Meetings and Messages."
+msgstr "izi Mobile pre Poznámky, Stretnutia a Správy."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track28
-msgid "Odoo Status & Strategy 2014"
-msgstr "Odoo Status & Stratégia 2014"
+msgid "izi Status & Strategy 2014"
+msgstr "izi Status & Stratégia 2014"
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track16
-msgid "Odoo as your Enterprise Social Network."
-msgstr "Odoo ako vaša podnikateľská sociálna sieť."
+msgid "izi as your Enterprise Social Network."
+msgstr "izi ako vaša podnikateľská sociálna sieť."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track27
-msgid "Odoo in 2014"
-msgstr "Odoo v 2014"
+msgid "izi in 2014"
+msgstr "izi v 2014"
 
 #. module: website_event_track
 #: model:ir.ui.view,arch_db:website_event_track.event_sponsor
@@ -755,8 +755,8 @@ msgstr "Zvyšovanie kvalitatívnych poznatkov s aplikáciou prieskumu"
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track21
-msgid "Recruiting high skilled talents with Odoo HR apps"
-msgstr "Nábor vysoko kvalifikovaných talentov s Odoo HR aplikáciami"
+msgid "Recruiting high skilled talents with izi HR apps"
+msgstr "Nábor vysoko kvalifikovaných talentov s izi HR aplikáciami"
 
 #. module: website_event_track
 #: selection:event.track,kanban_state:0
@@ -943,8 +943,8 @@ msgstr "Ďakujeme sa váš návrh."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track17
-msgid "The Art of Making an Odoo Demo."
-msgstr "Umenie vytvoriť Odoo demo."
+msgid "The Art of Making an izi Demo."
+msgstr "Umenie vytvoriť izi demo."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track29
@@ -954,9 +954,9 @@ msgstr "Nová marketingová stratégia."
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track5
 msgid ""
-"The new way to promote your modules in the Apps platform and Odoo website."
+"The new way to promote your modules in the Apps platform and izi website."
 msgstr ""
-"Nový spôsob, ako propagovať svoje moduly na platforme aplikácií a Odoo webe."
+"Nový spôsob, ako propagovať svoje moduly na platforme aplikácií a izi webe."
 
 #. module: website_event_track
 #: model:ir.ui.view,arch_db:website_event_track.event_track_proposal

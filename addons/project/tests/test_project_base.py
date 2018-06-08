@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from odoo.addons.mail.tests.common import TestMail
+from izi.addons.mail.tests.common import TestMail
 
 
 class TestProjectBase(TestMail):

@@ -13,9 +13,9 @@ DECLARATOR_INIT_TO_REF = ('Literal', 'Identifier', 'MemberExpression')
 class ModuleMatcher(Visitor):
     """Looks for structures of the form::
 
-        odoo.define($string, function ($name) {
+        izi.define($string, function ($name) {
 
-    These are *Odoo module definitions*, upon encountering one the
+    These are *izi module definitions*, upon encountering one the
     matcher:
 
     * creates a module entry, optionally associated with the module comment
@@ -32,7 +32,7 @@ class ModuleMatcher(Visitor):
         # we're interested in expression statements (toplevel call)
         if utils.match(node, {'expression': {
             'callee': {
-                'object': {'name': 'odoo'},
+                'object': {'name': 'izi'},
                 'property': {'name': 'define'},
             },
         }}):
@@ -191,9 +191,9 @@ BASE_SCOPE = BaseScope(None, {
             })),
         ]
     }),
-    'odoo': jsdoc.UnknownNS({
-        'name': u'odoo',
-        'doc': u"Odoo",
+    'izi': jsdoc.UnknownNS({
+        'name': u'izi',
+        'doc': u"izi",
         '_members': [
             ('name', jsdoc.PropertyDoc({'name': u'csrf_token', 'type': u'{String}'})),
         ]

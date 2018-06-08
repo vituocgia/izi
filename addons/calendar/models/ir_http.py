@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
-import odoo
-from odoo import models, SUPERUSER_ID
-from odoo.http import request
-from odoo.api import Environment
+import izi
+from izi import models, SUPERUSER_ID
+from izi.http import request
+from izi.api import Environment
 
 from werkzeug.exceptions import BadRequest
 
@@ -17,7 +17,7 @@ class IrHttp(models.AbstractModel):
         token = request.params['token']
         dbname = request.params['db']
 
-        registry = odoo.registry(dbname)
+        registry = izi.registry(dbname)
         error_message = False
         with registry.cursor() as cr:
             env = Environment(cr, SUPERUSER_ID, {})

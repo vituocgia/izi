@@ -1,10 +1,10 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * fleet
 # 
 # Translators:
 # Martin Trigaux, 2017
-# Cécile Collart <cco@odoo.com>, 2017
+# Cécile Collart <cco@izi.asia>, 2017
 # Paolo Valier, 2017
 # Manuela Feliciani <mfeliciani@alice.it>, 2018
 # Luigi Di Naro <gigidn@gmail.com>, 2018
@@ -18,12 +18,12 @@
 # Matteo Boscolo <matteo.boscolo.76@gmail.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: izi Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-20 09:54+0000\n"
 "PO-Revision-Date: 2017-09-20 09:54+0000\n"
 "Last-Translator: Matteo Boscolo <matteo.boscolo.76@gmail.com>, 2018\n"
-"Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
+"Language-Team: Italian (https://www.transifex.com/izi/teams/41243/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1116,7 +1116,7 @@ msgstr "Marca del veicolo"
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_log_contract_action
 msgid ""
 "Manage all your contracts (leasing, insurances, etc.) with\n"
-"            their related services, costs. Odoo will automatically warn\n"
+"            their related services, costs. izi will automatically warn\n"
 "            you when some contracts have to be renewed."
 msgstr ""
 
@@ -1341,7 +1341,7 @@ msgstr "Misura odometro del veicolo al momento del log"
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_log_services_action
 msgid ""
-"Odoo helps you keeping track of all the services done\n"
+"izi helps you keeping track of all the services done\n"
 "            on your vehicle. Services can be of many type: occasional\n"
 "            repair, fixed maintenance, etc."
 msgstr ""
@@ -1349,7 +1349,7 @@ msgstr ""
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_costs_action
 msgid ""
-"Odoo helps you managing the costs for your different\n"
+"izi helps you managing the costs for your different\n"
 "                vehicles. Costs are created automatically from services,\n"
 "                contracts (fixed or recurring) and fuel logs."
 msgstr ""
@@ -1358,14 +1358,14 @@ msgstr ""
 #: model:ir.actions.act_window,help:fleet.fleet_costs_reporting_action
 #: model:ir.actions.act_window,help:fleet.fleet_costs_reporting_non_effective_action
 msgid ""
-"Odoo helps you managing the costs for your different vehicles\n"
+"izi helps you managing the costs for your different vehicles\n"
 "          Costs are generally created from services and contract and appears here."
 msgstr ""
 
 #. module: fleet
 #: model:ir.actions.act_window,help:fleet.fleet_vehicle_action
 msgid ""
-"Odoo will warn you when services or contract have to be\n"
+"izi will warn you when services or contract have to be\n"
 "            renewed."
 msgstr ""
 
@@ -1721,7 +1721,7 @@ msgstr "Termini e Condizioni"
 #: model:ir.actions.act_window,help:fleet.fleet_costs_reporting_action
 #: model:ir.actions.act_window,help:fleet.fleet_costs_reporting_non_effective_action
 msgid ""
-"Thanks to the different filters, Odoo can only print the effective\n"
+"Thanks to the different filters, izi can only print the effective\n"
 "          costs, sort them by type and by vehicle."
 msgstr ""
 
@@ -2035,7 +2035,7 @@ msgstr "Scrivi qui ogni altra informazione"
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_log_services_view_form
 msgid "Write here any other information related to the service completed."
-msgstr "Scrivere qui ogni altra informazione relativa si servizi completati."
+msgstr "Scrivere qui ogni altra informazione relativa si servizi.asiapletati."
 
 #. module: fleet
 #: model:ir.ui.view,arch_db:fleet.fleet_vehicle_costs_view_search

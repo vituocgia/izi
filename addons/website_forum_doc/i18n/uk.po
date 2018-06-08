@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * website_forum_doc
 # 
@@ -10,12 +10,12 @@
 # Yaroslav Molochko <onorua@gmail.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: izi Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-02 11:26+0000\n"
 "PO-Revision-Date: 2017-10-02 11:26+0000\n"
 "Last-Translator: Yaroslav Molochko <onorua@gmail.com>, 2017\n"
-"Language-Team: Ukrainian (https://www.transifex.com/odoo/teams/41243/uk/)\n"
+"Language-Team: Ukrainian (https://www.transifex.com/izi/teams/41243/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -173,13 +173,13 @@ msgstr "Помилка! Ви не можете створювати рекурс
 
 #. module: website_forum_doc
 #: model:ir.ui.view,arch_db:website_forum_doc.promote_question
-msgid "Explain how to configure Odoo"
-msgstr "Поясніть, як налаштувати Odoo"
+msgid "Explain how to configure izi"
+msgstr "Поясніть, як налаштувати izi"
 
 #. module: website_forum_doc
 #: model:ir.ui.view,arch_db:website_forum_doc.promote_question
-msgid "Explain how to implement it in Odoo"
-msgstr "Поясніть, як реалізувати це в Odoo"
+msgid "Explain how to implement it in izi"
+msgstr "Поясніть, як реалізувати це в izi"
 
 #. module: website_forum_doc
 #: model:ir.model.fields,field_description:website_forum_doc.field_forum_documentation_toc_forum_id
@@ -390,8 +390,8 @@ msgstr "Назва стадії"
 
 #. module: website_forum_doc
 #: model:ir.ui.view,arch_db:website_forum_doc.promote_question
-msgid "The answer is understandable for someone who does not know Odoo"
-msgstr "Відповідь зрозуміла для того, хто не знає Odoo"
+msgid "The answer is understandable for someone who does not know izi"
+msgstr "Відповідь зрозуміла для того, хто не знає izi"
 
 #. module: website_forum_doc
 #: model:ir.ui.view,arch_db:website_forum_doc.promote_question

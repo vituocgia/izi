@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-from odoo import http
-from odoo.http import request
-from odoo.addons.web_editor.controllers.main import Web_Editor
+from izi import http
+from izi.http import request
+from izi.addons.web_editor.controllers.main import Web_Editor
 
 
 class WebEditorPointOfSale(Web_Editor):

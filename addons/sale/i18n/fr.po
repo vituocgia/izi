@@ -1,17 +1,17 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * sale
 # 
 # Translators:
 # Martin Trigaux, 2017
 # Maxime Chambreuil <mchambreuil@ursainfosystems.com>, 2017
-# Clo <clo@odoo.com>, 2017
-# Melanie Bernard <mbe@odoo.com>, 2017
+# Clo <clo@izi.asia>, 2017
+# Melanie Bernard <mbe@izi.asia>, 2017
 # Nancy Bolognesi <nb@microcom.ca>, 2017
 # Micky Jault <micky037@hotmail.fr>, 2017
 # Florian Hatat, 2017
 # Olivier Lenoir <olivier.lenoir@free.fr>, 2017
-# Eloïse Stilmant <est@odoo.com>, 2017
+# Eloïse Stilmant <est@izi.asia>, 2017
 # Hubert TETARD <htetard@apik-conseils.com>, 2017
 # Sébastien Le Ray <sebastien-github@orniz.org>, 2017
 # Alexandre Fayolle <alexandre.fayolle@camptocamp.com>, 2017
@@ -23,19 +23,19 @@
 # Fabri Yohann <psn@fabri.pw>, 2017
 # Lucas Deliege <lud@openerp.com>, 2017
 # Adriana Ierfino <adriana.ierfino@savoirfairelinux.com>, 2017
-# Nicolas Roussey <nro@odoo.com>, 2017
-# Lucas Deliege <lud@odoo.com>, 2017
+# Nicolas Roussey <nro@izi.asia>, 2017
+# Lucas Deliege <lud@izi.asia>, 2017
 # Christophe CHAUVET <christophe.chauvet@gmail.com>, 2017
 # Bertrand LATOUR <divoir@gmail.com>, 2017
-# Fred Gilson <fgi@odoo.com>, 2017
+# Fred Gilson <fgi@izi.asia>, 2017
 # Alexis de Lattre <alexis@via.ecp.fr>, 2017
 # Jérôme Tanché <jerome.tanche@ouest-dsi.fr>, 2017
 # Miguel Vidali <mvidali129@gmail.com>, 2017
-# lap.odoo <lap@odoo.com>, 2017
+# lap.izi <lap@izi.asia>, 2017
 # leemannd <denis.leemann@camptocamp.com>, 2017
 # Simon CARRIER <carrier.sim@gmail.com>, 2017
-# Richard Mathot <rim@odoo.com>, 2017
-# François Lothaire <frl@odoo.com>, 2017
+# Richard Mathot <rim@izi.asia>, 2017
+# François Lothaire <frl@izi.asia>, 2017
 # zoe <yann.hoareau@migs.re>, 2017
 # fr rev <e2ffr04@hotmail.com>, 2017
 # fr rev <e2ffr02@hotmail.com>, 2017
@@ -45,12 +45,12 @@
 # fr trans <e2ffr05@hotmail.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-27 14:48+0000\n"
 "PO-Revision-Date: 2018-04-27 14:48+0000\n"
 "Last-Translator: fr trans <e2ffr05@hotmail.com>, 2018\n"
-"Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
+"Language-Team: French (https://www.transifex.com/izi/teams/41243/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -286,7 +286,7 @@ msgid ""
 "                      </tr>\n"
 "                      <tr>\n"
 "                        <td align=\"center\">\n"
-"                            Powered by <a target=\"_blank\" href=\"https://www.odoo.com\">Odoo</a>.\n"
+"                            Powered by <a target=\"_blank\" href=\"https://www.izi.asia\">izi</a>.\n"
 "                        </td>\n"
 "                      </tr>\n"
 "                    </tbody>\n"
@@ -359,7 +359,7 @@ msgstr ""
 "                      </tr>\n"
 "                      <tr>\n"
 "                        <td align=\"center\">\n"
-"                            Fourni par <a target=\"_blank\" href=\"https://www.odoo.com\">Odoo</a>.\n"
+"                            Fourni par <a target=\"_blank\" href=\"https://www.izi.asia\">izi</a>.\n"
 "                        </td>\n"
 "                      </tr>\n"
 "                    </tbody>\n"

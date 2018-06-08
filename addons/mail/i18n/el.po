@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * mail
 # 
@@ -12,12 +12,12 @@
 # Vasilis Dimopoulos <iap3tos@outlook.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-30 13:11+0000\n"
 "PO-Revision-Date: 2017-11-30 13:11+0000\n"
 "Last-Translator: Vasilis Dimopoulos <iap3tos@outlook.com>, 2018\n"
-"Language-Team: Greek (https://www.transifex.com/odoo/teams/41243/el/)\n"
+"Language-Team: Greek (https://www.transifex.com/izi/teams/41243/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -110,7 +110,7 @@ msgid ""
 "    </a>\n"
 "    % endif\n"
 "    using\n"
-"    <a target=\"_blank\" href=\"https://www.odoo.com\" style=\"text-decoration:none; color: #875A7B;\">Odoo</a>.\n"
+"    <a target=\"_blank\" href=\"https://www.izi.asia\" style=\"text-decoration:none; color: #875A7B;\">izi</a>.\n"
 "</p>\n"
 "</div>"
 msgstr ""
@@ -197,7 +197,7 @@ msgstr ""
 " </a>\n"
 " % endif\n"
 " χρησιμοποιώντας\n"
-" <a target=\"_blank\" href=\"https://www.odoo.com\" style=\"text-decoration:none; color: #875A7B;\">Odoo</a>.\n"
+" <a target=\"_blank\" href=\"https://www.izi.asia\" style=\"text-decoration:none; color: #875A7B;\">izi</a>.\n"
 "</p>\n"
 "</div>"
 
@@ -2246,8 +2246,8 @@ msgstr "Χειρισμός από Emails"
 
 #. module: mail
 #: selection:res.users,notification_type:0
-msgid "Handle in Odoo"
-msgstr "Χειρισμός από Odoo"
+msgid "Handle in izi"
+msgstr "Χειρισμός από izi"
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.view_message_search
@@ -2516,11 +2516,11 @@ msgstr ""
 #. module: mail
 #: model:ir.model.fields,help:mail.field_res_config_settings_alias_domain
 msgid ""
-"If you have setup a catch-all email domain redirected to the Odoo server, "
+"If you have setup a catch-all email domain redirected to the izi server, "
 "enter the domain name here."
 msgstr ""
 "Εάν έχετε ρυθμίσει στον τομέα (domain) ένα 'catch-all' email, να "
-"ανακατευθύνεται σε διακομιστή Odoo , πληκτρολογήστε το όνομα τομέα εδώ."
+"ανακατευθύνεται σε διακομιστή izi , πληκτρολογήστε το όνομα τομέα εδώ."
 
 #. module: mail
 #: code:addons/mail/models/mail_alias.py:141
@@ -3872,33 +3872,33 @@ msgstr "Πλήθος μη αναγνωσμένων μηνυμάτων"
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.message_user_assigned
-msgid "Odoo"
-msgstr "Odoo"
+msgid "izi"
+msgstr "izi"
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/js/client_action.js:895
 #, python-format
 msgid ""
-"Odoo has now the permission to send you native notifications on this device."
-msgstr "Η Odoo έχει την άδεια να στείλει ειδοποιήσεις σε αυτήν τη συσκευή."
+"izi has now the permission to send you native notifications on this device."
+msgstr "Η izi έχει την άδεια να στείλει ειδοποιήσεις σε αυτήν τη συσκευή."
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/xml/client_action.xml:11
 #, python-format
-msgid "Odoo needs your permission to"
-msgstr "Το Odoo χρειάζεται την άδεια σας για"
+msgid "izi needs your permission to"
+msgstr "Το izi χρειάζεται την άδεια σας για"
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/js/client_action.js:892
 #, python-format
 msgid ""
-"Odoo will not have the permission to send native notifications on this "
+"izi will not have the permission to send native notifications on this "
 "device."
 msgstr ""
-"Το Odoo δεν θα έχει την άδεια να στείλει ειδοποιήσεις σε αυτήν τη συσκευή."
+"Το izi δεν θα έχει την άδεια να στείλει ειδοποιήσεις σε αυτήν τη συσκευή."
 
 #. module: mail
 #. openerp-web
@@ -4304,11 +4304,11 @@ msgstr "Παρακαλώ περιμένετε όσο το αρχείο αποσ�
 msgid ""
 "Policy on how to handle Chatter notifications:\n"
 "- Emails: notifications are sent to your email\n"
-"- Odoo: notifications appear in your Odoo Inbox"
+"- izi: notifications appear in your izi Inbox"
 msgstr ""
 "Πολιτική σχετικά με τον τρόπο διαχείρισης των μηνυμάτων ειδοποιήσεων: \n"
 "- Emails: οι ειδοποιήσεις αποστέλλονται στο email σας\n"
-"- Odoo: oι ειδοποιήσεις εμφανίζονται στα εισερχόμενα του Odoo"
+"- izi: oι ειδοποιήσεις εμφανίζονται στα εισερχόμενα του izi"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias_alias_contact
@@ -5043,11 +5043,11 @@ msgstr "Ο κώδικας HTML που αντικαθιστά τη συντόμε
 #: model:ir.model.fields,help:mail.field_mail_channel_alias_model_id
 #: model:ir.model.fields,help:mail.field_mail_test_alias_model_id
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
+"The model (izi Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
-"Το μοντέλο (Odoo Document Kind) στο οποίο αντιστοιχεί αυτό το ψευδώνυμο. "
+"Το μοντέλο (izi Document Kind) στο οποίο αντιστοιχεί αυτό το ψευδώνυμο. "
 "Κάθε εισερχόμενο email που δεν έχει απαντηθεί σε υπάρχουσα εγγραφή, θα "
 "προκαλέσει τη δημιουργία μίας νέας εγγραφής αυτού του μοντέλου (π.χ. Εργασία"
 " Έργου)"
@@ -5059,10 +5059,10 @@ msgstr ""
 #: model:ir.model.fields,help:mail.field_mail_test_alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
+"<jobs@example.izi.asia>"
 msgstr ""
 "Το όνομα του ψευδώνυμου email , π.χ. 'jobs', αν θέλετε να πάρετε emails για "
-"<jobs@example.odoo.com>"
+"<jobs@example.izi.asia>"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias_alias_user_id
@@ -5534,13 +5534,13 @@ msgstr "Χρήστες αυτού του καναλιού: %s %s και εσεί
 msgid ""
 "Using your own email server is required to send/receive emails in Community "
 "and Enterprise versions. Online users already benefit from a ready-to-use "
-"email server (@mycompany.odoo.com)."
+"email server (@mycompany.izi.asia)."
 msgstr ""
 "Η χρήση του δικού σας διακομιστή ηλεκτρονικού ταχυδρομείου απαιτείται για "
 "την αποστολή / λήψη μηνυμάτων ηλεκτρονικού ταχυδρομείου στις εκδόσεις "
-"Community και Enterprise. Οι χρήστες του προϊόντος Odoo Online ήδη "
+"Community και Enterprise. Οι χρήστες του προϊόντος izi Online ήδη "
 "επωφελούνται από έναν έτοιμο προς χρήση διακομιστή ηλεκτρονικού ταχυδρομείου"
-" (@mycompany.odoo.com)."
+" (@mycompany.izi.asia)."
 
 #. module: mail
 #: code:addons/mail/models/mail_thread.py:670
@@ -5889,8 +5889,8 @@ msgstr "τροποποιήθηκε"
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.res_config_settings_view_form
-msgid "mycompany.odoo.com"
-msgstr "mycompany.odoo.com"
+msgid "mycompany.izi.asia"
+msgstr "mycompany.izi.asia"
 
 #. module: mail
 #. openerp-web

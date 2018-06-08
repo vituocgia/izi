@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * account
 # 
@@ -24,12 +24,12 @@
 # Silvija Butko <silvija.butko@gmail.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-27 14:47+0000\n"
 "PO-Revision-Date: 2018-04-27 14:47+0000\n"
 "Last-Translator: Silvija Butko <silvija.butko@gmail.com>, 2018\n"
-"Language-Team: Lithuanian (https://www.transifex.com/odoo/teams/41243/lt/)\n"
+"Language-Team: Lithuanian (https://www.transifex.com/izi/teams/41243/lt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -267,7 +267,7 @@ msgid ""
 "    </tr>\n"
 "    <tr>\n"
 "        <td align=\"center\">\n"
-"            Powered by <a target=\"_blank\" href=\"https://www.odoo.com\">Odoo</a>.\n"
+"            Powered by <a target=\"_blank\" href=\"https://www.izi.asia\">izi</a>.\n"
 "        </td>\n"
 "    </tr>\n"
 "</tbody>\n"
@@ -333,7 +333,7 @@ msgstr ""
 "    </tr>\n"
 "    <tr>\n"
 "        <td align=\"center\">\n"
-"            Powered by <a target=\"_blank\" href=\"https://www.odoo.com\">Odoo</a>.\n"
+"            Powered by <a target=\"_blank\" href=\"https://www.izi.asia\">izi</a>.\n"
 "        </td>\n"
 "    </tr>\n"
 "</tbody>\n"
@@ -636,8 +636,8 @@ msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
-msgid "<span title=\"Balance in Odoo\">Balance in GL</span>"
-msgstr "<span title=\"Balance in Odoo\">DK balansas</span>"
+msgid "<span title=\"Balance in izi\">Balance in GL</span>"
+msgstr "<span title=\"Balance in izi\">DK balansas</span>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
@@ -701,8 +701,8 @@ msgstr "<span>Vaizdas</span>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
-msgid "<strong>-The Odoo Team</strong>"
-msgstr "<strong>Odoo komanda</strong>"
+msgid "<strong>-The izi Team</strong>"
+msgstr "<strong>izi komanda</strong>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -807,10 +807,10 @@ msgstr ""
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
-"<strong>Create the bill in Odoo</strong><br/> with a proper due date, and "
+"<strong>Create the bill in izi</strong><br/> with a proper due date, and "
 "create the vendor if it doesnt' exist yet."
 msgstr ""
-"<strong>Sukurti sąskaitą Odoo sistemoje</strong><br/> su atitinkama mokėjimo"
+"<strong>Sukurti sąskaitą izi sistemoje</strong><br/> su atitinkama mokėjimo"
 " data, bei sukurti tiekėją, jei jis dar nesukurtas."
 
 #. module: account
@@ -998,10 +998,10 @@ msgstr "<strong>Suderinti banko išrašą</strong>"
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
 "<strong>Reconcile with existing transaction</strong><br/>\n"
-"                                        In this case, Odoo should automatically match the bank statement with the previously recorded check transaction."
+"                                        In this case, izi should automatically match the bank statement with the previously recorded check transaction."
 msgstr ""
 "<strong>Sudengti su esama tranzakcija</strong><br/>\n"
-"                                        Šiuo atveju Odoo turėtų automatiškai sudengti banko išrašus su anksčiau užregistruotomis čekių tranzakcijomis."
+"                                        Šiuo atveju izi turėtų automatiškai sudengti banko išrašus su anksčiau užregistruotomis čekių tranzakcijomis."
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -1098,16 +1098,16 @@ msgstr "<strong>Pasirinkti įrašai:</strong>"
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
 "<strong>Test the following three scenarios in order to assist you in "
-"familiarizing yourself with Odoo:</strong>"
+"familiarizing yourself with izi:</strong>"
 msgstr ""
 "Išbandykite šiuos tris scenarijus, kurie padės Jums geriau susipažinti su "
-"Odoo sistema:"
+"izi sistema:"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
-"<strong>There are three different levels of access rights in Odoo:</strong>"
-msgstr "<strong>Yra trys skirtingi prieigos teisių lygiai Odoo:</strong>"
+"<strong>There are three different levels of access rights in izi:</strong>"
+msgstr "<strong>Yra trys skirtingi prieigos teisių lygiai izi:</strong>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.report_overdue_document
@@ -1231,11 +1231,11 @@ msgstr "Sąrašas su Jūsų klientų ir tiekėjų mokėjimo terminais."
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
-"A product in Odoo is something you sell or buy \n"
+"A product in izi is something you sell or buy \n"
 "                        whether or not it is goods, consumables, or services.\n"
 "                        Choose how you want to create your products:"
 msgstr ""
-"Produktas Odoo sistemoje yra kažkas ką Jūs perkate arba parduodate \n"
+"Produktas izi sistemoje yra kažkas ką Jūs perkate arba parduodate \n"
 "                        nesvarbu ar tai yra prekės, žaliavos ar paslaugos.\n"
 "                        Pasirinkite kaip Jūs norite sukurti savo produktą:"
 
@@ -1869,13 +1869,13 @@ msgstr "Partnerio skolų balansas"
 #: model:ir.ui.view,arch_db:account.account_aged_balance_view
 msgid ""
 "Aged Partner Balance is a more detailed report of your receivables by "
-"intervals. Odoo calculates a table of credit balance by start Date. So if "
-"you request an interval of 30 days Odoo generates an analysis of creditors "
+"intervals. izi calculates a table of credit balance by start Date. So if "
+"you request an interval of 30 days izi generates an analysis of creditors "
 "for the past month, past two months, and so on."
 msgstr ""
 "Ankstesnių laikotarpių partnerių balansas yra detalizuota gautinų sumų "
-"ataskaita intervalais. Odoo apskaičiuoja kredito balanso lentelę nuo "
-"pradžios datos. Jei pasirenkate 30 dienų intervalą, Odoo sugeneruos "
+"ataskaita intervalais. izi apskaičiuoja kredito balanso lentelę nuo "
+"pradžios datos. Jei pasirenkate 30 dienų intervalą, izi sugeneruos "
 "kreditorių ataskaitą paskutiniam mėnesiui, paskutiniams dviem mėnesiams ir "
 "t.t."
 
@@ -4100,10 +4100,10 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_financial_year_op_opening_date
 msgid ""
-"Date from which the accounting is managed in Odoo. It is the date of the "
+"Date from which the accounting is managed in izi. It is the date of the "
 "opening entry."
 msgstr ""
-"Data, nuo kurios apskaita yra tvarkoma Odoo sistemoje. Tai yra finansinio "
+"Data, nuo kurios apskaita yra tvarkoma izi sistemoje. Tai yra finansinio "
 "periodo atidarymo įrašo data."
 
 #. module: account
@@ -4689,8 +4689,8 @@ msgstr "Pabaigos kasos aparato likutis"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
-msgid "Enjoy your Odoo experience,"
-msgstr "Mėgaukis darbo su Odoo patirtimi"
+msgid "Enjoy your izi experience,"
+msgstr "Mėgaukis darbo su izi patirtimi"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_move_line_form
@@ -5030,10 +5030,10 @@ msgstr "Procentams įveskite koeficientą tarp 0-100."
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
-"For the Odoo Team,<br/>\n"
+"For the izi Team,<br/>\n"
 "                            Fabien Pinckaers, Founder"
 msgstr ""
-"Odoo komandai,<br/>\n"
+"izi komandai,<br/>\n"
 "                            Fabien Pinckaers, Įkūrėjas"
 
 #. module: account
@@ -5533,19 +5533,19 @@ msgstr ""
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
-"If you want to be able to send customer statements from Odoo, you must:"
-msgstr "Jei norite galėti siųsti klientų sąskaitas iš Odoo, privalote:"
+"If you want to be able to send customer statements from izi, you must:"
+msgstr "Jei norite galėti siųsti klientų sąskaitas iš izi, privalote:"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
 "If you want to be able to send your customers their statements \n"
-"                        from Odoo, you first need to record all outstanding transactions \n"
+"                        from izi, you first need to record all outstanding transactions \n"
 "                        in the payable and receivable accounts. These would be invoices \n"
 "                        that have not been paid or payments that have not been reconciled."
 msgstr ""
 "Jei norite klientams siųsti jų sąskaitas \n"
-"                        iš Odoo, Jums pirmiausia reikia suvesti visas neapmokėtas tranzakcijas \n"
+"                        iš izi, Jums pirmiausia reikia suvesti visas neapmokėtas tranzakcijas \n"
 "                        į mokėtinas ir gautinas sąskaitas. Tai bus sąskaitos, \n"
 "                        kurios dar nebuvo apmokėtos arba mokėjimai, kurie dar nebuvo sudengti."
 
@@ -5649,8 +5649,8 @@ msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
-msgid "In Odoo,"
-msgstr "Odoo,"
+msgid "In izi,"
+msgstr "izi,"
 
 #. module: account
 #: code:addons/account/models/account_bank_statement.py:409
@@ -6123,14 +6123,14 @@ msgid ""
 "It's common practice to change your accounting software \n"
 "                            at the end of a fiscal year. This allows you to have less \n"
 "                            data to import and balances to set. If you plan to do so, \n"
-"                            we recommend you start using Odoo for invoicing and payments \n"
+"                            we recommend you start using izi for invoicing and payments \n"
 "                            now, and then move all other accounting transactions at a later time."
 msgstr ""
 "Įprasta praktika yra keisti savo apskaitos programinę įrangą \n"
 "finansinių metų pabaigoje. Tai sumažinta importuojamų duomenų kiekį \n"
 "ir likučių derinimo darbų apimtis. Jei Jūs irgi planuojate pilnai naudotis \n"
-"Odoo nuo naujo periodo pradžios, \n"
-"rekomenduojame jau dabar naudoti Odoo sąskaitoms ir mokėjimams, \n"
+"izi nuo naujo periodo pradžios, \n"
+"rekomenduojame jau dabar naudoti izi sąskaitoms ir mokėjimams, \n"
 "o visas likusias apskaitos tranzakcijas perkelti vėliau."
 
 #. module: account
@@ -6701,8 +6701,8 @@ msgstr "Minus mokėjimai"
 #. openerp-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:24
 #, python-format
-msgid "Let odoo try to reconcile entries for the user"
-msgstr "Leiskite Odoo pabandyti atlikti sudengimą vietoj vartotojo"
+msgid "Let izi try to reconcile entries for the user"
+msgstr "Leiskite izi pabandyti atlikti sudengimą vietoj vartotojo"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.res_config_settings_view_form
@@ -6871,40 +6871,40 @@ msgstr "Rankinis sudengimas"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal_inbound_payment_method_ids
 msgid ""
-"Manual: Get paid by cash, check or any other method outside of Odoo.\n"
+"Manual: Get paid by cash, check or any other method outside of izi.\n"
 "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
-"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Odoo,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
+"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in izi,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
 msgstr ""
-"Rankinis: priimkite mokėjimus grynais, čekiais ar bet kokiu kitu metodu už Odoo.\n"
+"Rankinis: priimkite mokėjimus grynais, čekiais ar bet kokiu kitu metodu už izi.\n"
 "Elektroninis: priimkite apmokėjimus automatiškai per mokėjimo gavėją, prašant tranzakcijos išsaugotos kliento kortelėje pirkimo arba prenumeratos (naudojant pirkimo žymę) metu.\n"
-"Grupinis depozitas: sutvarkykite kelis čekius iš karto sugeneruodami grupinį depozitą. Kai sukeliate banko išrašą į Odoo, Jums pasiūloma sudengti tranzakcijas su grupiniu depozitu. Įgalinkite šią opciją nustatymuose."
+"Grupinis depozitas: sutvarkykite kelis čekius iš karto sugeneruodami grupinį depozitą. Kai sukeliate banko išrašą į izi, Jums pasiūloma sudengti tranzakcijas su grupiniu depozitu. Įgalinkite šią opciją nustatymuose."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_abstract_payment_payment_method_id
 #: model:ir.model.fields,help:account.field_account_payment_payment_method_id
 #: model:ir.model.fields,help:account.field_account_register_payments_payment_method_id
 msgid ""
-"Manual: Get paid by cash, check or any other method outside of Odoo.\n"
+"Manual: Get paid by cash, check or any other method outside of izi.\n"
 "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
-"Check: Pay bill by check and print it from Odoo.\n"
-"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Odoo, you are suggested to reconcile the transaction with the batch deposit.To enable batch deposit,module account_batch_deposit must be installed.\n"
+"Check: Pay bill by check and print it from izi.\n"
+"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in izi, you are suggested to reconcile the transaction with the batch deposit.To enable batch deposit,module account_batch_deposit must be installed.\n"
 "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. To enable sepa credit transfer, module account_sepa must be installed "
 msgstr ""
-"Rankinis: priimkite mokėjimus grynais, čekiais ar bet kokiu kitu metodu už Odoo.\n"
+"Rankinis: priimkite mokėjimus grynais, čekiais ar bet kokiu kitu metodu už izi.\n"
 "Elektroninis: priimkite apmokėjimus automatiškai per mokėjimo gavėją, prašant tranzakcijos išsaugotos kliento kortelėje pirkimo arba prenumeratos (naudojant pirkimo žymę) metu.\n"
-"Čekis: apmokėkite sąskaitą čekiu ir išspausdinkite jį per Odoo.\n"
-"Grupinis depozitas: sutvarkykite kelis čekius iš karto sugeneruodami grupinį depozitą. Kai sukeliate banko išrašą į Odoo, Jums pasiūloma sudengti tranzakcijas su grupiniu depozitu. Įgalinkite šią opciją įdiekite modulį account_batch_deposit.\n"
+"Čekis: apmokėkite sąskaitą čekiu ir išspausdinkite jį per izi.\n"
+"Grupinis depozitas: sutvarkykite kelis čekius iš karto sugeneruodami grupinį depozitą. Kai sukeliate banko išrašą į izi, Jums pasiūloma sudengti tranzakcijas su grupiniu depozitu. Įgalinkite šią opciją įdiekite modulį account_batch_deposit.\n"
 "SEPA kredito pervedimas: apmokėkite sąskaita iš SEPA kredito pervedimo failo, kurį pateikiate bankui. Įgalinkite šį funkcionalumą, įdiekite modulį account_sepa"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal_outbound_payment_method_ids
 msgid ""
-"Manual:Pay bill by cash or any other method outside of Odoo.\n"
-"Check:Pay bill by check and print it from Odoo.\n"
+"Manual:Pay bill by cash or any other method outside of izi.\n"
+"Check:Pay bill by check and print it from izi.\n"
 "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. Enable this option from the settings."
 msgstr ""
-"Rankinis: priimkite mokėjimus grynais, čekiais ar bet kokiu kitu metodu už Odoo.\n"
-"Čekis: apmokėkite sąskaitą čekiu ir išspausdinkite jį per Odoo.\n"
+"Rankinis: priimkite mokėjimus grynais, čekiais ar bet kokiu kitu metodu už izi.\n"
+"Čekis: apmokėkite sąskaitą čekiu ir išspausdinkite jį per izi.\n"
 "SEPA kredito pervedimas: apmokėkite sąskaita iš SEPA kredito pervedimo failo, kurį pateikiate bankui. Įgalinkite šį funkcionalumą nustatymuose."
 
 #. module: account
@@ -7383,36 +7383,36 @@ msgstr "Spalio"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
-msgid "Odoo Accounting has many free extra-features:"
-msgstr "Odoo apskaita turi daugybę nemokamų papildomų funkcionalumų"
+msgid "izi Accounting has many free extra-features:"
+msgstr "izi apskaita turi daugybę nemokamų papildomų funkcionalumų"
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_bank_statement_line
 msgid ""
-"Odoo allows you to reconcile a statement line directly with\n"
+"izi allows you to reconcile a statement line directly with\n"
 "                the related sale or puchase invoice(s)."
 msgstr ""
-"Odoo leidžia Jums sudengti dokumento eilutę tiesiogiai su \n"
+"izi leidžia Jums sudengti dokumento eilutę tiesiogiai su \n"
 "susijusia pirkimo ar pardavimo sąskaita (-omis)."
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_bank_statement_tree
 msgid ""
-"Odoo allows you to reconcile a statement line directly with\n"
+"izi allows you to reconcile a statement line directly with\n"
 "                the related sale or puchase invoices."
 msgstr ""
-"Odoo leidžia Jums sudengti dokumento eilutę tiesiogiai su \n"
+"izi leidžia Jums sudengti dokumento eilutę tiesiogiai su \n"
 "susijusiomis pirkimo ar pardavimo sąskaitomis."
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_move_journal_line
 msgid ""
-"Odoo automatically creates one journal entry per accounting\n"
+"izi automatically creates one journal entry per accounting\n"
 "                document: invoice, refund, vendor payment, bank statements,\n"
 "                etc. So, you should record journal entries manually only/mainly\n"
 "                for miscellaneous operations."
 msgstr ""
-"Odoo automatiškai sukuria vieną žurnalo įrašą vienam apskaitos dokumentui: "
+"izi automatiškai sukuria vieną žurnalo įrašą vienam apskaitos dokumentui: "
 "sąskaitai, kreditinei sąskaitai, tiekėjo mokėjimui, banko išrašui ir t.t. "
 "Taigi, Jums belieka rankinius įrašus kurti daugiausiai įvairioms "
 "netradicinėms operacijoms."
@@ -7420,42 +7420,42 @@ msgstr ""
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
-"Odoo can manage multiple companies, but we suggest to setup everything for "
+"izi can manage multiple companies, but we suggest to setup everything for "
 "your first company before configuring the other ones."
 msgstr ""
-"Odoo gali vienu metu valdyti keletą įmonių, tačiau rekomenduojama "
+"izi gali vienu metu valdyti keletą įmonių, tačiau rekomenduojama "
 "pirmiausiai tvarkingai susikonfigūruoti savo pirmąją įmonę ir po to pridėti "
 "kitas."
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
-"Odoo has already preconfigured a few taxes according to your "
+"izi has already preconfigured a few taxes according to your "
 "country.<br/>Simply review them and check if you need more."
 msgstr ""
-"Odoo jau sukonfigūravo keletą mokesčių pagal Jūsų šalį.<br/>Peržvelkite juos"
+"izi jau sukonfigūravo keletą mokesčių pagal Jūsų šalį.<br/>Peržvelkite juos"
 " ir patikrinte ar Jums reikia kažko daugiau."
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
-"Odoo should do most of the reconciliation work automatically, so you'll only"
+"izi should do most of the reconciliation work automatically, so you'll only"
 " need to review a few of them when a <strong>'Reconcile Items'</strong> "
 "button appears on your Vendor Bills dash."
 msgstr ""
-"Odoo turėtų atlikti didžiąją dalį sudengimų automatiškai, Jums beliks "
+"izi turėtų atlikti didžiąją dalį sudengimų automatiškai, Jums beliks "
 "peržiūrėti vos keletą iš jų kai <strong>'Sudengti įrašus'</strong> mygtukas "
 "atsiras Jūsų tiekėjų sąskaitų skydelyje.."
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_invoice_tree1
 msgid ""
-"Odoo's electronic invoicing allows to ease and fasten the\n"
+"izi's electronic invoicing allows to ease and fasten the\n"
 "                collection of customer payments. Your customer receives the\n"
 "                invoice by email and he can pay online and/or import it\n"
 "                in his own system."
 msgstr ""
-"Odoo elektroninis sąskaitų tvarkymas palengvina ir pagreitina \n"
+"izi elektroninis sąskaitų tvarkymas palengvina ir pagreitina \n"
 "                klientų mokėjimų surinkimą. Jūsų klientai gauna \n"
 "                sąskaitas el. paštu ir gali apmokėti internetu ir/arba importuoti\n"
 "                sąskaitą į savo sistemą."
@@ -8735,10 +8735,10 @@ msgstr "Registruoti mokėjimus keletui sąskaitų faktūrų"
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
 "Registering outstanding invoices and payments can be a huge undertaking, \n"
-"                        but you can start using Odoo without it by:"
+"                        but you can start using izi without it by:"
 msgstr ""
 "Visų neapmokėtų sąskaitų ir mokėjimų suvedimas gali būti didelis darbas, \n"
-"tačiau Odoo naudotis galite pradėti ir be to:"
+"tačiau izi naudotis galite pradėti ir be to:"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -10652,10 +10652,10 @@ msgstr ""
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
-"This guide will help you get started with Odoo Accounting.\n"
+"This guide will help you get started with izi Accounting.\n"
 "                        Once you're done, you'll benefit from:"
 msgstr ""
-"Šis gidas padės Jums pradėti naudotis Odoo paskaita.\n"
+"Šis gidas padės Jums pradėti naudotis izi paskaita.\n"
 "                        Naudos, kurias pajusite pabaigę mokymus:"
 
 #. module: account
@@ -10849,12 +10849,12 @@ msgstr "Reikia apmokėti"
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
-"To manage the tax applied when invoicing a Company, Odoo uses the concept of"
+"To manage the tax applied when invoicing a Company, izi uses the concept of"
 " Fiscal Position: they serve to automatically set the right tax and/or "
 "account according to the customer country and state."
 msgstr ""
 "Tam, kad būtų galima valdyti taikomus mokesčius kai įmonė yra apmokestinama,"
-" Odoo naudoja terminą mokestinė aplinka: ji automatiškai nustato reikiamą "
+" izi naudoja terminą mokestinė aplinka: ji automatiškai nustato reikiamą "
 "mokestį ir/arba sąskaitą pagal kliento šalį."
 
 #. module: account
@@ -11515,12 +11515,12 @@ msgstr "Įspėjimai"
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
 "We can handle the whole import process\n"
-"                                        for you: simply send your Odoo project\n"
+"                                        for you: simply send your izi project\n"
 "                                        manager a CSV file containing all your\n"
 "                                        data."
 msgstr ""
 "Mes galime atlikti visą importo procesą už Jus:\n"
-"                                        paprasčiausiai atsiųskite savo Odoo projekto\n"
+"                                        paprasčiausiai atsiųskite savo izi projekto\n"
 "                                        vadovui CSV failą su  visa\n"
 "                                        informacija."
 
@@ -11528,12 +11528,12 @@ msgstr ""
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
 "We can handle the whole import process\n"
-"                                        for you: simply send your Odoo project\n"
+"                                        for you: simply send your izi project\n"
 "                                        manager a CSV file containing all your\n"
 "                                        products."
 msgstr ""
 "Mes galime atlikti visą importo procesą už Jus:\n"
-"                                        paprasčiausiai atsiųskite savo Odoo projekto\n"
+"                                        paprasčiausiai atsiųskite savo izi projekto\n"
 "                                        vadovui CSV failą su  visa produktų\n"
 "                                        informacija."
 
@@ -11541,7 +11541,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid "We hope this tool helped you implement our accounting application."
 msgstr ""
-"Tikimės, kad šis įrankis padėjo Jums sutvarkyti Odoo apskaitos aplikaciją."
+"Tikimės, kad šis įrankis padėjo Jums sutvarkyti izi apskaitos aplikaciją."
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner

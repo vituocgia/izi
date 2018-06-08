@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 {
     'name': 'Survey CRM',
     'version': '2.0',
     'category': 'Marketing',
     'complexity': 'easy',
-    'website': 'https://www.odoo.com/page/survey',
+    'website': 'https://www.izi.asia/page/survey',
     'description': """
 Survey - CRM (bridge module)
 =================================================================================

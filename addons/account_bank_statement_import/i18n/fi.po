@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * account_bank_statement_import
 # 
@@ -6,18 +6,18 @@
 # Kari Lindgren <kari.lindgren@emsystems.fi>, 2017
 # Eino Mäkitalo <eino.makitalo@netitbe.fi>, 2017
 # Tuomo Aura <tuomo.aura@web-veistamo.fi>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux <mat@izi.asia>, 2017
 # Tommi Rintala <tommi.rintala@gmail.com>, 2017
 # Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2017
 # Veikko Väätäjä <veikko.vaataja@gmail.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-30 13:11+0000\n"
 "PO-Revision-Date: 2017-11-30 13:11+0000\n"
 "Last-Translator: Veikko Väätäjä <veikko.vaataja@gmail.com>, 2017\n"
-"Language-Team: Finnish (https://www.transifex.com/odoo/teams/41243/fi/)\n"
+"Language-Team: Finnish (https://www.transifex.com/izi/teams/41243/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -137,7 +137,7 @@ msgid ""
 "Cannot find in which journal import this statement. Please manually select a"
 " journal."
 msgstr ""
-"Odoo ei pysty päättelemään päiväkirjaa, mihin tapahtuma luetaan. Ole hyvä ja"
+"izi ei pysty päättelemään päiväkirjaa, mihin tapahtuma luetaan. Ole hyvä ja"
 " valitse päiväkirja."
 
 #. module: account_bank_statement_import
@@ -388,16 +388,16 @@ msgstr "Tappiotili"
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation_inbound_payment_method_ids
 msgid ""
-"Manual: Get paid by cash, check or any other method outside of Odoo.\n"
+"Manual: Get paid by cash, check or any other method outside of izi.\n"
 "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
-"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Odoo,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
+"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in izi,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
 msgstr ""
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation_outbound_payment_method_ids
 msgid ""
-"Manual:Pay bill by cash or any other method outside of Odoo.\n"
-"Check:Pay bill by check and print it from Odoo.\n"
+"Manual:Pay bill by cash or any other method outside of izi.\n"
+"Check:Pay bill by check and print it from izi.\n"
 "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. Enable this option from the settings."
 msgstr ""
 
@@ -473,11 +473,11 @@ msgstr ""
 #. module: account_bank_statement_import
 #: model:ir.ui.view,arch_db:account_bank_statement_import.account_bank_statement_import_journal_creation_view
 msgid ""
-"The account of the statement you are importing is not yet recorded in Odoo. "
+"The account of the statement you are importing is not yet recorded in izi. "
 "In order to proceed with the import, you need to create a bank journal for "
 "this account."
 msgstr ""
-"Pankkitiliä, jonka tilitapahtumia yrität lukea sisään, ei ole Odoon tuntema."
+"Pankkitiliä, jonka tilitapahtumia yrität lukea sisään, ei ole izin tuntema."
 " Jatkaaksesi sisäänlukua, sinun pitää luoda pankkipäiväkirja tälle tilille."
 
 #. module: account_bank_statement_import

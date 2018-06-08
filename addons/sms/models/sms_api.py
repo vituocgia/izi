@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
-from odoo import api, fields, models
-from odoo.exceptions import UserError
-from odoo.addons.iap.models import iap
+from izi import api, fields, models
+from izi.exceptions import UserError
+from izi.addons.iap.models import iap
 
-DEFAULT_ENDPOINT = 'https://iap-sms.odoo.com'
+DEFAULT_ENDPOINT = 'https://iap-sms.izi.asia'
 
 
 class SmsApi(models.AbstractModel):

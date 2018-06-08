@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 import unittest
-from odoo.addons.http_routing.models.ir_http import slugify, unslug
+from izi.addons.http_routing.models.ir_http import slugify, unslug
 
 
 class TestUnslug(unittest.TestCase):

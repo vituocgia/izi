@@ -1,4 +1,4 @@
-odoo.define('web.form_tests', function (require) {
+izi.define('web.form_tests', function (require) {
 "use strict";
 
 var concurrency = require('web.concurrency');
@@ -3853,7 +3853,7 @@ QUnit.module('Views', {
         // The behavior of the phone widget is completely altered by voip so
         // this test fails if voip is installed. The enterprise module is
         // responsible for testing its own behavior in its own tests.
-        if ('voip.user_agent' in odoo.__DEBUG__.services) {
+        if ('voip.user_agent' in izi.__DEBUG__.services) {
             assert.expect(0);
             return;
         }
@@ -4742,7 +4742,7 @@ QUnit.module('Views', {
         // if not only 2 dropdowns are displayed.
         var $dropdowns = $('.o_web_client .o_control_panel .btn-group .o_dropdown_toggler_btn');
         var $actions = $('.o_web_client .o_control_panel .btn-group .dropdown-menu')[1].children;
-        if ('document.document' in odoo.__DEBUG__.services) {
+        if ('document.document' in izi.__DEBUG__.services) {
             assert.strictEqual($dropdowns.length, 3,
                 "there should be 3 dropdowns (print, attachment, action) in the toolbar.");
             $actions = $('.o_web_client .o_control_panel .btn-group .dropdown-menu')[2].children;

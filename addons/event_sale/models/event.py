@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
-from odoo import api, fields, models, _
-from odoo.exceptions import ValidationError, UserError
+from izi import api, fields, models, _
+from izi.exceptions import ValidationError, UserError
 
-from odoo.addons import decimal_precision as dp
-from odoo.tools import float_is_zero
+from izi.addons import decimal_precision as dp
+from izi.tools import float_is_zero
 
 
 class EventType(models.Model):

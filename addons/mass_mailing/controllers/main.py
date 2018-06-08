@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 import base64
 
 import werkzeug
 
-from odoo import _, exceptions, http
-from odoo.http import request
-from odoo.tools import consteq
+from izi import _, exceptions, http
+from izi.http import request
+from izi.tools import consteq
 
 
 class MassMailController(http.Controller):

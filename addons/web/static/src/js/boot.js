@@ -44,8 +44,8 @@
 
     var debug = ($.deparam($.param.querystring()).debug !== undefined);
 
-    var odoo = window.odoo = window.odoo || {};
-    _.extend(odoo, {
+    var izi = window.izi = window.izi || {};
+    _.extend(izi, {
         testing: typeof QUnit === "object",
         debug: debug,
         remaining_jobs: jobs,
@@ -107,7 +107,7 @@
                     });
             }
 
-            if (odoo.debug) {
+            if (izi.debug) {
                 if (!(deps instanceof Array)) {
                     throw new Error ('Dependencies should be defined by an array', deps);
                 }
@@ -152,7 +152,7 @@
                 for (var k=0; k<jobs.length; k++) {
                     debug_jobs[jobs[k].name] = job = {
                         dependencies: jobs[k].deps,
-                        dependents: odoo.__DEBUG__.get_dependents(jobs[k].name),
+                        dependents: izi.__DEBUG__.get_dependents(jobs[k].name),
                         name: jobs[k].name
                     };
                     if (jobs[k].error) {
@@ -162,7 +162,7 @@
                         job.rejected = jobs[k].rejected;
                         rejected.push(job.name);
                     }
-                    var deps = odoo.__DEBUG__.get_dependencies( job.name );
+                    var deps = izi.__DEBUG__.get_dependencies( job.name );
                     for (var i=0; i<deps.length; i++) {
                         if (job.name !== deps[i] && !(deps[i] in services)) {
                             jobdep = debug_jobs[deps[i]] || (deps[i] in factories && _.find(jobs, function (job) { return job.name === deps[i];}));
@@ -181,11 +181,11 @@
                         }
                     }
                 }
-                missing = odoo.__DEBUG__.get_missing_jobs();
-                failed = odoo.__DEBUG__.get_failed_jobs();
+                missing = izi.__DEBUG__.get_missing_jobs();
+                failed = izi.__DEBUG__.get_failed_jobs();
                 var unloaded = _.filter(debug_jobs, function (job) { return job.missing; });
 
-                if (odoo.debug || !_.isEmpty(failed) || !_.isEmpty(unloaded)) {
+                if (izi.debug || !_.isEmpty(failed) || !_.isEmpty(unloaded)) {
                     var log = console[_.isEmpty(failed) || _.isEmpty(unloaded) ? 'info' : 'error'].bind(console);
                     log((_.isEmpty(failed) ? (_.isEmpty(unloaded) ? 'info' : 'warning') : 'error') + ': Some modules could not be started');
                     if (missing.length) {
@@ -203,16 +203,16 @@
                     if (!_.isEmpty(unloaded)) {
                         log('Non loaded modules:      ', _.pluck(unloaded, 'name'));
                     }
-                    if (odoo.debug && !_.isEmpty(debug_jobs)) {
+                    if (izi.debug && !_.isEmpty(debug_jobs)) {
                         log('Debug:                   ', debug_jobs);
                     }
                 }
             }
-            odoo.__DEBUG__.js_modules = {
+            izi.__DEBUG__.js_modules = {
                 missing: missing,
                 failed: _.pluck(failed, 'name'),
             };
-            odoo.__DEBUG__.didLogInfo.resolve();
+            izi.__DEBUG__.didLogInfo.resolve();
         },
         process_jobs: function (jobs, services) {
             var job;
@@ -234,7 +234,7 @@
                         function (data) {
                             services[job.name] = data;
                             def.resolve();
-                            odoo.process_jobs(jobs, services);
+                            izi.process_jobs(jobs, services);
                         }, function (e) {
                             job.rejected = e || true;
                             jobs.push(job);
@@ -279,7 +279,7 @@
             var len = job_deferred.length;
             $.when.apply($, job_deferred).then(function () {
                 if (len === job_deferred.length) {
-                    odoo.log();
+                    izi.log();
                 } else {
                     log_when_loaded();
                 }

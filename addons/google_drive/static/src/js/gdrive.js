@@ -1,4 +1,4 @@
-odoo.define('google_drive.sidebar', function (require) {
+izi.define('google_drive.sidebar', function (require) {
 "use strict";
 
 /**

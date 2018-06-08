@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 import json
 
 import requests
 
-from odoo import api, fields, models, tools, _
-from odoo.exceptions import UserError
+from izi import api, fields, models, tools, _
+from izi.exceptions import UserError
 
 
 def geo_find(addr):

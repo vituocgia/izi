@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 from datetime import datetime
 
-from odoo import api, fields, models
+from izi import api, fields, models
 
-from odoo.addons.calendar.models.calendar import get_real_ids
+from izi.addons.calendar.models.calendar import get_real_ids
 
 
 class Partner(models.Model):

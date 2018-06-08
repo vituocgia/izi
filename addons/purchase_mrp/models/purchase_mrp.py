@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
-from odoo import fields, models
-from odoo.tools import float_compare
+from izi import fields, models
+from izi.tools import float_compare
 
 
 class PurchaseOrderLine(models.Model):

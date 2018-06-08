@@ -1,41 +1,41 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * im_livechat
 # 
 # Translators:
 # Micky Jault <micky037@hotmail.fr>, 2017
-# Richard Mathot <rim@odoo.com>, 2017
+# Richard Mathot <rim@izi.asia>, 2017
 # Xavier Belmere <Info@cartmeleon.com>, 2017
 # Shark McGnark <peculiarcheese@gmail.com>, 2017
 # Sébastien Le Ray <sebastien-github@orniz.org>, 2017
 # Martin Trigaux, 2017
-# Eloïse Stilmant <est@odoo.com>, 2017
+# Eloïse Stilmant <est@izi.asia>, 2017
 # Olivier Lenoir <olivier.lenoir@free.fr>, 2017
 # Maxime Chambreuil <mchambreuil@ursainfosystems.com>, 2017
-# Lucas Deliege <lud@odoo.com>, 2017
-# Melanie Bernard <mbe@odoo.com>, 2017
-# Quentin THEURET <odoo@kerpeo.com>, 2017
+# Lucas Deliege <lud@izi.asia>, 2017
+# Melanie Bernard <mbe@izi.asia>, 2017
+# Quentin THEURET <izi@kerpeo.com>, 2017
 # Xavier Symons <xsy@openerp.com>, 2017
 # Loic <loic.richard2@gmail.com>, 2017
 # Nancy Bolognesi <nb@microcom.ca>, 2017
 # Jeanjean Noname <monsieur.spock@gmail.com>, 2017
 # Saad Thaifa <saad.thaifa@gmail.com>, 2017
-# Olivier Dony <odo@odoo.com>, 2017
+# Olivier Dony <odo@izi.asia>, 2017
 # Daniel & Delphine <dd2013@leschoupinous.net>, 2017
 # Adriana Ierfino <adriana.ierfino@savoirfairelinux.com>, 2017
 # Frédéric LIETART <stuff@tifred.fr>, 2017
-# Alexandra Jubert <aju@odoo.com>, 2017
+# Alexandra Jubert <aju@izi.asia>, 2017
 # Florian Hatat, 2017
 # e2f <projects@e2f.com>, 2018
 # fr rev <e2ffr02@hotmail.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-30 13:12+0000\n"
 "PO-Revision-Date: 2017-11-30 13:12+0000\n"
 "Last-Translator: fr rev <e2ffr02@hotmail.com>, 2018\n"
-"Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
+"Language-Team: French (https://www.transifex.com/izi/teams/41243/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -389,11 +389,11 @@ msgstr "Expliquez votre note"
 #. module: im_livechat
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid ""
-"For website built with Odoo CMS, please install the website_livechat module."
+"For website built with izi CMS, please install the website_livechat module."
 " Then go to Website Admin &gt; Configuration &gt; Settings and select the "
 "Website Live Chat Channel you want to add on your website."
 msgstr ""
-"Si votre site Web a été réalisé avec le CMS Odoo, vous devez installer le "
+"Si votre site Web a été réalisé avec le CMS izi, vous devez installer le "
 "module website_livechat. Ensuite, accédez à Administration du site Web > "
 "Configuration > Paramètres et sélectionnez le canal d'assistance en ligne "
 "que vous souhaitez ajouter sur votre site."
@@ -697,11 +697,11 @@ msgstr ""
 #. module: im_livechat
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid ""
-"Operators that do not show any activity In Odoo for more than 30 minutes "
+"Operators that do not show any activity In izi for more than 30 minutes "
 "will be considered as disconnected."
 msgstr ""
 "Les opérateurs qui ne montrent pas d'activité pendant plus de 30 minutes sur"
-" Odoo seront considérés comme déconnectés. "
+" izi seront considérés comme déconnectés. "
 
 #. module: im_livechat
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form

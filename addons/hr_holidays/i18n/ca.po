@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * hr_holidays
 # 
@@ -6,15 +6,15 @@
 # Quim - eccit <quim@eccit.com>, 2017
 # Marc Tormo i Bochaca <mtbochaca@gmail.com>, 2018
 # Martin Trigaux, 2018
-# RGB Consulting <odoo@rgbconsulting.com>, 2018
+# RGB Consulting <izi@rgbconsulting.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 13:42+0000\n"
 "PO-Revision-Date: 2018-02-19 13:42+0000\n"
-"Last-Translator: RGB Consulting <odoo@rgbconsulting.com>, 2018\n"
-"Language-Team: Catalan (https://www.transifex.com/odoo/teams/41243/ca/)\n"
+"Last-Translator: RGB Consulting <izi@rgbconsulting.com>, 2018\n"
+"Language-Team: Catalan (https://www.transifex.com/izi/teams/41243/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1016,10 +1016,10 @@ msgstr "Oficial"
 #. module: hr_holidays
 #: model:ir.model.fields,help:hr_holidays.field_hr_holidays_status_categ_id
 msgid ""
-"Once a leave is validated, Odoo will create a corresponding meeting of this "
+"Once a leave is validated, izi will create a corresponding meeting of this "
 "type in the calendar."
 msgstr ""
-"Un cop una absència és validada, Odoo crearà l'esdeveniment corresponent "
+"Un cop una absència és validada, izi crearà l'esdeveniment corresponent "
 "d'aquest tipus al calendari."
 
 #. module: hr_holidays
@@ -1448,10 +1448,10 @@ msgstr ""
 #. module: hr_holidays
 #: model:ir.actions.act_window,help:hr_holidays.hr_holidays_leaves_assign_legal
 msgid ""
-"You can assign remaining Legal Leaves for each employee, Odoo\n"
+"You can assign remaining Legal Leaves for each employee, izi\n"
 "               will automatically create and validate allocation requests."
 msgstr ""
-"Pot assignar les absències legals restants per cada empleat. Odoo crearà i "
+"Pot assignar les absències legals restants per cada empleat. izi crearà i "
 "validarà automàticament les peticions d'assignació."
 
 #. module: hr_holidays

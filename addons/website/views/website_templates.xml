@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<odoo>
+<izi>
 <!-- Assets -->
 <template id="assets_backend" inherit_id="web.assets_backend" name="Website Backend Assets (used in backend interface)">
     <xpath expr="//link[last()]" position="after">
@@ -22,7 +22,7 @@
     <xpath expr="//link[last()]" position="after">
         <link rel="stylesheet" type="text/less" href="/website/static/src/less/website.ui.components.less"/>
         <link rel="stylesheet" type="text/less" href="/website/static/src/less/website.snippets.less"/>
-        <link rel="stylesheet" type="text/less" href="/website/static/src/less/website.zoomodoo.less"/>
+        <link rel="stylesheet" type="text/less" href="/website/static/src/less/website.zoomizi.less"/>
     </xpath>
     <xpath expr="//script[last()]" position="after">
         <script type="text/javascript" src="/website/static/src/js/utils.js"/>
@@ -32,7 +32,7 @@
         <script type="text/javascript" src="/website/static/src/js/content/lazy_template_call.js"/>
         <script type="text/javascript" src="/website/static/src/js/content/snippets.animation.js"/>
         <script type="text/javascript" src="/website/static/src/js/content/website_root.js"/>
-        <script type="text/javascript" src="/website/static/src/js/content/zoomodoo.js"/>
+        <script type="text/javascript" src="/website/static/src/js/content/zoomizi.js"/>
 
         <script type="text/javascript" src="/website/static/src/js/menu/navbar.js"/>
     </xpath>
@@ -116,7 +116,7 @@
     </xpath>
     <xpath expr="//t[@t-set='head_website']" position="replace">
         <t t-set="head_website">
-            <meta name="generator" content="Odoo"/>
+            <meta name="generator" content="izi"/>
 
             <meta t-if="main_object and 'website_indexed' in main_object
                 and not main_object.website_indexed" name="robots" content="noindex"/>
@@ -146,10 +146,10 @@
 
             <script type="text/javascript">
                 <t groups="website.group_website_publisher">
-                    odoo.snippetsURL = '/website/snippets';
+                    izi.snippetsURL = '/website/snippets';
                 </t>
 
-                odoo.session_info = {
+                izi.session_info = {
                     is_superuser: <t t-esc="json.dumps(request.env.user._is_superuser())"/>,
                     is_system: <t t-esc="json.dumps(request.env.user._is_system())"/>,
                     is_frontend: true,
@@ -211,8 +211,8 @@
     <xpath expr="//footer" position="inside">
         <div class="container mt16 mb8">
             <div class="pull-right" t-ignore="true" t-if="not editable">
-                Create a <a target="_blank" href="http://www.odoo.com/page/website-builder">free website</a> with
-                <a target="_blank" class="label label-danger" href="http://www.odoo.com/page/website-builder">Odoo</a>
+                Create a <a target="_blank" href="http://www.izi.asia/page/website-builder">free website</a> with
+                <a target="_blank" class="label label-danger" href="http://www.izi.asia/page/website-builder">izi</a>
             </div>
             <div class="pull-left text-muted" itemscope="itemscope" itemtype="http://schema.org/Organization">
                 Copyright &amp;copy; <span t-field="res_company.name" itemprop="name">Company name</span>
@@ -468,13 +468,13 @@
 </template>
 
 <!-- Error and special pages -->
-<template id="website_info" name="Odoo Information">
+<template id="website_info" name="izi Information">
     <t t-call="website.layout">
         <div id="wrap"/>
     </t>
 </template>
 
-<template id="show_website_info" inherit_id="website.website_info" customize_show="True" name="Show Odoo Information">
+<template id="show_website_info" inherit_id="website.website_info" customize_show="True" name="Show izi Information">
     <xpath expr="//div[@id='wrap']" position="inside">
         <div class="oe_structure">
             <section class="container">
@@ -483,10 +483,10 @@
               </t>
               <t t-if="version">
                 <h1><t t-esc="res_company.name"/>
-                    <small>Odoo Version <t t-raw="version.get('server_version')"/></small>
+                    <small>izi Version <t t-raw="version.get('server_version')"/></small>
                 </h1>
                 <p>
-                    Information about the <t t-esc="res_company.name"/> instance of Odoo, the <a target="_blank" href="https://www.odoo.com">Open Source ERP</a>.
+                    Information about the <t t-esc="res_company.name"/> instance of izi, the <a target="_blank" href="https://www.izi.asia">Open Source ERP</a>.
                 </p>
 
                 <div class="alert alert-warning alert-dismissable mt16" groups="website.group_website_publisher">
@@ -561,7 +561,7 @@
 <template id="default_less">
     <style type="text/less">
         div#wrap div &gt; h1 {
-            color: @odoo-brand-primary;
+            color: @izi-brand-primary;
         }
     </style>
 </template>
@@ -943,4 +943,4 @@ Sitemap: <t t-esc="url_root"/>sitemap.xml
   </t>
 </template>
 
-</odoo>
+</izi>

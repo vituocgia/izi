@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 import inspect
 import logging
@@ -9,14 +9,14 @@ import re
 from werkzeug import urls
 from werkzeug.exceptions import NotFound
 
-from odoo import api, fields, models, tools
-from odoo.addons.http_routing.models.ir_http import slugify, _guess_mimetype
-from odoo.addons.website.models.ir_http import sitemap_qs2dom
-from odoo.addons.portal.controllers.portal import pager
-from odoo.tools import pycompat
-from odoo.http import request
-from odoo.osv.expression import FALSE_DOMAIN
-from odoo.tools.translate import _
+from izi import api, fields, models, tools
+from izi.addons.http_routing.models.ir_http import slugify, _guess_mimetype
+from izi.addons.website.models.ir_http import sitemap_qs2dom
+from izi.addons.portal.controllers.portal import pager
+from izi.tools import pycompat
+from izi.http import request
+from izi.osv.expression import FALSE_DOMAIN
+from izi.tools.translate import _
 
 logger = logging.getLogger(__name__)
 

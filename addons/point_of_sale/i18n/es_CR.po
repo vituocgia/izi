@@ -1,16 +1,16 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * point_of_sale
 #
 # Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: izi 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-10 11:34+0000\n"
 "PO-Revision-Date: 2016-01-27 10:50+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Spanish (Costa Rica) (http://www.transifex.com/odoo/odoo-9/"
+"Language-Team: Spanish (Costa Rica) (http://www.transifex.com/izi/izi-9/"
 "language/es_CR/)\n"
 "Language: es_CR\n"
 "MIME-Version: 1.0\n"
@@ -1616,7 +1616,7 @@ msgstr "ID"
 #. openerp-web
 #: code:addons/point_of_sale/static/src/js/popups.js:115
 #, python-format
-msgid "IMPORTANT: Bug Report From Odoo Point Of Sale"
+msgid "IMPORTANT: Bug Report From izi Point Of Sale"
 msgstr ""
 
 #. module: point_of_sale
@@ -2087,7 +2087,7 @@ msgstr "Número de copias"
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.customer_facing_display_html
 #: model:pos.config,customer_facing_display_html:point_of_sale.pos_config_main
-msgid "Odoo Logo"
+msgid "izi Logo"
 msgstr ""
 
 #. module: point_of_sale
@@ -3841,14 +3841,14 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config_sequence_line_id
 msgid ""
-"This sequence is automatically created by Odoo but you can change it to "
+"This sequence is automatically created by izi but you can change it to "
 "customize the reference numbers of your orders lines."
 msgstr ""
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config_sequence_id
 msgid ""
-"This sequence is automatically created by Odoo but you can change it to "
+"This sequence is automatically created by izi but you can change it to "
 "customize the reference numbers of your orders."
 msgstr ""
 

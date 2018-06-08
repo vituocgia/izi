@@ -1,4 +1,4 @@
-odoo.define('web.LocalStorageService', function (require) {
+izi.define('web.LocalStorageService', function (require) {
 'use strict';
 
 var AbstractService = require('web.AbstractService');

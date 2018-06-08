@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * google_calendar
 # 
@@ -8,12 +8,12 @@
 # Matjaž Mozetič <m.mozetic@matmoz.si>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-10 11:35+0000\n"
 "PO-Revision-Date: 2017-10-10 11:35+0000\n"
 "Last-Translator: Matjaž Mozetič <m.mozetic@matmoz.si>, 2018\n"
-"Language-Team: Slovenian (https://www.transifex.com/odoo/teams/41243/sl/)\n"
+"Language-Team: Slovenian (https://www.transifex.com/izi/teams/41243/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -190,10 +190,10 @@ msgstr ""
 #: model:ir.model.fields,help:google_calendar.field_res_users_google_calendar_cal_id
 msgid ""
 "Last Calendar ID who has been synchronized. If it is changed, we remove all "
-"links between GoogleID and Odoo Google Internal ID"
+"links between GoogleID and izi Google Internal ID"
 msgstr ""
 "Zadnji ID koledarja, ki se je sinhroniziral. Če se spremeni, odstranimo vse "
-"povezave med Google ID in Notranjim Odoo Google ID"
+"povezave med Google ID in Notranjim izi Google ID"
 
 #. module: google_calendar
 #: model:ir.model.fields,field_description:google_calendar.field_google_calendar___last_update
@@ -207,13 +207,13 @@ msgstr "Datum zadnje sinhronizacije"
 
 #. module: google_calendar
 #: model:ir.model.fields,field_description:google_calendar.field_calendar_attendee_oe_synchro_date
-msgid "Odoo Synchro Date"
-msgstr "Datum Odoo sinhronizacije"
+msgid "izi Synchro Date"
+msgstr "Datum izi sinhronizacije"
 
 #. module: google_calendar
 #: model:ir.model.fields,field_description:google_calendar.field_calendar_event_oe_update_date
-msgid "Odoo Update Date"
-msgstr "Datum Odoo posodobitve"
+msgid "izi Update Date"
+msgstr "Datum izi posodobitve"
 
 #. module: google_calendar
 #. openerp-web

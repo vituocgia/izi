@@ -1,4 +1,4 @@
-odoo.define('survey.result', function (require) {
+izi.define('survey.result', function (require) {
 'use strict';
 
 require('web.dom_ready');

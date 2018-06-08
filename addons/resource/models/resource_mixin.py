@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 from datetime import timedelta
 
-from odoo import api, fields, models
-from odoo.tools import float_utils
+from izi import api, fields, models
+from izi.tools import float_utils
 
 class ResourceMixin(models.AbstractModel):
     _name = "resource.mixin"

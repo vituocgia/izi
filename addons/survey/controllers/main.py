@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 import json
 import logging
@@ -7,9 +7,9 @@ import werkzeug
 from datetime import datetime
 from math import ceil
 
-from odoo import fields, http, SUPERUSER_ID
-from odoo.http import request
-from odoo.tools import ustr
+from izi import fields, http, SUPERUSER_ID
+from izi.http import request
+from izi.tools import ustr
 
 _logger = logging.getLogger(__name__)
 

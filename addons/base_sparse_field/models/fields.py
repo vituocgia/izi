@@ -2,7 +2,7 @@
 
 import json
 
-from odoo import fields
+from izi import fields
 
 
 def monkey_patch(cls):

@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
-from odoo import http, _
-from odoo.addons.http_routing.models.ir_http import slug
-from odoo.http import request
+from izi import http, _
+from izi.addons.http_routing.models.ir_http import slug
+from izi.http import request
 
 
 class WebsiteHrRecruitment(http.Controller):

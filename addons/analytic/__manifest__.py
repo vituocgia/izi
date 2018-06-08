@@ -1,17 +1,17 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 {
     'name' : 'Analytic Accounting',
     'version': '1.1',
-    'website' : 'https://www.odoo.com/page/accounting',
+    'website' : 'https://www.izi.asia/page/accounting',
     'category': 'Hidden/Dependency',
     'depends' : ['base', 'decimal_precision', 'mail'],
     'description': """
 Module for defining analytic accounting object.
 ===============================================
 
-In Odoo, analytic accounts are linked to general accounts but are treated
+In izi, analytic accounts are linked to general accounts but are treated
 totally independently. So, you can enter various different analytic operations
 that have no counterpart in the general financial accounts.
     """,

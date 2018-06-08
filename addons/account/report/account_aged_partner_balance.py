@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
 import time
-from odoo import api, models, _
-from odoo.exceptions import UserError
-from odoo.tools import float_is_zero
+from izi import api, models, _
+from izi.exceptions import UserError
+from izi.tools import float_is_zero
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
 

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 import logging
 import traceback
@@ -10,17 +10,17 @@ import werkzeug
 import werkzeug.routing
 import werkzeug.utils
 
-import odoo
-from odoo import api, models
-from odoo import SUPERUSER_ID
-from odoo.http import request
-from odoo.tools import config
-from odoo.exceptions import QWebException
-from odoo.tools.safe_eval import safe_eval
-from odoo.osv.expression import FALSE_DOMAIN, OR
+import izi
+from izi import api, models
+from izi import SUPERUSER_ID
+from izi.http import request
+from izi.tools import config
+from izi.exceptions import QWebException
+from izi.tools.safe_eval import safe_eval
+from izi.osv.expression import FALSE_DOMAIN, OR
 
-from odoo.addons.http_routing.models.ir_http import ModelConverter, _guess_mimetype
-from odoo.addons.portal.controllers.portal import _build_url_w_params
+from izi.addons.http_routing.models.ir_http import ModelConverter, _guess_mimetype
+from izi.addons.portal.controllers.portal import _build_url_w_params
 
 logger = logging.getLogger(__name__)
 
@@ -189,12 +189,12 @@ class Http(models.AbstractModel):
                 else:
                     code = exception.code
 
-            if isinstance(exception, odoo.exceptions.AccessError):
+            if isinstance(exception, izi.exceptions.AccessError):
                 code = 403
 
             if isinstance(exception, QWebException):
                 values.update(qweb_exception=exception)
-                if isinstance(exception.qweb.get('cause'), odoo.exceptions.AccessError):
+                if isinstance(exception.qweb.get('cause'), izi.exceptions.AccessError):
                     code = 403
 
             if code == 500:

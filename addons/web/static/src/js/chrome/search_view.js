@@ -1,4 +1,4 @@
-odoo.define('web.SearchView', function (require) {
+izi.define('web.SearchView', function (require) {
 "use strict";
 
 var AutoComplete = require('web.AutoComplete');

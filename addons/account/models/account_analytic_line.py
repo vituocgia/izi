@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from odoo import api, fields, models, _
+from izi import api, fields, models, _
 from math import copysign
 
 

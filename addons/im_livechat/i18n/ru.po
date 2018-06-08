@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * im_livechat
 # 
@@ -6,7 +6,7 @@
 # Эдуард Манятовский <manyatovskiy@gmail.com>, 2017
 # Denis Trepalin <zekarious@gmail.com>, 2017
 # Sergey Vilizhanin <sv@grimmette.ru>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux <mat@izi.asia>, 2017
 # Максим Дронь <dronmax@gmail.com>, 2017
 # Masha Koc <mariya.kos.ua@gmail.com>, 2017
 # Alex Puchkov <ap@alteco.co>, 2017
@@ -15,12 +15,12 @@
 # Андрей Гусев <gaussgss@gmail.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-30 13:12+0000\n"
 "PO-Revision-Date: 2017-11-30 13:12+0000\n"
 "Last-Translator: Андрей Гусев <gaussgss@gmail.com>, 2017\n"
-"Language-Team: Russian (https://www.transifex.com/odoo/teams/41243/ru/)\n"
+"Language-Team: Russian (https://www.transifex.com/izi/teams/41243/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -363,7 +363,7 @@ msgstr "Объясните вашу запись"
 #. module: im_livechat
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid ""
-"For website built with Odoo CMS, please install the website_livechat module."
+"For website built with izi CMS, please install the website_livechat module."
 " Then go to Website Admin &gt; Configuration &gt; Settings and select the "
 "Website Live Chat Channel you want to add on your website."
 msgstr ""
@@ -668,7 +668,7 @@ msgstr ""
 #. module: im_livechat
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid ""
-"Operators that do not show any activity In Odoo for more than 30 minutes "
+"Operators that do not show any activity In izi for more than 30 minutes "
 "will be considered as disconnected."
 msgstr ""
 "Операторы, не проявляющие активность в течении 30 минут, будут "

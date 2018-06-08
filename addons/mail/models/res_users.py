@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
-from odoo import _, api, exceptions, fields, models, modules
-from odoo.tools import pycompat
-from odoo.addons.base.res.res_users import is_selection_groups
+from izi import _, api, exceptions, fields, models, modules
+from izi.tools import pycompat
+from izi.addons.base.res.res_users import is_selection_groups
 
 
 class Users(models.Model):
@@ -27,11 +27,11 @@ class Users(models.Model):
         ('followers', 'Followers only')], string='Alias Contact Security', related='alias_id.alias_contact')
     notification_type = fields.Selection([
         ('email', 'Handle by Emails'),
-        ('inbox', 'Handle in Odoo')],
+        ('inbox', 'Handle in izi')],
         'Notification Management', required=True, default='email',
         help="Policy on how to handle Chatter notifications:\n"
              "- Emails: notifications are sent to your email\n"
-             "- Odoo: notifications appear in your Odoo Inbox")
+             "- izi: notifications appear in your izi Inbox")
 
     def __init__(self, pool, cr):
         """ Override of __init__ to add access rights on notification_email_send

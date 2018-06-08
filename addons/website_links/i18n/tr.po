@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * website_links
 # 
@@ -13,12 +13,12 @@
 # Umur Akın <umura@projetgrup.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: izi Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-20 09:54+0000\n"
 "PO-Revision-Date: 2017-09-20 09:54+0000\n"
 "Last-Translator: Umur Akın <umura@projetgrup.com>, 2018\n"
-"Language-Team: Turkish (https://www.transifex.com/odoo/teams/41243/tr/)\n"
+"Language-Team: Turkish (https://www.transifex.com/izi/teams/41243/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -195,10 +195,10 @@ msgstr "Gösterilecek veri yok"
 #: model:ir.ui.view,arch_db:website_links.create_shorten_url
 msgid ""
 "Those trackers can be used in Google Analytics to track clicks and visitors,"
-" or in Odoo reports to track opportunities and related revenues."
+" or in izi reports to track opportunities and related revenues."
 msgstr ""
 "Bu izleyiciler, Google Analytics'te tıklamaları ve ziyaretçileri izlemek "
-"için veya Odoo raporlarında fırsatları ve ilgili gelirleri izlemek için "
+"için veya izi raporlarında fırsatları ve ilgili gelirleri izlemek için "
 "kullanılabilir."
 
 #. module: website_links
@@ -275,8 +275,8 @@ msgstr "örn. Arama Motoru, Website sayfası,.."
 
 #. module: website_links
 #: model:ir.ui.view,arch_db:website_links.create_shorten_url
-msgid "e.g. https://www.odoo.com/page/contactus"
-msgstr "Örn: https://www.odoo.com/page/contactus"
+msgid "e.g. https://www.izi.asia/page/contactus"
+msgstr "Örn: https://www.izi.asia/page/contactus"
 
 #. module: website_links
 #. openerp-web

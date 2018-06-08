@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * crm
 # 
@@ -14,12 +14,12 @@
 # Carlos Vásquez <carlos.vasquez@clearcorp.co.cr>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-20 11:58+0000\n"
 "PO-Revision-Date: 2018-04-20 11:58+0000\n"
 "Last-Translator: Carlos Vásquez <carlos.vasquez@clearcorp.co.cr>, 2018\n"
-"Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
+"Language-Team: Spanish (https://www.transifex.com/izi/teams/41243/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -51,7 +51,7 @@ msgid ""
 "                        <td style=\"padding:15px 10px;font-size:20px\">\n"
 "                            <p style=\"color:#875A7B;margin:0\" >Hooray!</p><br>\n"
 "                            <p dir=\"ltr\" style=\"font-size:15px;margin-top:0pt;margin-bottom:0pt;\">\n"
-"                                <span>Your Odoo CRM application is up and running.</span></p><br>\n"
+"                                <span>Your izi CRM application is up and running.</span></p><br>\n"
 "                            <p dir=\"ltr\" style=\"margin-top:0pt;margin-bottom:8pt;\">\n"
 "                                <span style=\"font-size:13px;font-weight:bold; \">What’s next?</span></p>\n"
 "                            <ul style=\"margin-top:0pt;margin-bottom:0pt;font-size:13px;list-style-type:disc;\">\n"
@@ -110,22 +110,22 @@ msgid ""
 "                            </p>\n"
 "                            <p dir=\"ltr\" style=\"font-size:13px;margin-top:0pt;margin-bottom:8pt;\">\n"
 "                                <span>We would be delighted to assist you along the way. Contact us through our\n"
-"                                <a href=\"https://www.odoo.com/help\">support form</a> if you have any question.\n"
-"                                You can also discover how to get the best out of Odoo CRM with our </span>\n"
-"                                <a target=\"_blank\" href=\"https://www.odoo.com/documentation/user/11.0/crm.html\">\n"
+"                                <a href=\"https://www.izi.asia/help\">support form</a> if you have any question.\n"
+"                                You can also discover how to get the best out of izi CRM with our </span>\n"
+"                                <a target=\"_blank\" href=\"https://www.izi.asia/documentation/user/11.0/crm.html\">\n"
 "                                <span style=\"text-decoration:underline;\">User Documentation</span></a>\n"
 "                                </span><span> or with our </span>\n"
-"                                <a target=\"_blank\" href=\"https://www.odoo.com/documentation\">\n"
+"                                <a target=\"_blank\" href=\"https://www.izi.asia/documentation\">\n"
 "                                <span style=\"text-decoration:underline;\">API Documentation</span></a>\n"
 "                            </p>\n"
 "                            <br>\n"
-"                            <p dir=\"ltr\" style=\"font-size:13px;margin-top:0pt;margin-bottom:8pt;\"><span>Enjoy your Odoo experience,</span></p>\n"
+"                            <p dir=\"ltr\" style=\"font-size:13px;margin-top:0pt;margin-bottom:8pt;\"><span>Enjoy your izi experience,</span></p>\n"
 "                        </td>\n"
 "                    </tr>\n"
 "                </tbody>\n"
 "            </table>\n"
 "            <div dir=\"ltr\" style=\"font-size:13px;margin-top:0pt;margin-bottom:8pt;color:grey\">\n"
-"                <span><br/>-- <br/>The Odoo Team<br/>PS: People love Odoo, check </span><a target=\"_blank\" href=\"https://twitter.com/odoo/favorites\"><span style=\"text-decoration:underline;\">what they say about it.</span></a></span>\n"
+"                <span><br/>-- <br/>The izi Team<br/>PS: People love izi, check </span><a target=\"_blank\" href=\"https://twitter.com/izi/favorites\"><span style=\"text-decoration:underline;\">what they say about it.</span></a></span>\n"
 "            </div>\n"
 "        </div>"
 msgstr ""
@@ -151,7 +151,7 @@ msgstr ""
 "                        <td style=\"padding:15px 10px;font-size:20px\">\n"
 "                            <p style=\"color:#875A7B;margin:0\" >¡Genial!</p><br>\n"
 "                            <p dir=\"ltr\" style=\"font-size:15px;margin-top:0pt;margin-bottom:0pt;\">\n"
-"                                <span>Su aplicación CRM de Odoo ya está en marcha.</span></p><br>\n"
+"                                <span>Su aplicación CRM de izi ya está en marcha.</span></p><br>\n"
 "                            <p dir=\"ltr\" style=\"margin-top:0pt;margin-bottom:8pt;\">\n"
 "                                <span style=\"font-size:13px;font-weight:bold; \">¿Cuál es el siguiente paso?</span></p>\n"
 "                            <ul style=\"margin-top:0pt;margin-bottom:0pt;font-size:13px;list-style-type:disc;\">\n"
@@ -210,22 +210,22 @@ msgstr ""
 "                            </p>\n"
 "                            <p dir=\"ltr\" style=\"font-size:13px;margin-top:0pt;margin-bottom:8pt;\">\n"
 "                                <span>Le acompañamos en cada etapa del proceso. Póngase en contacto con nosotros a través del\n"
-"                                <a href=\"https://www.odoo.com/help\">formulario de soporte</a> si tiene alguna duda.\n"
-"                                También puede descubrir cómo sacar el máximo partido a CRM de Odoo en nuestra </span>\n"
-"                                <a target=\"_blank\" href=\"https://www.odoo.com/documentation/user/11.0/crm.html\">\n"
+"                                <a href=\"https://www.izi.asia/help\">formulario de soporte</a> si tiene alguna duda.\n"
+"                                También puede descubrir cómo sacar el máximo partido a CRM de izi en nuestra </span>\n"
+"                                <a target=\"_blank\" href=\"https://www.izi.asia/documentation/user/11.0/crm.html\">\n"
 "                                <span style=\"text-decoration:underline;\">Documentación del usuario</span></a>\n"
 "                                </span><span> o nuestra </span>\n"
-"                                <a target=\"_blank\" href=\"https://www.odoo.com/documentation\">\n"
+"                                <a target=\"_blank\" href=\"https://www.izi.asia/documentation\">\n"
 "                                <span style=\"text-decoration:underline;\">Documentación de API</span></a>\n"
 "                            </p>\n"
 "                            <br>\n"
-"                            <p dir=\"ltr\" style=\"font-size:13px;margin-top:0pt;margin-bottom:8pt;\"><span>¡Que disfrute de la experiencia con Odoo!</span></p>\n"
+"                            <p dir=\"ltr\" style=\"font-size:13px;margin-top:0pt;margin-bottom:8pt;\"><span>¡Que disfrute de la experiencia con izi!</span></p>\n"
 "                        </td>\n"
 "                    </tr>\n"
 "                </tbody>\n"
 "            </table>\n"
 "            <div dir=\"ltr\" style=\"font-size:13px;margin-top:0pt;margin-bottom:8pt;color:grey\">\n"
-"                <span><br/>-- <br/>El equipo de Odoo<br/>Por cierto, a los usuarios les encanta Odoo. Eche un vistazo a lo que opinan en </span><a target=\"_blank\" href=\"https://twitter.com/odoo/favorites\"><span style=\"text-decoration:underline;\">.</span></a></span>\n"
+"                <span><br/>-- <br/>El equipo de izi<br/>Por cierto, a los usuarios les encanta izi. Eche un vistazo a lo que opinan en </span><a target=\"_blank\" href=\"https://twitter.com/izi/favorites\"><span style=\"text-decoration:underline;\">.</span></a></span>\n"
 "            </div>\n"
 "        </div>"
 
@@ -410,35 +410,35 @@ msgstr ""
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid ""
-"<span class=\"label label-default text-center odoo_purple\">Incoming "
+"<span class=\"label label-default text-center izi_purple\">Incoming "
 "email</span>"
 msgstr ""
-"<span class=\"label label-default text-center odoo_purple\">Correo "
+"<span class=\"label label-default text-center izi_purple\">Correo "
 "electrónico entrante</span>"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
-msgid "<span class=\"label label-default text-center odoo_purple\">Lead</span>"
+msgid "<span class=\"label label-default text-center izi_purple\">Lead</span>"
 msgstr ""
 "<span class=\"label label-default text-center "
-"odoo_purple\">Iniciativa</span>"
+"izi_purple\">Iniciativa</span>"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid ""
 "<span class=\"label label-default text-center "
-"odoo_purple\">Opportunity</span>"
+"izi_purple\">Opportunity</span>"
 msgstr ""
 "<span class=\"label label-default text-center "
-"odoo_purple\">Oportunidad</span>"
+"izi_purple\">Oportunidad</span>"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid ""
-"<span class=\"label label-default text-center odoo_purple\">Quotation</span>"
+"<span class=\"label label-default text-center izi_purple\">Quotation</span>"
 msgstr ""
 "<span class=\"label label-default text-center "
-"odoo_purple\">Presupuesto</span>"
+"izi_purple\">Presupuesto</span>"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_case_form_view_oppor
@@ -671,13 +671,13 @@ msgstr "<strong>Eventos</strong>"
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid ""
-"<strong>Every business is different.</strong> Odoo allows to\n"
+"<strong>Every business is different.</strong> izi allows to\n"
 "                        customize every application and it's usually a good\n"
 "                        advice to customize screens to fit your sales process.\n"
-"                        <strong>Customizations are done by Odoo experts.</strong>"
+"                        <strong>Customizations are done by izi experts.</strong>"
 msgstr ""
-"<strong>Cada negocio es diferente.</strong> Odoo permite personalizar cada aplicación y por lo general es un buen consejo personalizar las pantallas para adaptarse en su proceso de ventas.\n"
-"                        <strong>Las personalizaciones son hechas por expertos en Odoo.</strong>"
+"<strong>Cada negocio es diferente.</strong> izi permite personalizar cada aplicación y por lo general es un buen consejo personalizar las pantallas para adaptarse en su proceso de ventas.\n"
+"                        <strong>Las personalizaciones son hechas por expertos en izi.</strong>"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -877,10 +877,10 @@ msgstr ""
 msgid ""
 "<strong>Trainings</strong><br/>\n"
 "                                To build a strong sales training program, you can use the following\n"
-"                                apps of Odoo:"
+"                                apps of izi:"
 msgstr ""
 "<strong>Entrenamientos</strong><br/>\n"
-"Para crear un buen programa de entrenamiento, puede utilizar las siguientes apps de Odoo:"
+"Para crear un buen programa de entrenamiento, puede utilizar las siguientes apps de izi:"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -929,11 +929,11 @@ msgstr "Un buen canal de ventas puede tener entre 5 y 7 etapas"
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid ""
-"A product in Odoo is something you sell or buy. It could\n"
+"A product in izi is something you sell or buy. It could\n"
 "                    be a goods, consumable or services. Choose how you want to\n"
 "                    create your products:"
 msgstr ""
-"Un producto en Odoo es a veces alguna cosa que vende o compra. Pueden ser "
+"Un producto en izi es a veces alguna cosa que vende o compra. Pueden ser "
 "bienes, consumibles o servicios. Elija qué quiere para crear sus productos:"
 
 #. module: crm
@@ -2167,9 +2167,9 @@ msgstr ""
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid ""
-"For the Odoo Team,<br/>\n"
+"For the izi Team,<br/>\n"
 "                          Fabien Pinckaers, Founder"
-msgstr "Para el equipo Odoo,<br/> FAbien Pinckaers, Fundador"
+msgstr "Para el equipo izi,<br/> FAbien Pinckaers, Fundador"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead2opportunity_partner_mass_force_assignation
@@ -2303,8 +2303,8 @@ msgstr ""
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
-msgid "Happy Selling!<br/>- The Odoo Team"
-msgstr "¡Feliz venta!<br/>- El equipo de Odoo"
+msgid "Happy Selling!<br/>- The izi Team"
+msgstr "¡Feliz venta!<br/>- El equipo de izi"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -2449,8 +2449,8 @@ msgstr "Mejorar el promedio de ingresos por comercial"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
-msgid "In Odoo, there are 3 different ways to manage your prices.<br/>"
-msgstr "En Odoo, hay 3 formas diferentes de gestionar sus precios. <br/>"
+msgid "In izi, there are 3 different ways to manage your prices.<br/>"
+msgstr "En izi, hay 3 formas diferentes de gestionar sus precios. <br/>"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_lost_reason_view_search
@@ -3124,39 +3124,39 @@ msgstr "Número de oportunidades abiertas"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
-msgid "Odoo Default"
-msgstr "Odoo por defecto"
+msgid "izi Default"
+msgstr "izi por defecto"
 
 #. module: crm
 #: model:ir.actions.act_window,help:crm.crm_case_form_view_salesteams_opportunity
 #: model:ir.actions.act_window,help:crm.crm_lead_opportunities
 #: model:ir.actions.act_window,help:crm.crm_lead_opportunities_tree_view
 msgid ""
-"Odoo helps you keep track of your sales pipeline to follow\n"
+"izi helps you keep track of your sales pipeline to follow\n"
 "                    up potential sales and better forecast your future revenues."
 msgstr ""
-"Odoo le ayuda a seguir el rastro de su estrategia de venta para\n"
+"izi le ayuda a seguir el rastro de su estrategia de venta para\n"
 "perseguir ventas potenciales o planificar mejor sus rendimientos\n"
 "en el futuro."
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid ""
-"Odoo is the world's only software to have a full integration of Marketing "
+"izi is the world's only software to have a full integration of Marketing "
 "Apps for your sales channel: insight sales, point of sale, ecommerce."
 msgstr ""
-"Odoo es el único software del mundo que tiene una integración total con las "
+"izi es el único software del mundo que tiene una integración total con las "
 "apps de marketing para su canal de ventas: dentro de ventas, punto de venta,"
 " e-comerce."
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid ""
-"Odoo will help you create polished, professional quotations and contracts in minutes.\n"
+"izi will help you create polished, professional quotations and contracts in minutes.\n"
 "                        Tell us how you sell and we will tell you what\n"
 "                        configuration will best fit your quotation process."
 msgstr ""
-"Odoo le ayudará a crear presupuestos pulidos, profesionales y contratos en "
+"izi le ayudará a crear presupuestos pulidos, profesionales y contratos en "
 "minutos. Díganos cómo vende y le diremos qué configuración se asemeja más "
 "con su proceso de presupuesto."
 
@@ -3834,11 +3834,11 @@ msgstr "Seleccionar Iniciativas/Oportunidades"
 msgid ""
 "Select the list of fields used to search for\n"
 "                            duplicated records. If you select several fields,\n"
-"                            Odoo will propose you to merge only those having\n"
+"                            izi will propose you to merge only those having\n"
 "                            all these fields in common. (not one of the fields)."
 msgstr ""
 "Seleccione la lista de campos usada para buscar registros duplicados, Si "
-"selecciona varios campos, Odoo le propondrá unir sólo aquellos registros que"
+"selecciona varios campos, izi le propondrá unir sólo aquellos registros que"
 " tengan todos esos campos en común (no uno de los campos)."
 
 #. module: crm
@@ -3914,12 +3914,12 @@ msgstr ""
 msgid ""
 "Setting up your sales funnel is just the first step. To achieve a\n"
 "                      significant boost, we will help you get the most out of\n"
-"                      Odoo CRM to transform how your salespeople work.\n"
+"                      izi CRM to transform how your salespeople work.\n"
 "                      That's the purpose of this guide."
 msgstr ""
 "Configurar el proceso de ventas es solo el primer paso. Para conseguir una "
 "mejora significativa, le ayudaremos a sacar el máximo partido del CRM de "
-"Odoo para cambiar cómo trabajan sus vendedores. Ese es el propósito de esta "
+"izi para cambiar cómo trabajan sus vendedores. Ese es el propósito de esta "
 "guía."
 
 #. module: crm
@@ -4170,9 +4170,9 @@ msgstr "Plantillas de correo electrónico"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
-msgid "Templates of quotations (use Odoo Online Proposals for this)"
+msgid "Templates of quotations (use izi Online Proposals for this)"
 msgstr ""
-"Plantillas de presupuestos (utilice propuestas Odoo en linea para esto)"
+"Plantillas de presupuestos (utilice propuestas izi en linea para esto)"
 
 #. module: crm
 #. openerp-web
@@ -4206,11 +4206,11 @@ msgstr "La primera etapa usualmente es \"Nuevo\" y la última es \"Ganado\""
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team_alias_model_id
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
+"The model (izi Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
-"El modelo (Tipo de documento de Odoo) al que corresponde este seudónimo. "
+"El modelo (Tipo de documento de izi) al que corresponde este seudónimo. "
 "Cualquier correo entrante que no sea respuesta a un registro existente, "
 "causará la creación de un nuevo registro de este modelo (por ejemplo, una "
 "tarea de proyecto)."
@@ -4219,11 +4219,11 @@ msgstr ""
 #: model:ir.model.fields,help:crm.field_crm_team_alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
+"<jobs@example.izi.asia>"
 msgstr ""
 "El nombre de este seudónimo de correo electrónico. Por ejemplo, "
 "\"trabajos\",  si lo que quiere es obtener los correos para "
-"<trabajos@example.odoo.com>."
+"<trabajos@example.izi.asia>."
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead_partner_name
@@ -4288,25 +4288,25 @@ msgstr ""
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid ""
-"There are several ways for your company to generate leads with Odoo CRM.\n"
+"There are several ways for your company to generate leads with izi CRM.\n"
 "                        One of them is using your company's generic email address as a trigger\n"
-"                        to create a new lead in the system. In Odoo, each one of your sales channels\n"
+"                        to create a new lead in the system. In izi, each one of your sales channels\n"
 "                        is linked to its own email address from which prospects can reach them.\n"
 "                        For example, if the personal email address of your Direct team is\n"
 "                        direct@mycompany.example.com, every email sent when a new prospect\n"
 "                        contacts you will automatically create a new opportunity into the sales channel.\n"
 "\n"
-"                        That's the easiest way to integrate Odoo with third party apps."
+"                        That's the easiest way to integrate izi with third party apps."
 msgstr ""
-"Hay varias maneras en que su empresa puede generar iniciativas con Odoo CRM.\n"
+"Hay varias maneras en que su empresa puede generar iniciativas con izi CRM.\n"
 "                         Una de ellas es utilizar la dirección de correo electrónico genérica de su empresa como un iniciador\n"
-"                         para crear una nueva iniciativa en el sistema. En Odoo, cada uno de tus canales de venta\n"
+"                         para crear una nueva iniciativa en el sistema. En izi, cada uno de tus canales de venta\n"
 "                         está vinculado a su propia dirección de correo electrónico desde la cual pueden llegar las posibles oportunidades.\n"
 "                         Por ejemplo, si la dirección de correo electrónico personal de su equipo de ventas directas es\n"
 "                         direct@mycompany.example.com, cada correo electrónico enviado a esta dirección\n"
 "                         creará automáticamente una nueva oportunidad en el canal de ventas.\n"
 "\n"
-"                         Esa es la forma más fácil de integrar Odoo con aplicaciones de terceros."
+"                         Esa es la forma más fácil de integrar izi con aplicaciones de terceros."
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.base_partner_merge_automatic_wizard_form
@@ -4652,13 +4652,13 @@ msgstr "Podemos automatizar pasos en su flujo de trabajo, por ejemplo:"
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid ""
 "We can handle the whole import process\n"
-"                                        for you: simply send your Odoo project\n"
+"                                        for you: simply send your izi project\n"
 "                                        manager a CSV file containing all your\n"
 "                                        data."
 msgstr ""
 "Podemos realizar el proceso de importación por usted:\n"
 "simplemente mande un archivo CSV a su gestor de proyecto \n"
-"en Odoo con todos sus datos."
+"en izi con todos sus datos."
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -4672,11 +4672,11 @@ msgstr ""
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid ""
-"We designed Odoo to help you grow your business. Odoo CRM\n"
+"We designed izi to help you grow your business. izi CRM\n"
 "                      is not just a tool, we want it to have a major impact on your\n"
 "                      sales performance. That's our mission, and we are serious about it."
 msgstr ""
-"Hemos designado Odoo para ayudarlo a hacer crecer sus negocios. Odoo CRM no es solo una herramienta, queremos que tenga un impacto mas grande en su rendimiento de ventas.\n"
+"Hemos designado izi para ayudarlo a hacer crecer sus negocios. izi CRM no es solo una herramienta, queremos que tenga un impacto mas grande en su rendimiento de ventas.\n"
 "Esta es nuestra mision, y somos serios con esto."
 
 #. module: crm
@@ -4739,11 +4739,11 @@ msgstr ""
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid ""
-"When populating your address book, Odoo relies on Clearbit’s API to provide "
+"When populating your address book, izi relies on Clearbit’s API to provide "
 "you with a list of matching contacts or companies.When selecting one item, "
 "the partner name, logo and website get automatically set."
 msgstr ""
-"Cuando rellene su libreta de direcciones, Odoo confía en la API de Clearbit "
+"Cuando rellene su libreta de direcciones, izi confía en la API de Clearbit "
 "para proporcionarle una lista de contactos o empresas coincidentes. Al "
 "seleccionar un elemento, el nombre del socio, el logotipo y el sitio web se "
 "configuran automáticamente."
@@ -4916,8 +4916,8 @@ msgstr "Su LinkedIn o páginas de redes sociales"
 
 #. module: crm
 #: model:mail.template,subject:crm.mail_template_data_module_install_crm
-msgid "Your Odoo CRM application is running smoothly."
-msgstr "Su aplicación de Odoo está funcionando sin problemas."
+msgid "Your izi CRM application is running smoothly."
+msgstr "Su aplicación de izi está funcionando sin problemas."
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -4993,8 +4993,8 @@ msgstr "Por ejemplo, Precios de Productos"
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_case_form_view_leads
 #: model:ir.ui.view,arch_db:crm.crm_case_form_view_oppor
-msgid "e.g. www.odoo.com"
-msgstr "Por ejemplo, www.odoo.com"
+msgid "e.g. www.izi.asia"
+msgstr "Por ejemplo, www.izi.asia"
 
 #. module: crm
 #: code:addons/crm/models/crm_lead.py:912
@@ -5074,8 +5074,8 @@ msgstr "desconocido"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
-msgid "use Odoo API to import through scripts"
-msgstr "utilizar l'API de Odoo para importar a través de scripts"
+msgid "use izi API to import through scripts"
+msgstr "utilizar l'API de izi para importar a través de scripts"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner

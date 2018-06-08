@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * website_blog
 # 
@@ -11,12 +11,12 @@
 # Batzul B <batzul.active@gmail.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-24 09:00+0000\n"
 "PO-Revision-Date: 2017-10-24 09:00+0000\n"
 "Last-Translator: Batzul B <batzul.active@gmail.com>, 2018\n"
-"Language-Team: Mongolian (https://www.transifex.com/odoo/teams/41243/mn/)\n"
+"Language-Team: Mongolian (https://www.transifex.com/izi/teams/41243/mn/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -37,7 +37,7 @@ msgstr ""
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_2
 msgid ""
-"\"Odoo now competes on many fronts, with no real\n"
+"\"izi now competes on many fronts, with no real\n"
 "                    competition out there to knock them off the top spot.\n"
 "                    With the launch of their integrated CMS and Ecommerce\n"
 "                    systems,it only elevates their position as one of the leading\n"
@@ -46,7 +46,7 @@ msgid ""
 "                    compete at this level due to the technology currently\n"
 "                    employed by most industry providers.\""
 msgstr ""
-"\"Өнөөгийн байдлаар Odoo олон төрлийн салбарт өрсөлдөж байгаа бөгөөд тэргүүн"
+"\"Өнөөгийн байдлаар izi олон төрлийн салбарт өрсөлдөж байгаа бөгөөд тэргүүн"
 " байрыг нь булаах хүчтэй өрсөлдөгч үнэндээ алга. Тэдний интеграцлагдсан CMS "
 "болон онлайн борлуулалтын системүүд нь тэдний нээлттэй эхийн хувьсал дахь "
 "тэргүүлэгчдийн нэг хэмээх байрыг нь өргөж байна. Ихэнх салбарт үйлчилгээ "
@@ -57,19 +57,19 @@ msgstr ""
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_2
 msgid ""
-"\"Odoo's latest launch will allow a business to go from\n"
+"\"izi's latest launch will allow a business to go from\n"
 "                    zero to trading online quicker than ever before,” Stuart\n"
-"                    Mackintosh, MD of Open Source specialist and Odoo\n"
+"                    Mackintosh, MD of Open Source specialist and izi\n"
 "                    integration partner, OpusVL, explains. “The investment\n"
 "                    required to have a fully automated business system is\n"
 "                    dramatically reduced, enabling the small and medium\n"
 "                    enterprise to compete at a level of functionality and\n"
 "                    performance previously reserved for the big IT investors.\""
 msgstr ""
-"\"Odoo - н сүүлийн хувилбар нь бизнесийг тэгээс онлайнаар \n"
+"\"izi - н сүүлийн хувилбар нь бизнесийг тэгээс онлайнаар \n"
 "арилждаг хүртэл өмнө байгаагүйгээр хурдан хүрэх боломжийг \n"
 "олгодог\" гэж Стюарт Макинтош, Нээлттэй Эхийн мэргэжилтэн ба \n"
-"Odoo - н холболтын харилцагч OpusVL - н удирдах захирал тайлбарлав. \n"
+"izi - н холболтын харилцагч OpusVL - н удирдах захирал тайлбарлав. \n"
 "\"Бүрэн автомат бизнес системтэй болоход шаардагдах хөрөнгө \n"
 "оруулалт нь маш багассан. Энэ нь урьд зөвхөн том МТ хөрөнгө \n"
 "оруулагчдад л боломжтой байсан үйл ажиллагаа ба гүйцэтгэлийн \n"
@@ -80,11 +80,11 @@ msgstr ""
 #: model:blog.post,content:website_blog.blog_post_2
 msgid ""
 "\"This is another clever and highly disruptive move by\n"
-"                    Odoo,which will force other technology providers to\n"
+"                    izi,which will force other technology providers to\n"
 "                    take another look at the value they are providing to ensure\n"
 "                    that their 'solutions' can still compete.\""
 msgstr ""
-"\"Энэ нь Odoo-н бас нэгэн ухаалаг бөгөөд маш их нөлөөтэй \n"
+"\"Энэ нь izi-н бас нэгэн ухаалаг бөгөөд маш их нөлөөтэй \n"
 "үйлдэл юм. Учир нь энэ нь бусад технологийн үйлчилгээ үзүүлэгчдийг \n"
 "өөрсдийх нь 'шийдлүүд' өрсөлдөх чадвараа хадгалахын тулд үзүүлж байгаа \n"
 "зүйлээ дахин сайн нягтлахыг тулгадаг\"."
@@ -157,11 +157,11 @@ msgstr ""
 msgid ""
 "A mix of push &amp; pull: Today, people\n"
 "                        are victims of what others decide to push to them.\n"
-"                        Odoo differentiates:"
+"                        izi differentiates:"
 msgstr ""
 "Түлхэх &amp; татахын холимог: Өнөөдөр хүмүүс \n"
 "тулгуулж байгаа мэдээллийн хохирогчид болж байна.\n"
-"Odoo бол өөр:"
+"izi бол өөр:"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.blog_post_template_new_post
@@ -218,12 +218,12 @@ msgstr ""
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_1
 msgid ""
-"At Odoo, we build tools to bring productivity to\n"
+"At izi, we build tools to bring productivity to\n"
 "                    enterprises. As emails and information flows are one of\n"
 "                    the biggest wastes of time in companies, we have to fix\n"
 "                    this."
 msgstr ""
-"Odoo дотор бид байгууллагуудад бүтээмжийг авчрах \n"
+"izi дотор бид байгууллагуудад бүтээмжийг авчрах \n"
 "багажуудыг хийдэг. Компаниудын имэйл болон мэдээллийн\n"
 " урсгал нь хамгийн их цаг үрэгчид мөн болохоор бид үүнийг\n"
 " засах шаардлагатай."
@@ -478,14 +478,14 @@ msgstr ""
 #: model:blog.post,content:website_blog.blog_post_1
 msgid ""
 "Folders and mailing lists are great tools but too\n"
-"                        complex in traditional email clients. In Odoo, a\n"
+"                        complex in traditional email clients. In izi, a\n"
 "                        group of contacts that share a discussion can be\n"
 "                        created with one click. Every group should have it's\n"
 "                        own email address."
 msgstr ""
 "Хавтас ба мэйлийн жагсаалт нь гайхалтай багажууд \n"
 "боловч уламжлалт имэйл клиент дээр хэт түвэгтэй байдаг. \n"
-"Odoo дотор нэг хэлэлцүүлгийн харилцах бүлгийг ганц \n"
+"izi дотор нэг хэлэлцүүлгийн харилцах бүлгийг ганц \n"
 "даралтаар л үүсгэх боломжтой. Бүлэг бүр өөрийн имэйл \n"
 "хаягтай байх ёстой."
 
@@ -526,8 +526,8 @@ msgstr "Бүлэглэх"
 
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_1
-msgid "Here are the ideas behind the Odoo communication tools:"
-msgstr "Дараах нь Odoo харилцах багажын утгууд:"
+msgid "Here are the ideas behind the izi.asiamunication tools:"
+msgstr "Дараах нь izi харилцах багажын утгууд:"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.website_blog
@@ -557,8 +557,8 @@ msgstr "ID"
 
 #. module: website_blog
 #: model:blog.post,subtitle:website_blog.blog_post_1
-msgid "Ideas behind the Odoo communication tools."
-msgstr "Odoo харилцах багажын утгууд."
+msgid "Ideas behind the izi.asiamunication tools."
+msgstr "izi харилцах багажын утгууд."
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.latest_blogs
@@ -617,11 +617,11 @@ msgstr "Сүүлчийн Нийтлэлүүд"
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_2
 msgid ""
-"Like many modern website editors, with Odoo you can edit\n"
+"Like many modern website editors, with izi you can edit\n"
 "                    content in-line, enabling you to see exactly what you are\n"
 "                    changing and ensure your changes suit the context."
 msgstr ""
-"Олон орчин үеийн вэбсайт засварлагч шиг Odoo - г ашиглан \n"
+"Олон орчин үеийн вэбсайт засварлагч шиг izi - г ашиглан \n"
 "та агуулгыг оруулангаа засах боломжтой. Яг юуг өөрчилж байгааг харж, \n"
 "тухайн өөрчлөлтүүд нь тохирч байгаа эсэхийг шалгах боломжтой."
 
@@ -732,18 +732,18 @@ msgstr "Байхгүй"
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_2
 msgid ""
-"Odoo claims to be 'the Open Source software that makes\n"
+"izi claims to be 'the Open Source software that makes\n"
 "                    building your company's website and selling your products\n"
 "                    online easy'. So how true is this statement?"
 msgstr ""
-"Odoo - г 'компанийн вэбсайт хийх, онлайнаар бараа худалдах \n"
+"izi - г 'компанийн вэбсайт хийх, онлайнаар бараа худалдах \n"
 "ажлыг хялбар болгодог Нээлттэй Эхийн програм хангамж' гэдэг. \n"
 "Энэ тодорхойлолт хэр үнэн бэ?"
 
 #. module: website_blog
 #: model:blog.post,website_meta_keywords:website_blog.blog_post_1
-msgid "Odoo, email"
-msgstr "Odoo, имэйл"
+msgid "izi, email"
+msgstr "izi, имэйл"
 
 #. module: website_blog
 #. openerp-web
@@ -956,8 +956,8 @@ msgstr "Техникийн"
 
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_1
-msgid "The Communication Mechanism of Odoo"
-msgstr "Odoo - н Харилцааны Механизм"
+msgid "The Communication Mechanism of izi"
+msgstr "izi - н Харилцааны Механизм"
 
 #. module: website_blog
 #: model:blog.post,name:website_blog.blog_post_1
@@ -1000,11 +1000,11 @@ msgstr "Гарчиг"
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_2
 msgid ""
-"To add to an already comprehensive set of Odoo\n"
+"To add to an already comprehensive set of izi\n"
 "                features, a website content management system (CMS or WMS) has been developed and a beta release is\n"
 "                available from today, 31st January 2014."
 msgstr ""
-"Odoo - н аль хэдийний ойлгомжтой боломжуудын \n"
+"izi - н аль хэдийний ойлгомжтой боломжуудын \n"
 "багц дээр нэмэхэд, вэбсайт агуулгын менежментийн систем (CMS эсвэл WMS) - ийг хөгжүүлж дууссан бөгөөд \n"
 "бета хувилбар нь 2014 оны 1-р сарын 31-нээс гарч эхэлсэн."
 

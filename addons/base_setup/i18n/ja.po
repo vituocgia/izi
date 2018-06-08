@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * base_setup
 # 
@@ -9,12 +9,12 @@
 # SHIMIZU Taku <shimizu.taku@gmail.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-16 08:08+0000\n"
 "PO-Revision-Date: 2017-11-16 08:08+0000\n"
 "Last-Translator: SHIMIZU Taku <shimizu.taku@gmail.com>, 2017\n"
-"Language-Team: Japanese (https://www.transifex.com/odoo/teams/41243/ja/)\n"
+"Language-Team: Japanese (https://www.transifex.com/izi/teams/41243/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -152,8 +152,8 @@ msgstr "外部Eメールサーバ"
 
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "Extract and analyze Odoo data from Google Spreadsheet"
-msgstr "GoogleスプレッドシートにOdooデータを抽出、分析する"
+msgid "Extract and analyze izi data from Google Spreadsheet"
+msgstr "Googleスプレッドシートにiziデータを抽出、分析する"
 
 #. module: base_setup
 #: model:ir.model.fields,help:base_setup.field_res_config_settings_report_footer
@@ -286,7 +286,7 @@ msgstr ""
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Synchronize your calendar with Google Calendar"
-msgstr "OdooカレンダをGoogleカレンダーと同期"
+msgstr "iziカレンダをGoogleカレンダーと同期"
 
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -320,8 +320,8 @@ msgstr "外部認証プロバイダを使用する (OAuth)"
 
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "Use external pads in Odoo Notes"
-msgstr "Odooノートで外部のパッドを使用"
+msgid "Use external pads in izi Notes"
+msgstr "iziノートで外部のパッドを使用"
 
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.res_config_settings_view_form

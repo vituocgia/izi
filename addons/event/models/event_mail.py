@@ -3,9 +3,9 @@
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
 
-from odoo import api, fields, models, tools
-from odoo.tools import exception_to_unicode
-from odoo.tools.translate import _
+from izi import api, fields, models, tools
+from izi.tools import exception_to_unicode
+from izi.tools.translate import _
 
 import random
 import logging
@@ -48,7 +48,7 @@ class EventTypeMail(models.Model):
 
 class EventMailScheduler(models.Model):
     """ Event automated mailing. This model replaces all existing fields and
-    configuration allowing to send emails on events since Odoo 9. A cron exists
+    configuration allowing to send emails on events since izi 9. A cron exists
     that periodically checks for mailing to run. """
     _name = 'event.mail'
     _rec_name = 'event_id'

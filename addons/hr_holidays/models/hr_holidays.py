@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 # Copyright (c) 2005-2006 Axelor SARL. (http://www.axelor.com)
 
@@ -7,10 +7,10 @@ import logging
 import math
 from datetime import timedelta
 
-from odoo import api, fields, models
-from odoo.exceptions import UserError, AccessError, ValidationError
-from odoo.tools import float_compare
-from odoo.tools.translate import _
+from izi import api, fields, models
+from izi.exceptions import UserError, AccessError, ValidationError
+from izi.tools import float_compare
+from izi.tools.translate import _
 
 _logger = logging.getLogger(__name__)
 
@@ -24,7 +24,7 @@ class HolidaysType(models.Model):
 
     name = fields.Char('Leave Type', required=True, translate=True)
     categ_id = fields.Many2one('calendar.event.type', string='Meeting Type',
-        help='Once a leave is validated, Odoo will create a corresponding meeting of this type in the calendar.')
+        help='Once a leave is validated, izi will create a corresponding meeting of this type in the calendar.')
     color_name = fields.Selection([
         ('red', 'Red'),
         ('blue', 'Blue'),

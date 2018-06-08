@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 import base64
 
-from odoo.addons.mail.tests.common import TestMail
-from odoo.addons.mail.tests.test_mail_gateway import MAIL_TEMPLATE_PLAINTEXT
-from odoo.tools import mute_logger
+from izi.addons.mail.tests.common import TestMail
+from izi.addons.mail.tests.test_mail_gateway import MAIL_TEMPLATE_PLAINTEXT
+from izi.tools import mute_logger
 
 
 class TestMailFeatures(TestMail):
@@ -24,7 +24,7 @@ class TestMailFeatures(TestMail):
         self.env['res.partner'].create({'name': 'Actual Partner'})
         self.assertTrue(record.name)
 
-    @mute_logger('odoo.addons.mail.models.mail_mail')
+    @mute_logger('izi.addons.mail.models.mail_mail')
     def test_needaction(self):
         # needaction use Inbox notification
         (self.user_employee | self.user_admin).write({'notification_type': 'inbox'})
@@ -42,7 +42,7 @@ class TestMailFeatures(TestMail):
 
 class TestMessagePost(TestMail):
 
-    @mute_logger('odoo.addons.mail.models.mail_mail')
+    @mute_logger('izi.addons.mail.models.mail_mail')
     def test_post_no_subscribe_author(self):
         original = self.test_pigs.message_follower_ids
         self.test_pigs.sudo(self.user_employee).with_context({'mail_create_nosubscribe': True}).message_post(
@@ -52,7 +52,7 @@ class TestMessagePost(TestMail):
 
     # TODO : the author of a message post on mail.test should not be added as follower
 
-    # @mute_logger('odoo.addons.mail.models.mail_mail')
+    # @mute_logger('izi.addons.mail.models.mail_mail')
     # def test_post_subscribe_author(self):
     #     original = self.test_pigs.message_follower_ids
     #     self.test_pigs.sudo(self.user_employee).message_post(
@@ -60,7 +60,7 @@ class TestMessagePost(TestMail):
     #     self.assertEqual(self.test_pigs.message_follower_ids.mapped('partner_id'), original.mapped('partner_id') | self.user_employee.partner_id)
     #     self.assertEqual(self.test_pigs.message_follower_ids.mapped('channel_id'), original.mapped('channel_id'))
 
-    @mute_logger('odoo.addons.mail.models.mail_mail')
+    @mute_logger('izi.addons.mail.models.mail_mail')
     def test_post_no_subscribe_recipients(self):
         original = self.test_pigs.message_follower_ids
         self.test_pigs.sudo(self.user_employee).with_context({'mail_create_nosubscribe': True}).message_post(
@@ -68,7 +68,7 @@ class TestMessagePost(TestMail):
         self.assertEqual(self.test_pigs.message_follower_ids.mapped('partner_id'), original.mapped('partner_id'))
         self.assertEqual(self.test_pigs.message_follower_ids.mapped('channel_id'), original.mapped('channel_id'))
 
-    @mute_logger('odoo.addons.mail.models.mail_mail')
+    @mute_logger('izi.addons.mail.models.mail_mail')
     def test_post_subscribe_recipients(self):
         original = self.test_pigs.message_follower_ids
         self.test_pigs.sudo(self.user_employee).with_context({'mail_create_nosubscribe': True, 'mail_post_autofollow': True}).message_post(
@@ -76,7 +76,7 @@ class TestMessagePost(TestMail):
         self.assertEqual(self.test_pigs.message_follower_ids.mapped('partner_id'), original.mapped('partner_id') | self.partner_1 | self.partner_2)
         self.assertEqual(self.test_pigs.message_follower_ids.mapped('channel_id'), original.mapped('channel_id'))
 
-    @mute_logger('odoo.addons.mail.models.mail_mail')
+    @mute_logger('izi.addons.mail.models.mail_mail')
     def test_post_subscribe_recipients_partial(self):
         original = self.test_pigs.message_follower_ids
         self.test_pigs.sudo(self.user_employee).with_context({'mail_create_nosubscribe': True, 'mail_post_autofollow': True, 'mail_post_autofollow_partner_ids': [self.partner_2.id]}).message_post(
@@ -84,7 +84,7 @@ class TestMessagePost(TestMail):
         self.assertEqual(self.test_pigs.message_follower_ids.mapped('partner_id'), original.mapped('partner_id') | self.partner_2)
         self.assertEqual(self.test_pigs.message_follower_ids.mapped('channel_id'), original.mapped('channel_id'))
 
-    @mute_logger('odoo.addons.mail.models.mail_mail')
+    @mute_logger('izi.addons.mail.models.mail_mail')
     def test_post_notifications(self):
         _body, _body_alt = '<p>Test Body</p>', 'Test Body'
         _subject = 'Test Subject'
@@ -155,7 +155,7 @@ class TestMessagePost(TestMail):
         self.assertTrue(all(_body_alt in m['body'] for m in self._mails))
         self.assertFalse(any(m['references'] for m in self._mails))
 
-    @mute_logger('odoo.addons.mail.models.mail_mail')
+    @mute_logger('izi.addons.mail.models.mail_mail')
     def test_post_answer(self):
         _body = '<p>Test Body</p>'
         _subject = 'Test Subject'
@@ -199,7 +199,7 @@ class TestMessagePost(TestMail):
             set(['%s <%s>' % (self.partner_1.name, self.partner_1.email),
                  '%s <%s>' % (self.user_employee.name, self.user_employee.email)]))
 
-    @mute_logger('odoo.addons.mail.models.mail_mail')
+    @mute_logger('izi.addons.mail.models.mail_mail')
     def test_post_internal(self):
         self.test_pigs.message_subscribe_users([self.user_admin.id])
         msg = self.test_pigs.sudo(self.user_employee).message_post(
@@ -220,7 +220,7 @@ class TestMessagePost(TestMail):
         self.assertEqual(reply.subtype_id, self.env.ref('mail.mt_note'))
         self.assertEqual(reply.needaction_partner_ids, self.user_employee.partner_id)
 
-    @mute_logger('odoo.addons.mail.models.mail_mail')
+    @mute_logger('izi.addons.mail.models.mail_mail')
     def test_message_compose(self):
         composer = self.env['mail.compose.message'].with_context({
             'default_composition_mode': 'comment',
@@ -251,7 +251,7 @@ class TestMessagePost(TestMail):
 
         # TODO: test attachments ?
 
-    @mute_logger('odoo.addons.mail.models.mail_mail')
+    @mute_logger('izi.addons.mail.models.mail_mail')
     def test_message_compose_mass_mail(self):
         composer = self.env['mail.compose.message'].with_context({
             'default_composition_mode': 'mass_mail',
@@ -305,7 +305,7 @@ class TestMessagePost(TestMail):
         # self.assertEqual(set(group_bird.message_follower_ids.ids), set([self.partner_admin_id]),
         #                 'compose wizard: mail_post_autofollow and mail_create_nosubscribe context keys not correctly taken into account')
 
-    @mute_logger('odoo.addons.mail.models.mail_mail')
+    @mute_logger('izi.addons.mail.models.mail_mail')
     def test_message_compose_mass_mail_active_domain(self):
         self.env['mail.compose.message'].with_context({
             'default_composition_mode': 'mass_mail',
@@ -322,7 +322,7 @@ class TestMessagePost(TestMail):
         self.assertEqual(self.test_public.message_ids[0].subject, 'From Composer Test')
 
 
-    @mute_logger('odoo.addons.mail.models.mail_mail')
+    @mute_logger('izi.addons.mail.models.mail_mail')
     def test_message_compose_mass_mail_no_active_domain(self):
         self.env['mail.compose.message'].with_context({
             'default_composition_mode': 'mass_mail',

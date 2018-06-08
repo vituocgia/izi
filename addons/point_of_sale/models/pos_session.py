@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
-from odoo import api, fields, models, SUPERUSER_ID, _
-from odoo.exceptions import UserError, ValidationError
+from izi import api, fields, models, SUPERUSER_ID, _
+from izi.exceptions import UserError, ValidationError
 
 
 class PosSession(models.Model):

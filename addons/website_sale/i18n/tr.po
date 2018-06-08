@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * website_sale
 # 
@@ -21,12 +21,12 @@
 # Umur Akın <umura@projetgrup.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 13:43+0000\n"
 "PO-Revision-Date: 2018-02-19 13:43+0000\n"
 "Last-Translator: Umur Akın <umura@projetgrup.com>, 2018\n"
-"Language-Team: Turkish (https://www.transifex.com/odoo/teams/41243/tr/)\n"
+"Language-Team: Turkish (https://www.transifex.com/izi/teams/41243/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -212,7 +212,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid ""
 "<span class=\"fa fa-lightbulb-o fa-2x\"/>\n"
-"                                Everything is editable in your Odoo website. Feel free to edit any page title, field or button label. Simply hit *Edit* in upper-right corner to start editing the page."
+"                                Everything is editable in your izi website. Feel free to edit any page title, field or button label. Simply hit *Edit* in upper-right corner to start editing the page."
 msgstr ""
 
 #. module: website_sale
@@ -588,7 +588,7 @@ msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
-msgid "<strong>See it in action in Odoo</strong><br/>"
+msgid "<strong>See it in action in izi</strong><br/>"
 msgstr ""
 
 #. module: website_sale
@@ -1746,10 +1746,10 @@ msgstr "Eğer iPad için yapılmışsa, iPad mini içinde yapılmıştır."
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid ""
 "If you deal with a major shipper (UPS, FedEx, DHL, etc.), activate the "
-"related connector in Odoo to compute accurate costs and print labels."
+"related connector in izi to compute accurate costs and print labels."
 msgstr ""
 "Büyük bir kargoyla anlaştıysanız (UPS, FedEx, DHL vb),  doğru maliyetleri ve"
-" baskı etiketlerini hesaplamak için Odoo'daki ilgili bağlantıyı "
+" baskı etiketlerini hesaplamak için izi'daki ilgili bağlantıyı "
 "etkinleştirin."
 
 #. module: website_sale
@@ -3332,7 +3332,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid ""
-"To do so, take the most out of Odoo's <strong>pricing options</strong>:<br/>"
+"To do so, take the most out of izi's <strong>pricing options</strong>:<br/>"
 msgstr ""
 
 #. module: website_sale
@@ -3541,7 +3541,7 @@ msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
-msgid "You can setup 3 types of <strong>payment acquirers in Odoo:</strong>"
+msgid "You can setup 3 types of <strong>payment acquirers in izi:</strong>"
 msgstr ""
 
 #. module: website_sale
@@ -3738,8 +3738,8 @@ msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
-msgid "use Odoo API to import through scripts"
-msgstr "komut dosyaları aracılığıyla içe aktarmak için Odoo API'yi kullan"
+msgid "use izi API to import through scripts"
+msgstr "komut dosyaları aracılığıyla içe aktarmak için izi API'yi kullan"
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_pricelist_website_id

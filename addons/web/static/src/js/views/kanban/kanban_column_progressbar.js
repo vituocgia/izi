@@ -1,4 +1,4 @@
-odoo.define('web.KanbanColumnProgressBar', function (require) {
+izi.define('web.KanbanColumnProgressBar', function (require) {
 'use strict';
 
 var Widget = require('web.Widget');

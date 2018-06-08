@@ -1,11 +1,11 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * point_of_sale
 # 
 # Translators:
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux <mat@izi.asia>, 2017
 # Ejner Sønniksen <ejner@vkdata.dk>, 2017
-# Jesper Carstensen <info@danodoo.dk>, 2017
+# Jesper Carstensen <info@danizi.dk>, 2017
 # Pernille Kristensen <pernillekristensen1994@gmail.com>, 2017
 # Sanne Kristensen <sanne@vkdata.dk>, 2017
 # jonas jensen <j.jensen@tcomp.dk>, 2017
@@ -14,17 +14,17 @@
 # Morten Schou <ms@msteknik.dk>, 2017
 # Kenneth Hansen <kenneth@vkdata.dk>, 2017
 # peso <peer.sommerlund@gmail.com>, 2017
-# Jesper Carstensen <jc@danodoo.dk>, 2017
+# Jesper Carstensen <jc@danizi.dk>, 2017
 # lhmflexerp <lhm@flexerp.dk>, 2017
 # JonathanStein <jstein@image.dk>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-01-08 10:30+0000\n"
 "PO-Revision-Date: 2018-01-08 10:30+0000\n"
 "Last-Translator: JonathanStein <jstein@image.dk>, 2017\n"
-"Language-Team: Danish (https://www.transifex.com/odoo/teams/41243/da/)\n"
+"Language-Team: Danish (https://www.transifex.com/izi/teams/41243/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1643,8 +1643,8 @@ msgstr "ID"
 #. openerp-web
 #: code:addons/point_of_sale/static/src/js/popups.js:115
 #, python-format
-msgid "IMPORTANT: Bug Report From Odoo Point Of Sale"
-msgstr "VIGTIGT: Bug Rapporter fra Odoo POS"
+msgid "IMPORTANT: Bug Report From izi Point Of Sale"
+msgstr "VIGTIGT: Bug Rapporter fra izi POS"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config_proxy_ip
@@ -2120,8 +2120,8 @@ msgstr "Antal udskrifter"
 #. module: point_of_sale
 #: model:ir.ui.view,arch_db:point_of_sale.customer_facing_display_html
 #: model:pos.config,customer_facing_display_html:point_of_sale.pos_config_main
-msgid "Odoo Logo"
-msgstr "Odoo logo"
+msgid "izi Logo"
+msgstr "izi logo"
 
 #. module: point_of_sale
 #. openerp-web
@@ -3897,19 +3897,19 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config_sequence_line_id
 msgid ""
-"This sequence is automatically created by Odoo but you can change it to "
+"This sequence is automatically created by izi but you can change it to "
 "customize the reference numbers of your orders lines."
 msgstr ""
-"Denne rækkefølge oprettes automatisk af Odoo, men du kan ændre den, så du "
+"Denne rækkefølge oprettes automatisk af izi, men du kan ændre den, så du "
 "kan tilpasse referencenumrene på dine ordrelinjer."
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config_sequence_id
 msgid ""
-"This sequence is automatically created by Odoo but you can change it to "
+"This sequence is automatically created by izi but you can change it to "
 "customize the reference numbers of your orders."
 msgstr ""
-"Denne rækkefølge oprettes automatisk af Odoo, men du kan ændre den, så du "
+"Denne rækkefølge oprettes automatisk af izi, men du kan ændre den, så du "
 "kan tilpasse referencenumrene på dine ordrer."
 
 #. module: point_of_sale

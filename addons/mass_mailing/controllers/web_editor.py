@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
-from odoo import http
-from odoo.http import request
-from odoo.addons.web_editor.controllers.main import Web_Editor
+from izi import http
+from izi.http import request
+from izi.addons.web_editor.controllers.main import Web_Editor
 
 
 class Web_Editor(Web_Editor):

@@ -8,9 +8,9 @@ import requests
 import werkzeug
 from werkzeug import urls
 
-from odoo import http
-from odoo.addons.payment.models.payment_acquirer import ValidationError
-from odoo.http import request
+from izi import http
+from izi.addons.payment.models.payment_acquirer import ValidationError
+from izi.http import request
 
 _logger = logging.getLogger(__name__)
 

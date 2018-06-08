@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 import hmac
 
 from werkzeug import urls
 
-from odoo import api, models
-from odoo.tools.safe_eval import safe_eval
-from odoo.addons.http_routing.models.ir_http import slug
+from izi import api, models
+from izi.tools.safe_eval import safe_eval
+from izi.addons.http_routing.models.ir_http import slug
 
 
 class MailGroup(models.Model):

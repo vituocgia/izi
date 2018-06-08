@@ -1,4 +1,4 @@
-odoo.define('web.BasicController', function (require) {
+izi.define('web.BasicController', function (require) {
 "use strict";
 
 /**
@@ -267,7 +267,7 @@ var BasicController = AbstractController.extend(FieldManagerMixin, {
      *
      * @param {string} id - the id of one of the view's records
      * @param {string[]} fields - the changed fields
-     * @param {OdooEvent} e - the event that triggered the change
+     * @param {iziEvent} e - the event that triggered the change
      * @returns {Deferred}
      */
     _confirmChange: function (id, fields, e) {
@@ -507,7 +507,7 @@ var BasicController = AbstractController.extend(FieldManagerMixin, {
      * a list view.
      *
      * @private
-     * @param {OdooEvent} ev
+     * @param {iziEvent} ev
      */
     _onDiscardChanges: function (ev) {
         var self = this;
@@ -529,7 +529,7 @@ var BasicController = AbstractController.extend(FieldManagerMixin, {
      * in readonly (e.g. Priority).
      *
      * @private
-     * @param {OdooEvent} ev
+     * @param {iziEvent} ev
      */
     _onFieldChanged: function (ev) {
         if (this.mode === 'readonly') {
@@ -543,7 +543,7 @@ var BasicController = AbstractController.extend(FieldManagerMixin, {
      *
      * @todo: rename db_id into handle
      *
-     * @param {OdooEvent} event
+     * @param {iziEvent} event
      * @param {Object} event.data
      * @param {string} [event.data.db_id] handle of the data to reload and
      *   re-render (reload the whole form by default)
@@ -567,7 +567,7 @@ var BasicController = AbstractController.extend(FieldManagerMixin, {
     },
     /**
      * @private
-     * @param {OdooEvent} ev
+     * @param {iziEvent} ev
      */
     _onSetDirty: function (ev) {
         ev.stopPropagation(); // prevent other controllers from handling this request
@@ -578,7 +578,7 @@ var BasicController = AbstractController.extend(FieldManagerMixin, {
      * performed through the sidebar.
      *
      * @private
-     * @param {OdooEvent} event
+     * @param {iziEvent} event
      */
     _onSidebarDataAsked: function (event) {
         var sidebarEnv = this._getSidebarEnv();
@@ -588,7 +588,7 @@ var BasicController = AbstractController.extend(FieldManagerMixin, {
      * open the translation view for the current field
      *
      * @private
-     * @param {OdooEvent} event
+     * @param {iziEvent} event
      */
     _onTranslate: function (event) {
         event.stopPropagation();

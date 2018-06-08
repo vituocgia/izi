@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 import base64
 import logging
 import werkzeug
 
-from odoo import http, _
-from odoo.exceptions import AccessError, UserError
-from odoo.http import request
-from odoo.addons.http_routing.models.ir_http import slug
-from odoo.addons.website.models.ir_http import sitemap_qs2dom
+from izi import http, _
+from izi.exceptions import AccessError, UserError
+from izi.http import request
+from izi.addons.http_routing.models.ir_http import slug
+from izi.addons.website.models.ir_http import sitemap_qs2dom
 
 _logger = logging.getLogger(__name__)
 

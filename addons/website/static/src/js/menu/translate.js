@@ -1,4 +1,4 @@
-odoo.define('website.translateMenu', function (require) {
+izi.define('website.translateMenu', function (require) {
 'use strict';
 
 var utils = require('web.utils');

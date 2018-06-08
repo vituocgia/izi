@@ -1,4 +1,4 @@
-odoo.define('web.kanban_quick_create', function (require) {
+izi.define('web.kanban_quick_create', function (require) {
 "use strict";
 
 /**

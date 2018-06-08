@@ -3,7 +3,7 @@
 .. _reference/cmdline:
 
 ================================
-Command-line interface: odoo-bin
+Command-line interface: izi-bin
 ================================
 
 .. _reference/cmdline/server:
@@ -11,7 +11,7 @@ Command-line interface: odoo-bin
 Running the server
 ==================
 
-.. program:: odoo-bin
+.. program:: izi-bin
 
 .. option:: -d <database>, --database <database>
 
@@ -98,7 +98,7 @@ Running the server
 .. option:: -s, --save
 
     saves the server configuration to the current configuration file
-    (:file:`{$HOME}/.odoorc` by default, and can be overridden using
+    (:file:`{$HOME}/.izirc` by default, and can be overridden using
     :option:`-c`)
 
 .. option:: --proxy-mode
@@ -160,12 +160,12 @@ database
 
     - ``%h`` is replaced by the whole hostname the request is made on.
     - ``%d`` is replaced by the subdomain the request is made on, with the
-      exception of ``www`` (so domain ``odoo.com`` and ``www.odoo.com`` both
-      match the database ``odoo``).
+      exception of ``www`` (so domain ``izi.asia`` and ``www.izi.asia`` both
+      match the database ``izi``).
 
       These operations are case sensitive. Add option ``(?i)`` to match all
-      databases (so domain ``odoo.com`` using ``(?i)%d`` matches the database
-      ``Odoo``).
+      databases (so domain ``izi.asia`` using ``(?i)%d`` matches the database
+      ``izi``).
 
     Since version 11, it's also possible to restrict access to a given database
     listen by using the --database parameter and specifying a comma-separated
@@ -177,19 +177,19 @@ database
     
     .. code-block:: bash
 
-        odoo-bin --db-filter ^11.*$
+        izi-bin --db-filter ^11.*$
 
     Restrict access to databases whose name starts with 11
 
     .. code-block:: bash
 
-        odoo-bin --database 11firstdatabase,11seconddatabase
+        izi-bin --database 11firstdatabase,11seconddatabase
 
     Restrict access to only two databases, 11firstdatabase and 11seconddatabase
     
     .. code-block:: bash
 
-        odoo-bin --database 11firstdatabase,11seconddatabase -u base
+        izi-bin --database 11firstdatabase,11seconddatabase -u base
 
     Restrict access to only two databases, 11firstdatabase and 11seconddatabase,
     and update base module on one database: 11firstdatabase
@@ -198,7 +198,7 @@ database
     
     .. code-block:: bash
 
-        odoo-bin --db-filter ^11.*$ --database 11firstdatabase,11seconddatabase -u base
+        izi-bin --db-filter ^11.*$ --database 11firstdatabase,11seconddatabase -u base
         
     Restrict access to databases whose name starts with 11,
     and update base module on one database: 11firstdatabase
@@ -216,7 +216,7 @@ database
     
 .. option:: --db_sslmode
 
-    Control the SSL security of the connection between Odoo and PostgreSQL.
+    Control the SSL security of the connection between izi and PostgreSQL.
     Value should bve one of 'disable', 'allow', 'prefer', 'require',
     'verify-ca' or 'verify-full'
     Default value is 'prefer'
@@ -249,7 +249,7 @@ built-in HTTP
 logging
 -------
 
-By default, Odoo displays all logging of level_ ``info`` except for workflow
+By default, izi displays all logging of level_ ``info`` except for workflow
 logging (``warning`` only), and log output is sent to ``stdout``. Various
 options are available to redirect logging to other destinations and to
 customize the amount of logging output
@@ -283,7 +283,7 @@ customize the amount of logging output
 .. option:: --log-handler <handler-spec>
 
     :samp:`{LOGGER}:{LEVEL}`, enables ``LOGGER`` at the provided ``LEVEL``
-    e.g. ``odoo.models:DEBUG`` will enable all logging messages at or above
+    e.g. ``izi.models:DEBUG`` will enable all logging messages at or above
     ``DEBUG`` level in the models.
 
     * The colon ``:`` is mandatory
@@ -294,36 +294,36 @@ customize the amount of logging output
 
     .. code-block:: console
 
-        $ odoo-bin --log-handler :DEBUG --log-handler werkzeug:CRITICAL --log-handler odoo.fields:WARNING
+        $ izi-bin --log-handler :DEBUG --log-handler werkzeug:CRITICAL --log-handler izi.fields:WARNING
 
 .. option:: --log-request
 
     enable DEBUG logging for RPC requests, equivalent to
-    ``--log-handler=odoo.http.rpc.request:DEBUG``
+    ``--log-handler=izi.http.rpc.request:DEBUG``
 
 .. option:: --log-response
 
     enable DEBUG logging for RPC responses, equivalent to
-    ``--log-handler=odoo.http.rpc.response:DEBUG``
+    ``--log-handler=izi.http.rpc.response:DEBUG``
 
 .. option:: --log-web
 
     enables DEBUG logging of HTTP requests and responses, equivalent to
-    ``--log-handler=odoo.http:DEBUG``
+    ``--log-handler=izi.http:DEBUG``
 
 .. option:: --log-sql
 
     enables DEBUG logging of SQL querying, equivalent to
-    ``--log-handler=odoo.sql_db:DEBUG``
+    ``--log-handler=izi.sql_db:DEBUG``
 
 .. option:: --log-level <level>
 
     Shortcut to more easily set predefined levels on specific loggers. "real"
     levels (``critical``, ``error``, ``warn``, ``debug``) are set on the
-    ``odoo`` and ``werkzeug`` loggers (except for ``debug`` which is only
-    set on ``odoo``).
+    ``izi`` and ``werkzeug`` loggers (except for ``debug`` which is only
+    set on ``izi``).
 
-    Odoo also provides debugging pseudo-levels which apply to different sets
+    izi also provides debugging pseudo-levels which apply to different sets
     of loggers:
 
     ``debug_sql``
@@ -331,11 +331,11 @@ customize the amount of logging output
 
         equivalent to ``--log-sql``
     ``debug_rpc``
-        sets the ``odoo`` and HTTP request loggers to ``debug``
+        sets the ``izi`` and HTTP request loggers to ``debug``
 
         equivalent to ``--log-level debug --log-request``
     ``debug_rpc_answer``
-        sets the ``odoo`` and HTTP request and response loggers to
+        sets the ``izi`` and HTTP request and response loggers to
         ``debug``
 
         equivalent to ``--log-level debug --log-request --log-response``
@@ -357,7 +357,7 @@ emails
 
 .. option:: --email-from <address>
 
-    Email address used as <FROM> when Odoo needs to send mails
+    Email address used as <FROM> when izi needs to send mails
 
 .. option:: --smtp <server>
 
@@ -367,7 +367,7 @@ emails
 
 .. option:: --smtp-ssl
 
-    If set, odoo should use SSL/STARTSSL SMTP connections
+    If set, izi should use SSL/STARTSSL SMTP connections
 
 .. option:: --smtp-user <name>
 
@@ -383,14 +383,14 @@ emails
 Scaffolding
 ===========
 
-.. program:: odoo-bin scaffold
+.. program:: izi-bin scaffold
 
 Scaffolding is the automated creation of a skeleton structure to simplify
-bootstrapping (of new modules, in the case of Odoo). While not necessary it
+bootstrapping (of new modules, in the case of izi). While not necessary it
 avoids the tedium of setting up basic structures and looking up what all
 starting requirements are.
 
-Scaffolding is available via the :command:`odoo-bin scaffold` subcommand.
+Scaffolding is available via the :command:`izi-bin scaffold` subcommand.
 
 .. option:: -t <template>
 
@@ -412,7 +412,7 @@ Scaffolding is available via the :command:`odoo-bin scaffold` subcommand.
 Configuration file
 ==================
 
-.. program:: odoo-bin
+.. program:: izi-bin
 
 Most of the command-line options can also be specified via a configuration
 file. Most of the time, they use similar names with the prefix ``-`` removed
@@ -431,9 +431,9 @@ Some conversions don't match the pattern:
 * :option:`--i18n-import` and :option:`--i18n-export` aren't available at all
   from configuration files
 
-The default configuration file is :file:`{$HOME}/.odoorc` which
-can be overridden using :option:`--config <odoo-bin -c>`. Specifying
-:option:`--save <odoo-bin -s>` will save the current configuration state back
+The default configuration file is :file:`{$HOME}/.izirc` which
+can be overridden using :option:`--config <izi-bin -c>`. Specifying
+:option:`--save <izi-bin -s>` will save the current configuration state back
 to that file.
 
 .. _jinja2: http://jinja.pocoo.org

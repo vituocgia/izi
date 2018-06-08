@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * hr_recruitment
 # 
@@ -27,19 +27,19 @@
 # Jesús Alan Ramos Rodríguez <alan.ramos@jarsa.com.mx>, 2017
 # Sergio Flores <vitavitae1@gmail.com>, 2017
 # Roberto Lizana <robertolizana@trey.es>, 2017
-# RGB Consulting <odoo@rgbconsulting.com>, 2017
+# RGB Consulting <izi@rgbconsulting.com>, 2017
 # David de León <leceda09@gmail.com>, 2017
 # José Antonio Cuello <inactive+Yopli2k@transifex.com>, 2017
 # Christopher Ormaza <chris.ormaza@gmail.com>, 2017
 # Fernando San Martín Woerner <fsnmartin@gmail.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-16 08:08+0000\n"
 "PO-Revision-Date: 2017-11-16 08:08+0000\n"
 "Last-Translator: Fernando San Martín Woerner <fsnmartin@gmail.com>, 2017\n"
-"Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
+"Language-Team: Spanish (https://www.transifex.com/izi/teams/41243/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -264,7 +264,7 @@ msgid ""
 "                        See you soon,\n"
 "                    </p><p style=\"font-size:16px;color: grey;\">\n"
 "                        -- <br/>\n"
-"                        Odoo HR Team\n"
+"                        izi HR Team\n"
 "                    </p>\n"
 "\n"
 "                    <hr style=\"margin: 30px 0\"/>\n"
@@ -281,9 +281,9 @@ msgid ""
 "\n"
 "                    <h3 style=\"color:#9A6C8E;\"><strong>Want to learn about us?</strong></h3>\n"
 "                    <ol>\n"
-"                        <li><a style=\"color:#1CC5A9\" href=\"https://www.odoo.com/blog/odoo-news-5/post/the-odoo-story-56\">Founders' story</a></li>\n"
-"                        <li><a style=\"color:#1CC5A9\" href=\"https://www.slideshare.net/openobject/the-odoo-culture\">The Odoo Culture</a></li>\n"
-"                        <li><a style=\"color:#1CC5A9\" href=\"https://www.odoo.com/page/about-us\">About us</a></li>\n"
+"                        <li><a style=\"color:#1CC5A9\" href=\"https://www.izi.asia/blog/izi-news-5/post/the-izi-story-56\">Founders' story</a></li>\n"
+"                        <li><a style=\"color:#1CC5A9\" href=\"https://www.slideshare.net/openobject/the-izi-culture\">The izi Culture</a></li>\n"
+"                        <li><a style=\"color:#1CC5A9\" href=\"https://www.izi.asia/page/about-us\">About us</a></li>\n"
 "                    </ol>\n"
 "\n"
 "                    <hr style=\"margin: 30px 0\"/>\n"
@@ -418,9 +418,9 @@ msgstr ""
 "\n"
 "                    <h3 style=\"color:#9A6C8E;\"><strong>¿Como saber más de nosostros?</strong></h3>\n"
 "                    <ol>\n"
-"                        <li><a style=\"color:#1CC5A9\" href=\"https://www.odoo.com/blog/odoo-news-5/post/the-odoo-story-56\">Nuestra historia</a></li>\n"
-"                        <li><a style=\"color:#1CC5A9\" href=\"https://www.slideshare.net/openobject/the-odoo-culture\">La cultura de Odoo</a></li>\n"
-"                        <li><a style=\"color:#1CC5A9\" href=\"https://www.odoo.com/page/about-us\">Sobre nosotros</a></li>\n"
+"                        <li><a style=\"color:#1CC5A9\" href=\"https://www.izi.asia/blog/izi-news-5/post/the-izi-story-56\">Nuestra historia</a></li>\n"
+"                        <li><a style=\"color:#1CC5A9\" href=\"https://www.slideshare.net/openobject/the-izi-culture\">La cultura de izi</a></li>\n"
+"                        <li><a style=\"color:#1CC5A9\" href=\"https://www.izi.asia/page/about-us\">Sobre nosotros</a></li>\n"
 "                    </ol>\n"
 "\n"
 "                    <hr style=\"margin: 30px 0\"/>\n"
@@ -551,9 +551,9 @@ msgid ""
 "\n"
 "                    <h3 style=\"color:#9A6C8E;\"><strong>Want to learn more?</strong></h3>\n"
 "                    <ol>\n"
-"                        <li><a style=\"color:#1CC5A9\" href=\"https://www.odoo.com/blog/odoo-news-5/post/the-odoo-story-56\">Founders' story</a></li>\n"
-"                        <li><a style=\"color:#1CC5A9\" href=\"https://www.slideshare.net/openobject/the-odoo-culture\">The Odoo Culture</a></li>\n"
-"                        <li><a style=\"color:#1CC5A9\" href=\"https://www.odoo.com/page/about-us\">About us</a></li>\n"
+"                        <li><a style=\"color:#1CC5A9\" href=\"https://www.izi.asia/blog/izi-news-5/post/the-izi-story-56\">Founders' story</a></li>\n"
+"                        <li><a style=\"color:#1CC5A9\" href=\"https://www.slideshare.net/openobject/the-izi-culture\">The izi Culture</a></li>\n"
+"                        <li><a style=\"color:#1CC5A9\" href=\"https://www.izi.asia/page/about-us\">About us</a></li>\n"
 "                    </ol>\n"
 "\n"
 "                    <hr style=\"margin: 30px 0\"/>\n"
@@ -681,9 +681,9 @@ msgstr ""
 "\n"
 "                    <h3 style=\"color:#9A6C8E;\"><strong>¿Como saber más de nosotros?</strong></h3>\n"
 "                    <ol>\n"
-"                        <li><a style=\"color:#1CC5A9\" href=\"https://www.odoo.com/blog/odoo-news-5/post/the-odoo-story-56\">Nuestra historia</a></li>\n"
-"                        <li><a style=\"color:#1CC5A9\" href=\"https://www.slideshare.net/openobject/the-odoo-culture\">La cultura Odoo</a></li>\n"
-"                        <li><a style=\"color:#1CC5A9\" href=\"https://www.odoo.com/page/about-us\">Sobre nosotros</a></li>\n"
+"                        <li><a style=\"color:#1CC5A9\" href=\"https://www.izi.asia/blog/izi-news-5/post/the-izi-story-56\">Nuestra historia</a></li>\n"
+"                        <li><a style=\"color:#1CC5A9\" href=\"https://www.slideshare.net/openobject/the-izi-culture\">La cultura izi</a></li>\n"
+"                        <li><a style=\"color:#1CC5A9\" href=\"https://www.izi.asia/page/about-us\">Sobre nosotros</a></li>\n"
 "                    </ol>\n"
 "\n"
 "                    <hr style=\"margin: 30px 0\"/>\n"
@@ -1757,19 +1757,19 @@ msgstr "Número de días para cerrar"
 #. module: hr_recruitment
 #: model:ir.actions.act_window,help:hr_recruitment.action_hr_job_applications
 msgid ""
-"Odoo helps you track applicants in the recruitment\n"
+"izi helps you track applicants in the recruitment\n"
 "                process and follow up all operations: meetings, interviews, etc."
 msgstr ""
-"Odoo le ayuda a hacer seguimiento de las solicitudes en el proceso\n"
+"izi le ayuda a hacer seguimiento de las solicitudes en el proceso\n"
 "de selección y de todas las operaciones: reuniones, entrevistas, etc."
 
 #. module: hr_recruitment
 #: model:ir.actions.act_window,help:hr_recruitment.crm_case_categ0_act_job
 msgid ""
-"Odoo helps you track applicants in the recruitment\n"
+"izi helps you track applicants in the recruitment\n"
 "            process and follow up all operations: meetings, interviews, etc."
 msgstr ""
-"Odoo le ayuda a hacer seguimiento de las solicitudes en el proceso\n"
+"izi le ayuda a hacer seguimiento de las solicitudes en el proceso\n"
 "de selección y de todas las operaciones: reuniones, entrevistas, etc."
 
 #. module: hr_recruitment
@@ -2159,11 +2159,11 @@ msgstr ""
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job_alias_model_id
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
+"The model (izi Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
-"El modelo (Tipo de documento de Odoo) al que corresponde este seudónimo. "
+"El modelo (Tipo de documento de izi) al que corresponde este seudónimo. "
 "Cualquier correo entrante que no sea respuesta a un registro existente, "
 "causará la creación de un nuevo registro de este modelo (por ejemplo, una "
 "tarea de proyecto)."
@@ -2177,11 +2177,11 @@ msgstr "¡El nombre del grado de reclutamiento debe ser único!"
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job_alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
+"<jobs@example.izi.asia>"
 msgstr ""
 "El nombre de este seudónimo de correo electrónico. Por ejemplo, "
 "\"trabajos\",  si lo que quiere es obtener los correos para "
-"<trabajos@example.odoo.com>."
+"<trabajos@example.izi.asia>."
 
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job_alias_user_id
@@ -2231,12 +2231,12 @@ msgstr "Este Año"
 #: model:ir.actions.act_window,help:hr_recruitment.hr_applicant_resumes
 msgid ""
 "This menu helps you search through resumes and motivation\n"
-"                letters. Odoo automatically indexes .PDF, .DOC, DOCX, .TXT\n"
+"                letters. izi automatically indexes .PDF, .DOC, DOCX, .TXT\n"
 "                files so that you can search keywords from the content of these\n"
 "                files."
 msgstr ""
 "Este menú lo ayuda a buscar en CVs y cartas de presentación.\n"
-"               Odoo indexa automáticamente archivos .PDF, .DOC, .DOCX, .TXT\n"
+"               izi indexa automáticamente archivos .PDF, .DOC, .DOCX, .TXT\n"
 "               por lo que podrá hacer búsquedas por el contenido de estos archivos."
 
 #. module: hr_recruitment
@@ -2338,11 +2338,11 @@ msgstr "Bienvenido/a ${object.name} "
 #. module: hr_recruitment
 #: model:ir.actions.act_window,help:hr_recruitment.action_hr_job_no_employee
 msgid ""
-"With just a quick glance on the Odoo employee screen, you\n"
+"With just a quick glance on the izi employee screen, you\n"
 "                can easily find all the information you need for each person;\n"
 "                contact data, job position, availability, etc."
 msgstr ""
-"Con un rápido vistazo a la pantalla de empleados de Odoo\n"
+"Con un rápido vistazo a la pantalla de empleados de izi\n"
 "podrá encontrar fácilmente toda la información que necesite\n"
 "sobre cada persona: información de contacto, puesto de trabajo,\n"
 "disponibilidad, etc..."

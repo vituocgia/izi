@@ -1,4 +1,4 @@
-odoo.define('mail.systray_tests', function (require) {
+izi.define('mail.systray_tests', function (require) {
 "use strict";
 
 var systray = require('mail.systray');

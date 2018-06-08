@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 import json
 import werkzeug
@@ -8,12 +8,12 @@ import pytz
 import babel.dates
 from collections import OrderedDict
 
-from odoo import http, fields, _
-from odoo.addons.http_routing.models.ir_http import slug, unslug
-from odoo.addons.website.controllers.main import QueryURL
-from odoo.exceptions import UserError
-from odoo.http import request
-from odoo.tools import html2plaintext
+from izi import http, fields, _
+from izi.addons.http_routing.models.ir_http import slug, unslug
+from izi.addons.website.controllers.main import QueryURL
+from izi.exceptions import UserError
+from izi.http import request
+from izi.tools import html2plaintext
 
 
 class WebsiteBlog(http.Controller):

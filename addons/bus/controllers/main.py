@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 
-from odoo import exceptions
-from odoo.http import Controller, request, route
-from odoo.addons.bus.models.bus import dispatch
+from izi import exceptions
+from izi.http import Controller, request, route
+from izi.addons.bus.models.bus import dispatch
 
-from odoo.tools import pycompat
+from izi.tools import pycompat
 
 
 class BusController(Controller):

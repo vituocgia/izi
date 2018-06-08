@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 # Author: Leonardo Pistone
 # Copyright 2015 Camptocamp SA
 
-from odoo.addons.stock.tests.common2 import TestStockCommon
+from izi.addons.stock.tests.common2 import TestStockCommon
 
 
 class TestVirtualAvailable(TestStockCommon):

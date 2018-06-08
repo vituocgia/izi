@@ -1,7 +1,7 @@
-odoo.define('web.GraphController', function (require) {
+izi.define('web.GraphController', function (require) {
 "use strict";
 /*---------------------------------------------------------
- * Odoo Graph view
+ * izi Graph view
  *---------------------------------------------------------*/
 
 var AbstractController = require('web.AbstractController');

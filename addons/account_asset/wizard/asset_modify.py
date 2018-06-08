@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 from lxml import etree
 
-from odoo import api, fields, models, _
-from odoo.osv.orm import setup_modifiers
+from izi import api, fields, models, _
+from izi.osv.orm import setup_modifiers
 
 
 class AssetModify(models.TransientModel):

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * payment
 # 
@@ -17,12 +17,12 @@
 # Ertuğrul Güreş <ertugrulg@projetgrup.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 13:43+0000\n"
 "PO-Revision-Date: 2018-02-19 13:43+0000\n"
 "Last-Translator: Ertuğrul Güreş <ertugrulg@projetgrup.com>, 2018\n"
-"Language-Team: Turkish (https://www.transifex.com/odoo/teams/41243/tr/)\n"
+"Language-Team: Turkish (https://www.transifex.com/izi/teams/41243/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -332,8 +332,8 @@ msgstr "İşlem Yakala"
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer_capture_manually
-msgid "Capture the amount from Odoo, when the delivery is completed."
-msgstr "Teslimat tamamlandığında, Odoo'dan tutarı yakalayın."
+msgid "Capture the amount from izi, when the delivery is completed."
+msgstr "Teslimat tamamlandığında, izi'dan tutarı yakalayın."
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction_partner_city
@@ -932,8 +932,8 @@ msgstr "Ödeme İşlemleri"
 
 #. module: payment
 #: selection:payment.acquirer,payment_flow:0
-msgid "Payment from Odoo"
-msgstr "Odoo'dan Ödeme"
+msgid "Payment from izi"
+msgstr "izi'dan Ödeme"
 
 #. module: payment
 #: code:addons/payment/models/account_payment.py:59

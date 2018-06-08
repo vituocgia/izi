@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 from datetime import datetime, timedelta
 
-from odoo.fields import Date
-from odoo.tests.common import TransactionCase
+from izi.fields import Date
+from izi.tests.common import TransactionCase
 
 
 class TestPayslipBase(TransactionCase):

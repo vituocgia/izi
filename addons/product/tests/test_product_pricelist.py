@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
-from odoo.tests.common import TransactionCase
-from odoo.tools import float_compare, test_reports
+from izi.tests.common import TransactionCase
+from izi.tools import float_compare, test_reports
 
 
 class TestProductPricelist(TransactionCase):

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * mrp
 # 
@@ -9,7 +9,7 @@
 # Ejner Sønniksen <ejner@vkdata.dk>, 2017
 # Hans Henrik Gabelgaard <hhg@gabelgaard.org>, 2017
 # Pernille Kristensen <pernillekristensen1994@gmail.com>, 2017
-# Jesper Carstensen <jc@danodoo.dk>, 2017
+# Jesper Carstensen <jc@danizi.dk>, 2017
 # Morten Schou <ms@msteknik.dk>, 2017
 # Jarnhold Nattestad <nattestads@gmail.com>, 2017
 # jonas jensen <j.jensen@tcomp.dk>, 2017
@@ -18,12 +18,12 @@
 # JonathanStein <jstein@image.dk>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 13:42+0000\n"
 "PO-Revision-Date: 2018-02-19 13:42+0000\n"
 "Last-Translator: JonathanStein <jstein@image.dk>, 2017\n"
-"Language-Team: Danish (https://www.transifex.com/odoo/teams/41243/da/)\n"
+"Language-Team: Danish (https://www.transifex.com/izi/teams/41243/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1901,10 +1901,10 @@ msgstr "OEE-mål i procent"
 #. module: mrp
 #: model:ir.actions.act_window,help:mrp.mrp_bom_form_action
 msgid ""
-"Odoo uses these BoMs to automatically propose manufacturing\n"
+"izi uses these BoMs to automatically propose manufacturing\n"
 "                orders according to procurement needs."
 msgstr ""
-"Odoo bruger disse styklister til automatisk at foreslå produktionsordre i "
+"izi bruger disse styklister til automatisk at foreslå produktionsordre i "
 "forhold til behovene for indkøb."
 
 #. module: mrp

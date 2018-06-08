@@ -1,13 +1,13 @@
-:banner: banners/odoo_guideline.jpg
+:banner: banners/izi_guideline.jpg
 
 .. highlight:: python
 
 ===============
-Odoo Guidelines
+izi Guidelines
 ===============
 
-This page introduces the Odoo Coding Guidelines. Those aim to improve the
-quality of Odoo Apps code. Indeed proper code improves readability, eases
+This page introduces the izi Coding Guidelines. Those aim to improve the
+quality of izi Apps code. Indeed proper code improves readability, eases
 maintenance, helps debugging, lowers complexity and promotes reliability.
 These guidelines should be applied to every new module and to all new development.
 
@@ -17,7 +17,7 @@ These guidelines should be applied to every new module and to all new developmen
     strictly supersedes any other style guidelines. In other words please never
     modify existing files in order to apply these guidelines. It avoids disrupting
     the revision history of code lines. Diff should be kept minimal. For more
-    details, see our `pull request guide <https://odoo.com/submit-pr>`_.
+    details, see our `pull request guide <https://izi.asia/submit-pr>`_.
 
 .. warning::
 
@@ -74,7 +74,7 @@ For *controllers*, the only file should be named *main.py*. Otherwise, if you ne
 
 For *static files*, since the resources can be used in different contexts (frontend, backend, both), they will be included in only one bundle. So, CSS/Less, JavaScript and XML files should be suffixed with the name of the bundle type. i.e.: *im_chat_common.css*, *im_chat_common.js* for 'assets_common' bundle, and *im_chat_backend.css*, *im_chat_backend.js* for 'assets_backend' bundle.
 If the module owns only one file, the convention will be *<module_name>.ext* (i.e.: *project.js*).
-Don't link data (image, libraries) outside Odoo: do not use an
+Don't link data (image, libraries) outside izi: do not use an
 URL to an image but copy it in our codebase instead.
 
 Regarding *data*, split them by purpose: data or demo. The filename will be
@@ -174,7 +174,7 @@ To declare a record in XML, the **record** notation (using *<record>*) is recomm
 - Use naming convention defined at the next point
 - The tag *<data>* is only used to set not-updatable data with ``noupdate=1``.
   If there is only not-updatable data in the file, the ``noupdate=1`` can be
-  set on the ``<odoo>`` tag and do not set a ``<data>`` tag.
+  set on the ``<izi>`` tag and do not set a ``<data>`` tag.
 
 .. code-block:: xml
 
@@ -190,7 +190,7 @@ To declare a record in XML, the **record** notation (using *<record>*) is recomm
         </field>
     </record>
 
-Odoo supports custom tags acting as syntactic sugar:
+izi supports custom tags acting as syntactic sugar:
 
 - menuitem: use it as a shortcut to declare a ``ir.ui.menu``
 - template: use it to declare a QWeb View requiring only the ``arch`` section of the view.
@@ -300,7 +300,7 @@ Python
 PEP8 options
 ------------
 
-Using a linter can help show syntax and semantic warnings or errors. Odoo
+Using a linter can help show syntax and semantic warnings or errors. izi
 source code tries to respect Python standard, but some of them can be ignored.
 
 - E501: line too long
@@ -317,8 +317,8 @@ Imports
 The imports are ordered as
 
 #. External libraries (one per line sorted and split in python stdlib)
-#. Imports of ``odoo``
-#. Imports from Odoo modules (rarely, and only if necessary)
+#. Imports of ``izi``
+#. Imports from izi modules (rarely, and only if necessary)
 
 Inside these 3 groups, the imported lines are alphabetically sorted.
 
@@ -329,14 +329,14 @@ Inside these 3 groups, the imported lines are alphabetically sorted.
     import re
     import time
     from datetime import datetime
-    # 2 :  imports of odoo
-    import odoo
-    from odoo import api, fields, models # alphabetically ordered
-    from odoo.tools.safe_eval import safe_eval as eval
-    from odoo.tools.translate import _
-    # 3 :  imports from odoo modules
-    from odoo.addons.website.models.website import slug
-    from odoo.addons.web.controllers.main import login_redirect
+    # 2 :  imports of izi
+    import izi
+    from izi import api, fields, models # alphabetically ordered
+    from izi.tools.safe_eval import safe_eval as eval
+    from izi.tools.translate import _
+    # 3 :  imports from izi modules
+    from izi.addons.website.models.website import slug
+    from izi.addons.web.controllers.main import login_redirect
 
 
 Idiomatics Python Programming
@@ -487,11 +487,11 @@ So, you can write ``if some_collection:`` instead of ``if len(some_collection):`
   interesting: http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html
   (a little bit outdated, but quite relevant)
 
-Programming in Odoo
+Programming in izi
 -------------------
 
 - Avoid to create generators and decorators: only use the ones provided by
-  the Odoo API.
+  the izi API.
 - As in python, use ``filtered``, ``mapped``, ``sorted``, ... methods to
   ease code reading and performance.
 
@@ -633,7 +633,7 @@ This recommendation is also relevant for classes, files, modules and packages. (
 
 Never commit the transaction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-The Odoo framework is in charge of providing the transactional context for
+The izi framework is in charge of providing the transactional context for
 all RPC calls. The principle is that a new database cursor is opened at the
 beginning of each RPC call, and committed when the call has returned, just
 before transmitting the answer to the RPC client, approximately like this:
@@ -702,14 +702,14 @@ they can and will be removed !
 Use translation method correctly
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Odoo uses a GetText-like method named "underscore" ``_( )`` to indicate that
+izi uses a GetText-like method named "underscore" ``_( )`` to indicate that
 a static string used in the code needs to be translated at runtime using the
 language of the context. This pseudo-method is accessed within your code by
 importing as follows:
 
 .. code-block:: python
 
-    from odoo.tools.translate import _
+    from izi.tools.translate import _
 
 A few very important rules must be followed when using it, in order for it to
 work and to avoid filling the translations with useless junk.
@@ -778,7 +778,7 @@ to be preserved, but it's important to use these in a sensible and obvious manne
     error = _("Answer to question %s is not valid.\n" \
               "Please enter an integer value.") % question
 
-In general in Odoo, when manipulating strings, prefer ``%`` over ``.format()``
+In general in izi, when manipulating strings, prefer ``%`` over ``.format()``
 (when only one variable to replace in a string), and prefer ``%(varname)`` instead
 of position (when multiple variables have to be replaced). This makes the
 translation easier for the community translators.
@@ -788,16 +788,16 @@ Symbols and Conventions
 -----------------------
 
 - Model name (using the dot notation, prefix by the module name) :
-    - When defining an Odoo Model : use singular form of the name (*res.partner*
+    - When defining an izi Model : use singular form of the name (*res.partner*
       and *sale.order* instead of *res.partnerS* and *saleS.orderS*)
-    - When defining an Odoo Transient (wizard) : use ``<related_base_model>.<action>``
+    - When defining an izi Transient (wizard) : use ``<related_base_model>.<action>``
       where *related_base_model* is the base model (defined in *models/*) related
       to the transient, and *action* is the short name of what the transient do.
       For instance : ``account.invoice.make``, ``project.task.delegate.batch``, ...
     - When defining *report* model (SQL views e.i.) : use
       ``<related_base_model>.report.<action>``, based on the Transient convention.
 
-- Odoo Python Class : use camelcase for code.
+- izi Python Class : use camelcase for code.
 
 
 .. code-block:: python
@@ -808,7 +808,7 @@ Symbols and Conventions
 - Variable name :
     - use camelcase for model variable
     - use underscore lowercase notation for common variable.
-    - Odoo works with a record or a recordset, don't suffix variable names with
+    - izi works with a record or a recordset, don't suffix variable names with
       *_id* or *_ids* if they don't contain an id or a list of ids.
 
 .. code-block:: python
@@ -894,13 +894,13 @@ Javascript and CSS
 Static files organization
 --------------------------
 
-Odoo addons have some conventions on how to structure various files. We explain
+izi addons have some conventions on how to structure various files. We explain
 here in more details how web assets are supposed to be organized.
 
-The first thing to know is that the Odoo server will serve (statically) all files
+The first thing to know is that the izi server will serve (statically) all files
 located in a *static/* folder, but prefixed with the addon name. So, for example,
 if a file is located in *addons/web/static/src/js/some_file.js*, then it will be
-statically available at the url *your-odoo-server.com/web/static/src/js/some_file.js*
+statically available at the url *your-izi-server.com/web/static/src/js/some_file.js*
 
 The convention is to organize the code according to the following structure:
 
@@ -930,7 +930,7 @@ Javascript coding guidelines
 
 .. code-block:: javascript
 
-    odoo.website.if_dom_contains('.jquery_class_selector', function () {
+    izi.website.if_dom_contains('.jquery_class_selector', function () {
         /*your code here*/
     });
 
@@ -1011,7 +1011,7 @@ Tags are used to prefix your commit. They should be one of the following
   are incremental improvements not related to another tag;
 - **[MERGE]** for merge commits: used in forward port of bug fixes but also as
   main commit for feature involving several separated commits;
-- **[CLA]** for signing the Odoo Individual Contributor License;
+- **[CLA]** for signing the izi Individual Contributor License;
 - **[I18N]** for changes in translation files;
 
 After tag comes the modified module name. Use the technical name as functional
@@ -1045,7 +1045,7 @@ purpose of the change.
 
 What you did can be found in the commit itself. If there was some technical choices
 involved it is a good idea to explain it also in the commit message after the why.
-For Odoo R&D developers "PO team asked me to do it" is not a valid why, by the way.
+For izi R&D developers "PO team asked me to do it" is not a valid why, by the way.
 
 Please avoid commits which simultaneously impact multiple modules. Try to split
 into different commits where impacted modules are different. It will be helpful
@@ -1058,7 +1058,7 @@ No pressure at all.
 **You spend several hours, days or weeks working on meaningful features. Take
 some time to calm down and write clear and understandable commit messages.**
 
-If you are an Odoo R&D developer the WHY should be the purpose of the task you
+If you are an izi R&D developer the WHY should be the purpose of the task you
 are working on. Full specifications make the core of the commit message.
 **If you are working on a task that lacks purpose and specifications please
 consider making them clear before continuing.**

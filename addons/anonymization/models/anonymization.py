@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 from itertools import groupby
 from operator import itemgetter
 
-from odoo import api, fields, models, _
-from odoo.exceptions import UserError
-from odoo.tools import pycompat
+from izi import api, fields, models, _
+from izi.exceptions import UserError
+from izi.tools import pycompat
 
 FIELD_STATES = [('clear', 'Clear'), ('anonymized', 'Anonymized'), ('not_existing', 'Not Existing'), ('new', 'New')]
 ANONYMIZATION_HISTORY_STATE = [('started', 'Started'), ('done', 'Done'), ('in_exception', 'Exception occured')]

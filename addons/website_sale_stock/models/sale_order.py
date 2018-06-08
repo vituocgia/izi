@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
-from odoo import models, api, fields
-from odoo.tools.translate import _
+from izi import models, api, fields
+from izi.tools.translate import _
 
 
 class SaleOrder(models.Model):

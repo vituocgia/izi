@@ -1,4 +1,4 @@
-odoo.define('web.BasicView', function (require) {
+izi.define('web.BasicView', function (require) {
 "use strict";
 
 /**

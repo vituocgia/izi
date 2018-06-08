@@ -1,5 +1,5 @@
 
-from odoo import api, fields, models
+from izi import api, fields, models
 
 
 class CrmLeadConvert2Task(models.TransientModel):

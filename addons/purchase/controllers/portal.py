@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 from collections import OrderedDict
 
-from odoo import http
-from odoo.exceptions import AccessError
-from odoo.http import request
-from odoo.tools.translate import _
-from odoo.addons.portal.controllers.portal import get_records_pager, pager as portal_pager, CustomerPortal
+from izi import http
+from izi.exceptions import AccessError
+from izi.http import request
+from izi.tools.translate import _
+from izi.addons.portal.controllers.portal import get_records_pager, pager as portal_pager, CustomerPortal
 
 
 class CustomerPortal(CustomerPortal):

@@ -1,4 +1,4 @@
-<odoo>
+<izi>
 
     <!-- duplicata of the template payment.payment_confirmation_status. 
         The duplication avoid to break an existing installation in stable version-->
@@ -142,4 +142,4 @@
             </t>
         </xpath>
     </template>
-</odoo>
+</izi>

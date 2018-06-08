@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 from datetime import datetime
 from dateutil import relativedelta
-from odoo.exceptions import UserError
+from izi.exceptions import UserError
 
-from odoo import api, fields, models, _
-from odoo.tools import DEFAULT_SERVER_DATETIME_FORMAT
+from izi import api, fields, models, _
+from izi.tools import DEFAULT_SERVER_DATETIME_FORMAT
 
 
 class Location(models.Model):

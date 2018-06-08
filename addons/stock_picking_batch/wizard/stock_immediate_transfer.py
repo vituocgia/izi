@@ -1,4 +1,4 @@
-from odoo import models, fields, api
+from izi import models, fields, api
 
 
 class StockImmediateTransfer(models.TransientModel):

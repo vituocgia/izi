@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 import hashlib
 
-from odoo import api, models
-from odoo.tools import pycompat
-from odoo.tools import html_escape as escape
+from izi import api, models
+from izi.tools import pycompat
+from izi.tools import html_escape as escape
 
 
 class Image(models.AbstractModel):

@@ -1,16 +1,16 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * product
 #
 # Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: izi 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-02 11:26+0000\n"
 "PO-Revision-Date: 2016-01-14 10:10+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Spanish (Argentina) (http://www.transifex.com/odoo/odoo-9/"
+"Language-Team: Spanish (Argentina) (http://www.transifex.com/izi/izi-9/"
 "language/es_AR/)\n"
 "Language: es_AR\n"
 "MIME-Version: 1.0\n"
@@ -3150,7 +3150,7 @@ msgstr ""
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_variant_easy_edit_view
-msgid "e.g. Odoo Enterprise Subscription"
+msgid "e.g. izi Enterprise Subscription"
 msgstr ""
 
 #. module: product

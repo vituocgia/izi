@@ -1,4 +1,4 @@
-odoo.define('web.concurrency_tests', function (require) {
+izi.define('web.concurrency_tests', function (require) {
 "use strict";
 
 var concurrency = require('web.concurrency');

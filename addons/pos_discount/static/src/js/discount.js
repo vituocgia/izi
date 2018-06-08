@@ -1,4 +1,4 @@
-odoo.define('pos_discount.pos_discount', function (require) {
+izi.define('pos_discount.pos_discount', function (require) {
 "use strict";
 
 var core = require('web.core');

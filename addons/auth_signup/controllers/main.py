@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 import logging
 import werkzeug
 
-from odoo import http, _
-from odoo.addons.auth_signup.models.res_users import SignupError
-from odoo.addons.web.controllers.main import ensure_db, Home
-from odoo.exceptions import UserError
-from odoo.http import request
+from izi import http, _
+from izi.addons.auth_signup.models.res_users import SignupError
+from izi.addons.web.controllers.main import ensure_db, Home
+from izi.exceptions import UserError
+from izi.http import request
 
 _logger = logging.getLogger(__name__)
 

@@ -1,10 +1,10 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 #	* l10n_fr_certification
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 9.0c\n"
+"Project-Id-Version: izi Server 9.0c\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-12-06 16:03+0000\n"
 "PO-Revision-Date: 2017-12-06 16:03+0000\n"
@@ -82,7 +82,7 @@ msgid "French Statements"
 msgstr ""
 
 #. module: l10n_fr_certification
-#: model:ir.actions.server,name:l10n_fr_certification.odoo_french_certification
+#: model:ir.actions.server,name:l10n_fr_certification.izi_french_certification
 #: model:ir.ui.view,arch_db:l10n_fr_certification.view_general_fr_inalterability_inherit_config
 msgid "Get the certification now!"
 msgstr ""
@@ -132,7 +132,7 @@ msgid "Successful test !\n"
 "                         From: %(start_move_name)s %(start_move_ref)s\n"
 "                         To: %(end_move_name)s %(end_move_ref)s\n"
 "\n"
-"                         For this report to be legally meaningful, please download your certification from your customer account on Odoo.com (Only for Odoo Enterprise users)."
+"                         For this report to be legally meaningful, please download your certification from your customer account on izi.asia (Only for izi Enterprise users)."
 msgstr ""
 
 #. module: l10n_fr_certification

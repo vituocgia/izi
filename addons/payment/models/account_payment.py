@@ -2,8 +2,8 @@
 
 import datetime
 
-from odoo import _, api, fields, models
-from odoo.exceptions import ValidationError
+from izi import _, api, fields, models
+from izi.exceptions import ValidationError
 
 
 class AccountPayment(models.Model):

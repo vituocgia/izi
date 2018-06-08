@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 {
-    'name': 'Odoo Settings Dashboard',
+    'name': 'izi Settings Dashboard',
     'version': '1.0',
     'summary': 'Quick actions for installing new app, adding users, completing planners, etc.',
     'category': 'Extra Tools',
     'description':
     """
-Odoo dashboard
+izi dashboard
 ==============
 * Quick access to install apps
 * Quick users add

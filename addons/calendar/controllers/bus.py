@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*
 
-from odoo.addons.bus.controllers.main import BusController
-from odoo.http import request
+from izi.addons.bus.controllers.main import BusController
+from izi.http import request
 
 
 class CalendarBusController(BusController):

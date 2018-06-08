@@ -1,16 +1,16 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * web_planner
 #
 # Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: izi 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-20 09:54+0000\n"
 "PO-Revision-Date: 2016-02-16 10:39+0000\n"
 "Last-Translator: Martin Trigaux\n"
-"Language-Team: Spanish (Panama) (http://www.transifex.com/odoo/odoo-9/"
+"Language-Team: Spanish (Panama) (http://www.transifex.com/izi/izi-9/"
 "language/es_PA/)\n"
 "Language: es_PA\n"
 "MIME-Version: 1.0\n"
@@ -111,7 +111,7 @@ msgstr ""
 #. openerp-web
 #: code:addons/web_planner/static/src/js/web_planner_common.js:388
 #, python-format
-msgid "Odoo Enterprise"
+msgid "izi Enterprise"
 msgstr ""
 
 #. module: web_planner

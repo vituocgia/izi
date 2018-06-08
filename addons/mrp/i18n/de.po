@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * mrp
 # 
@@ -19,7 +19,7 @@
 # Bülent Tiknas <btiknas@googlemail.com>, 2017
 # Niki Waibel, 2017
 # Andreas Stauder <andreas.stauder@brain-tec.ch>, 2017
-# Gab_Odoo <gab@odoo.com>, 2017
+# Gab_izi <gab@izi.asia>, 2017
 # Andi, 2017
 # Mathias Neef <mn@copado.de>, 2017
 # Renzo Meister, 2017
@@ -31,18 +31,18 @@
 # Malte Jansen <work@maltejansen.de>, 2017
 # Katharina Moritz <kmo@e2f.com>, 2017
 # AppleMentalist <felix.schnatbaum@gmail.com>, 2017
-# Christopher Bendlin <inactive+cbeodoo@transifex.com>, 2017
+# Christopher Bendlin <inactive+cbeizi@transifex.com>, 2017
 # DE R1 <e2fes1@hotmail.com>, 2017
 # DE T1 <e2f8846@yahoo.com>, 2017
 # e2f <projects@e2f.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 13:42+0000\n"
 "PO-Revision-Date: 2018-02-19 13:42+0000\n"
 "Last-Translator: e2f <projects@e2f.com>, 2018\n"
-"Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
+"Language-Team: German (https://www.transifex.com/izi/teams/41243/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1953,10 +1953,10 @@ msgstr "GAE-Ziel in Prozent"
 #. module: mrp
 #: model:ir.actions.act_window,help:mrp.mrp_bom_form_action
 msgid ""
-"Odoo uses these BoMs to automatically propose manufacturing\n"
+"izi uses these BoMs to automatically propose manufacturing\n"
 "                orders according to procurement needs."
 msgstr ""
-"Odoo benutzt diese Stücklisten, um automatisch Fertigungsaufträge nach "
+"izi benutzt diese Stücklisten, um automatisch Fertigungsaufträge nach "
 "Beschaffungsbedarf zu erstellen."
 
 #. module: mrp

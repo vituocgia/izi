@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 import logging
 
-from odoo.addons.mail.controllers.main import MailController
-from odoo import http
+from izi.addons.mail.controllers.main import MailController
+from izi import http
 
 _logger = logging.getLogger(__name__)
 

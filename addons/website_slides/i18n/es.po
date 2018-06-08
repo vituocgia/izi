@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * website_slides
 # 
@@ -8,7 +8,7 @@
 # Martin Trigaux, 2017
 # Pablo Fuentes <pablo@studio73.es>, 2017
 # Antonio Trueba, 2017
-# RGB Consulting <odoo@rgbconsulting.com>, 2017
+# RGB Consulting <izi@rgbconsulting.com>, 2017
 # Carlos rodriguez <carlosalbertor436@gmail.com>, 2017
 # Nicolás Broggi <rnbroggi@gmail.com>, 2017
 # Alejandro Die Sanchis <marketing@domatix.com>, 2017
@@ -27,12 +27,12 @@
 # e2f <projects@e2f.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: izi Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-02 11:27+0000\n"
 "PO-Revision-Date: 2017-10-02 11:27+0000\n"
 "Last-Translator: e2f <projects@e2f.com>, 2018\n"
-"Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
+"Language-Team: Spanish (https://www.transifex.com/izi/teams/41243/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -375,8 +375,8 @@ msgstr "Solo usuarios autenticados"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_5
-msgid "Awesome Timesheet by Odoo"
-msgstr "Impresionante parte de horas por Odoo"
+msgid "Awesome Timesheet by izi"
+msgstr "Impresionante parte de horas por izi"
 
 #. module: website_slides
 #: model:slide.tag,name:website_slides.tag1
@@ -556,41 +556,41 @@ msgstr "Descartar"
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_6
-msgid "Discover how easy marketing your business can be with Odoo"
-msgstr "Descubra lo fácil que puede ser promocionar su negocio con Odoo"
+msgid "Discover how easy marketing your business can be with izi"
+msgstr "Descubra lo fácil que puede ser promocionar su negocio con izi"
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_0
 msgid ""
 "Discover how you can integrate MRP, PLM, Quality and Maintenance in a single application to maximize the efficiency of your manufacturing operations.\n"
 "\n"
-"Read more about the features at: https://www.odoo.com/page/manufacturing-features\n"
+"Read more about the features at: https://www.izi.asia/page/manufacturing-features\n"
 "\n"
-"Discover Odoo MRP: https://www.odoo.com/page/manufacturing"
+"Discover izi MRP: https://www.izi.asia/page/manufacturing"
 msgstr ""
 "Descubra cómo puede integrar la planificación de requerimientos de materiales (MRP), la gestión del ciclo de vida del producto (PLM), la calidad y el mantenimiento en una misma aplicación para maximizar la eficiencia de sus operaciones de fabricación.\n"
 "\n"
-"Más detalles en https://www.odoo.com/page/manufacturing-features\n"
+"Más detalles en https://www.izi.asia/page/manufacturing-features\n"
 "\n"
-"Descubra MRP de Odoo: https://www.odoo.com/page/manufacturing"
+"Descubra MRP de izi: https://www.izi.asia/page/manufacturing"
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_1
-msgid "Discover the CRM sales people love https://www.odoo.com/page/crm"
+msgid "Discover the CRM sales people love https://www.izi.asia/page/crm"
 msgstr ""
 "Descubra el CRM que los agentes de ventas adoran: "
-"https://www.odoo.com/page/crm"
+"https://www.izi.asia/page/crm"
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_2
 msgid ""
 "Discover the all-in-one business management software solution that fits any business size and use case.\n"
 "\n"
-"Learn more at https://odoo.com"
+"Learn more at https://izi.asia"
 msgstr ""
 "Descubra la solución de software de gestión empresarial todo en uno que se adapta a negocios de cualquier tamaño y a todo tipo de casos de uso:\n"
 "\n"
-" Más información en https://odoo.com"
+" Más información en https://izi.asia"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide_dislikes
@@ -641,12 +641,12 @@ msgstr "Descargar"
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_5
 msgid ""
-"Download Awesome Timesheet by Odoo and discover how easy time tracking and employee management can be!\n"
+"Download Awesome Timesheet by izi and discover how easy time tracking and employee management can be!\n"
 "\n"
 "Chrome: http://bit.ly/2613LcY\n"
 "iOS: http://bit.ly/1ZUZsZD"
 msgstr ""
-"¡Descargue Awesome Timesheet de Odoo y descubra lo fácil que puede ser la gestión de horarios y empleados! \n"
+"¡Descargue Awesome Timesheet de izi y descubra lo fácil que puede ser la gestión de horarios y empleados! \n"
 "\n"
 "Chrome: http://bit.ly/2613LcY\n"
 "iOS: http://bit.ly/1ZUZsZD"
@@ -859,8 +859,8 @@ msgstr "Último publicado"
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_8
-msgid "Learn more at https://www.odoo.com/page/sales"
-msgstr "Más información en https://www.odoo.com/page/sales"
+msgid "Learn more at https://www.izi.asia/page/sales"
+msgstr "Más información en https://www.izi.asia/page/sales"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide_likes
@@ -971,44 +971,44 @@ msgstr "Número de videos"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_2
-msgid "Odoo All-in-One Software Demonstration"
-msgstr "Demostración del software todo en uno de Odoo"
+msgid "izi All-in-One Software Demonstration"
+msgstr "Demostración del software todo en uno de izi"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_1
-msgid "Odoo CRM"
-msgstr "CRM de Odoo"
+msgid "izi CRM"
+msgstr "CRM de izi"
 
 #. module: website_slides
 #: model:slide.category,name:website_slides.category_2
 #: model:slide.tag,name:website_slides.tag5
-msgid "Odoo Days"
-msgstr "Jornadas de Odoo"
+msgid "izi Days"
+msgstr "Jornadas de izi"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_7
-msgid "Odoo Inventory"
-msgstr "Inventario de Odoo"
+msgid "izi Inventory"
+msgstr "Inventario de izi"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_0
-msgid "Odoo MRP"
-msgstr "MRP de Odoo"
+msgid "izi MRP"
+msgstr "MRP de izi"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_6
-msgid "Odoo Marketing"
-msgstr "Marketing de Odoo"
+msgid "izi Marketing"
+msgstr "Marketing de izi"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_8
-msgid "Odoo Sales"
-msgstr "Ventas de Odoo"
+msgid "izi Sales"
+msgstr "Ventas de izi"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_3
-msgid "Odoo Sign Demonstration"
-msgstr "Demostración de Odoo Sign"
+msgid "izi Sign Demonstration"
+msgstr "Demostración de izi Sign"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_9
@@ -1242,13 +1242,13 @@ msgstr "Lo sentimos, pero nada coincide con su criterio de búsqueda"
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_3
 msgid ""
-"Stop doing manual printing and scanning. Move to electronic signature with Odoo Sign!\n"
+"Stop doing manual printing and scanning. Move to electronic signature with izi Sign!\n"
 "\n"
-"Discover more at https://www.odoo.com/page/sign"
+"Discover more at https://www.izi.asia/page/sign"
 msgstr ""
-"Deje de escanear e imprimir de forma manual. ¡Pásese a la firma electrónica con Odoo Sign! \n"
+"Deje de escanear e imprimir de forma manual. ¡Pásese a la firma electrónica con izi Sign! \n"
 "\n"
-"Más detalles en https://www.odoo.com/page/sign"
+"Más detalles en https://www.izi.asia/page/sign"
 
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.view_slide_tag_form
@@ -1449,11 +1449,11 @@ msgstr "Esperando validación"
 msgid ""
 "Warehouse management software for the 21st century.\n"
 "\n"
-"Discover Odoo Inventory: https://www.odoo.com/page/warehouse"
+"Discover izi Inventory: https://www.izi.asia/page/warehouse"
 msgstr ""
 "Software de gestión de almacenes para el siglo XXI.\n"
 "\n"
-"Descubra Inventario de Odoo: https://www.odoo.com/page/warehouse"
+"Descubra Inventario de izi: https://www.izi.asia/page/warehouse"
 
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.view_slide_slide_form

@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
-from odoo import api, fields, models, tools, _
-from odoo.addons import decimal_precision as dp
+# Part of izi. See LICENSE file for full copyright and licensing details.
+from izi import api, fields, models, tools, _
+from izi.addons import decimal_precision as dp
 
-from odoo.tools import pycompat
-from odoo.tools.translate import html_translate
-from odoo.tools import float_is_zero
+from izi.tools import pycompat
+from izi.tools.translate import html_translate
+from izi.tools import float_is_zero
 
 
 class ProductStyle(models.Model):

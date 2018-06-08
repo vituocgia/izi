@@ -1,4 +1,4 @@
-odoo.define('web.GraphView', function (require) {
+izi.define('web.GraphView', function (require) {
 "use strict";
 
 /**

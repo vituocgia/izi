@@ -1,4 +1,4 @@
-odoo.define('web.relational_fields_tests', function (require) {
+izi.define('web.relational_fields_tests', function (require) {
 "use strict";
 
 var AbstractField = require('web.AbstractField');
@@ -9149,7 +9149,7 @@ QUnit.module('relational_fields', {
         // on_close handler, executed because the python method does not return
         // any action, or an ir.action.act_window_close) ; this test ensures that
         // it reloads the fields of the opened view (i.e. the form in this case).
-        // See https://github.com/odoo/odoo/issues/24189
+        // See https://github.com/izi/izi/issues/24189
         assert.expect(7);
 
         var data = this.data;

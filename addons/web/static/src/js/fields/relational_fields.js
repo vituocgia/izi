@@ -1,4 +1,4 @@
-odoo.define('web.relational_fields', function (require) {
+izi.define('web.relational_fields', function (require) {
 "use strict";
 
 /**
@@ -271,7 +271,7 @@ var FieldMany2One = AbstractField.extend({
      * has been trigerred. This allows to detect that all changes have been
      * acknowledged by the environment.
      *
-     * @param {OdooEvent} event 'field_changed' event
+     * @param {iziEvent} event 'field_changed' event
      */
     _onFieldChanged: function (event) {
         this.lastChangeEvent = event;
@@ -575,7 +575,7 @@ var FieldMany2One = AbstractField.extend({
     /**
      * @private
      *
-     * @param {OdooEvent} ev
+     * @param {iziEvent} ev
      */
     _onInputKeyup: function (ev) {
         if (ev.which === $.ui.keyCode.ENTER) {
@@ -606,7 +606,7 @@ var FieldMany2One = AbstractField.extend({
      * user is selecting text.
      *
      * @private
-     * @param {OdooEvent} ev
+     * @param {iziEvent} ev
      */
     _onNavigationMove: function (ev) {
         // TODO Maybe this should be done in a mixin or, better, the m2o field
@@ -618,14 +618,14 @@ var FieldMany2One = AbstractField.extend({
     },
     /**
      * @private
-     * @param {OdooEvent} event
+     * @param {iziEvent} event
      */
     _onQuickCreate: function (event) {
         this._quickCreate(event.data.value);
     },
     /**
      * @private
-     * @param {OdooEvent} event
+     * @param {iziEvent} event
      */
     _onSearchCreatePopup: function (event) {
         var data = event.data;
@@ -760,7 +760,7 @@ var FieldX2Many = AbstractField.extend({
     /**
      * @override
      * @param {Object} record
-     * @param {OdooEvent} [ev] an event that triggered the reset action
+     * @param {iziEvent} [ev] an event that triggered the reset action
      * @param {Boolean} [fieldChanged] if true, the widget field has changed
      * @returns {Deferred}
      */
@@ -994,7 +994,7 @@ var FieldX2Many = AbstractField.extend({
      * by the parent controller.
      *
      * @private
-     * @param {OdooEvent} ev
+     * @param {iziEvent} ev
      */
     _onDeleteRecord: function (ev) {
         ev.stopPropagation();
@@ -1012,7 +1012,7 @@ var FieldX2Many = AbstractField.extend({
      * know which field needs to be handled.
      *
      * @private
-     * @param {OdooEvent} ev
+     * @param {iziEvent} ev
      */
     _onDiscardChanges: function (ev) {
         if (ev.target !== this) {
@@ -1025,7 +1025,7 @@ var FieldX2Many = AbstractField.extend({
      * him back to toggle the mode of this row.
      *
      * @private
-     * @param {OdooEvent} ev
+     * @param {iziEvent} ev
      */
     _onEditLine: function (ev) {
         ev.stopPropagation();
@@ -1038,7 +1038,7 @@ var FieldX2Many = AbstractField.extend({
      * Updates the given record with the changes.
      *
      * @private
-     * @param {OdooEvent} ev
+     * @param {iziEvent} ev
      */
     _onFieldChanged: function (ev) {
         if (ev.target === this) {
@@ -1086,7 +1086,7 @@ var FieldX2Many = AbstractField.extend({
      * executed in the mutex.
      *
      * @private
-     * @param {OdooEvent} ev
+     * @param {iziEvent} ev
      * @param {string} ev.recordID
      * @param {function} ev.onSuccess success callback (see '_saveLine')
      * @param {function} ev.onFailure fail callback (see '_saveLine')
@@ -1112,7 +1112,7 @@ var FieldX2Many = AbstractField.extend({
      * Forces a resequencing of the records.
      *
      * @private
-     * @param {OdooEvent} event
+     * @param {iziEvent} event
      */
     _onResequence: function (event) {
         event.stopPropagation();
@@ -1150,7 +1150,7 @@ var FieldX2Many = AbstractField.extend({
      * aware of which widgets it has to redraw.
      *
      * @private
-     * @param {OdooEvent} ev
+     * @param {iziEvent} ev
      */
     _onToggleColumnOrder: function (ev) {
         ev.data.field = this.name;
@@ -1177,7 +1177,7 @@ var FieldOne2Many = FieldX2Many.extend({
     /**
      * @override
      * @param {Object} record
-     * @param {OdooEvent} [ev] an event that triggered the reset action
+     * @param {iziEvent} [ev] an event that triggered the reset action
      * @returns {Deferred}
      */
     reset: function (record, ev) {
@@ -1245,7 +1245,7 @@ var FieldOne2Many = FieldX2Many.extend({
      *
      * @override
      * @private
-     * @param {OdooEvent|MouseEvent} ev this event comes either from the 'Add
+     * @param {iziEvent|MouseEvent} ev this event comes either from the 'Add
      *   record' link in the list editable renderer, or from the 'Create' button
      *   in the kanban view
      */
@@ -1285,7 +1285,7 @@ var FieldOne2Many = FieldX2Many.extend({
      * form view.
      *
      * @private
-     * @param {OdooEvent} ev
+     * @param {iziEvent} ev
      */
     _onOpenRecord: function (ev) {
         // we don't want interference with the components upstream.
@@ -1340,7 +1340,7 @@ var FieldMany2Many = FieldX2Many.extend({
      *
      * @override
      * @private
-     * @param {OdooEvent|MouseEvent} ev this event comes either from the 'Add
+     * @param {iziEvent|MouseEvent} ev this event comes either from the 'Add
      *   record' link in the list editable renderer, or from the 'Create' button
      *   in the kanban view
      */
@@ -1377,7 +1377,7 @@ var FieldMany2Many = FieldX2Many.extend({
      * to the form view.
      *
      * @private
-     * @param {OdooEvent} ev
+     * @param {iziEvent} ev
      */
     _onOpenRecord: function (ev) {
         var self = this;
@@ -1748,7 +1748,7 @@ var FieldMany2ManyTags = AbstractField.extend({
      * Controls the changes made in the internal m2o field.
      *
      * @private
-     * @param {OdooEvent} ev
+     * @param {iziEvent} ev
      */
     _onFieldChanged: function (ev) {
         if (ev.target !== this.many2one) {
@@ -1777,7 +1777,7 @@ var FieldMany2ManyTags = AbstractField.extend({
     },
     /**
      * @private
-     * @param {OdooEvent} event
+     * @param {iziEvent} event
      */
     _onQuickCreate: function (event) {
         this._quickCreate(event.data.value);

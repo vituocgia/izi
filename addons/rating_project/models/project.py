@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 from datetime import timedelta
 
-from odoo import api, fields, models, _
-from odoo.tools.safe_eval import safe_eval
+from izi import api, fields, models, _
+from izi.tools.safe_eval import safe_eval
 
 
 class ProjectTaskType(models.Model):

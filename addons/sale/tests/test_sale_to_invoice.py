@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 from datetime import datetime
 
-from odoo.addons.mail.tests.common import TestMail
-from odoo.tools import mute_logger
+from izi.addons.mail.tests.common import TestMail
+from izi.tools import mute_logger
 
 
 class TestSale(TestMail):
-    @mute_logger('odoo.addons.base.ir.ir_model', 'odoo.osv.orm')
+    @mute_logger('izi.addons.base.ir.ir_model', 'izi.osv.orm')
     def setUp(self):
         super(TestSale, self).setUp()
 

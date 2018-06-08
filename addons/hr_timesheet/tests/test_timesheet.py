@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
-from odoo.tests.common import TransactionCase
-from odoo.exceptions import AccessError, UserError
+from izi.tests.common import TransactionCase
+from izi.exceptions import AccessError, UserError
 
 
 class TestCommonTimesheet(TransactionCase):

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-from odoo import api, fields, models, _
-from odoo.addons.http_routing.models.ir_http import slug
+from izi import api, fields, models, _
+from izi.addons.http_routing.models.ir_http import slug
 
 
 class EventType(models.Model):

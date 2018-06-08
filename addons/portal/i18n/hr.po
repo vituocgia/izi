@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * portal
 # 
@@ -7,17 +7,17 @@
 # Ivica Dimjašević <ivica.dimjasevic@storm.hr>, 2017
 # Karolina Tonković <karolina.tonkovic@storm.hr>, 2017
 # Tina Milas <tina@uvid.hr>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux <mat@izi.asia>, 2017
 # Vladimir Olujić <olujic.vladimir@storm.hr>, 2017
 # Đurđica Žarković <durdica.zarkovic@storm.hr>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: izi Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-02 11:27+0000\n"
 "PO-Revision-Date: 2017-10-02 11:27+0000\n"
 "Last-Translator: Đurđica Žarković <durdica.zarkovic@storm.hr>, 2017\n"
-"Language-Team: Croatian (https://www.transifex.com/odoo/teams/41243/hr/)\n"
+"Language-Team: Croatian (https://www.transifex.com/izi/teams/41243/hr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -591,8 +591,8 @@ msgstr "Vaše ime ..."
 
 #. module: portal
 #: model:mail.template,subject:portal.mail_template_data_portal_welcome
-msgid "Your Odoo account at ${user.company_id.name}"
-msgstr "Vaš Odoo račun na ${user.company_id.name}"
+msgid "Your izi account at ${user.company_id.name}"
+msgstr "Vaš izi račun na ${user.company_id.name}"
 
 #. module: portal
 #: model:ir.ui.view,arch_db:portal.portal_my_details

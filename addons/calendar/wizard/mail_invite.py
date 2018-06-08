@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
-from odoo import api, models
+from izi import api, models
 
-from odoo.addons.calendar.models.calendar import get_real_ids
+from izi.addons.calendar.models.calendar import get_real_ids
 
 
 class MailInvite(models.TransientModel):

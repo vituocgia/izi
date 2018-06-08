@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 from datetime import datetime, timedelta
 
-from odoo.fields import Datetime as Dt
-from odoo.addons.mrp.tests.common import TestMrpCommon
+from izi.fields import Datetime as Dt
+from izi.addons.mrp.tests.common import TestMrpCommon
 
 
 class TestMrpOrder(TestMrpCommon):

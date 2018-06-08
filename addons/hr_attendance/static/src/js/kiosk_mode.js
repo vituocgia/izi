@@ -1,4 +1,4 @@
-odoo.define('hr_attendance.kiosk_mode', function (require) {
+izi.define('hr_attendance.kiosk_mode', function (require) {
 "use strict";
 
 var ajax = require('web.ajax');

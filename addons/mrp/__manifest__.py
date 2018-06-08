@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 
 {
     'name': 'Manufacturing',
     'version': '2.0',
-    'website': 'https://www.odoo.com/page/manufacturing',
+    'website': 'https://www.izi.asia/page/manufacturing',
     'category': 'Manufacturing',
     'sequence': 14,
     'summary': 'Manufacturing Orders, Bill of Materials, Routings',

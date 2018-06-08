@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-from odoo import models, fields, api, _
-from odoo.tools import float_round
+from izi import models, fields, api, _
+from izi.tools import float_round
 
 
 class AccountCashRounding(models.Model):

@@ -1,4 +1,4 @@
-odoo.define('im_livechat.im_livechat', function (require) {
+izi.define('im_livechat.im_livechat', function (require) {
 "use strict";
 
 var local_storage = require('web.local_storage');

@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
-from odoo import api, models, fields
-from odoo.addons.http_routing.models.ir_http import slug
-from odoo.tools.translate import html_translate
+from izi import api, models, fields
+from izi.addons.http_routing.models.ir_http import slug
+from izi.tools.translate import html_translate
 
 
 class ImLivechatChannel(models.Model):

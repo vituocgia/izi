@@ -1,4 +1,4 @@
-odoo.define('web.FormView', function (require) {
+izi.define('web.FormView', function (require) {
 "use strict";
 
 var BasicView = require('web.BasicView');

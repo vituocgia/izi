@@ -1,4 +1,4 @@
-odoo.define('sms.sms_widget', function (require) {
+izi.define('sms.sms_widget', function (require) {
 "use strict";
 
 var basicFields = require('web.basic_fields');

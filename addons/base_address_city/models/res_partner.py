@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 from lxml import etree
 
-from odoo import api, models, fields
-from odoo.tools.translate import _
+from izi import api, models, fields
+from izi.tools.translate import _
 
 
 class Partner(models.Model):

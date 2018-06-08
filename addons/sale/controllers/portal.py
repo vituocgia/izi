@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 import base64
 
-from odoo import http, _
-from odoo.exceptions import AccessError
-from odoo.http import request
-from odoo.tools import consteq
-from odoo.addons.portal.controllers.mail import _message_post_helper
-from odoo.addons.portal.controllers.portal import CustomerPortal, pager as portal_pager, get_records_pager
+from izi import http, _
+from izi.exceptions import AccessError
+from izi.http import request
+from izi.tools import consteq
+from izi.addons.portal.controllers.mail import _message_post_helper
+from izi.addons.portal.controllers.portal import CustomerPortal, pager as portal_pager, get_records_pager
 
 
 class CustomerPortal(CustomerPortal):

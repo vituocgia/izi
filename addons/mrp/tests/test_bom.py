@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
-from odoo import exceptions
-from odoo.addons.mrp.tests.common import TestMrpCommon
+from izi import exceptions
+from izi.addons.mrp.tests.common import TestMrpCommon
 
 
 class TestBoM(TestMrpCommon):

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * web
 # 
@@ -9,12 +9,12 @@
 # Bill Hsu <hcm86@icloud.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-01-09 10:16+0000\n"
 "PO-Revision-Date: 2018-01-09 10:16+0000\n"
 "Last-Translator: Bill Hsu <hcm86@icloud.com>, 2018\n"
-"Language-Team: Chinese (Taiwan) (https://www.transifex.com/odoo/teams/41243/zh_TW/)\n"
+"Language-Team: Chinese (Taiwan) (https://www.transifex.com/izi/teams/41243/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -229,8 +229,8 @@ msgstr "<span class=\"oe_logo_edit\">編輯公司數據</span>"
 
 #. module: web
 #: model:ir.ui.view,arch_db:web.menu_secondary
-msgid "<span>Odoo</span>"
-msgstr "<span>Odoo</span>"
+msgid "<span>izi</span>"
+msgstr "<span>izi</span>"
 
 #. module: web
 #. openerp-web
@@ -1306,8 +1306,8 @@ msgstr "表單"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1339
 #, python-format
-msgid "Get this feature and much more with Odoo Enterprise!"
-msgstr "通過Odoo企業版獲得該功能及其他更多！"
+msgid "Get this feature and much more with izi Enterprise!"
+msgstr "通過izi企業版獲得該功能及其他更多！"
 
 #. module: web
 #. openerp-web
@@ -1662,8 +1662,8 @@ msgstr "上移"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1324
 #, python-format
-msgid "My Odoo.com account"
-msgstr "Odoo.com帳戶"
+msgid "My izi.asia account"
+msgstr "izi.asia帳戶"
 
 #. module: web
 #. openerp-web
@@ -1795,15 +1795,15 @@ msgstr "對像:"
 #. openerp-web
 #: code:addons/web/static/src/js/core/dialog.js:51
 #, python-format
-msgid "Odoo"
-msgstr "Odoo"
+msgid "izi"
+msgstr "izi"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/apps.js:148
 #, python-format
-msgid "Odoo Apps will be available soon"
-msgstr "Odoo Apps 將馬上可用"
+msgid "izi Apps will be available soon"
+msgstr "izi Apps 將馬上可用"
 
 #. module: web
 #. openerp-web
@@ -1811,37 +1811,37 @@ msgstr "Odoo Apps 將馬上可用"
 #: code:addons/web/static/src/js/chrome/abstract_web_client.js:194
 #: code:addons/web/static/src/js/services/crash_manager.js:156
 #, python-format
-msgid "Odoo Client Error"
-msgstr "Odoo客戶端錯誤"
+msgid "izi Client Error"
+msgstr "izi客戶端錯誤"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/fields/upgrade_fields.js:86
 #, python-format
-msgid "Odoo Enterprise"
-msgstr "Odoo 企業版"
+msgid "izi Enterprise"
+msgstr "izi 企業版"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:118
 #, python-format
-msgid "Odoo Error"
-msgstr "Odoo錯誤"
+msgid "izi Error"
+msgstr "izi錯誤"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:58
 #, python-format
-msgid "Odoo Session Expired"
-msgstr "Odoo會話過期"
+msgid "izi Session Expired"
+msgstr "izi會話過期"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:108
 #: code:addons/web/static/src/js/services/crash_manager.js:197
 #, python-format
-msgid "Odoo Warning"
-msgstr "Odoo警告"
+msgid "izi Warning"
+msgstr "izi警告"
 
 #. module: web
 #. openerp-web
@@ -2055,8 +2055,8 @@ msgstr "官方技術支援"
 
 #. module: web
 #: model:ir.ui.view,arch_db:web.login_layout
-msgid "Powered by <span>Odoo</span>"
-msgstr "由<span>Odoo</span>提供支援"
+msgid "Powered by <span>izi</span>"
+msgstr "由<span>izi</span>提供支援"
 
 #. module: web
 #. openerp-web
@@ -2564,8 +2564,8 @@ msgstr ""
 #, python-format
 msgid ""
 "Timezone Mismatch : The timezone of your browser doesn't match the selected "
-"one. The time in Odoo is displayed according to your field timezone."
-msgstr "時區不匹配：您的瀏覽器的時區選擇不匹配。在Odoo的時間是根據您的領域時區顯示。"
+"one. The time in izi is displayed according to your field timezone."
+msgstr "時區不匹配：您的瀏覽器的時區選擇不匹配。在izi的時間是根據您的領域時區顯示。"
 
 #. module: web
 #. openerp-web
@@ -2933,8 +2933,8 @@ msgstr ""
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:58
 #, python-format
-msgid "Your Odoo session expired. Please refresh the current web page."
-msgstr "您的Odoo會話已到期，請刷新目前網頁。"
+msgid "Your izi session expired. Please refresh the current web page."
+msgstr "您的izi會話已到期，請刷新目前網頁。"
 
 #. module: web
 #. openerp-web

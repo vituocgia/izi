@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
-from odoo import models, fields, api
+from izi import models, fields, api
 
 
 class TaxAdjustments(models.TransientModel):

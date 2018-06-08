@@ -1,9 +1,9 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * website
 # 
 # Translators:
-# Erwin van der Ploeg <erwin@odooexperts.nl>, 2017
+# Erwin van der Ploeg <erwin@iziexperts.nl>, 2017
 # Martin Trigaux, 2017
 # Yenthe Van Ginneken <yenthespam@gmail.com>, 2017
 # Cas Vissers <casvissers@brahoo.nl>, 2017
@@ -11,12 +11,12 @@
 # Volluta <volluta@tutanota.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 13:42+0000\n"
 "PO-Revision-Date: 2018-02-19 13:42+0000\n"
 "Last-Translator: Volluta <volluta@tutanota.com>, 2017\n"
-"Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
+"Language-Team: Dutch (https://www.transifex.com/izi/teams/41243/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -126,8 +126,8 @@ msgstr ", bijgewerkt:"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
-msgid "- The Odoo Team"
-msgstr "- Het Odoo Team"
+msgid "- The izi Team"
+msgstr "- Het izi Team"
 
 #. module: website
 #. openerp-web
@@ -632,9 +632,9 @@ msgstr "<strong>3. Uw footer titels</strong> en 4. Uw footer links"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_button
-msgid "<strong>50,000+ companies run Odoo to grow their businesses.</strong>"
+msgid "<strong>50,000+ companies run izi to grow their businesses.</strong>"
 msgstr ""
-"<strong>50,000+ bedrijven gebruiken Odoo om hun zaak te doen "
+"<strong>50,000+ bedrijven gebruiken izi om hun zaak te doen "
 "groeien.</strong>"
 
 #. module: website
@@ -663,11 +663,11 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid ""
-"<strong>Be announced on the Odoo Twitter account</strong><br/>\n"
-"                                We like to hear from people using Odoo to build their website. Tweet us"
+"<strong>Be announced on the izi Twitter account</strong><br/>\n"
+"                                We like to hear from people using izi to build their website. Tweet us"
 msgstr ""
-"<strong>Wordt bekend gemaakt op de Odoo Twitter account</strong><br/>\n"
-"Wij horen graag van mensen die Odoo gebruiken om hun website te bouwen. Tweet ons"
+"<strong>Wordt bekend gemaakt op de izi Twitter account</strong><br/>\n"
+"Wij horen graag van mensen die izi gebruiken om hun website te bouwen. Tweet ons"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -850,8 +850,8 @@ msgstr "<strong>Uw website objectieven </strong> op prioriteit:"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
-msgid "@odoo"
-msgstr "@odoo"
+msgid "@izi"
+msgstr "@izi"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.res_config_settings_view_form
@@ -1945,10 +1945,10 @@ msgstr ""
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
 msgid ""
-"For the Odoo Team,<br/>\n"
+"For the izi Team,<br/>\n"
 "                            Fabien Pinckaers, Founder"
 msgstr ""
-"Namens het gehele Odoo Team,<br/>\n"
+"Namens het gehele izi Team,<br/>\n"
 "                            Fabien Pinckaers, Oprichter"
 
 #. module: website
@@ -2419,10 +2419,10 @@ msgstr "Het lijkt erop dat uw bestand wordt opgeroepen door"
 #, python-format
 msgid ""
 "It might be possible to edit the relevant items or fix the issue in <a "
-"href=\"%s\">the classic Odoo interface</a>"
+"href=\"%s\">the classic izi interface</a>"
 msgstr ""
 "Het is wellicht mogelijk om de relevante items te bewerken of het probleem "
-"te verhelpen in <a href=\"%s\">de klassiek Odoo interface</a>"
+"te verhelpen in <a href=\"%s\">de klassiek izi interface</a>"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -2852,57 +2852,57 @@ msgstr "Doelstellingen"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.layout_footer_copyright
-msgid "Odoo"
-msgstr "Odoo"
+msgid "izi"
+msgstr "izi"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_three_columns
-msgid "Odoo - Sample 1 for three columns"
-msgstr "Odoo - Voorbeeld 1 voor drie kolommen"
+msgid "izi - Sample 1 for three columns"
+msgstr "izi - Voorbeeld 1 voor drie kolommen"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_three_columns
-msgid "Odoo - Sample 2 for three columns"
-msgstr "Odoo - Voorbeeld 2 voor drie kolommen"
+msgid "izi - Sample 2 for three columns"
+msgstr "izi - Voorbeeld 2 voor drie kolommen"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_three_columns
-msgid "Odoo - Sample 3 for three columns"
-msgstr "Odoo - Voorbeeld 3 voor drie kolommen"
+msgid "izi - Sample 3 for three columns"
+msgstr "izi - Voorbeeld 3 voor drie kolommen"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_big_picture
-msgid "Odoo CMS - a big picture"
-msgstr "Odoo CMS - een grote afbeelding"
+msgid "izi CMS - a big picture"
+msgstr "izi CMS - een grote afbeelding"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_image_floating
-msgid "Odoo CMS- Sample image floating"
-msgstr "Odoo CMS - voorbeeld zwevende afbeelding"
+msgid "izi CMS- Sample image floating"
+msgstr "izi CMS - voorbeeld zwevende afbeelding"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.show_website_info
-msgid "Odoo Version"
-msgstr "Odoo versie"
+msgid "izi Version"
+msgstr "izi versie"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_image_text
-msgid "Odoo image and text block"
-msgstr "Odoo afbeelding en tekstblok"
+msgid "izi image and text block"
+msgstr "izi afbeelding en tekstblok"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_parallax_slider
 msgid ""
-"Odoo provides essential platform for our project management.\n"
+"izi provides essential platform for our project management.\n"
 "                                                Things are better organized and more visible with it."
 msgstr ""
-"Odoo biedt een essentiële platform voor ons project management. \n"
+"izi biedt een essentiële platform voor ons project management. \n"
 "Dingen zijn beter georganiseerd en beter zichtbaar."
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_text_image
-msgid "Odoo text and image block"
-msgstr "Odoo tekst en afbeelding blok"
+msgid "izi text and image block"
+msgstr "izi tekst en afbeelding blok"
 
 #. module: website
 #. openerp-web
@@ -3570,8 +3570,8 @@ msgstr "Simpel en duidelijk"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_banner
-msgid "Slider Odoo Image"
-msgstr "Odoo afbeelding slider"
+msgid "Slider izi Image"
+msgstr "izi afbeelding slider"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.snippet_options
@@ -4526,7 +4526,7 @@ msgid ""
 "                        name of your business or organization, so put some thought into changing it\n"
 "                        for a proper domain."
 msgstr ""
-"U kan Odoo op een gepersonaliseerd domein zetten (bijvoorbeeld uwbedrijf.com) voor beide de website\n"
+"U kan izi op een gepersonaliseerd domein zetten (bijvoorbeeld uwbedrijf.com) voor beide de website\n"
 "en uw e-mails. Omdat uw website adres even belangrijk is voor uw huisstijl als de\n"
 "naam van uw bedrijf of organisatie wilt u er gedachten in steken om dit te wijzigen naar\n"
 "een mooi domein, of wijzig het naar een domein dat u al bezit."
@@ -4734,23 +4734,23 @@ msgstr "hoe uw pagina er uit zal zien in Google"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.view_website_form
-msgid "https://plus.google.com/+Odooapps"
-msgstr "https://plus.google.com/+Odooapps"
+msgid "https://plus.google.com/+iziapps"
+msgstr "https://plus.google.com/+iziapps"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.view_website_form
-msgid "https://twitter.com/Odoo"
-msgstr "https://twitter.com/Odoo"
+msgid "https://twitter.com/izi"
+msgstr "https://twitter.com/izi"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.view_website_form
-msgid "https://www.facebook.com/odoo"
-msgstr "https://www.facebook.com/odoo"
+msgid "https://www.facebook.com/izi"
+msgstr "https://www.facebook.com/izi"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.view_website_form
-msgid "https://www.linkedin.com/company/odoo"
-msgstr "https://www.linkedin.com/company/odoo"
+msgid "https://www.linkedin.com/company/izi"
+msgstr "https://www.linkedin.com/company/izi"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.view_website_form
@@ -4769,8 +4769,8 @@ msgstr "in the SEO metadata, inclusief tags, titel en omschrijving."
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.show_website_info
-msgid "instance of Odoo, the"
-msgstr "instantie van Odoo, de"
+msgid "instance of izi, the"
+msgstr "instantie van izi, de"
 
 #. module: website
 #: model:ir.model,name:website.model_ir_actions_server

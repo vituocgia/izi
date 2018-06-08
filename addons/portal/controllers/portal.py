@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 import math
 
 from werkzeug import urls
 
-from odoo import fields as odoo_fields, tools, _
-from odoo.osv import expression
-from odoo.exceptions import ValidationError
-from odoo.http import Controller, request, route
-from odoo.addons.web.controllers.main import WebClient
+from izi import fields as izi_fields, tools, _
+from izi.osv import expression
+from izi.exceptions import ValidationError
+from izi.http import Controller, request, route
+from izi.addons.web.controllers.main import WebClient
 
 # --------------------------------------------------
 # Misc tools
@@ -122,8 +122,8 @@ class CustomerPortal(Controller):
             dates, label = group[groupby]
             date_begin, date_end = dates.split('/')
             groups.append({
-                'date_begin': odoo_fields.Date.to_string(odoo_fields.Date.from_string(date_begin)),
-                'date_end': odoo_fields.Date.to_string(odoo_fields.Date.from_string(date_end)),
+                'date_begin': izi_fields.Date.to_string(izi_fields.Date.from_string(date_begin)),
+                'date_end': izi_fields.Date.to_string(izi_fields.Date.from_string(date_end)),
                 'name': label,
                 'item_count': group[groupby + '_count']
             })

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 import base64
 import datetime
 import json
@@ -12,14 +12,14 @@ import werkzeug.wrappers
 from itertools import islice
 from xml.etree import ElementTree as ET
 
-import odoo
+import izi
 
-from odoo import http, models, fields, _
-from odoo.http import request
-from odoo.tools import pycompat, OrderedSet
-from odoo.addons.http_routing.models.ir_http import slug, _guess_mimetype
-from odoo.addons.web.controllers.main import WebClient, Binary, Home
-from odoo.addons.portal.controllers.portal import pager as portal_pager
+from izi import http, models, fields, _
+from izi.http import request
+from izi.tools import pycompat, OrderedSet
+from izi.addons.http_routing.models.ir_http import slug, _guess_mimetype
+from izi.addons.web.controllers.main import WebClient, Binary, Home
+from izi.addons.portal.controllers.portal import pager as portal_pager
 
 logger = logging.getLogger(__name__)
 
@@ -198,7 +198,7 @@ class Website(Home):
         values = {
             'apps': apps,
             'modules': modules,
-            'version': odoo.service.common.exp_version()
+            'version': izi.service.common.exp_version()
         }
         return request.render('website.website_info', values)
 

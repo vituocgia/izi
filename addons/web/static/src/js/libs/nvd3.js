@@ -1,4 +1,4 @@
-odoo.define('web.nvd3.extensions', function () {
+izi.define('web.nvd3.extensions', function () {
 'use strict';
 
 /**

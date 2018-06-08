@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * website_blog
 # 
@@ -24,12 +24,12 @@
 # e2f <projects@e2f.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-24 09:00+0000\n"
 "PO-Revision-Date: 2017-10-24 09:00+0000\n"
 "Last-Translator: e2f <projects@e2f.com>, 2018\n"
-"Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
+"Language-Team: German (https://www.transifex.com/izi/teams/41243/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -49,7 +49,7 @@ msgstr ""
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_2
 msgid ""
-"\"Odoo now competes on many fronts, with no real\n"
+"\"izi now competes on many fronts, with no real\n"
 "                    competition out there to knock them off the top spot.\n"
 "                    With the launch of their integrated CMS and Ecommerce\n"
 "                    systems,it only elevates their position as one of the leading\n"
@@ -58,24 +58,24 @@ msgid ""
 "                    compete at this level due to the technology currently\n"
 "                    employed by most industry providers.\""
 msgstr ""
-"„Odoo steht in vielen Bereichen ohne große Konkurrenz da, welche sie von der Spitze vertreiben könnte.\n"
+"„izi steht in vielen Bereichen ohne große Konkurrenz da, welche sie von der Spitze vertreiben könnte.\n"
 "Mit der Einführung seiner integrierten CMS- und E-Commerce-Systeme baut es weiter seine Position als eine der führenden Kräfte in der Open-Source-Revolution aus. Es wird aufgrund der derzeit von den meisten Branchenanbietern verwendeten Technologie mindestens 5 Jahre dauern, bis ein anderer ERP- oder CMS-Anbieter auf diesem Niveau mithalten kann.“"
 
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_2
 msgid ""
-"\"Odoo's latest launch will allow a business to go from\n"
+"\"izi's latest launch will allow a business to go from\n"
 "                    zero to trading online quicker than ever before,” Stuart\n"
-"                    Mackintosh, MD of Open Source specialist and Odoo\n"
+"                    Mackintosh, MD of Open Source specialist and izi\n"
 "                    integration partner, OpusVL, explains. “The investment\n"
 "                    required to have a fully automated business system is\n"
 "                    dramatically reduced, enabling the small and medium\n"
 "                    enterprise to compete at a level of functionality and\n"
 "                    performance previously reserved for the big IT investors.\""
 msgstr ""
-"„Mit der neuesten Veröffentlichung von Odoo kann sich ein Unternehmen "
+"„Mit der neuesten Veröffentlichung von izi kann sich ein Unternehmen "
 "schneller als je zuvor vom Start bis zum Online-Handel entwickeln.“, teilt "
-"Stuart Mackintosh mit, MD des Open-Source-Spezialisten und Odoo-"
+"Stuart Mackintosh mit, MD des Open-Source-Spezialisten und izi-"
 "Integrationspartner, OpusVL. „Die erforderlichen Investitionen für ein voll "
 "automatisiertes Unternehmenssystem sind drastisch reduziert, wodurch kleine "
 "und mittlere Unternehmen hinsichtlich Funktionalität und Leistung auf dem "
@@ -85,11 +85,11 @@ msgstr ""
 #: model:blog.post,content:website_blog.blog_post_2
 msgid ""
 "\"This is another clever and highly disruptive move by\n"
-"                    Odoo,which will force other technology providers to\n"
+"                    izi,which will force other technology providers to\n"
 "                    take another look at the value they are providing to ensure\n"
 "                    that their 'solutions' can still compete.\""
 msgstr ""
-"„Dies ist ein weiterer äußerst smarter und ungewöhnlicher Zug von Odoo, der "
+"„Dies ist ein weiterer äußerst smarter und ungewöhnlicher Zug von izi, der "
 "andere Technologieanbieter dazu zwingt, sich die eigenen Angebote genauer "
 "anzusehen, damit deren 'Lösungen' weiter mithalten können.“"
 
@@ -164,10 +164,10 @@ msgstr ""
 msgid ""
 "A mix of push &amp; pull: Today, people\n"
 "                        are victims of what others decide to push to them.\n"
-"                        Odoo differentiates:"
+"                        izi differentiates:"
 msgstr ""
 "Eine Mischung von Push- und Pull-Faktoren: Heutzutage werden viele Menschen Opfer dessen, was andere für sie beschließen.\n"
-"Odoo unterscheidet:"
+"izi unterscheidet:"
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.blog_post_template_new_post
@@ -223,12 +223,12 @@ msgstr ""
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_1
 msgid ""
-"At Odoo, we build tools to bring productivity to\n"
+"At izi, we build tools to bring productivity to\n"
 "                    enterprises. As emails and information flows are one of\n"
 "                    the biggest wastes of time in companies, we have to fix\n"
 "                    this."
 msgstr ""
-"Wir bei Odoo entwickeln Werkzeuge für die höhere Produktivität von "
+"Wir bei izi entwickeln Werkzeuge für die höhere Produktivität von "
 "Unternehmen. Da E-Mail- und Informationsströme zu den zeitintensivsten "
 "Aspekten von Unternehmen gehören, kümmern wir uns darum."
 
@@ -474,13 +474,13 @@ msgstr ""
 #: model:blog.post,content:website_blog.blog_post_1
 msgid ""
 "Folders and mailing lists are great tools but too\n"
-"                        complex in traditional email clients. In Odoo, a\n"
+"                        complex in traditional email clients. In izi, a\n"
 "                        group of contacts that share a discussion can be\n"
 "                        created with one click. Every group should have it's\n"
 "                        own email address."
 msgstr ""
 "Ordner und Mailinglisten sind großartige Werkzeuge, jedoch zu komplex für "
-"herkömmliche E-Mail-Clients. Bei Odoo kann eine Gruppe von Kontakten für "
+"herkömmliche E-Mail-Clients. Bei izi kann eine Gruppe von Kontakten für "
 "eine Diskussion mit einem Klick erstellt werden. Jede Gruppe sollte eine "
 "eigene E-Mail-Adresse haben."
 
@@ -518,9 +518,9 @@ msgstr "Gruppieren nach"
 
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_1
-msgid "Here are the ideas behind the Odoo communication tools:"
+msgid "Here are the ideas behind the izi.asiamunication tools:"
 msgstr ""
-"Hier sind die Ideen, die hinter den Kommunikationswerkzeugen von Odoo "
+"Hier sind die Ideen, die hinter den Kommunikationswerkzeugen von izi "
 "stehen:"
 
 #. module: website_blog
@@ -552,8 +552,8 @@ msgstr "ID"
 
 #. module: website_blog
 #: model:blog.post,subtitle:website_blog.blog_post_1
-msgid "Ideas behind the Odoo communication tools."
-msgstr "Ideen hinter den Kommunikationswerkzeugen von Odoo."
+msgid "Ideas behind the izi.asiamunication tools."
+msgstr "Ideen hinter den Kommunikationswerkzeugen von izi."
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.latest_blogs
@@ -611,11 +611,11 @@ msgstr "Neueste Beiträge"
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_2
 msgid ""
-"Like many modern website editors, with Odoo you can edit\n"
+"Like many modern website editors, with izi you can edit\n"
 "                    content in-line, enabling you to see exactly what you are\n"
 "                    changing and ensure your changes suit the context."
 msgstr ""
-"Wie viele moderne Website-Editoren bietet Odoo die Möglichkeit zum Inline-Bearbeiten von Inhalten.\n"
+"Wie viele moderne Website-Editoren bietet izi die Möglichkeit zum Inline-Bearbeiten von Inhalten.\n"
 " So können Sie genau sehen, was Sie ändern und sichergehen, dass Ihre Änderungen dem Kontext entsprechen."
 
 #. module: website_blog
@@ -721,18 +721,18 @@ msgstr "Keine"
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_2
 msgid ""
-"Odoo claims to be 'the Open Source software that makes\n"
+"izi claims to be 'the Open Source software that makes\n"
 "                    building your company's website and selling your products\n"
 "                    online easy'. So how true is this statement?"
 msgstr ""
-"Odoo beansprucht, „die Open-Source-Software zu sein, mit der das Erstellen "
+"izi beansprucht, „die Open-Source-Software zu sein, mit der das Erstellen "
 "einer Unternehmens-Website und der Online-Verkauf von Produkten im "
 "Handumdrehen erfolgt“. Wie wahr ist diese Aussage?"
 
 #. module: website_blog
 #: model:blog.post,website_meta_keywords:website_blog.blog_post_1
-msgid "Odoo, email"
-msgstr "Odoo, E-Mail"
+msgid "izi, email"
+msgstr "izi, E-Mail"
 
 #. module: website_blog
 #. openerp-web
@@ -946,8 +946,8 @@ msgstr "Technisch"
 
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_1
-msgid "The Communication Mechanism of Odoo"
-msgstr "Der Kommunikationsmechanismus von Odoo"
+msgid "The Communication Mechanism of izi"
+msgstr "Der Kommunikationsmechanismus von izi"
 
 #. module: website_blog
 #: model:blog.post,name:website_blog.blog_post_1
@@ -991,11 +991,11 @@ msgstr "Titel"
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_2
 msgid ""
-"To add to an already comprehensive set of Odoo\n"
+"To add to an already comprehensive set of izi\n"
 "                features, a website content management system (CMS or WMS) has been developed and a beta release is\n"
 "                available from today, 31st January 2014."
 msgstr ""
-"Um den bereits umfassenden Katalog an Odoo-Funktionen zu erweitern, wurde "
+"Um den bereits umfassenden Katalog an izi-Funktionen zu erweitern, wurde "
 "ein Content-Management-System für Websites (CMS oder WMS) entwickelt und "
 "eine Beta-Version ab dem 31. Januar 2014 zur Verfügung gestellt."
 

@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 import base64
 import uuid
 
-from odoo import api, fields, models, tools, _
+from izi import api, fields, models, tools, _
 
-from odoo.modules.module import get_resource_path
+from izi.modules.module import get_resource_path
 
 RATING_LIMIT_SATISFIED = 7
 RATING_LIMIT_OK = 3

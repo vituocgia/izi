@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
-from odoo import api, fields, models, SUPERUSER_ID
-from odoo.http import request
-from odoo.tools import pycompat
+from izi import api, fields, models, SUPERUSER_ID
+from izi.http import request
+from izi.tools import pycompat
 
 
 class UtmMedium(models.Model):
@@ -52,9 +52,9 @@ class UtmMixin(models.AbstractModel):
         # methods of utm.mixin, but will ignore overridden method on crm.lead
         return [
             # ("URL_PARAMETER", "FIELD_NAME_MIXIN", "NAME_IN_COOKIES")
-            ('utm_campaign', 'campaign_id', 'odoo_utm_campaign'),
-            ('utm_source', 'source_id', 'odoo_utm_source'),
-            ('utm_medium', 'medium_id', 'odoo_utm_medium'),
+            ('utm_campaign', 'campaign_id', 'izi_utm_campaign'),
+            ('utm_source', 'source_id', 'izi_utm_source'),
+            ('utm_medium', 'medium_id', 'izi_utm_medium'),
         ]
 
     @api.model

@@ -1,4 +1,4 @@
-odoo.define('mail.Followers', function (require) {
+izi.define('mail.Followers', function (require) {
 "use strict";
 
 var AbstractField = require('web.AbstractField');

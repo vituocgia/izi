@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * website_sale
 # 
@@ -6,17 +6,17 @@
 # Frédéric LIETART <stuff@tifred.fr>, 2017
 # Maxime Chambreuil <mchambreuil@ursainfosystems.com>, 2017
 # Martin Trigaux, 2017
-# Clo <clo@odoo.com>, 2017
+# Clo <clo@izi.asia>, 2017
 # Sébastien Le Ray <sebastien-github@orniz.org>, 2017
-# Eloïse Stilmant <est@odoo.com>, 2017
+# Eloïse Stilmant <est@izi.asia>, 2017
 # Lucas Deliege <lud@openerp.com>, 2017
 # Miguel Vidali <mvidali129@gmail.com>, 2017
 # Florian Hatat, 2017
 # Fabrice Henrion, 2017
 # Olivier Lenoir <olivier.lenoir@free.fr>, 2017
-# Richard Mathot <rim@odoo.com>, 2017
+# Richard Mathot <rim@izi.asia>, 2017
 # lucasdeliege <deliegelucas@gmail.com>, 2017
-# lap.odoo <lap@odoo.com>, 2017
+# lap.izi <lap@izi.asia>, 2017
 # Xavier Belmere <Info@cartmeleon.com>, 2017
 # Cyrille de Lambert <cdelambert@auguria.net>, 2017
 # Shark McGnark <peculiarcheese@gmail.com>, 2017
@@ -27,11 +27,11 @@
 # Nancy Bolognesi <nb@microcom.ca>, 2017
 # Fabri Yohann <psn@fabri.pw>, 2017
 # Adriana Ierfino <adriana.ierfino@savoirfairelinux.com>, 2017
-# Chuck Fabry de Fabrègues <jfa@odoo.com>, 2017
-# Lucas Deliege <lud@odoo.com>, 2017
-# Fred Gilson <fgi@odoo.com>, 2017
+# Chuck Fabry de Fabrègues <jfa@izi.asia>, 2017
+# Lucas Deliege <lud@izi.asia>, 2017
+# Fred Gilson <fgi@izi.asia>, 2017
 # Xavier Symons <xsy@openerp.com>, 2017
-# Arthur Latour <arl@odoo.com>, 2017
+# Arthur Latour <arl@izi.asia>, 2017
 # Micky Jault <micky037@hotmail.fr>, 2017
 # Simon Maillard <simon@ogesta.fr>, 2017
 # Bertrand LATOUR <divoir@gmail.com>, 2017
@@ -41,8 +41,8 @@
 # Matillon Samantha <smatillon@gmail.com>, 2017
 # fr rev <e2ffr02@hotmail.com>, 2017
 # fr rev <e2ffr04@hotmail.com>, 2017
-# Melanie Bernard <mbe@odoo.com>, 2017
-# Quentin THEURET <odoo@kerpeo.com>, 2017
+# Melanie Bernard <mbe@izi.asia>, 2017
+# Quentin THEURET <izi@kerpeo.com>, 2017
 # Leo Schmitt <inactive+lschmitt@transifex.com>, 2017
 # François Honoré <chiendesenfers@outlook.be>, 2017
 # Léa Geffroy <geffroylea@gmail.com>, 2017
@@ -52,12 +52,12 @@
 # e2f <projects@e2f.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 13:43+0000\n"
 "PO-Revision-Date: 2018-02-19 13:43+0000\n"
 "Last-Translator: e2f <projects@e2f.com>, 2018\n"
-"Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
+"Language-Team: French (https://www.transifex.com/izi/teams/41243/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -289,10 +289,10 @@ msgstr ""
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid ""
 "<span class=\"fa fa-lightbulb-o fa-2x\"/>\n"
-"                                Everything is editable in your Odoo website. Feel free to edit any page title, field or button label. Simply hit *Edit* in upper-right corner to start editing the page."
+"                                Everything is editable in your izi website. Feel free to edit any page title, field or button label. Simply hit *Edit* in upper-right corner to start editing the page."
 msgstr ""
 "<span class=\"fa fa-lightbulb-o fa-2x\"/>\n"
-"                                Tout peut être modifié sur votre site Odoo. Éditez n'importe quel titre, intitulé de bouton ou de champ. Appuyez simplement sur *Éditer* en haut à droit pour commencer la modification de la page."
+"                                Tout peut être modifié sur votre site izi. Éditez n'importe quel titre, intitulé de bouton ou de champ. Appuyez simplement sur *Éditer* en haut à droit pour commencer la modification de la page."
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
@@ -737,8 +737,8 @@ msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
-msgid "<strong>See it in action in Odoo</strong><br/>"
-msgstr "<strong>Le voir en action sur Odoo</strong><br/>"
+msgid "<strong>See it in action in izi</strong><br/>"
+msgstr "<strong>Le voir en action sur izi</strong><br/>"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
@@ -1936,10 +1936,10 @@ msgstr "C'est fait pour iPad, c'est fait pour ipad mini. "
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid ""
 "If you deal with a major shipper (UPS, FedEx, DHL, etc.), activate the "
-"related connector in Odoo to compute accurate costs and print labels."
+"related connector in izi to compute accurate costs and print labels."
 msgstr ""
 "Si vous faites appel à un transporteur majeur (UPS, FedEx, DHL, etc.) "
-"activez le connecteur approprié dans Odoo pour obtenir un calcul des coûts "
+"activez le connecteur approprié dans izi pour obtenir un calcul des coûts "
 "précis et imprimer des étiquettes de transport."
 
 #. module: website_sale
@@ -3569,10 +3569,10 @@ msgstr ""
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid ""
-"To do so, take the most out of Odoo's <strong>pricing options</strong>:<br/>"
+"To do so, take the most out of izi's <strong>pricing options</strong>:<br/>"
 msgstr ""
 "Pour ce faire, profitez de toutes les <strong>options de "
-"tarification</strong> d'Odoo :<br/>"
+"tarification</strong> d'izi :<br/>"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.report_shop_saleorder_document
@@ -3779,10 +3779,10 @@ msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
-msgid "You can setup 3 types of <strong>payment acquirers in Odoo:</strong>"
+msgid "You can setup 3 types of <strong>payment acquirers in izi:</strong>"
 msgstr ""
 "Vous pouvez configurer trois types d'<strong>acquéreurs de paiement dans "
-"Odoo :</strong>"
+"izi :</strong>"
 
 #. module: website_sale
 #: model:ir.actions.act_window,help:website_sale.action_orders_ecommerce
@@ -3980,8 +3980,8 @@ msgstr "termes &amp; conditions"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
-msgid "use Odoo API to import through scripts"
-msgstr "utiliser l'API Odoo pour importer au travers de scripts"
+msgid "use izi API to import through scripts"
+msgstr "utiliser l'API izi pour importer au travers de scripts"
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_pricelist_website_id

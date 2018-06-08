@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 from ast import literal_eval
 
-from odoo import api, fields, models
-from odoo.exceptions import AccessDenied
+from izi import api, fields, models
+from izi.exceptions import AccessDenied
 
 
 class ResConfigSettings(models.TransientModel):

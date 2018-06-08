@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 import werkzeug
 
-from odoo import exceptions, fields, http, _
-from odoo.http import request
-from odoo.addons.portal.controllers.portal import get_records_pager
-from odoo.addons.sale.controllers.portal import CustomerPortal
-from odoo.addons.portal.controllers.mail import _message_post_helper
-from odoo.osv import expression
+from izi import exceptions, fields, http, _
+from izi.http import request
+from izi.addons.portal.controllers.portal import get_records_pager
+from izi.addons.sale.controllers.portal import CustomerPortal
+from izi.addons.portal.controllers.mail import _message_post_helper
+from izi.osv import expression
 
 
 class CustomerPortal(CustomerPortal):

@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 from collections import OrderedDict
 from operator import itemgetter
 
-from odoo import http, _
-from odoo.http import request
-from odoo.addons.portal.controllers.portal import get_records_pager, CustomerPortal, pager as portal_pager
-from odoo.tools import groupby as groupbyelem
+from izi import http, _
+from izi.http import request
+from izi.addons.portal.controllers.portal import get_records_pager, CustomerPortal, pager as portal_pager
+from izi.tools import groupby as groupbyelem
 
-from odoo.osv.expression import OR
+from izi.osv.expression import OR
 
 
 class CustomerPortal(CustomerPortal):

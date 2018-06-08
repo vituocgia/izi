@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * stock
 # 
@@ -10,12 +10,12 @@
 # Sergiu Baltariu <s_baltariu@yahoo.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 13:42+0000\n"
 "PO-Revision-Date: 2018-02-19 13:42+0000\n"
 "Last-Translator: Sergiu Baltariu <s_baltariu@yahoo.com>, 2017\n"
-"Language-Team: Romanian (https://www.transifex.com/odoo/teams/41243/ro/)\n"
+"Language-Team: Romanian (https://www.transifex.com/izi/teams/41243/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -122,8 +122,8 @@ msgstr ", dacă sunt instalate modulele de contabilitate sau achiziții"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
-msgid "- The Odoo Team"
-msgstr "- Echipa Odoo"
+msgid "- The izi Team"
+msgstr "- Echipa izi"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.stock_warn_insufficient_qty_form_view
@@ -138,74 +138,74 @@ msgstr ""
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
 "<span class=\"label label-default text-center "
-"odoo_purple\">'Available'</span>"
+"izi_purple\">'Available'</span>"
 msgstr ""
 "<span class=\"label label-default text-center "
-"odoo_purple\">'Disponibil'</span>"
+"izi_purple\">'Disponibil'</span>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"<span class=\"label label-default text-center odoo_purple\">Click on <span "
+"<span class=\"label label-default text-center izi_purple\">Click on <span "
 "class=\"fa fa-truck\"/> Delivery</span>"
 msgstr ""
-"<span class=\"label label-default text-center odoo_purple\">Clic pe <span "
+"<span class=\"label label-default text-center izi_purple\">Clic pe <span "
 "class=\"fa fa-truck\"/> Livrare</span>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"<span class=\"label label-default text-center odoo_purple\">Click on <span "
+"<span class=\"label label-default text-center izi_purple\">Click on <span "
 "class=\"fa fa-truck\"/> Shipment</span>"
 msgstr ""
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"<span class=\"label label-default text-center odoo_purple\">Confirm "
+"<span class=\"label label-default text-center izi_purple\">Confirm "
 "Order</span>"
 msgstr ""
-"<span class=\"label label-default text-center odoo_purple\">Confirmă "
+"<span class=\"label label-default text-center izi_purple\">Confirmă "
 "comanda</span>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"<span class=\"label label-default text-center odoo_purple\">Confirm "
+"<span class=\"label label-default text-center izi_purple\">Confirm "
 "Sale</span>"
 msgstr ""
-"<span class=\"label label-default text-center odoo_purple\">Confirmă "
+"<span class=\"label label-default text-center izi_purple\">Confirmă "
 "vânzarea</span>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"<span class=\"label label-default text-center odoo_purple\">Find Incoming "
+"<span class=\"label label-default text-center izi_purple\">Find Incoming "
 "Shipments</span>"
 msgstr ""
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"<span class=\"label label-default text-center odoo_purple\">Process the "
+"<span class=\"label label-default text-center izi_purple\">Process the "
 "products</span>"
 msgstr ""
-"<span class=\"label label-default text-center odoo_purple\">Procesați "
+"<span class=\"label label-default text-center izi_purple\">Procesați "
 "produsele</span>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"<span class=\"label label-default text-center odoo_purple\">Validate the "
+"<span class=\"label label-default text-center izi_purple\">Validate the "
 "Delivery</span>"
 msgstr ""
-"<span class=\"label label-default text-center odoo_purple\">Validați "
+"<span class=\"label label-default text-center izi_purple\">Validați "
 "livrarea </span>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"<span class=\"label label-default text-center odoo_purple\">Validate the "
+"<span class=\"label label-default text-center izi_purple\">Validate the "
 "Receipt Order</span>"
 msgstr ""
 
@@ -461,7 +461,7 @@ msgstr "<strong>Cantitate livrată</strong>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
-msgid "<strong>Enjoy your Inventory management with Odoo!</strong>"
+msgid "<strong>Enjoy your Inventory management with izi!</strong>"
 msgstr ""
 
 #. module: stock
@@ -1069,15 +1069,15 @@ msgstr "Prin număr serial unic"
 #, python-format
 msgid ""
 "By changing this quantity here, you accept the new quantity as complete: "
-"Odoo will not automatically generate a back order."
+"izi will not automatically generate a back order."
 msgstr ""
 "Prin schimbarea acestei cantități aici, acceptați noua cantitate ca fiind "
-"completă: Odoo nu va genera automat o restanță."
+"completă: izi nu va genera automat o restanță."
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"By default, Odoo measures products by 'units', which are generic and "
+"By default, izi measures products by 'units', which are generic and "
 "represent just about anything"
 msgstr ""
 
@@ -1906,14 +1906,14 @@ msgstr ""
 #: model:ir.actions.act_window,help:stock.action_location_form
 msgid ""
 "Define your locations to reflect your warehouse structure and\n"
-"            organization. Odoo is able to manage physical locations\n"
+"            organization. izi is able to manage physical locations\n"
 "            (warehouses, shelves, bin, etc), partner locations (customers,\n"
 "            vendors) and virtual locations which are the counterpart of\n"
 "            the stock operations like the manufacturing orders\n"
 "            consumptions, inventories, etc."
 msgstr ""
 "Definiți locațiile pentru a reflecta structura și organizația depozitului. "
-"Odoo este capabil să gestioneze locațiile fizice (depozite, rafturi, bin "
+"izi este capabil să gestioneze locațiile fizice (depozite, rafturi, bin "
 "etc.), locații partenere (clienți, furnizori) și locații virtuale care sunt "
 "contrapartida operațiunilor de stoc cum ar fi consumul de comenzi de "
 "producție, stocurile etc."
@@ -2257,14 +2257,14 @@ msgstr "Clienți europeni"
 #. module: stock
 #: model:ir.actions.act_window,help:stock.action_location_form
 msgid ""
-"Every stock operation in Odoo moves the products from one\n"
+"Every stock operation in izi moves the products from one\n"
 "            location to another one.  For instance, if you receive products\n"
-"            from a vendor, Odoo will move products from the Vendor\n"
+"            from a vendor, izi will move products from the Vendor\n"
 "            location to the Stock location. Each report can be performed on\n"
 "            physical, partner or virtual locations."
 msgstr ""
-"Fiecare operațiune de stocare din Odoo mută produsele de la o locație la "
-"alta. De exemplu, dacă primiți produse de la un furnizor, Odoo va muta "
+"Fiecare operațiune de stocare din izi mută produsele de la o locație la "
+"alta. De exemplu, dacă primiți produse de la un furnizor, izi va muta "
 "produsele din locația furnizorului în locația Stoc. Fiecare raport poate fi "
 "efectuat pe locații fizice, partenere sau virtuale."
 
@@ -2354,7 +2354,7 @@ msgstr "Grup aprovizionare fixat"
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"For the Odoo Team,<br/>\n"
+"For the izi Team,<br/>\n"
 "                            Fabien Pinckaers, Founder"
 msgstr ""
 
@@ -2730,7 +2730,7 @@ msgstr "Dacă ruta este globală"
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type_show_reserved
 msgid ""
-"If this checkbox is ticked, Odoo will show which products are reserved "
+"If this checkbox is ticked, izi will show which products are reserved "
 "(lot/serial number, source location, source package)."
 msgstr ""
 
@@ -2787,12 +2787,12 @@ msgstr ""
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"If you configured automatic procurement, Odoo automatically generates\n"
+"If you configured automatic procurement, izi automatically generates\n"
 "                        Procurements Orders. You usually don't need to worry about them, but\n"
 "                        sometimes the system can remain blocked without generating a\n"
 "                        corresponding document, usually due to a configuration problem."
 msgstr ""
-"Dacă ați configurat achiziții automate, Odoo generează automat comenzi de "
+"Dacă ați configurat achiziții automate, izi generează automat comenzi de "
 "achiziții. De obicei, nu trebuie să vă faceți griji, dar uneori sistemul "
 "poate rămâne blocat fără a genera un document corespunzător, de obicei "
 "datorită unei probleme de configurare"
@@ -2856,12 +2856,12 @@ msgstr ""
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"In Odoo, <strong>Reordering Rules</strong> are used to replenish your products.\n"
-"                        Odoo will automatically propose a procurement to buy new products if you are\n"
+"In izi, <strong>Reordering Rules</strong> are used to replenish your products.\n"
+"                        izi will automatically propose a procurement to buy new products if you are\n"
 "                        running out of stock."
 msgstr ""
-"În Odoo, <strong>Regulile de comandare</strong> sunt utilizate pentru reaproviziona produsele.\n"
-"Odoo va propune automat o aprovizionare de achiziție nouă dacă nu există stoc suficient."
+"În izi, <strong>Regulile de comandare</strong> sunt utilizate pentru reaproviziona produsele.\n"
+"izi va propune automat o aprovizionare de achiziție nouă dacă nu există stoc suficient."
 
 #. module: stock
 #: selection:stock.inventory,state:0
@@ -3239,11 +3239,11 @@ msgstr ""
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
 "It is also possible to import your initial inventory from an Excel or CSV file.\n"
-"                        If you want to do that, contact your Odoo project manager."
+"                        If you want to do that, contact your izi project manager."
 msgstr ""
 "De asemenea, este posibil să importați inventarul inițial dintr-un fișier "
 "Excel sau CSV. Dacă doriți să faceți acest lucru, contactați managerul de "
-"proiect Odoo."
+"proiect izi."
 
 #. module: stock
 #: code:addons/stock/models/stock_quant.py:254
@@ -3477,10 +3477,10 @@ msgstr ""
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"Like with the sales flow, Odoo inventory management is\n"
+"Like with the sales flow, izi inventory management is\n"
 "                        fully integrated with the purchase app."
 msgstr ""
-"Ca și fluxul de vânzări, managementul inventarului Odoo este pe deplin "
+"Ca și fluxul de vânzări, managementul inventarului izi este pe deplin "
 "integrat cu aplicația de achiziții."
 
 #. module: stock
@@ -3816,7 +3816,7 @@ msgstr "Diverse"
 #. module: stock
 #: model:ir.actions.act_window,help:stock.action_picking_tree
 msgid ""
-"Most operations are prepared automatically by Odoo according\n"
+"Most operations are prepared automatically by izi according\n"
 "                to your preconfigured logistics rules, but you can also record\n"
 "                manual stock movements."
 msgstr ""
@@ -4069,40 +4069,40 @@ msgstr "OK"
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"Odoo handles <strong>advanced push/pull routes configuration</strong>, for "
+"izi handles <strong>advanced push/pull routes configuration</strong>, for "
 "example:"
 msgstr ""
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
-msgid "Odoo has preconfigured <strong>one Warehouse</strong> for you."
-msgstr "Odoo a preconfigurat <strong>un depozit</strong> pentru tine."
+msgid "izi has preconfigured <strong>one Warehouse</strong> for you."
+msgstr "izi a preconfigurat <strong>un depozit</strong> pentru tine."
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"Odoo inventory management is fully integrated with sales and\n"
+"izi inventory management is fully integrated with sales and\n"
 "                        invoicing process. Everything is automated from the initial\n"
 "                        quotation to the delivery and the final invoice."
 msgstr ""
-"Managementul stocului din Odoo este pe deplin integrat cu procesul de "
+"Managementul stocului din izi este pe deplin integrat cu procesul de "
 "vânzare și facturare. Totul este automatizat de la oferta inițială până la "
 "livrare și factura finală."
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"Odoo is able to run advanced traceability by using Product Lots and Serial\n"
+"izi is able to run advanced traceability by using Product Lots and Serial\n"
 "                        Numbers, usually identified by bar codes stuck on the products."
 msgstr ""
-"Odoo este capabil să ruleze trasabilitate avansată prin utilizarea loturilor"
+"izi este capabil să ruleze trasabilitate avansată prin utilizarea loturilor"
 " de produse și numerelor de serie, identificate de obicei prin coduri de "
 "bare lipite pe produse."
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"Of course, feel free to add your own. Please note that Odoo is able to "
+"Of course, feel free to add your own. Please note that izi is able to "
 "convert units within the same category, for example, liters to gallons in "
 "the volume category"
 msgstr ""
@@ -6441,7 +6441,7 @@ msgstr ""
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"This guide helps getting started with Odoo Inventory.\n"
+"This guide helps getting started with izi Inventory.\n"
 "                        Once you are done, you will benefit from:"
 msgstr ""
 
@@ -7149,25 +7149,25 @@ msgstr "Atenționări"
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
 "We handle the whole import process\n"
-"                                        for you: simply send your Odoo project\n"
+"                                        for you: simply send your izi project\n"
 "                                        manager a CSV file containing all your\n"
 "                                        data."
 msgstr ""
 "Ne ocupăm de întregul proces de import: trimiteți managerului de proiecte "
-"Odoo un fișier CSV care conține toate datele."
+"izi un fișier CSV care conține toate datele."
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
 "We handle the whole import process\n"
-"                                        for you: simply send your Odoo project\n"
+"                                        for you: simply send your izi project\n"
 "                                        manager a CSV file containing all your\n"
 "                                        products."
 msgstr ""
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
-msgid "We hope this guide helped you implement Odoo Inventory."
+msgid "We hope this guide helped you implement izi Inventory."
 msgstr ""
 
 #. module: stock
@@ -7241,31 +7241,31 @@ msgstr ""
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint_product_min_qty
 msgid ""
 "When the virtual stock goes below the Min Quantity specified for this field,"
-" Odoo generates a procurement to bring the forecasted quantity to the Max "
+" izi generates a procurement to bring the forecasted quantity to the Max "
 "Quantity."
 msgstr ""
 "În cazul în care stocul prognozat scade sub cantitate minimă specificată în "
-"acest câmp, Odoo generează o aprovizionare pentru a aduce cantitatea "
+"acest câmp, izi generează o aprovizionare pentru a aduce cantitatea "
 "prognozată la cantitatea Max."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint_product_max_qty
 msgid ""
-"When the virtual stock goes below the Min Quantity, Odoo generates a "
+"When the virtual stock goes below the Min Quantity, izi generates a "
 "procurement to bring the forecasted quantity to the Quantity specified as "
 "Max Quantity."
 msgstr ""
-"În cazul în care stocul prognozat scade sub cantitate minimă,  Odoo "
+"În cazul în care stocul prognozat scade sub cantitate minimă,  izi "
 "generează o aprovizionare pentru a aduce cantitatea prognozată la cantitatea"
 " specificată ca maximă."
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_procurement_compute_wizard
 msgid ""
-"When you run the schedulers, Odoo tries to reserve the available stock to fulfill the existing pickings\n"
+"When you run the schedulers, izi tries to reserve the available stock to fulfill the existing pickings\n"
 "                and verify if some reordering rules should be triggered."
 msgstr ""
-"Când rulați planificarea, Odoo încearcă să rezerve stocul disponibil pentru "
+"Când rulați planificarea, izi încearcă să rezerve stocul disponibil pentru "
 "a îndeplini operațiunile existente și pentru a verifica dacă ar trebui "
 "declanșate anumite reguli de reordonare."
 
@@ -7326,17 +7326,17 @@ msgstr ""
 #. module: stock
 #: model:ir.actions.act_window,help:stock.action_orderpoint_form
 msgid ""
-"You can define your minimum stock rules, so that Odoo will automatically "
+"You can define your minimum stock rules, so that izi will automatically "
 "create draft manufacturing orders or request for quotations according to the"
 " stock level. Once the virtual stock of a product (= stock on hand minus all"
-" confirmed orders and reservations) is below the minimum quantity, Odoo will"
+" confirmed orders and reservations) is below the minimum quantity, izi will"
 " generate a procurement request to increase the stock up to the maximum "
 "quantity."
 msgstr ""
-"Puteți defini regulile minime de stoc, astfel încât Odoo va crea în mod "
+"Puteți defini regulile minime de stoc, astfel încât izi va crea în mod "
 "automat comenzi de producție sau cereri de ofertă în funcție de nivelul "
 "stocului. Odată ce stocul virtual al unui produs (= stoc în mână minus toate"
-" comenzile și rezervările confirmate) este sub cantitatea minimă, Odoo va "
+" comenzile și rezervările confirmate) este sub cantitatea minimă, izi va "
 "genera o cerere de achiziție pentru a crește stocul până la cantitatea "
 "maximă."
 
@@ -7557,10 +7557,10 @@ msgstr ""
 #: model:ir.ui.view,arch_db:stock.view_immediate_transfer
 msgid ""
 "You haven't entered <i>done</i> quantities, by clicking on <i>apply</i>\n"
-"                        Odoo will process all the <i>reserved</i> quantities."
+"                        izi will process all the <i>reserved</i> quantities."
 msgstr ""
 "Nu ați introdus cantitățile <i>efectuate</i>, făcând clic pe <i>Aplică</i> "
-"Odoo va procesa toate cantitățile <i>rezervate</i>."
+"izi va procesa toate cantitățile <i>rezervate</i>."
 
 #. module: stock
 #: code:addons/stock/wizard/stock_picking_return.py:44
@@ -7698,25 +7698,25 @@ msgstr "de exemplu PO0032"
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
 "either by manually updating the Done quantity on the product lines, or let "
-"Odoo do it automatically while validating"
+"izi do it automatically while validating"
 msgstr ""
 "fie prin actualizarea manuală a cantității efectuate pe liniile de produse, "
-"fie lăsându-l pe Odoo să o facă automat în timpul validării"
+"fie lăsându-l pe izi să o facă automat în timpul validării"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
 "either by manually updating the Done quantity on the product lines, or scan "
-"them with the Odoo Barcode app, or let Odoo do it automatically while "
+"them with the izi Barcode app, or let izi do it automatically while "
 "validating"
 msgstr ""
 "fie prin actualizarea manuală a cantității efectuate pe liniile de produse, "
-"fie lăsându-l pe Odoo să o facă automat în timpul validării"
+"fie lăsându-l pe izi să o facă automat în timpul validării"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
-msgid "feedback@mail.odoo.com"
-msgstr "feedback@mail.odoo.com"
+msgid "feedback@mail.izi.asia"
+msgstr "feedback@mail.izi.asia"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner

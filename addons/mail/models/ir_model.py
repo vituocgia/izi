@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
-from odoo import _, api, fields, models
-from odoo.exceptions import UserError
-from odoo.tools import pycompat
+from izi import _, api, fields, models
+from izi.exceptions import UserError
+from izi.tools import pycompat
 
 
 class IrModel(models.Model):

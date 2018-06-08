@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'Point of Sale Receipt Reprinting',
@@ -21,5 +21,5 @@ Allow cashier to reprint receipts
         'static/src/xml/reprint.xml',
     ],
     'installable': True,
-    'website': 'https://www.odoo.com/page/point-of-sale',
+    'website': 'https://www.izi.asia/page/point-of-sale',
 }

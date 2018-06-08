@@ -1,6 +1,6 @@
 Turkey, 2017-12-05
 
-Projet Yazilim Ve Danismanlik AS agrees to the terms of the Odoo Corporate Contributor License
+Projet Yazilim Ve Danismanlik AS agrees to the terms of the izi Corporate Contributor License
 Agreement v1.0.
 
 I declare that I am authorized and able to make this agreement and sign this

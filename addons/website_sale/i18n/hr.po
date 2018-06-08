@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * website_sale
 # 
@@ -15,12 +15,12 @@
 # Mario Jureša <mario.juresa@uvid.hr>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 13:43+0000\n"
 "PO-Revision-Date: 2018-02-19 13:43+0000\n"
 "Last-Translator: Mario Jureša <mario.juresa@uvid.hr>, 2017\n"
-"Language-Team: Croatian (https://www.transifex.com/odoo/teams/41243/hr/)\n"
+"Language-Team: Croatian (https://www.transifex.com/izi/teams/41243/hr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -213,10 +213,10 @@ msgstr ""
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid ""
 "<span class=\"fa fa-lightbulb-o fa-2x\"/>\n"
-"                                Everything is editable in your Odoo website. Feel free to edit any page title, field or button label. Simply hit *Edit* in upper-right corner to start editing the page."
+"                                Everything is editable in your izi website. Feel free to edit any page title, field or button label. Simply hit *Edit* in upper-right corner to start editing the page."
 msgstr ""
 "<span class=\"fa fa-lightbulb-o fa-2x\"/>\n"
-"Sve se može urediti na Vašoj Odoo web stranici. Slobodno uredite bilo koji naslov stranice, polje ili natpis na gumbu. Samo kliknite *Uredi* u gornjem desnom kutu kako biste započeli uređivanje stranice."
+"Sve se može urediti na Vašoj izi web stranici. Slobodno uredite bilo koji naslov stranice, polje ili natpis na gumbu. Samo kliknite *Uredi* u gornjem desnom kutu kako biste započeli uređivanje stranice."
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
@@ -634,8 +634,8 @@ msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
-msgid "<strong>See it in action in Odoo</strong><br/>"
-msgstr "<strong>Pogledajte u akciji u Odoo</strong><br/>"
+msgid "<strong>See it in action in izi</strong><br/>"
+msgstr "<strong>Pogledajte u akciji u izi</strong><br/>"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
@@ -1750,7 +1750,7 @@ msgstr ""
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid ""
 "If you deal with a major shipper (UPS, FedEx, DHL, etc.), activate the "
-"related connector in Odoo to compute accurate costs and print labels."
+"related connector in izi to compute accurate costs and print labels."
 msgstr ""
 
 #. module: website_sale
@@ -3284,7 +3284,7 @@ msgstr ""
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid ""
-"To do so, take the most out of Odoo's <strong>pricing options</strong>:<br/>"
+"To do so, take the most out of izi's <strong>pricing options</strong>:<br/>"
 msgstr ""
 
 #. module: website_sale
@@ -3485,7 +3485,7 @@ msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
-msgid "You can setup 3 types of <strong>payment acquirers in Odoo:</strong>"
+msgid "You can setup 3 types of <strong>payment acquirers in izi:</strong>"
 msgstr ""
 
 #. module: website_sale
@@ -3674,8 +3674,8 @@ msgstr "Odredbe &amp; uvjeti"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
-msgid "use Odoo API to import through scripts"
-msgstr "koristite Odoo API za unos preko skripti"
+msgid "use izi API to import through scripts"
+msgstr "koristite izi API za unos preko skripti"
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_pricelist_website_id

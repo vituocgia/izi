@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * hr
 # 
@@ -26,12 +26,12 @@
 # aNj <anj2j@yahoo.de>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 13:43+0000\n"
 "PO-Revision-Date: 2018-02-19 13:43+0000\n"
 "Last-Translator: aNj <anj2j@yahoo.de>, 2018\n"
-"Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
+"Language-Team: German (https://www.transifex.com/izi/teams/41243/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -349,8 +349,8 @@ msgstr "Definieren Sie eine klare Kommunikationsstrategie"
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_consultant
-msgid "Deliver generic Odoo functional training sessions"
-msgstr "Allgemein funktionale Schulungen zu Odoo liefern"
+msgid "Deliver generic izi functional training sessions"
+msgstr "Allgemein funktionale Schulungen zu izi liefern"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_department_id
@@ -872,11 +872,11 @@ msgstr "Anzahl geplanter Einstellungen."
 #. module: hr
 #: model:ir.actions.act_window,help:hr.open_module_tree_department
 msgid ""
-"Odoo's department structure is used to manage all documents\n"
+"izi's department structure is used to manage all documents\n"
 "                related to employees by departments: expenses, timesheets,\n"
 "                leaves, recruitments, etc."
 msgstr ""
-"Die Abteilungsstruktur von Odoo dient dazu, alle Dokumente\n"
+"Die Abteilungsstruktur von izi dient dazu, alle Dokumente\n"
 "der Mitarbeiter der Abteilungen Ausgaben, Zeiterfassungen,\n"
 "Urlaub, Neueinstellungen, etc. zu verwalten."
 
@@ -1329,11 +1329,11 @@ msgstr "Wird Bericht erstatten an den Bereichsleiter Kundenservice"
 #: model:ir.actions.act_window,help:hr.act_employee_from_department
 #: model:ir.actions.act_window,help:hr.open_view_employee_list_my
 msgid ""
-"With just a quick glance on the Odoo employee screen, you\n"
+"With just a quick glance on the izi employee screen, you\n"
 "                can easily find all the information you need for each person;\n"
 "                contact data, job position, availability, etc."
 msgstr ""
-"Mit einem kurzen Blick auf die Mitarbeiterseite in Odoo, können\n"
+"Mit einem kurzen Blick auf die Mitarbeiterseite in izi, können\n"
 "Sie einfach alle Informationen zu allen Personen, mit Ihren Kontaktdaten,\n"
 "Stellenbezeichnungen, Verfügbarkeiten, Ausbildung etc. einsehen."
 

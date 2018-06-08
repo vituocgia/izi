@@ -1,22 +1,22 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * hr
 # 
 # Translators:
 # Yenthe Van Ginneken <yenthespam@gmail.com>, 2017
-# Erwin van der Ploeg <erwin@odooexperts.nl>, 2017
+# Erwin van der Ploeg <erwin@iziexperts.nl>, 2017
 # Martin Trigaux, 2017
 # Cas Vissers <casvissers@brahoo.nl>, 2017
 # Eric Geens <ericgeens@yahoo.com>, 2017
 # Pol Van Dingenen <pol.vandingenen@vanroey.be>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 13:43+0000\n"
 "PO-Revision-Date: 2018-02-19 13:43+0000\n"
 "Last-Translator: Pol Van Dingenen <pol.vandingenen@vanroey.be>, 2017\n"
-"Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
+"Language-Team: Dutch (https://www.transifex.com/izi/teams/41243/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -333,8 +333,8 @@ msgstr "Definieer een heldere communicatie strategie"
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_consultant
-msgid "Deliver generic Odoo functional training sessions"
-msgstr "Lever generieke functionele trainingssessies over Odoo"
+msgid "Deliver generic izi functional training sessions"
+msgstr "Lever generieke functionele trainingssessies over izi"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_department_id
@@ -858,11 +858,11 @@ msgstr "Verwachte aantal te werven nieuwe werknemers."
 #. module: hr
 #: model:ir.actions.act_window,help:hr.open_module_tree_department
 msgid ""
-"Odoo's department structure is used to manage all documents\n"
+"izi's department structure is used to manage all documents\n"
 "                related to employees by departments: expenses, timesheets,\n"
 "                leaves, recruitments, etc."
 msgstr ""
-"Odoo's afdelingen structuur is gebruikt om alle documenten te beheren\n"
+"izi's afdelingen structuur is gebruikt om alle documenten te beheren\n"
 "die gerelateerd zijn aan werknemers per afdeling: declaraties, urenstaten,\n"
 "verloven, vacatures, etc.."
 
@@ -1311,11 +1311,11 @@ msgstr "Rapporteert aan het hoofd van professionele diensten"
 #: model:ir.actions.act_window,help:hr.act_employee_from_department
 #: model:ir.actions.act_window,help:hr.open_view_employee_list_my
 msgid ""
-"With just a quick glance on the Odoo employee screen, you\n"
+"With just a quick glance on the izi employee screen, you\n"
 "                can easily find all the information you need for each person;\n"
 "                contact data, job position, availability, etc."
 msgstr ""
-"Met slechts een snelle blik op het Odoo werknemer scherm kan u\n"
+"Met slechts een snelle blik op het izi werknemer scherm kan u\n"
 "gemakkelijk alle informatie vinden die u nodig heeft voor elke persoon;\n"
 "contact data, functie, beschikbaarheid, enz."
 

@@ -1,4 +1,4 @@
-odoo.define('web.planner.common', function (require) {
+izi.define('web.planner.common', function (require) {
 "use strict";
 
 var core = require('web.core');
@@ -375,7 +375,7 @@ var PlannerDialog = Dialog.extend({
                         args: [[["share", "=", false]]],
                     })
                     .then(function (data) {
-                        window.location = "https://www.odoo.com/odoo-enterprise/upgrade?utm_medium=community_upgrade&num_users=" + data;
+                        window.location = "https://www.izi.asia/izi-enterprise/upgrade?utm_medium=community_upgrade&num_users=" + data;
                     });
             },
         }, {
@@ -388,7 +388,7 @@ var PlannerDialog = Dialog.extend({
             $content: $('<div>', {
                 html: QWeb.render('EnterpriseUpgrade'),
             }),
-            title: _t("Odoo Enterprise"),
+            title: _t("izi Enterprise"),
         }).open();
 
         return dialog;

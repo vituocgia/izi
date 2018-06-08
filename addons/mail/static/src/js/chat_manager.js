@@ -1,4 +1,4 @@
-odoo.define('mail.chat_manager', function (require) {
+izi.define('mail.chat_manager', function (require) {
 "use strict";
 
 var bus = require('bus.bus').bus;
@@ -17,7 +17,7 @@ var _t = core._t;
 var _lt = core._lt;
 var LIMIT = 25;
 var preview_msg_max_size = 350;  // optimal for native english speakers
-var ODOOBOT_ID = "ODOOBOT";
+var iziBOT_ID = "iziBOT";
 
 // Private model
 //----------------------------------------------------------------------------------
@@ -48,7 +48,7 @@ bus.on("window_focus", null, function() {
 });
 
 function notify_incoming_message (msg, options) {
-    if (bus.is_odoo_focused() && options.is_displayed) {
+    if (bus.is_izi_focused() && options.is_displayed) {
         // no need to notify
         return;
     }
@@ -58,7 +58,7 @@ function notify_incoming_message (msg, options) {
     }
     var content = utils.parse_and_transform(msg.body, utils.strip_html).substr(0, preview_msg_max_size);
 
-    if (!bus.is_odoo_focused()) {
+    if (!bus.is_izi_focused()) {
         global_unread_counter++;
         var tab_title = _.str.sprintf(_t("%d Messages"), global_unread_counter);
         web_client.set_title_part("_chat", tab_title);
@@ -202,17 +202,17 @@ function make_message (data) {
     if ((!msg.author_id || !msg.author_id[0]) && msg.email_from) {
         msg.mailto = msg.email_from;
     } else {
-        msg.displayed_author = (msg.author_id === ODOOBOT_ID) && "OdooBot" ||
+        msg.displayed_author = (msg.author_id === iziBOT_ID) && "iziBot" ||
                                msg.author_id && msg.author_id[1] ||
                                msg.email_from || _t('Anonymous');
     }
 
-    // Don't redirect on author clicked of self-posted or OdooBot messages
-    msg.author_redirect = !msg.is_author && msg.author_id !== ODOOBOT_ID;
+    // Don't redirect on author clicked of self-posted or iziBot messages
+    msg.author_redirect = !msg.is_author && msg.author_id !== iziBOT_ID;
 
     // Compute the avatar_url
-    if (msg.author_id === ODOOBOT_ID) {
-        msg.avatar_src = "/mail/static/src/img/odoo_o.png";
+    if (msg.author_id === iziBOT_ID) {
+        msg.avatar_src = "/mail/static/src/img/izi_o.png";
     } else if (msg.author_id && msg.author_id[0]) {
         msg.avatar_src = "/web/image/res.partner/" + msg.author_id[0] + "/image_small";
     } else if (msg.message_type === 'email') {
@@ -616,7 +616,7 @@ function on_presence_notification (data) {
 function on_transient_message_notification (data) {
     var last_message = _.last(messages);
     data.id = (last_message ? last_message.id : 0) + 0.01;
-    data.author_id = data.author_id || ODOOBOT_ID;
+    data.author_id = data.author_id || iziBOT_ID;
     add_message(data);
 }
 

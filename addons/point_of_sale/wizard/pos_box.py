@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
-from odoo import api, _
-from odoo.exceptions import UserError
+from izi import api, _
+from izi.exceptions import UserError
 
-from odoo.addons.account.wizard.pos_box import CashBox
+from izi.addons.account.wizard.pos_box import CashBox
 
 
 class PosBox(CashBox):

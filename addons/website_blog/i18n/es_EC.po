@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * website_blog
 #
@@ -7,12 +7,12 @@
 # Rick Hunter <rick_hunter_ec@yahoo.com>, 2015-2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo 9.0\n"
+"Project-Id-Version: izi 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-24 09:00+0000\n"
 "PO-Revision-Date: 2016-02-22 05:00+0000\n"
 "Last-Translator: Rick Hunter <rick_hunter_ec@yahoo.com>\n"
-"Language-Team: Spanish (Ecuador) (http://www.transifex.com/odoo/odoo-9/"
+"Language-Team: Spanish (Ecuador) (http://www.transifex.com/izi/izi-9/"
 "language/es_EC/)\n"
 "Language: es_EC\n"
 "MIME-Version: 1.0\n"
@@ -32,7 +32,7 @@ msgstr ""
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_2
 msgid ""
-"\"Odoo now competes on many fronts, with no real\n"
+"\"izi now competes on many fronts, with no real\n"
 "                    competition out there to knock them off the top spot.\n"
 "                    With the launch of their integrated CMS and Ecommerce\n"
 "                    systems,it only elevates their position as one of the "
@@ -48,10 +48,10 @@ msgstr ""
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_2
 msgid ""
-"\"Odoo's latest launch will allow a business to go from\n"
+"\"izi's latest launch will allow a business to go from\n"
 "                    zero to trading online quicker than ever before,” "
 "Stuart\n"
-"                    Mackintosh, MD of Open Source specialist and Odoo\n"
+"                    Mackintosh, MD of Open Source specialist and izi\n"
 "                    integration partner, OpusVL, explains. “The investment\n"
 "                    required to have a fully automated business system is\n"
 "                    dramatically reduced, enabling the small and medium\n"
@@ -64,7 +64,7 @@ msgstr ""
 #: model:blog.post,content:website_blog.blog_post_2
 msgid ""
 "\"This is another clever and highly disruptive move by\n"
-"                    Odoo,which will force other technology providers to\n"
+"                    izi,which will force other technology providers to\n"
 "                    take another look at the value they are providing to "
 "ensure\n"
 "                    that their 'solutions' can still compete.\""
@@ -130,7 +130,7 @@ msgstr ""
 msgid ""
 "A mix of push &amp; pull: Today, people\n"
 "                        are victims of what others decide to push to them.\n"
-"                        Odoo differentiates:"
+"                        izi differentiates:"
 msgstr ""
 
 #. module: website_blog
@@ -186,7 +186,7 @@ msgstr ""
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_1
 msgid ""
-"At Odoo, we build tools to bring productivity to\n"
+"At izi, we build tools to bring productivity to\n"
 "                    enterprises. As emails and information flows are one of\n"
 "                    the biggest wastes of time in companies, we have to fix\n"
 "                    this."
@@ -429,7 +429,7 @@ msgstr ""
 #: model:blog.post,content:website_blog.blog_post_1
 msgid ""
 "Folders and mailing lists are great tools but too\n"
-"                        complex in traditional email clients. In Odoo, a\n"
+"                        complex in traditional email clients. In izi, a\n"
 "                        group of contacts that share a discussion can be\n"
 "                        created with one click. Every group should have "
 "it's\n"
@@ -468,7 +468,7 @@ msgstr "Agrupar por"
 
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_1
-msgid "Here are the ideas behind the Odoo communication tools:"
+msgid "Here are the ideas behind the izi.asiamunication tools:"
 msgstr ""
 
 #. module: website_blog
@@ -497,8 +497,8 @@ msgstr "ID (identificación)"
 
 #. module: website_blog
 #: model:blog.post,subtitle:website_blog.blog_post_1
-msgid "Ideas behind the Odoo communication tools."
-msgstr "Ideas detrás de las herramientas de comunicación Odoo."
+msgid "Ideas behind the izi.asiamunication tools."
+msgstr "Ideas detrás de las herramientas de comunicación izi."
 
 #. module: website_blog
 #: model:ir.ui.view,arch_db:website_blog.latest_blogs
@@ -554,7 +554,7 @@ msgstr "Entradas más recientes"
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_2
 msgid ""
-"Like many modern website editors, with Odoo you can edit\n"
+"Like many modern website editors, with izi you can edit\n"
 "                    content in-line, enabling you to see exactly what you "
 "are\n"
 "                    changing and ensure your changes suit the context."
@@ -662,7 +662,7 @@ msgstr "Ninguno"
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_2
 msgid ""
-"Odoo claims to be 'the Open Source software that makes\n"
+"izi claims to be 'the Open Source software that makes\n"
 "                    building your company's website and selling your "
 "products\n"
 "                    online easy'. So how true is this statement?"
@@ -670,8 +670,8 @@ msgstr ""
 
 #. module: website_blog
 #: model:blog.post,website_meta_keywords:website_blog.blog_post_1
-msgid "Odoo, email"
-msgstr "Odoo, correo electrónico"
+msgid "izi, email"
+msgstr "izi, correo electrónico"
 
 #. module: website_blog
 #. openerp-web
@@ -870,7 +870,7 @@ msgstr "Técnico"
 
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_1
-msgid "The Communication Mechanism of Odoo"
+msgid "The Communication Mechanism of izi"
 msgstr ""
 
 #. module: website_blog
@@ -915,7 +915,7 @@ msgstr "Título"
 #. module: website_blog
 #: model:blog.post,content:website_blog.blog_post_2
 msgid ""
-"To add to an already comprehensive set of Odoo\n"
+"To add to an already comprehensive set of izi\n"
 "                features, a website content management system (CMS or WMS) "
 "has been developed and a beta release is\n"
 "                available from today, 31st January 2014."

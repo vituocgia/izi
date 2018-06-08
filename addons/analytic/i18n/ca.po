@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * analytic
 # 
@@ -6,15 +6,15 @@
 # Quim - eccit <quim@eccit.com>, 2017
 # Sandra Franch <sandra.franch@upc.edu>, 2018
 # Martin Trigaux, 2018
-# RGB Consulting <odoo@rgbconsulting.com>, 2018
+# RGB Consulting <izi@rgbconsulting.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: izi Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-20 09:53+0000\n"
 "PO-Revision-Date: 2017-09-20 09:53+0000\n"
-"Last-Translator: RGB Consulting <odoo@rgbconsulting.com>, 2018\n"
-"Language-Team: Catalan (https://www.transifex.com/odoo/teams/41243/ca/)\n"
+"Last-Translator: RGB Consulting <izi@rgbconsulting.com>, 2018\n"
+"Language-Team: Catalan (https://www.transifex.com/izi/teams/41243/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -241,11 +241,11 @@ msgstr ""
 #: model:ir.actions.act_window,help:analytic.account_analytic_line_action
 #: model:ir.actions.act_window,help:analytic.account_analytic_line_action_entries
 msgid ""
-"In Odoo, sales orders and projects are implemented using\n"
+"In izi, sales orders and projects are implemented using\n"
 "                analytic accounts. You can track costs and revenues to analyse\n"
 "                your margins easily."
 msgstr ""
-"En Odoo, les comandes de venda i els projectes s'implementaran utilitzant "
+"En izi, les comandes de venda i els projectes s'implementaran utilitzant "
 "comptes analítiques. Pot realitzar seguiment dels costos i ingressos per "
 "analitzar els seus marges fàcilment."
 

@@ -1,0 +1,14 @@
+[Unit]
+Description=izi Open Source ERP and CRM
+After=network.target
+
+[Service]
+Type=simple
+User=izi
+Group=izi
+ExecStart=/usr/bin/izi --config /etc/izi/izi.conf --logfile /var/log/izi/izi-server.log
+KillMode=mixed
+
+[Install]
+WantedBy=multi-user.target
+

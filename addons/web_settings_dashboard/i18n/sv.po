@@ -1,20 +1,20 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * web_settings_dashboard
 # 
 # Translators:
 # Patrik Lermon <patrik.lermon@gmail.com>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux <mat@izi.asia>, 2017
 # Anders Wallenquist <anders.wallenquist@vertel.se>, 2017
 # Kristoffer Grundström <kristoffer.grundstrom1983@gmail.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: izi Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-20 09:54+0000\n"
 "PO-Revision-Date: 2017-09-20 09:54+0000\n"
 "Last-Translator: Kristoffer Grundström <kristoffer.grundstrom1983@gmail.com>, 2017\n"
-"Language-Team: Swedish (https://www.transifex.com/odoo/teams/41243/sv/)\n"
+"Language-Team: Swedish (https://www.transifex.com/izi/teams/41243/sv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -119,8 +119,8 @@ msgstr "Mata in e-postadresser (en per rad)"
 #. openerp-web
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:100
 #, python-format
-msgid "Follow these implementation guides to get the most out of Odoo."
-msgstr "Följ dessa implementeringsguider för att få ut mesta möjliga av Odoo."
+msgid "Follow these implementation guides to get the most out of izi."
+msgstr "Följ dessa implementeringsguider för att få ut mesta möjliga av izi."
 
 #. module: web_settings_dashboard
 #. openerp-web
@@ -140,9 +140,9 @@ msgstr "Få fler funktioner med Enterprise Edition!"
 #. openerp-web
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:140
 #, python-format
-msgid "Help us spread the word: Share Odoo's awesomeness with your friends!"
+msgid "Help us spread the word: Share izi's awesomeness with your friends!"
 msgstr ""
-"Hjälp oss att sprida ordet: Dela Odoos förträfflighet med dina vänner!"
+"Hjälp oss att sprida ordet: Dela izis förträfflighet med dina vänner!"
 
 #. module: web_settings_dashboard
 #. openerp-web
@@ -204,22 +204,22 @@ msgstr "Inga appar installerade"
 #. openerp-web
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:155
 #, python-format
-msgid "Odoo"
-msgstr "Odoo"
+msgid "izi"
+msgstr "izi"
 
 #. module: web_settings_dashboard
 #. openerp-web
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:186
 #, python-format
-msgid "Odoo Enterprise"
-msgstr "Odoo Enterprise"
+msgid "izi Enterprise"
+msgstr "izi Enterprise"
 
 #. module: web_settings_dashboard
 #. openerp-web
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:163
 #, python-format
-msgid "Odoo S.A."
-msgstr "Odoo S.A."
+msgid "izi S.A."
+msgstr "izi S.A."
 
 #. module: web_settings_dashboard
 #. openerp-web

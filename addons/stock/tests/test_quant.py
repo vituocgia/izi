@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 from datetime import datetime, timedelta
 
-from odoo.exceptions import ValidationError
-from odoo.tests.common import TransactionCase
-from odoo.exceptions import AccessError, UserError
+from izi.exceptions import ValidationError
+from izi.tests.common import TransactionCase
+from izi.exceptions import AccessError, UserError
 
 
 class StockQuant(TransactionCase):
@@ -777,7 +777,7 @@ class StockQuant(TransactionCase):
         self.assertEqual(len(quant), 1)
         self.assertEqual(quant.quantity, 1)
         self.assertEqual(quant.lot_id.id, lot1.id)
-        from odoo.fields import Datetime
+        from izi.fields import Datetime
         self.assertEqual(quant.in_date, Datetime.to_string(in_date1))
 
         in_date2 = datetime.now() - timedelta(days=5)

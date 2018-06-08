@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * purchase
 # 
@@ -9,12 +9,12 @@
 # Umur Akın <umura@projetgrup.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-27 14:51+0000\n"
 "PO-Revision-Date: 2018-04-27 14:51+0000\n"
 "Last-Translator: Umur Akın <umura@projetgrup.com>, 2018\n"
-"Language-Team: Turkish (https://www.transifex.com/odoo/teams/41243/tr/)\n"
+"Language-Team: Turkish (https://www.transifex.com/izi/teams/41243/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -198,7 +198,7 @@ msgid ""
 "                      </tr>\n"
 "                      <tr>\n"
 "                        <td align=\"center\">\n"
-"                            Powered by <a href=\"https://www.odoo.com\">Odoo</a>.\n"
+"                            Powered by <a href=\"https://www.izi.asia\">izi</a>.\n"
 "                        </td>\n"
 "                      </tr>\n"
 "                    </tbody>\n"
@@ -1022,9 +1022,9 @@ msgstr "Aylık Satınalmalar"
 #: model:ir.actions.act_window,help:purchase.purchase_rfq
 msgid ""
 "Most propositions of purchase orders are created automatically\n"
-"                by Odoo based on inventory needs."
+"                by izi based on inventory needs."
 msgstr ""
-"Satın alma taleplerinin çoğu öneri olarak stok ihtiyaçlarına göre Odoo "
+"Satın alma taleplerinin çoğu öneri olarak stok ihtiyaçlarına göre izi "
 "tarafından otomatik oluşturulur."
 
 #. module: purchase
@@ -2015,11 +2015,11 @@ msgstr "Vergi Hariç Tutar"
 msgid ""
 "Use this menu to control the invoices to be received from your\n"
 "            vendors. When registering a new bill, set the purchase order\n"
-"            and Odoo will fill the bill automatically according to ordered\n"
+"            and izi will fill the bill automatically according to ordered\n"
 "            or received quantities."
 msgstr ""
 "Bu menüyü tedarikçinizden alacağınız faturalarınızı denetlemek\n"
-"            için kullanın. Yeni bir fatura kaydederken, satınalma siparişini ayarlayın ve Odoo, sipariş edilen veya alınan miktarlara göre otomatik olarak fatura oluşturacaktır."
+"            için kullanın. Yeni bir fatura kaydederken, satınalma siparişini ayarlayın ve izi, sipariş edilen veya alınan miktarlara göre otomatik olarak fatura oluşturacaktır."
 
 #. module: purchase
 #: model:ir.actions.act_window,help:purchase.purchase_form_action
@@ -2087,10 +2087,10 @@ msgid ""
 "Vendors bills can be pre-generated based on purchase\n"
 "                    orders or receipts. This allows you to control bills\n"
 "                    you receive from your vendor according to the draft\n"
-"                    document in Odoo."
+"                    document in izi."
 msgstr ""
 "Tedarikçi faturaları, satınalma siparişlerine veya alımlara dayanarak "
-"önceden oluşturulabilir. Bu, Odoo'daki taslak dokümana göre satıcınızdan "
+"önceden oluşturulabilir. Bu, izi'daki taslak dokümana göre satıcınızdan "
 "aldığınız faturaları kontrol etmenizi sağlar."
 
 #. module: purchase

@@ -8,11 +8,11 @@ import hmac
 import logging
 import time
 
-from odoo import _, api, fields, models
-from odoo.addons.payment.models.payment_acquirer import ValidationError
-from odoo.addons.payment_authorize.controllers.main import AuthorizeController
-from odoo.tools.float_utils import float_compare, float_repr
-from odoo.tools.safe_eval import safe_eval
+from izi import _, api, fields, models
+from izi.addons.payment.models.payment_acquirer import ValidationError
+from izi.addons.payment_authorize.controllers.main import AuthorizeController
+from izi.tools.float_utils import float_compare, float_repr
+from izi.tools.safe_eval import safe_eval
 
 _logger = logging.getLogger(__name__)
 

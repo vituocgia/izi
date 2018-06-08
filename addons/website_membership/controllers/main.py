@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 import werkzeug.urls
 
-from odoo import fields
+from izi import fields
 
-from odoo import http
-from odoo.http import request
-from odoo.addons.http_routing.models.ir_http import unslug
-from odoo.tools.translate import _
+from izi import http
+from izi.http import request
+from izi.addons.http_routing.models.ir_http import unslug
+from izi.tools.translate import _
 
 
 class WebsiteMembership(http.Controller):

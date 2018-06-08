@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 from itertools import chain
 
-from odoo import api, fields, models, tools, _
-from odoo.exceptions import UserError, ValidationError
+from izi import api, fields, models, tools, _
+from izi.exceptions import UserError, ValidationError
 
-from odoo.addons import decimal_precision as dp
+from izi.addons import decimal_precision as dp
 
-from odoo.tools import pycompat
+from izi.tools import pycompat
 
 
 class Pricelist(models.Model):

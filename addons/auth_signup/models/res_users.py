@@ -1,16 +1,16 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 import logging
 
 from ast import literal_eval
 
-from odoo import api, fields, models, _
-from odoo.exceptions import UserError
-from odoo.tools.misc import ustr
+from izi import api, fields, models, _
+from izi.exceptions import UserError
+from izi.tools.misc import ustr
 
-from odoo.addons.base.ir.ir_mail_server import MailDeliveryException
-from odoo.addons.auth_signup.models.res_partner import SignupError, now
+from izi.addons.base.ir.ir_mail_server import MailDeliveryException
+from izi.addons.auth_signup.models.res_partner import SignupError, now
 
 _logger = logging.getLogger(__name__)
 

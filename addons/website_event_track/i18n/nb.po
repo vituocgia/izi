@@ -1,19 +1,19 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * website_event_track
 # 
 # Translators:
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux <mat@izi.asia>, 2017
 # Jorunn D. Newth <jdn@eyenetworks.no>, 2017
 # Viktor Basso <viktor@voit.no>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: izi Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-02 11:26+0000\n"
 "PO-Revision-Date: 2017-10-02 11:26+0000\n"
 "Last-Translator: Viktor Basso <viktor@voit.no>, 2017\n"
-"Language-Team: Norwegian Bokmål (https://www.transifex.com/odoo/teams/41243/nb/)\n"
+"Language-Team: Norwegian Bokmål (https://www.transifex.com/izi/teams/41243/nb/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -117,10 +117,10 @@ msgstr ""
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track7
 msgid ""
-"A technical explanation of Odoo as a CMS and a eCommerce platform for "
+"A technical explanation of izi as a CMS and a eCommerce platform for "
 "version 8."
 msgstr ""
-"En teknisk forklaring av Odoo som CMS og netthandelsplattform for versjon 8."
+"En teknisk forklaring av izi som CMS og netthandelsplattform for versjon 8."
 
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_event_track_kanban_state
@@ -148,8 +148,8 @@ msgstr "Aktiv"
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track19
-msgid "Advanced lead management with Odoo: tips and tricks from the fields"
-msgstr "Avansert lead-administrasjon med Odoo: Tips og tricks fra felten"
+msgid "Advanced lead management with izi: tips and tricks from the fields"
+msgstr "Avansert lead-administrasjon med izi: Tips og tricks fra felten"
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track13
@@ -295,13 +295,13 @@ msgstr ""
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track8
 msgid ""
-"Discover Odoo CRM: How to optimize your sales, from leads to sales orders."
+"Discover izi CRM: How to optimize your sales, from leads to sales orders."
 msgstr ""
-"Oppdag Odoo CRM: Hvordan optimalisere salget, fra leads til salgsordrer."
+"Oppdag izi CRM: Hvordan optimalisere salget, fra leads til salgsordrer."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track11
-msgid "Discover Odoo Point-of-Sale: Your shop ready to use in 30 minutes."
+msgid "Discover izi Point-of-Sale: Your shop ready to use in 30 minutes."
 msgstr ""
 
 #. module: website_event_track
@@ -463,8 +463,8 @@ msgstr "Høyeste"
 #: model:event.track,name:website_event_track.event_track18
 msgid ""
 "How to build your marketing strategy for the purpose of generating leads "
-"with Odoo."
-msgstr "Hvordan bygge markedsføringsstrategi for å generere leads med Odoo."
+"with izi."
+msgstr "Hvordan bygge markedsføringsstrategi for å generere leads med izi."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track1
@@ -473,8 +473,8 @@ msgstr "Hvordan utvikle en nettstedmodul"
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track4
-msgid "How to develop automated tests in the Odoo web client."
-msgstr "Hvordan utvikle automatiserte tester i Odoos webklient."
+msgid "How to develop automated tests in the izi web client."
+msgstr "Hvordan utvikle automatiserte tester i izis webklient."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track3
@@ -483,16 +483,16 @@ msgstr "Hvordan utvikle sanntidsapper, nettstedchatmodulen forklart."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track2
-msgid "How to integrate hardware materials with the Odoo point of sale."
-msgstr "Hvordan integrere maskinvare med Odoo Point of Sale."
+msgid "How to integrate hardware materials with the izi point of sale."
+msgstr "Hvordan integrere maskinvare med izi Point of Sale."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track9
 msgid ""
-"How to use Odoo for your HR process: recruitment, leaves management, "
+"How to use izi for your HR process: recruitment, leaves management, "
 "appraisals, expenses, etc."
 msgstr ""
-"Hvordan bruke Odoo til HR-prosesser: Rekruttering, fravær, vurderinger, "
+"Hvordan bruke izi til HR-prosesser: Rekruttering, fravær, vurderinger, "
 "utlegg, osv."
 
 #. module: website_event_track
@@ -529,8 +529,8 @@ msgstr "Kanban-status"
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track23
-msgid "Key Success factors selling Odoo."
-msgstr "Nøkkelsuksessfaktorer for å selge Odoo."
+msgid "Key Success factors selling izi."
+msgstr "Nøkkelsuksessfaktorer for å selge izi."
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_sponsor___last_update
@@ -594,8 +594,8 @@ msgstr ""
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track12
-msgid "Manage your events with Odoo, the new training modules."
-msgstr "Administrer arrangementene dine med Odoo, de nye opplæringsmodulene."
+msgid "Manage your events with izi, the new training modules."
+msgstr "Administrer arrangementene dine med izi, de nye opplæringsmodulene."
 
 #. module: website_event_track
 #: selection:event.track,priority:0
@@ -666,23 +666,23 @@ msgstr "Ingen spor funnet!"
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track15
-msgid "Odoo Mobile for Notes, Meetings and Messages."
-msgstr "Odoo Mobile for notater, møter og meldinger"
+msgid "izi Mobile for Notes, Meetings and Messages."
+msgstr "izi Mobile for notater, møter og meldinger"
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track28
-msgid "Odoo Status & Strategy 2014"
-msgstr "Odoo status og strategi 2014"
+msgid "izi Status & Strategy 2014"
+msgstr "izi status og strategi 2014"
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track16
-msgid "Odoo as your Enterprise Social Network."
-msgstr "Odoo som sosialt nettverk for selskapet"
+msgid "izi as your Enterprise Social Network."
+msgstr "izi som sosialt nettverk for selskapet"
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track27
-msgid "Odoo in 2014"
-msgstr "Odoo i 2014"
+msgid "izi in 2014"
+msgstr "izi i 2014"
 
 #. module: website_event_track
 #: model:ir.ui.view,arch_db:website_event_track.event_sponsor
@@ -739,8 +739,8 @@ msgstr ""
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track21
-msgid "Recruiting high skilled talents with Odoo HR apps"
-msgstr "Rekrutter talentfulle søkere med Odoos HR-apper"
+msgid "Recruiting high skilled talents with izi HR apps"
+msgstr "Rekrutter talentfulle søkere med izis HR-apper"
 
 #. module: website_event_track
 #: selection:event.track,kanban_state:0
@@ -927,8 +927,8 @@ msgstr ""
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track17
-msgid "The Art of Making an Odoo Demo."
-msgstr "Kunsten å gjøre en Odoo-demo."
+msgid "The Art of Making an izi Demo."
+msgstr "Kunsten å gjøre en izi-demo."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track29
@@ -938,9 +938,9 @@ msgstr "Den nye markedsføringsstrategien."
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track5
 msgid ""
-"The new way to promote your modules in the Apps platform and Odoo website."
+"The new way to promote your modules in the Apps platform and izi website."
 msgstr ""
-"Den nye måten å promotere modulene dine på i App-plattformen og på Odoos "
+"Den nye måten å promotere modulene dine på i App-plattformen og på izis "
 "nettsted."
 
 #. module: website_event_track

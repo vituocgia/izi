@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * website_sale
 # 
@@ -13,12 +13,12 @@
 # LoganDowns <k0mna80@gmail.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 13:43+0000\n"
 "PO-Revision-Date: 2018-02-19 13:43+0000\n"
 "Last-Translator: LoganDowns <k0mna80@gmail.com>, 2018\n"
-"Language-Team: Ukrainian (https://www.transifex.com/odoo/teams/41243/uk/)\n"
+"Language-Team: Ukrainian (https://www.transifex.com/izi/teams/41243/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -211,10 +211,10 @@ msgstr ""
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid ""
 "<span class=\"fa fa-lightbulb-o fa-2x\"/>\n"
-"                                Everything is editable in your Odoo website. Feel free to edit any page title, field or button label. Simply hit *Edit* in upper-right corner to start editing the page."
+"                                Everything is editable in your izi website. Feel free to edit any page title, field or button label. Simply hit *Edit* in upper-right corner to start editing the page."
 msgstr ""
 "<span class=\"fa fa-lightbulb-o fa-2x\"/>\n"
-"                                Все можна редагувати на веб-сайті Odoo. Не соромтеся редагувати будь-яку назву сторінки, назву поля або кнопку. Просто натисніть *Редагувати* у верхньому правому куті, щоб почати редагування сторінки."
+"                                Все можна редагувати на веб-сайті izi. Не соромтеся редагувати будь-яку назву сторінки, назву поля або кнопку. Просто натисніть *Редагувати* у верхньому правому куті, щоб почати редагування сторінки."
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
@@ -647,8 +647,8 @@ msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
-msgid "<strong>See it in action in Odoo</strong><br/>"
-msgstr "<strong>Побачте це в дії в Odoo</strong><br/>"
+msgid "<strong>See it in action in izi</strong><br/>"
+msgstr "<strong>Побачте це в дії в izi</strong><br/>"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
@@ -1821,10 +1821,10 @@ msgstr "Це зроблено для iPad, це зроблено для iPad min
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid ""
 "If you deal with a major shipper (UPS, FedEx, DHL, etc.), activate the "
-"related connector in Odoo to compute accurate costs and print labels."
+"related connector in izi to compute accurate costs and print labels."
 msgstr ""
 "Якщо ви маєте справу з основним вантажовідправником (UPS, FedEx, DHL тощо), "
-"активуйте відповідний роз'єм в Odoo, щоб обчислити точні витрати та друк "
+"активуйте відповідний роз'єм в izi, щоб обчислити точні витрати та друк "
 "етикеток."
 
 #. module: website_sale
@@ -3418,9 +3418,9 @@ msgstr ""
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
 msgid ""
-"To do so, take the most out of Odoo's <strong>pricing options</strong>:<br/>"
+"To do so, take the most out of izi's <strong>pricing options</strong>:<br/>"
 msgstr ""
-"Щоб зробити так, скористайтеся максимальними можливостями Odoo "
+"Щоб зробити так, скористайтеся максимальними можливостями izi "
 "<strong>варіантів оплати</strong>:<br/>"
 
 #. module: website_sale
@@ -3627,7 +3627,7 @@ msgstr ""
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
-msgid "You can setup 3 types of <strong>payment acquirers in Odoo:</strong>"
+msgid "You can setup 3 types of <strong>payment acquirers in izi:</strong>"
 msgstr ""
 
 #. module: website_sale
@@ -3824,8 +3824,8 @@ msgstr "умови та обставини"
 
 #. module: website_sale
 #: model:ir.ui.view,arch_db:website_sale.website_planner
-msgid "use Odoo API to import through scripts"
-msgstr "використовуйте Odoo API для імпорту через скрипти"
+msgid "use izi API to import through scripts"
+msgstr "використовуйте izi API для імпорту через скрипти"
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_pricelist_website_id

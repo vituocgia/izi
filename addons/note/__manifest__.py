@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'Productivity',
     'version': '1.0',
     'category': 'Tools',
     'description': "",
-    'website': 'https://www.odoo.com/page/notes',
+    'website': 'https://www.izi.asia/page/notes',
     'summary': 'Sticky notes, Collaborative, Memos',
     'sequence': 45,
     'depends': [

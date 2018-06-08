@@ -1,7 +1,7 @@
-odoo.define('web.PivotController', function (require) {
+izi.define('web.PivotController', function (require) {
 "use strict";
 /**
- * Odoo Pivot Table Controller
+ * izi Pivot Table Controller
  *
  * This class is the Controller for the pivot table view.  It has to coordinate
  * the actions coming from the search view (through the update method), from

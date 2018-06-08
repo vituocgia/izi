@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 from datetime import datetime
 
-from odoo import api, fields, models, _
-from odoo.addons import decimal_precision as dp
-from odoo.exceptions import UserError, ValidationError
-from odoo.tools import float_compare
+from izi import api, fields, models, _
+from izi.addons import decimal_precision as dp
+from izi.exceptions import UserError, ValidationError
+from izi.tools import float_compare
 
 
 class StockMove(models.Model):

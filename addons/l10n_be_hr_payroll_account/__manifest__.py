@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'Belgium - Payroll with Accounting',
@@ -11,7 +11,7 @@ Accounting Data for Belgian Payroll Rules.
     """,
 
     'auto_install': True,
-    'website': 'https://www.odoo.com/page/accounting',
+    'website': 'https://www.izi.asia/page/accounting',
     'data':[
         'data/l10n_be_hr_payroll_account_data.xml',
     ],

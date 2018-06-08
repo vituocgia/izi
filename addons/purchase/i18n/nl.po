@@ -1,10 +1,10 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * purchase
 # 
 # Translators:
 # Martin Trigaux, 2017
-# Erwin van der Ploeg <erwin@odooexperts.nl>, 2017
+# Erwin van der Ploeg <erwin@iziexperts.nl>, 2017
 # Yenthe Van Ginneken <yenthespam@gmail.com>, 2017
 # Stephan Van Dyck <stephan.vandyck@vanroey.be>, 2017
 # Cas Vissers <casvissers@brahoo.nl>, 2017
@@ -13,12 +13,12 @@
 # Melroy van den Berg <webmaster1989@gmail.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-27 14:51+0000\n"
 "PO-Revision-Date: 2018-04-27 14:51+0000\n"
 "Last-Translator: Melroy van den Berg <webmaster1989@gmail.com>, 2018\n"
-"Language-Team: Dutch (https://www.transifex.com/odoo/teams/41243/nl/)\n"
+"Language-Team: Dutch (https://www.transifex.com/izi/teams/41243/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -202,7 +202,7 @@ msgid ""
 "                      </tr>\n"
 "                      <tr>\n"
 "                        <td align=\"center\">\n"
-"                            Powered by <a href=\"https://www.odoo.com\">Odoo</a>.\n"
+"                            Powered by <a href=\"https://www.izi.asia\">izi</a>.\n"
 "                        </td>\n"
 "                      </tr>\n"
 "                    </tbody>\n"
@@ -1042,10 +1042,10 @@ msgstr "Maandelijkse inkopen"
 #: model:ir.actions.act_window,help:purchase.purchase_rfq
 msgid ""
 "Most propositions of purchase orders are created automatically\n"
-"                by Odoo based on inventory needs."
+"                by izi based on inventory needs."
 msgstr ""
 "De meeste voorstellen van inkooporders worden automatisch aangemaakt\n"
-"door Odoo en zijn gebaseerd op voorraad benodigdheden."
+"door izi en zijn gebaseerd op voorraad benodigdheden."
 
 #. module: purchase
 #: model:ir.ui.view,arch_db:purchase.res_config_settings_view_form_stock
@@ -2045,12 +2045,12 @@ msgstr "Excl. BTW:"
 msgid ""
 "Use this menu to control the invoices to be received from your\n"
 "            vendors. When registering a new bill, set the purchase order\n"
-"            and Odoo will fill the bill automatically according to ordered\n"
+"            and izi will fill the bill automatically according to ordered\n"
 "            or received quantities."
 msgstr ""
 "Gebruik dit menu om de facturen te beheren die worden ontvangen van uw "
 "leverancier. Wanneer u een nieuwe factuur ontvangt, selecteer de inkooporder"
-" en Odoo zal de factuur automatisch vullen met de bestelde of geleverde "
+" en izi zal de factuur automatisch vullen met de bestelde of geleverde "
 "hoeveelheden."
 
 #. module: purchase
@@ -2118,12 +2118,12 @@ msgid ""
 "Vendors bills can be pre-generated based on purchase\n"
 "                    orders or receipts. This allows you to control bills\n"
 "                    you receive from your vendor according to the draft\n"
-"                    document in Odoo."
+"                    document in izi."
 msgstr ""
 "Leveranciersfacturen kunnen op voorhand gegenereerd worden gebaseerd op inkooporders\n"
 "of ontvangsten. Dit staat u toe de facturen te beheren\n"
 "die u ontvangt van leveranciers aan de hand van het concept\n"
-"document in Odoo."
+"document in izi."
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_report_volume

@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 from werkzeug.exceptions import NotFound, Forbidden
 
-from odoo import http
-from odoo.http import request
-from odoo.osv import expression
-from odoo.tools import consteq, plaintext2html
+from izi import http
+from izi.http import request
+from izi.osv import expression
+from izi.tools import consteq, plaintext2html
 
 
 def _has_token_access(res_model, res_id, token=''):

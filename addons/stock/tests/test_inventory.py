@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
-from odoo.exceptions import ValidationError
-from odoo.tests.common import TransactionCase
+# Part of izi. See LICENSE file for full copyright and licensing details.
+from izi.exceptions import ValidationError
+from izi.tests.common import TransactionCase
 
 
 class TestInventory(TransactionCase):

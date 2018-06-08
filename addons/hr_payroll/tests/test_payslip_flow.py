@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 import os
 
-from odoo.tools import config, test_reports
-from odoo.addons.hr_payroll.tests.common import TestPayslipBase
+from izi.tools import config, test_reports
+from izi.addons.hr_payroll.tests.common import TestPayslipBase
 
 
 class TestPayslipFlow(TestPayslipBase):

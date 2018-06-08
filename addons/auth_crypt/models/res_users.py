@@ -3,10 +3,10 @@
 import logging
 from passlib.context import CryptContext
 
-import odoo
-from odoo import api, fields, models
+import izi
+from izi import api, fields, models
 
-from odoo.addons.base.res import res_users
+from izi.addons.base.res import res_users
 res_users.USER_PRIVATE_FIELDS.append('password_crypt')
 
 _logger = logging.getLogger(__name__)
@@ -61,7 +61,7 @@ class ResUsers(models.Model):
                 self.invalidate_cache()
         try:
             return super(ResUsers, self).check_credentials(password)
-        except odoo.exceptions.AccessDenied:
+        except izi.exceptions.AccessDenied:
             if encrypted:
                 valid_pass, replacement = user._crypt_context()\
                         .verify_and_update(password, encrypted)

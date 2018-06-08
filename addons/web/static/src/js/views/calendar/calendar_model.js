@@ -1,4 +1,4 @@
-odoo.define('web.CalendarModel', function (require) {
+izi.define('web.CalendarModel', function (require) {
 "use strict";
 
 var AbstractModel = require('web.AbstractModel');
@@ -132,7 +132,7 @@ return AbstractModel.extend({
         return true;
     },
     /**
-     * @param {OdooEvent} event
+     * @param {iziEvent} event
      */
     createRecord: function (event) {
         var data = this.calendarEventToRecord(event.data.data);

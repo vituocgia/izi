@@ -1,4 +1,4 @@
-odoo.define('point_of_sale.tour.pricelist', function (require) {
+izi.define('point_of_sale.tour.pricelist', function (require) {
     "use strict";
 
     var Tour = require('web_tour.tour');
@@ -218,7 +218,7 @@ butterfly oranges have not (their price was manually overriden)",
     Tour.register('pos_pricelist', { test: true, url: '/pos/web' }, steps);
 });
 
-odoo.define('point_of_sale.tour.acceptance', function (require) {
+izi.define('point_of_sale.tour.acceptance', function (require) {
     "use strict";
 
     var Tour = require("web_tour.tour");

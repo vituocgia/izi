@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * hr_expense
 # 
@@ -13,7 +13,7 @@
 # Sergio Flores <vitavitae1@gmail.com>, 2017
 # Antonio Trueba, 2017
 # Daniel Blanco <daniel@blancomartin.com.ar>, 2017
-# RGB Consulting <odoo@rgbconsulting.com>, 2017
+# RGB Consulting <izi@rgbconsulting.com>, 2017
 # Miguel Diaz <miguel.diaz@balsain.es>, 2017
 # José Vicente <txusev@gmail.com>, 2017
 # Gelo Joga Landoo <gj@landoo.es>, 2017
@@ -22,25 +22,25 @@
 # Alejandro Die Sanchis <marketing@domatix.com>, 2017
 # Juan José Scarafía <scarafia.juanjose@gmail.com>, 2017
 # Mateo Tibaquirá Palacios <nestormateo@gmail.com>, 2017
-# Denis Ledoux <dle@odoo.com>, 2017
+# Denis Ledoux <dle@izi.asia>, 2017
 # Sergio Hevia <sah@talleresbernesga.com>, 2017
 # Roberto Lizana <robertolizana@trey.es>, 2017
 # Jesus Zapata <jesus@vauxoo.com>, 2017
 # David de León <leceda09@gmail.com>, 2017
 # Daniel Santibáñez Polanco <dansanti@gmail.com>, 2017
-# Raquel Iciarte <ric@odoo.com>, 2017
+# Raquel Iciarte <ric@izi.asia>, 2017
 # Israel Cevallos <israel.cevallos1792@gmail.com>, 2017
 # e2f_EPV Translator <e2f_EPV@outlook.com>, 2018
 # e2f <projects@e2f.com>, 2018
 # ES R1 <e2fes@hotmail.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 13:43+0000\n"
 "PO-Revision-Date: 2018-02-19 13:43+0000\n"
 "Last-Translator: ES R1 <e2fes@hotmail.com>, 2018\n"
-"Language-Team: Spanish (https://www.transifex.com/odoo/teams/41243/es/)\n"
+"Language-Team: Spanish (https://www.transifex.com/izi/teams/41243/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -49,8 +49,8 @@ msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
-msgid "(e.g. expenses@mycompany.odoo.com)"
-msgstr "(por ejemplo gastos@micompañia.odoo.com)"
+msgid "(e.g. expenses@mycompany.izi.asia)"
+msgstr "(por ejemplo gastos@micompañia.izi.asia)"
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
@@ -639,8 +639,8 @@ msgstr "Fin"
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
-msgid "Enjoy your Odoo experience,"
-msgstr "Disfrute de su experiencia Odoo,"
+msgid "Enjoy your izi experience,"
+msgstr "Disfrute de su experiencia izi,"
 
 #. module: hr_expense
 #: model:ir.model,name:hr_expense.model_hr_expense
@@ -909,10 +909,10 @@ msgstr "Explícitamente rechazado por el responsable o por contabilidad"
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid ""
-"For the Odoo Team,<br/>\n"
+"For the izi Team,<br/>\n"
 "                            Fabien Pinckaers, Founder"
 msgstr ""
-"De parte del equipo Odoo,<br/>\n"
+"De parte del equipo izi,<br/>\n"
 "Fabien Pinckaers, Fundador"
 
 #. module: hr_expense
@@ -974,8 +974,8 @@ msgstr "Departamento de RRHH"
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
-msgid "Have a wonderful day,<br/>- The Odoo Team"
-msgstr "Que tenga un buen día,<br/> - El equipo de Odoo"
+msgid "Have a wonderful day,<br/>- The izi Team"
+msgstr "Que tenga un buen día,<br/> - El equipo de izi"
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet_register_payment_wizard_hide_payment_method
@@ -1680,8 +1680,8 @@ msgstr "Los pasos a seguir para realizar el proceso son:"
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
-msgid "This guide helps you start with Odoo Expenses."
-msgstr "Esta guía le ayuda a iniciarse en la gestión de gastos con Odoo."
+msgid "This guide helps you start with izi Expenses."
+msgstr "Esta guía le ayuda a iniciarse en la gestión de gastos con izi."
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form

@@ -1,5 +1,5 @@
 # -*- coding:utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 import time
 from datetime import datetime
@@ -8,9 +8,9 @@ from dateutil import relativedelta
 
 import babel
 
-from odoo import api, fields, models, tools, _
-from odoo.addons import decimal_precision as dp
-from odoo.exceptions import UserError, ValidationError
+from izi import api, fields, models, tools, _
+from izi.addons import decimal_precision as dp
+from izi.exceptions import UserError, ValidationError
 
 class HrPayslip(models.Model):
     _name = 'hr.payslip'

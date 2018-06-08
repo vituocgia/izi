@@ -4,18 +4,18 @@
 Javascript Cheatsheet
 =====================
 
-There are many ways to solve a problem in JavaScript, and in Odoo.  However, the
-Odoo framework was designed to be extensible (this is a pretty big constraint),
+There are many ways to solve a problem in JavaScript, and in izi.  However, the
+izi framework was designed to be extensible (this is a pretty big constraint),
 and some common problems have a nice standard solution.  The standard solution
-has probably the advantage of being easy to understand for an odoo developers,
-and will probably keep working when Odoo is modified.
+has probably the advantage of being easy to understand for an izi developers,
+and will probably keep working when izi is modified.
 
 This document tries to explain the way one could solve some of these issues.
 Note that this is not a reference.  This is just a random collection of recipes,
 or explanations on how to proceed in some cases.
 
 
-First of all, remember that the first rule of customizing odoo with JS is:
+First of all, remember that the first rule of customizing izi with JS is:
 *try to do it in python*.  This may seem strange, but the python framework is
 quite extensible, and many behaviours can be done simply with a touch of xml or
 python.  This has usually a lower cost of maintenance than working with JS:
@@ -79,7 +79,7 @@ Modifying an existing field widget
 ==================================
 
 Another use case is that we want to modify an existing field widget.  For
-example, the voip addon in odoo need to modify the FieldPhone widget to add the
+example, the voip addon in izi need to modify the FieldPhone widget to add the
 possibility to easily call the given number on voip. This is done by *including*
 the FieldPhone widget, so there is no need to change any existing form view.
 

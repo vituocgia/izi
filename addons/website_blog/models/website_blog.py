@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 from datetime import datetime
 import random
 
 import itertools
 
-from odoo import api, models, fields, _
-from odoo.addons.http_routing.models.ir_http import slug
-from odoo.tools.translate import html_translate
-from odoo.tools import html2plaintext
+from izi import api, models, fields, _
+from izi.addons.http_routing.models.ir_http import slug
+from izi.tools.translate import html_translate
+from izi.tools import html2plaintext
 
 
 class Blog(models.Model):

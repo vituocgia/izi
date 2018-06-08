@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * pos_mercury
 # 
@@ -15,12 +15,12 @@
 # e2f <projects@e2f.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-23 07:43+0000\n"
 "PO-Revision-Date: 2018-02-23 07:43+0000\n"
 "Last-Translator: e2f <projects@e2f.com>, 2018\n"
-"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/izi/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -296,8 +296,8 @@ msgstr "服务器没有响应（已连接到网络？）"
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:414
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:567
 #, python-format
-msgid "Odoo error while processing transaction."
-msgstr "处理交易时出现ODoo错误。"
+msgid "izi error while processing transaction."
+msgstr "处理交易时出现izi错误。"
 
 #. module: pos_mercury
 #. openerp-web

@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 from itertools import groupby
-from odoo import api, fields, models, _
+from izi import api, fields, models, _
 
 
 class AccountInvoice(models.Model):

@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'Google Calendar',
     'version': '1.0',
     'category': 'Extra Tools',
     'description': "",
-    'website': 'https://www.odoo.com/page/crm',
+    'website': 'https://www.izi.asia/page/crm',
     'depends': ['google_account', 'calendar'],
     'qweb': ['static/src/xml/*.xml'],
     'data': [

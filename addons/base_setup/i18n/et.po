@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * base_setup
 # 
@@ -10,12 +10,12 @@
 # Eneli Õigus <enelioigus@gmail.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-16 08:08+0000\n"
 "PO-Revision-Date: 2017-11-16 08:08+0000\n"
 "Last-Translator: Eneli Õigus <enelioigus@gmail.com>, 2017\n"
-"Language-Team: Estonian (https://www.transifex.com/odoo/teams/41243/et/)\n"
+"Language-Team: Estonian (https://www.transifex.com/izi/teams/41243/et/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -159,8 +159,8 @@ msgstr "Välised e-posti serverid"
 
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "Extract and analyze Odoo data from Google Spreadsheet"
-msgstr "Võta välja ja analüüsi Odoo andmeid Google'i arvutustabelist"
+msgid "Extract and analyze izi data from Google Spreadsheet"
+msgstr "Võta välja ja analüüsi izi andmeid Google'i arvutustabelist"
 
 #. module: base_setup
 #: model:ir.model.fields,help:base_setup.field_res_config_settings_report_footer
@@ -327,8 +327,8 @@ msgstr "Kasuta välist autentimisteenuse pakkujat (OAuth)"
 
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "Use external pads in Odoo Notes"
-msgstr "Kasuta väliseid platvorme Odoo märkmetes"
+msgid "Use external pads in izi Notes"
+msgstr "Kasuta väliseid platvorme izi märkmetes"
 
 #. module: base_setup
 #: model:ir.ui.view,arch_db:base_setup.res_config_settings_view_form

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-from odoo import api, models, _
-from odoo.exceptions import UserError
+from izi import api, models, _
+from izi.exceptions import UserError
 
 
 class ReportTax(models.AbstractModel):

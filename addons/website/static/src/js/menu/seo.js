@@ -1,4 +1,4 @@
-odoo.define('website.seo', function (require) {
+izi.define('website.seo', function (require) {
 'use strict';
 
 var core = require('web.core');

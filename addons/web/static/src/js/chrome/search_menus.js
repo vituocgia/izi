@@ -1,4 +1,4 @@
-odoo.define('web.FavoriteMenu', function (require) {
+izi.define('web.FavoriteMenu', function (require) {
 "use strict";
 
 var core = require('web.core');
@@ -282,7 +282,7 @@ return Widget.extend({
 
 });
 
-odoo.define('web.FilterMenu', function (require) {
+izi.define('web.FilterMenu', function (require) {
 "use strict";
 
 var search_filters = require('web.search_filters');
@@ -386,7 +386,7 @@ return Widget.extend({
 
 });
 
-odoo.define('web.GroupByMenu', function (require) {
+izi.define('web.GroupByMenu', function (require) {
 "use strict";
 
 var core = require('web.core');

@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * web
 # 
@@ -9,12 +9,12 @@
 # Laurentiu Archip, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-01-09 10:16+0000\n"
 "PO-Revision-Date: 2018-01-09 10:16+0000\n"
 "Last-Translator: Laurentiu Archip, 2017\n"
-"Language-Team: Romanian (https://www.transifex.com/odoo/teams/41243/ro/)\n"
+"Language-Team: Romanian (https://www.transifex.com/izi/teams/41243/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -229,8 +229,8 @@ msgstr "<span class=\"oe_logo_edit\">Editați datele companiei</span>"
 
 #. module: web
 #: model:ir.ui.view,arch_db:web.menu_secondary
-msgid "<span>Odoo</span>"
-msgstr "<span>Odoo</span>"
+msgid "<span>izi</span>"
+msgstr "<span>izi</span>"
 
 #. module: web
 #. openerp-web
@@ -1314,7 +1314,7 @@ msgstr "Formular"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1339
 #, python-format
-msgid "Get this feature and much more with Odoo Enterprise!"
+msgid "Get this feature and much more with izi Enterprise!"
 msgstr "Această opțiune este disponibilă în varianta Enterprise!"
 
 #. module: web
@@ -1675,8 +1675,8 @@ msgstr "Mută sus"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1324
 #, python-format
-msgid "My Odoo.com account"
-msgstr "Contul meu Odoo.com"
+msgid "My izi.asia account"
+msgstr "Contul meu izi.asia"
 
 #. module: web
 #. openerp-web
@@ -1812,14 +1812,14 @@ msgstr "Obiect:"
 #. openerp-web
 #: code:addons/web/static/src/js/core/dialog.js:51
 #, python-format
-msgid "Odoo"
-msgstr "Odoo"
+msgid "izi"
+msgstr "izi"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/apps.js:148
 #, python-format
-msgid "Odoo Apps will be available soon"
+msgid "izi Apps will be available soon"
 msgstr ""
 
 #. module: web
@@ -1828,36 +1828,36 @@ msgstr ""
 #: code:addons/web/static/src/js/chrome/abstract_web_client.js:194
 #: code:addons/web/static/src/js/services/crash_manager.js:156
 #, python-format
-msgid "Odoo Client Error"
+msgid "izi Client Error"
 msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/fields/upgrade_fields.js:86
 #, python-format
-msgid "Odoo Enterprise"
-msgstr "Odoo Enterprise"
+msgid "izi Enterprise"
+msgstr "izi Enterprise"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:118
 #, python-format
-msgid "Odoo Error"
-msgstr "Eroare Odoo"
+msgid "izi Error"
+msgstr "Eroare izi"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:58
 #, python-format
-msgid "Odoo Session Expired"
-msgstr "Sesiune Odoo Expirată"
+msgid "izi Session Expired"
+msgstr "Sesiune izi Expirată"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:108
 #: code:addons/web/static/src/js/services/crash_manager.js:197
 #, python-format
-msgid "Odoo Warning"
+msgid "izi Warning"
 msgstr ""
 
 #. module: web
@@ -2080,8 +2080,8 @@ msgstr "Oferit de "
 
 #. module: web
 #: model:ir.ui.view,arch_db:web.login_layout
-msgid "Powered by <span>Odoo</span>"
-msgstr "Oferit de <span>Odoo</span>"
+msgid "Powered by <span>izi</span>"
+msgstr "Oferit de <span>izi</span>"
 
 #. module: web
 #. openerp-web
@@ -2597,7 +2597,7 @@ msgstr ""
 #, python-format
 msgid ""
 "Timezone Mismatch : The timezone of your browser doesn't match the selected "
-"one. The time in Odoo is displayed according to your field timezone."
+"one. The time in izi is displayed according to your field timezone."
 msgstr ""
 
 #. module: web
@@ -2943,7 +2943,7 @@ msgid ""
 "You need to start OpenERP with at least two \n"
 "workers to print a pdf version of the reports."
 msgstr ""
-"Trebuie să lansați Odoo cu cel puțin doi workers pentru a tipări un pdf din "
+"Trebuie să lansați izi cu cel puțin doi workers pentru a tipări un pdf din "
 "acest raport."
 
 #. module: web
@@ -2963,8 +2963,8 @@ msgstr ""
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:58
 #, python-format
-msgid "Your Odoo session expired. Please refresh the current web page."
-msgstr "Sesiunea de Odoo a expirat. Vă rog să dați refresh la pagina curentă."
+msgid "Your izi session expired. Please refresh the current web page."
+msgstr "Sesiunea de izi a expirat. Vă rog să dați refresh la pagina curentă."
 
 #. module: web
 #. openerp-web

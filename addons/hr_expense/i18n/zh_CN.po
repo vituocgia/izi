@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * hr_expense
 # 
@@ -25,12 +25,12 @@
 # 山西清水欧度(QQ:54773801) <54773801@qq.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 13:43+0000\n"
 "PO-Revision-Date: 2018-02-19 13:43+0000\n"
 "Last-Translator: 山西清水欧度(QQ:54773801) <54773801@qq.com>, 2018\n"
-"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/izi/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -39,8 +39,8 @@ msgstr ""
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
-msgid "(e.g. expenses@mycompany.odoo.com)"
-msgstr "（例如：expenses@mycompany.odoo.com）"
+msgid "(e.g. expenses@mycompany.izi.asia)"
+msgstr "（例如：expenses@mycompany.izi.asia）"
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
@@ -613,8 +613,8 @@ msgstr "结束"
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
-msgid "Enjoy your Odoo experience,"
-msgstr "享受你的Odoo体验，"
+msgid "Enjoy your izi experience,"
+msgstr "享受你的izi体验，"
 
 #. module: hr_expense
 #: model:ir.model,name:hr_expense.model_hr_expense
@@ -879,10 +879,10 @@ msgstr "由经理或会计人员明确地拒绝"
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
 msgid ""
-"For the Odoo Team,<br/>\n"
+"For the izi Team,<br/>\n"
 "                            Fabien Pinckaers, Founder"
 msgstr ""
-"对于Odoo团队,<br/>\n"
+"对于izi团队,<br/>\n"
 "Fabien Pinckaers, 创始人"
 
 #. module: hr_expense
@@ -938,8 +938,8 @@ msgstr "人力资源部门"
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
-msgid "Have a wonderful day,<br/>- The Odoo Team"
-msgstr "祝您拥有美好的一天。<br/>- Odoo 团队敬上"
+msgid "Have a wonderful day,<br/>- The izi Team"
+msgstr "祝您拥有美好的一天。<br/>- izi 团队敬上"
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet_register_payment_wizard_hide_payment_method
@@ -1615,8 +1615,8 @@ msgstr "处理费用的步骤是："
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.hr_expense_planner
-msgid "This guide helps you start with Odoo Expenses."
-msgstr "该指南帮助您开始使用 Odoo 费用。"
+msgid "This guide helps you start with izi Expenses."
+msgstr "该指南帮助您开始使用 izi 费用。"
 
 #. module: hr_expense
 #: model:ir.ui.view,arch_db:hr_expense.res_config_settings_view_form

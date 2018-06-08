@@ -1,5 +1,5 @@
 .o_form_view {
-    background-color: @odoo-view-background-color;
+    background-color: @izi-view-background-color;
 
     // Utility classes
     .oe_form_box_info {
@@ -44,13 +44,13 @@
 
             .o-align-items(baseline);
             min-width: 50px;
-            margin: 0 -@odoo-form-spacing-unit/2;
+            margin: 0 -@izi-form-spacing-unit/2;
 
             > div, > span, > button, > label, > a, > input { // > * did not add a level of priority to the rule
                 .o-flex(0, 0, auto);
                 width: auto!important;
-                margin-right: @odoo-form-spacing-unit/2;
-                margin-left: @odoo-form-spacing-unit/2;
+                margin-right: @izi-form-spacing-unit/2;
+                margin-left: @izi-form-spacing-unit/2;
             }
 
             > .o_row {
@@ -85,12 +85,12 @@
     .o_form_uri {
         display: inline-block;
 
-        color: @odoo-main-text-color;
+        color: @izi-main-text-color;
         &:first-line {
             color: @link-color;
         }
         &:hover {
-            color: darken(@odoo-main-text-color, 1%); // hack required on chrome
+            color: darken(@izi-main-text-color, 1%); // hack required on chrome
             &:first-line {
                 color: darken(@link-color, 15%);
             }
@@ -104,7 +104,7 @@
         }
 
         .oe_title {
-            max-width: @container-sm - (2 * @odoo-horizontal-padding);
+            max-width: @container-sm - (2 * @izi-horizontal-padding);
         }
 
         @media (min-width: @screen-xs-min) {
@@ -125,10 +125,10 @@
     // No sheet
     &.o_form_nosheet {
         display: block;
-        .o-webclient-padding(@top: @odoo-sheet-vpadding, @bottom: @odoo-sheet-vpadding);
+        .o-webclient-padding(@top: @izi-sheet-vpadding, @bottom: @izi-sheet-vpadding);
 
         .o_form_statusbar {
-            margin: -@odoo-sheet-vpadding -@odoo-horizontal-padding @odoo-sheet-vpadding -@odoo-horizontal-padding;
+            margin: -@izi-sheet-vpadding -@izi-horizontal-padding @izi-sheet-vpadding -@izi-horizontal-padding;
         }
     }
 
@@ -137,7 +137,7 @@
         position: relative;
 
         > .o_form_sheet {
-            margin: @odoo-sheet-vpadding auto;
+            margin: @izi-sheet-vpadding auto;
         }
     }
 
@@ -146,9 +146,9 @@
         position: relative; // Needed for the "More" dropdown
         .o-flex-display();
         .o-justify-content(space-between);
-        padding-left: @odoo-horizontal-padding;
+        padding-left: @izi-horizontal-padding;
         border-bottom: 1px solid @gray-lighter-darker;
-        background-color: @odoo-view-background-color;
+        background-color: @izi-view-background-color;
 
         > .o_statusbar_buttons, > .o_statusbar_status {
             .o-flex-display();
@@ -166,7 +166,7 @@
 
             > .btn {
                 @o-statusbar-buttons-vmargin: 4px;
-                min-height: @odoo-statusbar-height - 2 * @o-statusbar-buttons-vmargin;
+                min-height: @izi-statusbar-height - 2 * @o-statusbar-buttons-vmargin;
                 margin: @o-statusbar-buttons-vmargin 3px @o-statusbar-buttons-vmargin 0;
                 padding-top: 2px;
                 padding-bottom: 2px;
@@ -180,21 +180,21 @@
             overflow-x: hidden; // to prevent horizontal scroll due to last arrow
 
             > .o_arrow_button {
-                min-height: @odoo-statusbar-height;
+                min-height: @izi-statusbar-height;
                 font-size: 11px;
                 font-weight: bold;
                 position: relative;
-                padding-left: @odoo-statusbar-arrow-width*2;
+                padding-left: @izi-statusbar-arrow-width*2;
                 color: @gray;
                 border-width: 0 0 0;
                 border-radius: 0;
                 .o-transition(all, 0.1s);
 
                 &:first-child {
-                    padding-right: @odoo-horizontal-padding; // Compensate container padding
+                    padding-right: @izi-horizontal-padding; // Compensate container padding
                 }
                 &:last-child {
-                    padding-left: @odoo-horizontal-padding - 1;
+                    padding-left: @izi-horizontal-padding - 1;
                     border-left: 1px solid @gray-lighter-darker;
                 }
 
@@ -212,19 +212,19 @@
                 &:before, &:after {
                     content: " ";
                     display: block;
-                    .o-position-absolute(0, -@odoo-statusbar-arrow-width + 1);
+                    .o-position-absolute(0, -@izi-statusbar-arrow-width + 1);
 
-                    border-top: floor(@odoo-statusbar-height/2) solid transparent;
-                    border-bottom: ceil(@odoo-statusbar-height/2) solid transparent;
+                    border-top: floor(@izi-statusbar-height/2) solid transparent;
+                    border-bottom: ceil(@izi-statusbar-height/2) solid transparent;
                     border-right: none;
-                    border-left: @odoo-statusbar-arrow-width solid @odoo-view-background-color;
+                    border-left: @izi-statusbar-arrow-width solid @izi-view-background-color;
                     .o-transition(border, 0.2s);
                     -moz-transform: scale(0.9999); // Smooth the triangle on firefox
                 }
 
                 &:not(.disabled) {
                     &:hover, &:active, &:focus {
-                        color: @odoo-brand-optional;
+                        color: @izi-brand-optional;
                         background-color: @gray-lighter;
 
                         &:after {
@@ -234,12 +234,12 @@
                 }
 
                 &:before {
-                    right: -@odoo-statusbar-arrow-width;
+                    right: -@izi-statusbar-arrow-width;
                     border-left-color: @gray-lighter-dark;
                 }
 
                 &.btn-primary.disabled {
-                    color: @odoo-brand-primary;
+                    color: @izi-brand-primary;
                     font-size: 11px;
                     background-color: @gray-lighter;
                     cursor: default;
@@ -269,7 +269,7 @@
             > .dropdown-toggle {
                 &:after {
                     .o-caret-down();
-                    margin-left: @odoo-form-spacing-unit;
+                    margin-left: @izi-form-spacing-unit;
                 }
             }
 
@@ -317,7 +317,7 @@
         margin: 10px 0;
 
         // o_group contains nested groups
-        .o-generate-groups(@odoo-form-group-cols);
+        .o-generate-groups(@izi-form-group-cols);
         .o-generate-groups(@n, @i: 1) when (@i =< @n) {
             .o_group_col_@{i} {
                 display: inline-block;
@@ -383,16 +383,16 @@
     // Separators
     .o_horizontal_separator {
         font-size: @font-size-h2;
-        margin: @odoo-form-spacing-unit 0;
+        margin: @izi-form-spacing-unit 0;
         &:empty {
-            height: @odoo-form-spacing-unit * 2;
+            height: @izi-form-spacing-unit * 2;
         }
     }
 
     // Notebooks
     .o_notebook {
         clear: both; // For the notebook not to have alongside floating elements
-        margin-top: @odoo-form-spacing-unit * 2;
+        margin-top: @izi-form-spacing-unit * 2;
 
         .nav-tabs > .tab-pane {
             min-height: 100px;
@@ -401,14 +401,14 @@
 
     // Labels
     .o_form_label {
-        margin: 0 @odoo-form-spacing-unit 0 0;
+        margin: 0 @izi-form-spacing-unit 0 0;
         font-size: @font-size-base; // The label muse have the same size whatever their position
         line-height: @line-height-base;
     }
 
     // Form fields
     .o_field_widget {
-        margin-bottom: @odoo-form-spacing-unit;
+        margin-bottom: @izi-form-spacing-unit;
     }
     .o_field_widget, .btn {
         .o_field_widget {
@@ -559,7 +559,7 @@
 
     // Boolean
     .o_field_boolean {
-        margin: 0 @odoo-form-spacing-unit 0 0;
+        margin: 0 @izi-form-spacing-unit 0 0;
     }
 
     // Timezone widget warning
@@ -585,7 +585,7 @@
 
         > tfoot > tr > td {
             padding: 3px;
-            color: @odoo-main-text-color;
+            color: @izi-main-text-color;
         }
     }
     &.o_form_readonly .o_field_widget .o_list_view .o_row_handle {
@@ -595,9 +595,9 @@
     // Attachments
     .oe_attachment {
         display: inline-block;
-        border: 1px solid @odoo-brand-lightsecondary;
-        margin: 0 @odoo-form-spacing-unit @odoo-form-spacing-unit 0;
-        padding: @odoo-form-spacing-unit;
+        border: 1px solid @izi-brand-lightsecondary;
+        margin: 0 @izi-form-spacing-unit @izi-form-spacing-unit 0;
+        padding: @izi-form-spacing-unit;
     }
 
     &.oe_form_configuration {

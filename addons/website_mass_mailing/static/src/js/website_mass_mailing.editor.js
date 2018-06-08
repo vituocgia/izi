@@ -1,4 +1,4 @@
-odoo.define('website_mass_mailing.editor', function (require) {
+izi.define('website_mass_mailing.editor', function (require) {
 'use strict';
 
 var ajax = require('web.ajax');

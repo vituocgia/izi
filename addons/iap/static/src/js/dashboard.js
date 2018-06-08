@@ -1,4 +1,4 @@
-odoo.define('iap.Dashboard', function (require) {
+izi.define('iap.Dashboard', function (require) {
 "use strict";
 
 var ajax = require('web.ajax');

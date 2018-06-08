@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * hr_holidays
 # 
@@ -10,12 +10,12 @@
 # Martin Trigaux, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 13:42+0000\n"
 "PO-Revision-Date: 2018-02-19 13:42+0000\n"
 "Last-Translator: Martin Trigaux, 2017\n"
-"Language-Team: Ukrainian (https://www.transifex.com/odoo/teams/41243/uk/)\n"
+"Language-Team: Ukrainian (https://www.transifex.com/izi/teams/41243/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -1016,7 +1016,7 @@ msgstr "Начальник"
 #. module: hr_holidays
 #: model:ir.model.fields,help:hr_holidays.field_hr_holidays_status_categ_id
 msgid ""
-"Once a leave is validated, Odoo will create a corresponding meeting of this "
+"Once a leave is validated, izi will create a corresponding meeting of this "
 "type in the calendar."
 msgstr "Після затвердження в календарі буде створено відповідні зустрічі. "
 
@@ -1440,10 +1440,10 @@ msgstr ""
 #. module: hr_holidays
 #: model:ir.actions.act_window,help:hr_holidays.hr_holidays_leaves_assign_legal
 msgid ""
-"You can assign remaining Legal Leaves for each employee, Odoo\n"
+"You can assign remaining Legal Leaves for each employee, izi\n"
 "               will automatically create and validate allocation requests."
 msgstr ""
-"Ви можете призначити залишки юридичних листів для кожного працівника, Odoo\n"
+"Ви можете призначити залишки юридичних листів для кожного працівника, izi\n"
 "автоматично створює та перевіряє запити на бронювання."
 
 #. module: hr_holidays

@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 import babel
 import collections
 import datetime
 import pytz
 
-from odoo import fields, http
-from odoo.http import request
-from odoo.tools import html_escape as escape, html2plaintext
+from izi import fields, http
+from izi.http import request
+from izi.tools import html_escape as escape, html2plaintext
 
 
 class WebsiteEventTrackController(http.Controller):

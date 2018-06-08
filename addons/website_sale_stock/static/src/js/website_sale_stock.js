@@ -1,4 +1,4 @@
-odoo.define('website_sale_stock.website_sale', function(require) {
+izi.define('website_sale_stock.website_sale', function(require) {
 'use strict';
 
 require('web.dom_ready');

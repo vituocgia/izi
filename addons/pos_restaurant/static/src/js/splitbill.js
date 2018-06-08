@@ -1,4 +1,4 @@
-odoo.define('pos_restaurant.splitbill', function (require) {
+izi.define('pos_restaurant.splitbill', function (require) {
 "use strict";
 
 var gui = require('point_of_sale.gui');

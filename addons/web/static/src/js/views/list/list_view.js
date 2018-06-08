@@ -1,4 +1,4 @@
-odoo.define('web.ListView', function (require) {
+izi.define('web.ListView', function (require) {
 "use strict";
 
 /**

@@ -1,20 +1,20 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * gamification
 # 
 # Translators:
 # Martin Trigaux, 2017
 # Olivier Lenoir <olivier.lenoir@free.fr>, 2017
-# Lucas Deliege <lud@odoo.com>, 2017
+# Lucas Deliege <lud@izi.asia>, 2017
 # Lionel Sausin <ls@numerigraphe.com>, 2017
-# Richard Mathot <rim@odoo.com>, 2017
+# Richard Mathot <rim@izi.asia>, 2017
 # Sébastien Le Ray <sebastien-github@orniz.org>, 2017
 # Agathe Mollé <molleagathe@gmail.com>, 2017
 # Xavier Belmere <Info@cartmeleon.com>, 2017
 # Shark McGnark <peculiarcheese@gmail.com>, 2017
-# Eloïse Stilmant <est@odoo.com>, 2017
+# Eloïse Stilmant <est@izi.asia>, 2017
 # Fabien Pinckaers <fp@openerp.com>, 2017
-# Clo <clo@odoo.com>, 2017
+# Clo <clo@izi.asia>, 2017
 # Florian Hatat, 2017
 # Adriana Ierfino <adriana.ierfino@savoirfairelinux.com>, 2017
 # Xavier Symons <xsy@openerp.com>, 2017
@@ -23,17 +23,17 @@
 # Micky Jault <micky037@hotmail.fr>, 2017
 # Saad Thaifa <saad.thaifa@gmail.com>, 2017
 # leemannd <denis.leemann@camptocamp.com>, 2017
-# Melanie Bernard <mbe@odoo.com>, 2017
+# Melanie Bernard <mbe@izi.asia>, 2017
 # fr rev <e2ffr02@hotmail.com>, 2018
 # fr trans <e2ftrans1@yahoo.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: izi Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-02 11:27+0000\n"
 "PO-Revision-Date: 2017-10-02 11:27+0000\n"
 "Last-Translator: fr trans <e2ftrans1@yahoo.com>, 2018\n"
-"Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
+"Language-Team: French (https://www.transifex.com/izi/teams/41243/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -268,7 +268,7 @@ msgid ""
 "                    </tr> \n"
 "                    <tr>\n"
 "                        <td align=\"center\">\n"
-"                            Powered by <a target=\"_blank\" href=\"https://www.odoo.com\">Odoo</a>.\n"
+"                            Powered by <a target=\"_blank\" href=\"https://www.izi.asia\">izi</a>.\n"
 "                        </td>\n"
 "                    </tr>\n"
 "                </table>\n"
@@ -505,7 +505,7 @@ msgstr ""
 "                    </tr> \n"
 "                    <tr>\n"
 "                        <td align=\"center\">\n"
-"                           Fourni par <a target=\"_blank\" href=\"https://www.odoo.com\">Odoo</a>.\n"
+"                           Fourni par <a target=\"_blank\" href=\"https://www.izi.asia\">izi</a>.\n"
 "                        </td>\n"
 "                    </tr>\n"
 "                </table>\n"

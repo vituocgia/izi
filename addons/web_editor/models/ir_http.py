@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
-from odoo import models
-from odoo.http import request
-from odoo.osv import expression
+from izi import models
+from izi.http import request
+from izi.osv import expression
 
 
 class IrHttp(models.AbstractModel):

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from odoo.tests.common import TransactionCase
+from izi.tests.common import TransactionCase
 
 
 class TestHrAttendance(TransactionCase):

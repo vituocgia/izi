@@ -1,4 +1,4 @@
-odoo.define('report.editor', function (require) {
+izi.define('report.editor', function (require) {
 'use strict';
 
 var core = require('web.core');

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-from odoo import api, fields, models, _
-from odoo.exceptions import ValidationError
+from izi import api, fields, models, _
+from izi.exceptions import ValidationError
 
 
 class Documentation(models.Model):

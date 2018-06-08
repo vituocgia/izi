@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 import re
 
-from odoo import api, fields, models, tools, _
-from odoo.exceptions import ValidationError
-from odoo.osv import expression
+from izi import api, fields, models, tools, _
+from izi.exceptions import ValidationError
+from izi.osv import expression
 
-from odoo.addons import decimal_precision as dp
+from izi.addons import decimal_precision as dp
 
-from odoo.tools import float_compare, pycompat
+from izi.tools import float_compare, pycompat
 
 
 class ProductCategory(models.Model):

@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 from collections import defaultdict
 
-from odoo import api, fields, models, tools, _
-from odoo.addons import decimal_precision as dp
-from odoo.addons.stock_landed_costs.models import product
-from odoo.exceptions import UserError
+from izi import api, fields, models, tools, _
+from izi.addons import decimal_precision as dp
+from izi.addons.stock_landed_costs.models import product
+from izi.exceptions import UserError
 
 
 class StockMove(models.Model):

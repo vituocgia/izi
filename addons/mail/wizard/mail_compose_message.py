@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 import base64
 import re
 
-from odoo import _, api, fields, models, SUPERUSER_ID, tools
-from odoo.tools import pycompat
-from odoo.tools.safe_eval import safe_eval
+from izi import _, api, fields, models, SUPERUSER_ID, tools
+from izi.tools import pycompat
+from izi.tools.safe_eval import safe_eval
 
 
 # main mako-like expression pattern

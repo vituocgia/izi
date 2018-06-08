@@ -1,19 +1,19 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * im_livechat
 # 
 # Translators:
 # Kostas Goutoudis <goutoudis@gmail.com>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux <mat@izi.asia>, 2017
 # George Tarasidis <george_tarasidis@yahoo.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-30 13:12+0000\n"
 "PO-Revision-Date: 2017-11-30 13:12+0000\n"
 "Last-Translator: George Tarasidis <george_tarasidis@yahoo.com>, 2017\n"
-"Language-Team: Greek (https://www.transifex.com/odoo/teams/41243/el/)\n"
+"Language-Team: Greek (https://www.transifex.com/izi/teams/41243/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -367,11 +367,11 @@ msgstr "Εξηγήστε τη σημείωσή σας"
 #. module: im_livechat
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid ""
-"For website built with Odoo CMS, please install the website_livechat module."
+"For website built with izi CMS, please install the website_livechat module."
 " Then go to Website Admin &gt; Configuration &gt; Settings and select the "
 "Website Live Chat Channel you want to add on your website."
 msgstr ""
-"Σε ιστότοπο που δημιουργήθηκε με το Odoo CMS, εγκαταστήστε το άρθρωμα "
+"Σε ιστότοπο που δημιουργήθηκε με το izi CMS, εγκαταστήστε το άρθρωμα "
 "web_livechat. Στη συνέχεια, μεταβείτε στην διαχειριστή του Ιστοτόπου και "
 "επιλέξτε το κανάλι Ζωντανής Συνομιλίας που θέλετε να προσθέσετε στον "
 "ιστότοπό σας."
@@ -674,10 +674,10 @@ msgstr "Χειριστές<br/><i class=\"fa fa-comments\"/>"
 #. module: im_livechat
 #: model:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid ""
-"Operators that do not show any activity In Odoo for more than 30 minutes "
+"Operators that do not show any activity In izi for more than 30 minutes "
 "will be considered as disconnected."
 msgstr ""
-"Οι χειριστές που δεν εμφανίζουν καμία δραστηριότητα στο Odoo για περισσότερο"
+"Οι χειριστές που δεν εμφανίζουν καμία δραστηριότητα στο izi για περισσότερο"
 " από 30 λεπτά θα θεωρούνται αποσυνδεδεμένοι."
 
 #. module: im_livechat

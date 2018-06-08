@@ -1,19 +1,19 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * contacts
 # 
 # Translators:
 # Paolo Valier, 2017
-# Cécile Collart <cco@odoo.com>, 2018
+# Cécile Collart <cco@izi.asia>, 2018
 # Cesare Cugnasco <cesare.cugnasco@gmail.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: izi Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-20 09:53+0000\n"
 "PO-Revision-Date: 2017-09-20 09:53+0000\n"
 "Last-Translator: Cesare Cugnasco <cesare.cugnasco@gmail.com>, 2018\n"
-"Language-Team: Italian (https://www.transifex.com/odoo/teams/41243/it/)\n"
+"Language-Team: Italian (https://www.transifex.com/izi/teams/41243/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -81,11 +81,11 @@ msgstr "Localizzazione"
 #. module: contacts
 #: model:ir.actions.act_window,help:contacts.action_contacts
 msgid ""
-"Odoo helps you easily track all activities related to\n"
+"izi helps you easily track all activities related to\n"
 "            a customer: discussions, history of business opportunities,\n"
 "            documents, etc."
 msgstr ""
-"Odoo ti consente di tracciare facilmente tutte le attività\n"
+"izi ti consente di tracciare facilmente tutte le attività\n"
 "relative a un cliente: discussioni, cronologia delle opportunità,\n"
 "documenti, ecc."
 

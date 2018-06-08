@@ -1,10 +1,10 @@
-odoo.define('web.ActionManager', function (require) {
+izi.define('web.ActionManager', function (require) {
 "use strict";
 
 /**
  * ActionManager
  *
- * The action manager is quite important: it makes sure that actions (the Odoo
+ * The action manager is quite important: it makes sure that actions (the izi
  * objects, such as a client action, or a act_window) are properly started,
  * and coordinated.
  */

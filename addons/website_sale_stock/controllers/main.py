@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
-from odoo.addons.website_sale.controllers.main import WebsiteSale
-from odoo.http import request
-from odoo.tools import ustr
-from odoo.tools.pycompat import izip
+from izi.addons.website_sale.controllers.main import WebsiteSale
+from izi.http import request
+from izi.tools import ustr
+from izi.tools.pycompat import izip
 
 class WebsiteSale(WebsiteSale):
 

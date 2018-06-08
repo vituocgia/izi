@@ -2,9 +2,9 @@
 
 import os
 
-from odoo import tools
-from odoo.tests import common
-from odoo.modules.module import get_module_resource
+from izi import tools
+from izi.tests import common
+from izi.modules.module import get_module_resource
 
 
 class RepoortIntrastatTest(common.TransactionCase):

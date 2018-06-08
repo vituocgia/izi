@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * payment
 # 
@@ -10,12 +10,12 @@
 # Aleksander, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 13:43+0000\n"
 "PO-Revision-Date: 2018-02-19 13:43+0000\n"
 "Last-Translator: Aleksander, 2018\n"
-"Language-Team: Norwegian Bokmål (https://www.transifex.com/odoo/teams/41243/nb/)\n"
+"Language-Team: Norwegian Bokmål (https://www.transifex.com/izi/teams/41243/nb/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -327,7 +327,7 @@ msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer_capture_manually
-msgid "Capture the amount from Odoo, when the delivery is completed."
+msgid "Capture the amount from izi, when the delivery is completed."
 msgstr ""
 
 #. module: payment
@@ -918,7 +918,7 @@ msgstr "Betalingstransaksjoner"
 
 #. module: payment
 #: selection:payment.acquirer,payment_flow:0
-msgid "Payment from Odoo"
+msgid "Payment from izi"
 msgstr ""
 
 #. module: payment

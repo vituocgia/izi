@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
-import odoo
+import izi
 
-from odoo import http
-from odoo.http import request
-from odoo.osv import expression
-from odoo.addons.web.controllers.main import WebClient, Home
+from izi import http
+from izi.http import request
+from izi.osv import expression
+from izi.addons.web.controllers.main import WebClient, Home
 
 class Routing(Home):
 

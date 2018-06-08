@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 from datetime import datetime, timedelta
 
-from odoo import fields, http
-from odoo.exceptions import AccessError
-from odoo.http import request
-from odoo import release
+from izi import fields, http
+from izi.exceptions import AccessError
+from izi.http import request
+from izi import release
 
 class WebSettingsDashboard(http.Controller):
 

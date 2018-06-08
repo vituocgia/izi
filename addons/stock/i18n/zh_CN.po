@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * stock
 # 
@@ -31,12 +31,12 @@
 # 山西清水欧度(QQ:54773801) <54773801@qq.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 13:42+0000\n"
 "PO-Revision-Date: 2018-02-19 13:42+0000\n"
 "Last-Translator: 山西清水欧度(QQ:54773801) <54773801@qq.com>, 2018\n"
-"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/izi/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -157,8 +157,8 @@ msgstr ", 如果已安装会计或采购模块"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
-msgid "- The Odoo Team"
-msgstr "- Odoo团队"
+msgid "- The izi Team"
+msgstr "- izi团队"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.stock_warn_insufficient_qty_form_view
@@ -173,68 +173,68 @@ msgstr ""
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
 "<span class=\"label label-default text-center "
-"odoo_purple\">'Available'</span>"
-msgstr "<span class=\"label label-default text-center odoo_purple\">'可用'</span>"
+"izi_purple\">'Available'</span>"
+msgstr "<span class=\"label label-default text-center izi_purple\">'可用'</span>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"<span class=\"label label-default text-center odoo_purple\">Click on <span "
+"<span class=\"label label-default text-center izi_purple\">Click on <span "
 "class=\"fa fa-truck\"/> Delivery</span>"
 msgstr ""
-"<span class=\"label label-default text-center odoo_purple\">点击 <span "
+"<span class=\"label label-default text-center izi_purple\">点击 <span "
 "class=\"fa fa-truck\"/> 交货</span>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"<span class=\"label label-default text-center odoo_purple\">Click on <span "
+"<span class=\"label label-default text-center izi_purple\">Click on <span "
 "class=\"fa fa-truck\"/> Shipment</span>"
 msgstr ""
-"<span class=\"label label-default text-center odoo_purple\">点击 <span "
+"<span class=\"label label-default text-center izi_purple\">点击 <span "
 "class=\"fa fa-truck\"/> 运输</span>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"<span class=\"label label-default text-center odoo_purple\">Confirm "
+"<span class=\"label label-default text-center izi_purple\">Confirm "
 "Order</span>"
-msgstr "<span class=\"label label-default text-center odoo_purple\">确认订单</span>"
+msgstr "<span class=\"label label-default text-center izi_purple\">确认订单</span>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"<span class=\"label label-default text-center odoo_purple\">Confirm "
+"<span class=\"label label-default text-center izi_purple\">Confirm "
 "Sale</span>"
-msgstr "<span class=\"label label-default text-center odoo_purple\">确认销售</span>"
+msgstr "<span class=\"label label-default text-center izi_purple\">确认销售</span>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"<span class=\"label label-default text-center odoo_purple\">Find Incoming "
+"<span class=\"label label-default text-center izi_purple\">Find Incoming "
 "Shipments</span>"
-msgstr "<span class=\"label label-default text-center odoo_purple\">查找入向运输</span>"
+msgstr "<span class=\"label label-default text-center izi_purple\">查找入向运输</span>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"<span class=\"label label-default text-center odoo_purple\">Process the "
+"<span class=\"label label-default text-center izi_purple\">Process the "
 "products</span>"
-msgstr "<span class=\"label label-default text-center odoo_purple\">处理产品</span>"
+msgstr "<span class=\"label label-default text-center izi_purple\">处理产品</span>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"<span class=\"label label-default text-center odoo_purple\">Validate the "
+"<span class=\"label label-default text-center izi_purple\">Validate the "
 "Delivery</span>"
-msgstr "<span class=\"label label-default text-center odoo_purple\">验证交货</span>"
+msgstr "<span class=\"label label-default text-center izi_purple\">验证交货</span>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"<span class=\"label label-default text-center odoo_purple\">Validate the "
+"<span class=\"label label-default text-center izi_purple\">Validate the "
 "Receipt Order</span>"
-msgstr "<span class=\"label label-default text-center odoo_purple\">验证收货单</span>"
+msgstr "<span class=\"label label-default text-center izi_purple\">验证收货单</span>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_inventory_form
@@ -493,8 +493,8 @@ msgstr "<strong>已交货数量</strong>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
-msgid "<strong>Enjoy your Inventory management with Odoo!</strong>"
-msgstr "<strong>Odoo更好的帮你管理库存!</strong>"
+msgid "<strong>Enjoy your Inventory management with izi!</strong>"
+msgstr "<strong>izi更好的帮你管理库存!</strong>"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
@@ -1093,13 +1093,13 @@ msgstr "按唯一序列号"
 #, python-format
 msgid ""
 "By changing this quantity here, you accept the new quantity as complete: "
-"Odoo will not automatically generate a back order."
-msgstr "通过改变这里的数量，你接纳新的数量为完整: Odoo不会自动生成欠单。"
+"izi will not automatically generate a back order."
+msgstr "通过改变这里的数量，你接纳新的数量为完整: izi不会自动生成欠单。"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"By default, Odoo measures products by 'units', which are generic and "
+"By default, izi measures products by 'units', which are generic and "
 "represent just about anything"
 msgstr "在默认情况下，产品的通用单位是‘件’，它是一般性而且所有的产品都可以用它来表示"
 
@@ -1928,14 +1928,14 @@ msgstr "在你的仓库根据业务需求定义路线，例如质量控制、售
 #: model:ir.actions.act_window,help:stock.action_location_form
 msgid ""
 "Define your locations to reflect your warehouse structure and\n"
-"            organization. Odoo is able to manage physical locations\n"
+"            organization. izi is able to manage physical locations\n"
 "            (warehouses, shelves, bin, etc), partner locations (customers,\n"
 "            vendors) and virtual locations which are the counterpart of\n"
 "            the stock operations like the manufacturing orders\n"
 "            consumptions, inventories, etc."
 msgstr ""
 "定义你的位置来反映你仓库的结构\n"
-"和组织。Odoo能管理物理位置\n"
+"和组织。izi能管理物理位置\n"
 "（仓库、货架、桶位等等），\n"
 "业务伙伴位置（客户、\n"
 "供应商）和虚拟位置，即是对方的库存作业，如：生产订单\n"
@@ -2276,15 +2276,15 @@ msgstr "欧洲客户"
 #. module: stock
 #: model:ir.actions.act_window,help:stock.action_location_form
 msgid ""
-"Every stock operation in Odoo moves the products from one\n"
+"Every stock operation in izi moves the products from one\n"
 "            location to another one.  For instance, if you receive products\n"
-"            from a vendor, Odoo will move products from the Vendor\n"
+"            from a vendor, izi will move products from the Vendor\n"
 "            location to the Stock location. Each report can be performed on\n"
 "            physical, partner or virtual locations."
 msgstr ""
-"Odoo中每一个库存操作都是将产品从一个\n"
+"izi中每一个库存操作都是将产品从一个\n"
 "位置移至另一位置。例如，若果你从供应商那边收到产品，\n"
-"Odoo将会把产品从供应商位置调拨到仓库位置。每个报表可用在\n"
+"izi将会把产品从供应商位置调拨到仓库位置。每个报表可用在\n"
 "物理位置、业务伙伴位置或者虚拟位置进行。"
 
 #. module: stock
@@ -2373,10 +2373,10 @@ msgstr "固定的补货组"
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"For the Odoo Team,<br/>\n"
+"For the izi Team,<br/>\n"
 "                            Fabien Pinckaers, Founder"
 msgstr ""
-"对于Odoo团队,<br/>\n"
+"对于izi团队,<br/>\n"
 "Fabien Pinckaers, 创始人"
 
 #. module: stock
@@ -2739,9 +2739,9 @@ msgstr "若果路线是全球的"
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type_show_reserved
 msgid ""
-"If this checkbox is ticked, Odoo will show which products are reserved "
+"If this checkbox is ticked, izi will show which products are reserved "
 "(lot/serial number, source location, source package)."
-msgstr "如果已经勾选此框格，Odoo将显示哪些产品是保留的（批号/序列号、源位置，源包装）。"
+msgstr "如果已经勾选此框格，izi将显示哪些产品是保留的（批号/序列号、源位置，源包装）。"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_move_show_operations
@@ -2794,12 +2794,12 @@ msgstr ""
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"If you configured automatic procurement, Odoo automatically generates\n"
+"If you configured automatic procurement, izi automatically generates\n"
 "                        Procurements Orders. You usually don't need to worry about them, but\n"
 "                        sometimes the system can remain blocked without generating a\n"
 "                        corresponding document, usually due to a configuration problem."
 msgstr ""
-"如果你配置了自动补货，Odoo可以自动产生\n"
+"如果你配置了自动补货，izi可以自动产生\n"
 "补货单。通常你不需要担心，但是\n"
 "有时候会系统可能被阻塞而没有生成相关的文件，这通常是因为配置出现了问题。"
 
@@ -2861,12 +2861,12 @@ msgstr "在整包"
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"In Odoo, <strong>Reordering Rules</strong> are used to replenish your products.\n"
-"                        Odoo will automatically propose a procurement to buy new products if you are\n"
+"In izi, <strong>Reordering Rules</strong> are used to replenish your products.\n"
+"                        izi will automatically propose a procurement to buy new products if you are\n"
 "                        running out of stock."
 msgstr ""
-"在Odoo中，<strong>订货规则</strong>被用来补货。\n"
-"Odoo将自动建议补货单以购买新产品如果你\n"
+"在izi中，<strong>订货规则</strong>被用来补货。\n"
+"izi将自动建议补货单以购买新产品如果你\n"
 "现在出现缺货。"
 
 #. module: stock
@@ -3246,7 +3246,7 @@ msgstr "完成数量是否可以编辑"
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
 "It is also possible to import your initial inventory from an Excel or CSV file.\n"
-"                        If you want to do that, contact your Odoo project manager."
+"                        If you want to do that, contact your izi project manager."
 msgstr "你可以用excel或者CSV文件导入你的期初库存。如果你想那么做的话，可以联系你的项目经理。"
 
 #. module: stock
@@ -3276,7 +3276,7 @@ msgstr ""
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid "It is time to make your initial Inventory. In order to do so:"
-msgstr "是时候创建期初库存了,在Odoo中可以这样做："
+msgstr "是时候创建期初库存了,在izi中可以这样做："
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_move_product_packaging
@@ -3475,9 +3475,9 @@ msgstr "如果这个位置是公司间共享的，则此字段留空"
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"Like with the sales flow, Odoo inventory management is\n"
+"Like with the sales flow, izi inventory management is\n"
 "                        fully integrated with the purchase app."
-msgstr "就像和销售流程一样，Odoo仓库管理也和采购应用完全的集成。"
+msgstr "就像和销售流程一样，izi仓库管理也和采购应用完全的集成。"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_move_form
@@ -3815,11 +3815,11 @@ msgstr "杂项"
 #. module: stock
 #: model:ir.actions.act_window,help:stock.action_picking_tree
 msgid ""
-"Most operations are prepared automatically by Odoo according\n"
+"Most operations are prepared automatically by izi according\n"
 "                to your preconfigured logistics rules, but you can also record\n"
 "                manual stock movements."
 msgstr ""
-"大部分作业被Odoo根据\n"
+"大部分作业被izi根据\n"
 "你预先配置的物流规则自动准备，但是你也可以人工记录\n"
 "库存运动。"
 
@@ -4067,41 +4067,41 @@ msgstr "OK"
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"Odoo handles <strong>advanced push/pull routes configuration</strong>, for "
+"izi handles <strong>advanced push/pull routes configuration</strong>, for "
 "example:"
-msgstr "Odoo处理<strong>高级推/拉式路线配置</strong>，例如："
+msgstr "izi处理<strong>高级推/拉式路线配置</strong>，例如："
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
-msgid "Odoo has preconfigured <strong>one Warehouse</strong> for you."
-msgstr " Odoo已经为你预先配置好<strong>一个仓库</strong>。"
+msgid "izi has preconfigured <strong>one Warehouse</strong> for you."
+msgstr " izi已经为你预先配置好<strong>一个仓库</strong>。"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"Odoo inventory management is fully integrated with sales and\n"
+"izi inventory management is fully integrated with sales and\n"
 "                        invoicing process. Everything is automated from the initial\n"
 "                        quotation to the delivery and the final invoice."
 msgstr ""
-"Odoo的库存管理完全的和销售和开票流程集成。\n"
+"izi的库存管理完全的和销售和开票流程集成。\n"
 "从原始的报价单到发货再到最后开票所有的一切都被自动化。"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"Odoo is able to run advanced traceability by using Product Lots and Serial\n"
+"izi is able to run advanced traceability by using Product Lots and Serial\n"
 "                        Numbers, usually identified by bar codes stuck on the products."
 msgstr ""
-"用产品批次和序列号可以让Odoo运行高级追踪\n"
+"用产品批次和序列号可以让izi运行高级追踪\n"
 "通常是根据贴在产品上的条码进行。"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"Of course, feel free to add your own. Please note that Odoo is able to "
+"Of course, feel free to add your own. Please note that izi is able to "
 "convert units within the same category, for example, liters to gallons in "
 "the volume category"
-msgstr "当然，你可以任意的添加。请注意Odoo可以在在同一种类之间的计量单位中间转换，例如：体积类的升到加仑"
+msgstr "当然，你可以任意的添加。请注意izi可以在在同一种类之间的计量单位中间转换，例如：体积类的升到加仑"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.product_form_view_procurement_button
@@ -6433,7 +6433,7 @@ msgstr "此字段将填写分拣源和其移动的名称"
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
-"This guide helps getting started with Odoo Inventory.\n"
+"This guide helps getting started with izi Inventory.\n"
 "                        Once you are done, you will benefit from:"
 msgstr ""
 "向导帮助你开始Ｏdoo的盘点。\n"
@@ -7127,12 +7127,12 @@ msgstr "警告"
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
 "We handle the whole import process\n"
-"                                        for you: simply send your Odoo project\n"
+"                                        for you: simply send your izi project\n"
 "                                        manager a CSV file containing all your\n"
 "                                        data."
 msgstr ""
 "我们为你处理所有导入流程\n"
-"：给你的Odoo项目\n"
+"：给你的izi项目\n"
 "经理发送一份包含你公司\n"
 "所有数据的CSV文档。"
 
@@ -7140,19 +7140,19 @@ msgstr ""
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
 "We handle the whole import process\n"
-"                                        for you: simply send your Odoo project\n"
+"                                        for you: simply send your izi project\n"
 "                                        manager a CSV file containing all your\n"
 "                                        products."
 msgstr ""
 "我们为你处理所有导入流程\n"
-"：给你的Odoo项目\n"
+"：给你的izi项目\n"
 "经理发送一份包含你公司\n"
 "所有数据的CSV文档。"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
-msgid "We hope this guide helped you implement Odoo Inventory."
-msgstr "我们希望这个向导能够帮你执行Odoo的盘点。"
+msgid "We hope this guide helped you implement izi Inventory."
+msgstr "我们希望这个向导能够帮你执行izi的盘点。"
 
 #. module: stock
 #: code:addons/stock/models/barcode.py:11
@@ -7227,25 +7227,25 @@ msgstr "当拣货没有完成时，这允许改变初始需求。当拣货完成
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint_product_min_qty
 msgid ""
 "When the virtual stock goes below the Min Quantity specified for this field,"
-" Odoo generates a procurement to bring the forecasted quantity to the Max "
+" izi generates a procurement to bring the forecasted quantity to the Max "
 "Quantity."
-msgstr "当虚拟库存小于此字段指定的最小数量，Odoo生成补货以便令预测数量达至最大数量。"
+msgstr "当虚拟库存小于此字段指定的最小数量，izi生成补货以便令预测数量达至最大数量。"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint_product_max_qty
 msgid ""
-"When the virtual stock goes below the Min Quantity, Odoo generates a "
+"When the virtual stock goes below the Min Quantity, izi generates a "
 "procurement to bring the forecasted quantity to the Quantity specified as "
 "Max Quantity."
-msgstr "当虚拟库存小于最小数量，Odoo生成补货以便令数量的预测数量达至最大数量。"
+msgstr "当虚拟库存小于最小数量，izi生成补货以便令数量的预测数量达至最大数量。"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_procurement_compute_wizard
 msgid ""
-"When you run the schedulers, Odoo tries to reserve the available stock to fulfill the existing pickings\n"
+"When you run the schedulers, izi tries to reserve the available stock to fulfill the existing pickings\n"
 "                and verify if some reordering rules should be triggered."
 msgstr ""
-"当您运行调度程序时，Odoo尝试预留可用库存以完成现有的分拣\n"
+"当您运行调度程序时，izi尝试预留可用库存以完成现有的分拣\n"
 "并验证是否应该触发一些重新排序规则。"
 
 #. module: stock
@@ -7306,15 +7306,15 @@ msgstr ""
 #. module: stock
 #: model:ir.actions.act_window,help:stock.action_orderpoint_form
 msgid ""
-"You can define your minimum stock rules, so that Odoo will automatically "
+"You can define your minimum stock rules, so that izi will automatically "
 "create draft manufacturing orders or request for quotations according to the"
 " stock level. Once the virtual stock of a product (= stock on hand minus all"
-" confirmed orders and reservations) is below the minimum quantity, Odoo will"
+" confirmed orders and reservations) is below the minimum quantity, izi will"
 " generate a procurement request to increase the stock up to the maximum "
 "quantity."
 msgstr ""
-"你可以定义你的最小库存规则，这样Odoo将会根据库存水平来创建草稿生产订单，或者询价单。一旦产品的虚拟库存少于最小数量(= "
-"手上库存减去所有已确认的订单数量和预留数量)， Odoo 将会产生一个补货请求以增加库存至最大数量。"
+"你可以定义你的最小库存规则，这样izi将会根据库存水平来创建草稿生产订单，或者询价单。一旦产品的虚拟库存少于最小数量(= "
+"手上库存减去所有已确认的订单数量和预留数量)， izi 将会产生一个补货请求以增加库存至最大数量。"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_inventory_form
@@ -7520,10 +7520,10 @@ msgstr "必须为此位置设置名称。"
 #: model:ir.ui.view,arch_db:stock.view_immediate_transfer
 msgid ""
 "You haven't entered <i>done</i> quantities, by clicking on <i>apply</i>\n"
-"                        Odoo will process all the <i>reserved</i> quantities."
+"                        izi will process all the <i>reserved</i> quantities."
 msgstr ""
 "您没有输入<i>完成</i>数量，点击<i>应用</i>\n"
-"Odoo将处理所有<i>保留</i>的数量。"
+"izi将处理所有<i>保留</i>的数量。"
 
 #. module: stock
 #: code:addons/stock/wizard/stock_picking_return.py:44
@@ -7661,21 +7661,21 @@ msgstr "例如：PO0032"
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
 "either by manually updating the Done quantity on the product lines, or let "
-"Odoo do it automatically while validating"
-msgstr "在产品行上手动更新完成数量，或当验证后让Odoo自动更新"
+"izi do it automatically while validating"
+msgstr "在产品行上手动更新完成数量，或当验证后让izi自动更新"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
 msgid ""
 "either by manually updating the Done quantity on the product lines, or scan "
-"them with the Odoo Barcode app, or let Odoo do it automatically while "
+"them with the izi Barcode app, or let izi do it automatically while "
 "validating"
-msgstr "或者手动在产品行更新完成数量，或者通过 Odoo 扫描枪扫描它们，或者让 Odoo 在确认时自动进行处理"
+msgstr "或者手动在产品行更新完成数量，或者通过 izi 扫描枪扫描它们，或者让 izi 在确认时自动进行处理"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
-msgid "feedback@mail.odoo.com"
-msgstr "feedback@mail.odoo.com"
+msgid "feedback@mail.izi.asia"
+msgstr "feedback@mail.izi.asia"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner

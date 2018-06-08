@@ -1,16 +1,16 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 import base64
 from email.utils import formataddr
 
 import re
 import uuid
 
-from odoo import _, api, fields, models, modules, tools
-from odoo.exceptions import UserError
-from odoo.osv import expression
-from odoo.tools import ormcache
-from odoo.tools.safe_eval import safe_eval
+from izi import _, api, fields, models, modules, tools
+from izi.exceptions import UserError
+from izi.osv import expression
+from izi.tools import ormcache
+from izi.tools.safe_eval import safe_eval
 
 
 class ChannelPartner(models.Model):

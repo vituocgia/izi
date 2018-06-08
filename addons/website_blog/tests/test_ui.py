@@ -1,10 +1,10 @@
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
-import odoo.tests
+import izi.tests
 
 
-@odoo.tests.common.at_install(False)
-@odoo.tests.common.post_install(True)
-class TestUi(odoo.tests.HttpCase):
+@izi.tests.common.at_install(False)
+@izi.tests.common.post_install(True)
+class TestUi(izi.tests.HttpCase):
     def test_admin(self):
-        self.phantom_js("/", "odoo.__DEBUG__.services['web_tour.tour'].run('blog')", "odoo.__DEBUG__.services['web_tour.tour'].tours.blog.ready", login='admin')
+        self.phantom_js("/", "izi.__DEBUG__.services['web_tour.tour'].run('blog')", "izi.__DEBUG__.services['web_tour.tour'].tours.blog.ready", login='admin')

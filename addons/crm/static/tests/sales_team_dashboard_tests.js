@@ -1,4 +1,4 @@
-odoo.define('crm.dashboard_tests', function (require) {
+izi.define('crm.dashboard_tests', function (require) {
 "use strict";
 
 var testUtils = require('web.test_utils');

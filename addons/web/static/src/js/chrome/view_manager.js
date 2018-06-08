@@ -1,4 +1,4 @@
-odoo.define('web.ViewManager', function (require) {
+izi.define('web.ViewManager', function (require) {
 "use strict";
 
 var Context = require('web.Context');
@@ -638,7 +638,7 @@ var ViewManager = Widget.extend(ControlPanelMixin, {
      * active controller.
      *
      * @private
-     * @param {OdooEvent} ev
+     * @param {iziEvent} ev
      * @param {function} ev.data.callback used to send the requested context
      */
     _onGetControllerContext: function (ev) {

@@ -1,4 +1,4 @@
-odoo.define('portal.tour', function (require) {
+izi.define('portal.tour', function (require) {
 'use strict';
 
 var tour = require("web_tour.tour");

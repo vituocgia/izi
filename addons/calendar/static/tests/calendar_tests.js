@@ -1,4 +1,4 @@
-odoo.define('calendar.tests', function (require) {
+izi.define('calendar.tests', function (require) {
 "use strict";
 
 var FormView = require('web.FormView');

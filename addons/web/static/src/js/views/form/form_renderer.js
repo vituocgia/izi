@@ -1,4 +1,4 @@
-odoo.define('web.FormRenderer', function (require) {
+izi.define('web.FormRenderer', function (require) {
 "use strict";
 
 var BasicRenderer = require('web.BasicRenderer');
@@ -871,7 +871,7 @@ var FormRenderer = BasicRenderer.extend({
     /**
      * @override
      * @private
-     * @param {OdooEvent} ev
+     * @param {iziEvent} ev
      */
     _onNavigationMove: function (ev) {
         ev.stopPropagation();

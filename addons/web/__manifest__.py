@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'Web',
@@ -7,10 +7,10 @@
     'version': '1.0',
     'description':
         """
-Odoo Web core module.
+izi Web core module.
 ========================
 
-This module provides the core of the Odoo Web Client.
+This module provides the core of the izi Web Client.
         """,
     'depends': ['base'],
     'auto_install': True,

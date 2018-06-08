@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 import random
 import re
@@ -8,10 +8,10 @@ from itertools import product
 
 from werkzeug import urls
 
-from odoo import _
-from odoo.addons.http_routing.models.ir_http import slug
-from odoo.exceptions import UserError
-from odoo.tests.common import TransactionCase
+from izi import _
+from izi.addons.http_routing.models.ir_http import slug
+from izi.exceptions import UserError
+from izi.tests.common import TransactionCase
 
 class TestSurvey(TransactionCase):
 

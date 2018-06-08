@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * hr
 # 
@@ -11,12 +11,12 @@
 # Arash Sardari <arashss77@gmail.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-19 13:43+0000\n"
 "PO-Revision-Date: 2018-02-19 13:43+0000\n"
 "Last-Translator: Arash Sardari <arashss77@gmail.com>, 2018\n"
-"Language-Team: Persian (https://www.transifex.com/odoo/teams/41243/fa/)\n"
+"Language-Team: Persian (https://www.transifex.com/izi/teams/41243/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -321,8 +321,8 @@ msgstr "تعریف یک استراتژی ارتباطی مشخص"
 
 #. module: hr
 #: model:hr.job,website_description:hr.job_consultant
-msgid "Deliver generic Odoo functional training sessions"
-msgstr "ارائه جلسات آموزشی و کاربردی Odoo"
+msgid "Deliver generic izi functional training sessions"
+msgstr "ارائه جلسات آموزشی و کاربردی izi"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_department_id
@@ -842,11 +842,11 @@ msgstr "تعداد کارمندان جدیدی که می‌خواهید استخ
 #. module: hr
 #: model:ir.actions.act_window,help:hr.open_module_tree_department
 msgid ""
-"Odoo's department structure is used to manage all documents\n"
+"izi's department structure is used to manage all documents\n"
 "                related to employees by departments: expenses, timesheets,\n"
 "                leaves, recruitments, etc."
 msgstr ""
-"ساختار دپارتمان Odoo برای مدیریت تمام فایل‌ها و اسناد\n"
+"ساختار دپارتمان izi برای مدیریت تمام فایل‌ها و اسناد\n"
 "                ، مرتبط با کارمندان طبق دپارتمان‌هایشان: هزینه‌ها، ساعات کاری، \n"
 "                مرخصی‌ها، استخدام و ... استفاده می‌شود."
 
@@ -1263,7 +1263,7 @@ msgstr ""
 #: model:ir.actions.act_window,help:hr.act_employee_from_department
 #: model:ir.actions.act_window,help:hr.open_view_employee_list_my
 msgid ""
-"With just a quick glance on the Odoo employee screen, you\n"
+"With just a quick glance on the izi employee screen, you\n"
 "                can easily find all the information you need for each person;\n"
 "                contact data, job position, availability, etc."
 msgstr ""

@@ -1,16 +1,16 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 from collections import namedtuple
 import json
 import time
 
 from itertools import groupby
-from odoo import api, fields, models, _
-from odoo.tools import DEFAULT_SERVER_DATETIME_FORMAT
-from odoo.tools.float_utils import float_compare, float_is_zero, float_round
-from odoo.exceptions import UserError
-from odoo.addons.stock.models.stock_move import PROCUREMENT_PRIORITIES
+from izi import api, fields, models, _
+from izi.tools import DEFAULT_SERVER_DATETIME_FORMAT
+from izi.tools.float_utils import float_compare, float_is_zero, float_round
+from izi.exceptions import UserError
+from izi.addons.stock.models.stock_move import PROCUREMENT_PRIORITIES
 from operator import itemgetter
 
 
@@ -46,7 +46,7 @@ class PickingType(models.Model):
         'Show Detailed Operations', default=False,
         help="If this checkbox is ticked, the pickings lines will represent detailed stock operations. If not, the picking lines will represent an aggregate of detailed stock operations.")
     show_reserved = fields.Boolean(
-        'Show Reserved', default=True, help="If this checkbox is ticked, Odoo will show which products are reserved (lot/serial number, source location, source package).")
+        'Show Reserved', default=True, help="If this checkbox is ticked, izi will show which products are reserved (lot/serial number, source location, source package).")
 
     # Statistics for the kanban view
     last_done_picking = fields.Char('Last 10 Done Pickings', compute='_compute_last_done_picking')

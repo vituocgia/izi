@@ -1,12 +1,12 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * web_settings_dashboard
 # 
 # Translators:
-# Richard Mathot <rim@odoo.com>, 2017
+# Richard Mathot <rim@izi.asia>, 2017
 # Maxime Chambreuil <mchambreuil@ursainfosystems.com>, 2017
 # Olivier Lenoir <olivier.lenoir@free.fr>, 2017
-# Lucas Deliege <lud@odoo.com>, 2017
+# Lucas Deliege <lud@izi.asia>, 2017
 # Mensanh Dodji Anani LAWSON <omolowo73@gmail.com>, 2017
 # Xavier Belmere <Info@cartmeleon.com>, 2017
 # ShevAbam, 2017
@@ -16,12 +16,12 @@
 # fr rev <e2ffr02@hotmail.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: izi Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-20 09:54+0000\n"
 "PO-Revision-Date: 2017-09-20 09:54+0000\n"
 "Last-Translator: fr rev <e2ffr02@hotmail.com>, 2018\n"
-"Language-Team: French (https://www.transifex.com/odoo/teams/41243/fr/)\n"
+"Language-Team: French (https://www.transifex.com/izi/teams/41243/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -126,8 +126,8 @@ msgstr "Saisir les adresses email (une par ligne)"
 #. openerp-web
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:100
 #, python-format
-msgid "Follow these implementation guides to get the most out of Odoo."
-msgstr "Suivre ces guides d'implémentation pour obtenir le meilleur d'Odoo."
+msgid "Follow these implementation guides to get the most out of izi."
+msgstr "Suivre ces guides d'implémentation pour obtenir le meilleur d'izi."
 
 #. module: web_settings_dashboard
 #. openerp-web
@@ -147,8 +147,8 @@ msgstr "Vous trouverez plusieurs options avec la version Entreprise!"
 #. openerp-web
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:140
 #, python-format
-msgid "Help us spread the word: Share Odoo's awesomeness with your friends!"
-msgstr "Aidez-nous à passer le mot : Odoo est génial, dites-le à vos amis!"
+msgid "Help us spread the word: Share izi's awesomeness with your friends!"
+msgstr "Aidez-nous à passer le mot : izi est génial, dites-le à vos amis!"
 
 #. module: web_settings_dashboard
 #. openerp-web
@@ -210,22 +210,22 @@ msgstr "Pas d'applications installées"
 #. openerp-web
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:155
 #, python-format
-msgid "Odoo"
-msgstr "Odoo"
+msgid "izi"
+msgstr "izi"
 
 #. module: web_settings_dashboard
 #. openerp-web
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:186
 #, python-format
-msgid "Odoo Enterprise"
-msgstr "Entreprise Odoo"
+msgid "izi Enterprise"
+msgstr "Entreprise izi"
 
 #. module: web_settings_dashboard
 #. openerp-web
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:163
 #, python-format
-msgid "Odoo S.A."
-msgstr "Odoo S.A."
+msgid "izi S.A."
+msgstr "izi S.A."
 
 #. module: web_settings_dashboard
 #. openerp-web

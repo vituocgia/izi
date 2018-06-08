@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * project
 # 
@@ -12,12 +12,12 @@
 # Olga Lugova <trolka.olug@gmail.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-30 13:11+0000\n"
 "PO-Revision-Date: 2017-11-30 13:11+0000\n"
 "Last-Translator: Olga Lugova <trolka.olug@gmail.com>, 2018\n"
-"Language-Team: Ukrainian (https://www.transifex.com/odoo/teams/41243/uk/)\n"
+"Language-Team: Ukrainian (https://www.transifex.com/izi/teams/41243/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -47,7 +47,7 @@ msgid ""
 "                    <tr>\n"
 "                        <td style=\"padding:15px 10px;font-size:20px\">\n"
 "                            <p dir=\"ltr\" style=\"font-size:15px;margin-top:0pt;margin-bottom:0pt;\">\n"
-"                                <span>Your Odoo Project application is up and running</span></p><br>\n"
+"                                <span>Your izi Project application is up and running</span></p><br>\n"
 "                            <p dir=\"ltr\" style=\"margin-top:0pt;margin-bottom:8pt;\">\n"
 "                                <span style=\"font-size:13px;font-weight:bold;\">What’s next?</span></p>\n"
 "                            <ul style=\"margin-top:0pt;margin-bottom:0pt;font-size:13px;list-style-type:disc;\">\n"
@@ -110,22 +110,22 @@ msgid ""
 "                            </p>\n"
 "                            <p dir=\"ltr\" style=\"font-size:13px;margin-top:0pt;margin-bottom:8pt;\">\n"
 "                                <span>We would be delighted to assist you along the way. Contact us through our\n"
-"                                <a href=\"https://www.odoo.com/help\">support form</a> if you have any question.\n"
-"                                You can also discover how to get the best out of Odoo Project with our </span>\n"
-"                                <a target=\"_blank\" href=\"https://www.odoo.com/documentation/user/10.0/project.html\">\n"
+"                                <a href=\"https://www.izi.asia/help\">support form</a> if you have any question.\n"
+"                                You can also discover how to get the best out of izi Project with our </span>\n"
+"                                <a target=\"_blank\" href=\"https://www.izi.asia/documentation/user/10.0/project.html\">\n"
 "                                <span style=\"text-decoration:underline;\">User Documentation</span></a>\n"
 "                                </span><span> or with our </span>\n"
-"                                <a target=\"_blank\" href=\"https://www.odoo.com/documentation\">\n"
+"                                <a target=\"_blank\" href=\"https://www.izi.asia/documentation\">\n"
 "                                <span style=\"text-decoration:underline;\">API Documentation</span></a>\n"
 "                            </p>\n"
 "                            <br>\n"
-"                            <p dir=\"ltr\" style=\"font-size:13px;margin-top:0pt;margin-bottom:8pt;\"><span>Enjoy your Odoo experience,</span></p>\n"
+"                            <p dir=\"ltr\" style=\"font-size:13px;margin-top:0pt;margin-bottom:8pt;\"><span>Enjoy your izi experience,</span></p>\n"
 "                        </td>\n"
 "                    </tr>\n"
 "                </tbody>\n"
 "            </table>\n"
 "            <div dir=\"ltr\" style=\"font-size:13px;margin-top:0pt;margin-bottom:8pt;color:grey\">\n"
-"                <span><br/>-- <br/>The Odoo Team<br/>PS: People love Odoo, check </span><a target=\"_blank\" href=\"https://twitter.com/odoo/favorites\"><span style=\"text-decoration:underline;\">what they say about it.</span></a></span>\n"
+"                <span><br/>-- <br/>The izi Team<br/>PS: People love izi, check </span><a target=\"_blank\" href=\"https://twitter.com/izi/favorites\"><span style=\"text-decoration:underline;\">what they say about it.</span></a></span>\n"
 "            </div>\n"
 "        </div>"
 msgstr ""
@@ -189,8 +189,8 @@ msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
-msgid "- The Odoo Team"
-msgstr "- команда Odoo"
+msgid "- The izi Team"
+msgstr "- команда izi"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -383,7 +383,7 @@ msgstr ""
 msgid ""
 "<span class=\"panel-title\">\n"
 "                                            <span class=\"fa fa-tasks\"/>\n"
-"                                            <strong> Directly in Odoo</strong>\n"
+"                                            <strong> Directly in izi</strong>\n"
 "                                        </span>"
 msgstr ""
 "<span class=\"panel-title\">\n"
@@ -534,7 +534,7 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid ""
-"<strong>A great feature in Odoo is the integration of a Collaborative Notepad called Etherpad.</strong><br/>\n"
+"<strong>A great feature in izi is the integration of a Collaborative Notepad called Etherpad.</strong><br/>\n"
 "                            It replaces the standard Description area in Tasks and is extremely useful for several cases."
 msgstr ""
 
@@ -582,10 +582,10 @@ msgstr "<strong>Призначено</strong>"
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid ""
 "<strong>Be careful about the messages you send</strong><br/>\n"
-"                                    Sending a message through Odoo will automatically send an email containing your message to all the followers including internal employees, external users or customers."
+"                                    Sending a message through izi will automatically send an email containing your message to all the followers including internal employees, external users or customers."
 msgstr ""
 "<strong>Будьте обережні із повідомленнями, які ви надсилаєте</strong><br/>\n"
-"                                    Відправка повідомлення через Odoo автоматично надсилатиме електронний лист, що містить ваше повідомлення, усім підписникам, включаючи внутрішніх працівників, зовнішніх користувачів або клієнтів."
+"                                    Відправка повідомлення через izi автоматично надсилатиме електронний лист, що містить ваше повідомлення, усім підписникам, включаючи внутрішніх працівників, зовнішніх користувачів або клієнтів."
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -619,7 +619,7 @@ msgstr "<strong>Зв'яжіться з нами зараз:</strong><br/>"
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid ""
 "<strong>Create tasks by email</strong><br/>\n"
-"                                In Odoo, every project has an email alias. If you send an email to this alias, it will automatically create a task in the first stage of the project, with all the email recipients as its default followers."
+"                                In izi, every project has an email alias. If you send an email to this alias, it will automatically create a task in the first stage of the project, with all the email recipients as its default followers."
 msgstr ""
 
 #. module: project
@@ -823,7 +823,7 @@ msgstr "<strong>Рекомендовані дії:</strong>"
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid ""
 "<strong>Rely on the chatter</strong><br/>\n"
-"                                    Below every Task (or more generally, below every Document in Odoo) is an area called Chatter."
+"                                    Below every Task (or more generally, below every Document in izi) is an area called Chatter."
 msgstr ""
 
 #. module: project
@@ -896,8 +896,8 @@ msgstr "<strong>Якими заходами</strong>ви би хотіли уп�
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
-msgid "<strong>What do you expect</strong> from using Odoo Project?"
-msgstr "<strong>Що ви очікуєте</strong> від використання Проекту Odoo?"
+msgid "<strong>What do you expect</strong> from using izi Project?"
+msgstr "<strong>Що ви очікуєте</strong> від використання Проекту izi?"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -939,10 +939,10 @@ msgstr ""
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid ""
 "A project usually involves many stakeholders, be it the project's sponsor, resources, customers or external contractors. But the most important person in a project is usually the Project Manager.<br/>\n"
-"                    In Odoo, the Project Managers have the responsibility of managing the Kanban view: they ensure smooth progression of the projects, minimal downtime between stages and optimal work distribution between resources."
+"                    In izi, the Project Managers have the responsibility of managing the Kanban view: they ensure smooth progression of the projects, minimal downtime between stages and optimal work distribution between resources."
 msgstr ""
 "Проект зазвичай охоплює багатьох зацікавлених сторін, будь то спонсор проекту, ресурси, замовники або зовнішні підрядники. Але найважливіша людина в проекті зазвичай є менеджером проекту.<br/>\n"
-"                    В Odoo керівники проектів відповідають за управління виглядом канбану: вони забезпечують плавне просування проектів, мінімальний проміжок часу між етапами та оптимальний розподіл праці між ресурсами."
+"                    В izi керівники проектів відповідають за управління виглядом канбану: вони забезпечують плавне просування проектів, мінімальний проміжок часу між етапами та оптимальний розподіл праці між ресурсами."
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_task_kanban_state
@@ -1258,11 +1258,11 @@ msgstr "Заблоковано"
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid ""
 "But because change is never easy, we've created this Planner to guide you.<br/>\n"
-"                        For example, you'll understand why you shouldn’t use Odoo to plan but instead to\n"
+"                        For example, you'll understand why you shouldn’t use izi to plan but instead to\n"
 "                        collaborate, or why organizing your projects by role is wrong."
 msgstr ""
 "Але оскільки зміна ніколи не буває легкою, ми створили цей Планувальник, щоб допомогти вам.<br/>\n"
-"                        Наприклад, ви зрозумієте, чому вам краще використовувати Odoo для планування але замість цього\n"
+"                        Наприклад, ви зрозумієте, чому вам краще використовувати izi для планування але замість цього\n"
 "співпрацювати, або чому організація ваших проектів за роллю неправильна."
 
 #. module: project
@@ -1428,10 +1428,10 @@ msgstr "Параметри налаштування доступні в дода
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid ""
-"Congratulations on choosing Odoo Project to help running your company more "
+"Congratulations on choosing izi Project to help running your company more "
 "efficiently!"
 msgstr ""
-"Вітаємо з вибором проекту Odoo, щоб допомогти ефективніше керувати вашою "
+"Вітаємо з вибором проекту izi, щоб допомогти ефективніше керувати вашою "
 "компанією!"
 
 #. module: project
@@ -1556,7 +1556,7 @@ msgstr "Дата створення"
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid ""
 "Creating Tasks is the next step in managing your Projects.<br/>\n"
-"                        In Odoo, it is pretty straightforward, but here are some explanations you may find useful."
+"                        In izi, it is pretty straightforward, but here are some explanations you may find useful."
 msgstr ""
 
 #. module: project
@@ -1705,7 +1705,7 @@ msgstr "Видалити"
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid ""
 "Depending on what you need and how you want to operate, there are several "
-"ways to work with Odoo. First, decide if you want to think in terms of "
+"ways to work with izi. First, decide if you want to think in terms of "
 "tasks. Then, activate the Timesheets app if you need it."
 msgstr ""
 
@@ -1896,20 +1896,20 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid ""
-"Even if there is no specific field in Odoo, it's important to define a person responsible for each stage of your Project.<br/>\n"
+"Even if there is no specific field in izi, it's important to define a person responsible for each stage of your Project.<br/>\n"
 "                        This person will have the responsibility for validating each stage and ensuring that the requirements to move to the next stage are met."
 msgstr ""
-"Навіть якщо в Odoo немає конкретного поля, важливо визначити особу, відповідальну за кожен етап вашого проекту.<br/>\n"
+"Навіть якщо в izi немає конкретного поля, важливо визначити особу, відповідальну за кожен етап вашого проекту.<br/>\n"
 "                        Ця особа буде нести відповідальність за перевірку кожного етапу та забезпечення виконання вимог щодо переходу на наступний етап."
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid ""
 "Every business is different.<br/>\n"
-"                    Odoo allows you to customize every application and it's usually a good idea to customize screens to fit your project needs."
+"                    izi allows you to customize every application and it's usually a good idea to customize screens to fit your project needs."
 msgstr ""
 "Кожен бізнес - унікальний.<br/>\n"
-"                    Odoo дозволяє вам налаштувати кожну програму, і зазвичай це гарна ідея налаштувати екрани відповідно до потреб вашого проекту."
+"                    izi дозволяє вам налаштувати кожну програму, і зазвичай це гарна ідея налаштувати екрани відповідно до потреб вашого проекту."
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -1998,10 +1998,10 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid ""
-"For the Odoo Team,<br/>\n"
+"For the izi Team,<br/>\n"
 "                            Fabien Pinckaers, Founder"
 msgstr ""
-"Від команди Odoo,<br/>\n"
+"Від команди izi,<br/>\n"
 "                            Fabien Pinckaers, засновник"
 
 #. module: project
@@ -2035,8 +2035,8 @@ msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
-msgid "Get full synchronization with Odoo"
-msgstr "Синхронізуйтесь повноцінно з Odoo"
+msgid "Get full synchronization with izi"
+msgstr "Синхронізуйтесь повноцінно з izi"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -2362,10 +2362,10 @@ msgstr ""
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid ""
 "Internal notes are messages that will appear in the Chatter but will not be "
-"notified in Odoo's Inbox."
+"notified in izi's Inbox."
 msgstr ""
 "Внутрішні примітки - це повідомлення, які з'являтимуться у чаті, але не "
-"будуть повідомлені в папці \"Вхідні\" в Odoo."
+"будуть повідомлені в папці \"Вхідні\" в izi."
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_tags_search_view
@@ -2404,17 +2404,17 @@ msgstr ""
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid ""
-"It is time to think about how you will transform your activities into real projects in Odoo.<br/>\n"
+"It is time to think about how you will transform your activities into real projects in izi.<br/>\n"
 "                        For that, the most important part is defining the stages of your projects. Stages are the different steps a task can go through, from its creation to its ending. They will appear in what we call the 'Kanban' view of your projects."
 msgstr ""
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid ""
-"It's essential to be clear about why you want to use Odoo Project and what your goals are.\n"
+"It's essential to be clear about why you want to use izi Project and what your goals are.\n"
 "                        Indeed, there are many ways to manage a project, to find the best one for you, you need to know exactly what you want to achieve. And later on, we will hopefully transform your objectives into real improvements for your company."
 msgstr ""
-"Необхідно чітко зрозуміти, чому ви хочете використовувати Проект Odoo і які ваші цілі.\n"
+"Необхідно чітко зрозуміти, чому ви хочете використовувати Проект izi і які ваші цілі.\n"
 "Дійсно, існує багато способів управління проектом, щоби знайти найкраще для вас, потрібно точно знати, що ви хочете досягти. І пізніше ми сподіваємося перетворити ваші цілі на реальні поліпшення для вашої компанії."
 
 #. module: project
@@ -2601,14 +2601,14 @@ msgid ""
 "Managing notifications is essential: too few and you risk missing critical "
 "information, too many and you will be  overloaded with unnecessary "
 "information. The trick is to find the right balance between the projects, "
-"stages and tasks you want to be informed about. Fortunately, Odoo Project "
+"stages and tasks you want to be informed about. Fortunately, izi Project "
 "has many levels of notifications and messages you can choose from."
 msgstr ""
 "Управління сповіщеннями має важливе значення: занадто мало, і ви ризикуєте "
 "втратити критичну інформацію, занадто багато, і ви будете перевантажені "
 "непотрібною інформацією. Хитрість полягає в тому, щоби знайти правильний "
 "баланс між проектами, етапами та завданнями, про які ви хочете отримати "
-"інформацію. На щастя, Проект Odoo має багато рівнів повідомлень, які ви "
+"інформацію. На щастя, Проект izi має багато рівнів повідомлень, які ви "
 "можете вибрати."
 
 #. module: project
@@ -2794,22 +2794,22 @@ msgstr "Цілі"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid ""
-"Odoo Project is a super fast and easy way to make your activities and tasks visible to\n"
+"izi Project is a super fast and easy way to make your activities and tasks visible to\n"
 "                        everyone in your company. Follow how things progress, see when things are stuck, know\n"
 "                        who's in charge, all in one place."
 msgstr ""
-"Проект Odoo - це надзвичайно швидкий і простий спосіб зробити вашу діяльність та завдання видимими\n"
+"Проект izi - це надзвичайно швидкий і простий спосіб зробити вашу діяльність та завдання видимими\n"
 "для кожного у вашій компанії. Слідкуйте за розвитком завдань, подивіться, коли завдання застрягли, знайте\n"
 "хто відповідає, все в одному місці."
 
 #. module: project
 #: model:ir.actions.act_window,help:project.action_view_task
 msgid ""
-"Odoo's project management allows you to manage the pipeline of your tasks "
+"izi's project management allows you to manage the pipeline of your tasks "
 "efficiently. You can track progress, discuss on tasks, attach documents, "
 "etc."
 msgstr ""
-"Управління проектом Odoo дозволяє ефективно керувати процесом виконання "
+"Управління проектом izi дозволяє ефективно керувати процесом виконання "
 "ваших завдань. Ви можете відстежувати прогрес, обговорювати завдання, "
 "прикріплювати документи тощо."
 
@@ -3272,8 +3272,8 @@ msgstr "Обов'язок"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
-msgid "Runs outside Odoo, always available"
-msgstr "Робота за межами Odoo, завжди доступна"
+msgid "Runs outside izi, always available"
+msgstr "Робота за межами izi, завжди доступна"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -3695,8 +3695,8 @@ msgstr "Аналіз завдань"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
-msgid "Tasks are the main mechanism in Odoo and are activated by default."
-msgstr "Завдання є основним механізмом в Odoo і активовані за замовчуванням."
+msgid "Tasks are the main mechanism in izi and are activated by default."
+msgstr "Завдання є основним механізмом в izi і активовані за замовчуванням."
 
 #. module: project
 #: model:ir.model,name:project.model_report_project_task_user
@@ -3732,14 +3732,14 @@ msgstr "Тестування"
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
 msgid ""
-"The Odoo Project app can be used to manage many activities, from the "
+"The izi Project app can be used to manage many activities, from the "
 "development of a new product to the daily operations of a customer support. "
 "With some creativity, it can even be used to manage your marketing "
 "communications or personal projects. But just because it can be done doesn't"
 " mean it's always a good idea: let's start by helping you understand what "
 "can be a good project."
 msgstr ""
-"Програма Проект Odoo може використовуватися для управління багатьма видами "
+"Програма Проект izi може використовуватися для управління багатьма видами "
 "діяльності, починаючи від розробки нового продукту до повсякденної роботи з "
 "підтримкою клієнтів. Маючи певну творчість, він навіть може "
 "використовуватися для управління маркетинговими комунікаціями або особистими"
@@ -3760,11 +3760,11 @@ msgstr ""
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project_alias_model_id
 msgid ""
-"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
+"The model (izi Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
-"Модель (тип документу Odoo), до якої відповідає цей псевдонім. Будь-яка "
+"Модель (тип документу izi), до якої відповідає цей псевдонім. Будь-яка "
 "вхідна електронна пошта, яка не відповідає існуючому запису, призведе до "
 "створення нового запису цієї моделі (наприклад, завдання проекту)"
 
@@ -3772,10 +3772,10 @@ msgstr ""
 #: model:ir.model.fields,help:project.field_project_project_alias_name
 msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
-"<jobs@example.odoo.com>"
+"<jobs@example.izi.asia>"
 msgstr ""
 "Ім'я псевдоніма електронної пошти, наприклад, \"Робота\", якщо ви хочете "
-"отримувати повідомлення електронної пошти на <jobs@example.odoo.com>"
+"отримувати повідомлення електронної пошти на <jobs@example.izi.asia>"
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project_alias_user_id
@@ -3930,11 +3930,11 @@ msgstr "Табелі"
 msgid ""
 "Timesheets are often essential for running a company.<br/>\n"
 "                    They are also prone to human error, repetitive, annoying, and sometimes stressful to employees.<br/>\n"
-"                    Fortunately, Odoo has several solutions to make them as efficient and painless as possible!<br/>"
+"                    Fortunately, izi has several solutions to make them as efficient and painless as possible!<br/>"
 msgstr ""
 "Табелі часто необхідні для керування компанією.<br/>\n"
 "                    Вони також схильні до людської помилки, повторюваних, дратівливих, а іноді і стресових для працівників.<br/>\n"
-"                    На щастя, Odoo має декілька рішень, щоб зробити їх максимально ефективними та безболісними!<br/>"
+"                    На щастя, izi має декілька рішень, щоб зробити їх максимально ефективними та безболісними!<br/>"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner
@@ -4370,8 +4370,8 @@ msgstr "Ваші завдання"
 
 #. module: project
 #: model:mail.template,subject:project.mail_template_data_module_install_project
-msgid "Your Odoo Project application is up and running"
-msgstr "Ваша Проект Odoo встановлений і працює"
+msgid "Your izi Project application is up and running"
+msgstr "Ваша Проект izi встановлений і працює"
 
 #. module: project
 #: model:ir.ui.view,arch_db:project.project_planner

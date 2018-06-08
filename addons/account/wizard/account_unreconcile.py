@@ -1,4 +1,4 @@
-from odoo import models, api
+from izi import models, api
 
 
 class AccountUnreconcile(models.TransientModel):

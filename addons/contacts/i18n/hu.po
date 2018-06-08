@@ -1,20 +1,20 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * contacts
 # 
 # Translators:
 # krnkris <krnkris@freemail.hu>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux <mat@izi.asia>, 2017
 # tdombos <tdombos@gmail.com>, 2017
 # Kovács Tibor <kovika@gmail.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: izi Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-20 09:53+0000\n"
 "PO-Revision-Date: 2017-09-20 09:53+0000\n"
 "Last-Translator: Kovács Tibor <kovika@gmail.com>, 2017\n"
-"Language-Team: Hungarian (https://www.transifex.com/odoo/teams/41243/hu/)\n"
+"Language-Team: Hungarian (https://www.transifex.com/izi/teams/41243/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -83,11 +83,11 @@ msgstr "Lokalizáció"
 #. module: contacts
 #: model:ir.actions.act_window,help:contacts.action_contacts
 msgid ""
-"Odoo helps you easily track all activities related to\n"
+"izi helps you easily track all activities related to\n"
 "            a customer: discussions, history of business opportunities,\n"
 "            documents, etc."
 msgstr ""
-"Odoo rendszer segít, hogy könnyen nyomon követhesse\n"
+"izi rendszer segít, hogy könnyen nyomon követhesse\n"
 "            az ügyfelekkel: megbeszéléseket, üzleti lehetőségek történeteit, dokumentumokat , stb. \n"
 "            kapcsolatos tevékenységeket."
 

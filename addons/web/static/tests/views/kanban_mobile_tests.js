@@ -1,4 +1,4 @@
-odoo.define('web.kanban_mobile_tests', function (require) {
+izi.define('web.kanban_mobile_tests', function (require) {
 "use strict";
 
 var KanbanView = require('web.KanbanView');

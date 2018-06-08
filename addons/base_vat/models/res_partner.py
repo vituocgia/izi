@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 import datetime
 import logging
@@ -14,9 +14,9 @@ except ImportError:
                     "Install it to support more countries, for example with `easy_install vatnumber`.")
     vatnumber = None
 
-from odoo import api, models, _
-from odoo.tools.misc import ustr
-from odoo.exceptions import ValidationError
+from izi import api, models, _
+from izi.tools.misc import ustr
+from izi.exceptions import ValidationError
 
 _eu_country_vat = {
     'GR': 'EL'

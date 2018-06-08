@@ -1,5 +1,5 @@
-from odoo import models, fields, api, _
-from odoo.exceptions import UserError
+from izi import models, fields, api, _
+from izi.exceptions import UserError
 
 class CashBox(models.TransientModel):
     _register = False

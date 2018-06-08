@@ -1,4 +1,4 @@
-odoo.define('web_kanban_gauge.gauge_tests', function (require) {
+izi.define('web_kanban_gauge.gauge_tests', function (require) {
 "use strict";
 
 var KanbanView = require('web.KanbanView');

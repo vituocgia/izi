@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * web_planner
 # 
@@ -10,12 +10,12 @@
 # morioka hiromichi <hiromichi.morioka@pro-spire.co.jp>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: izi Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-20 09:54+0000\n"
 "PO-Revision-Date: 2017-09-20 09:54+0000\n"
 "Last-Translator: morioka hiromichi <hiromichi.morioka@pro-spire.co.jp>, 2018\n"
-"Language-Team: Japanese (https://www.transifex.com/odoo/teams/41243/ja/)\n"
+"Language-Team: Japanese (https://www.transifex.com/izi/teams/41243/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -115,8 +115,8 @@ msgstr "次のステップ"
 #. openerp-web
 #: code:addons/web_planner/static/src/js/web_planner_common.js:388
 #, python-format
-msgid "Odoo Enterprise"
-msgstr "Odooエンタープライズ"
+msgid "izi Enterprise"
+msgstr "iziエンタープライズ"
 
 #. module: web_planner
 #: model:ir.model,name:web_planner.model_web_planner

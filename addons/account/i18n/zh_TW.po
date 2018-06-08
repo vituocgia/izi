@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * account
 # 
@@ -6,16 +6,16 @@
 # Martin Trigaux, 2017
 # 敬雲 林 <chingyun@yuanchih-consult.com>, 2017
 # Michael Yeung, 2017
-# Cécile Collart <cco@odoo.com>, 2018
+# Cécile Collart <cco@izi.asia>, 2018
 # Bill Hsu <hcm86@icloud.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-27 14:47+0000\n"
 "PO-Revision-Date: 2018-04-27 14:47+0000\n"
 "Last-Translator: Bill Hsu <hcm86@icloud.com>, 2018\n"
-"Language-Team: Chinese (Taiwan) (https://www.transifex.com/odoo/teams/41243/zh_TW/)\n"
+"Language-Team: Chinese (Taiwan) (https://www.transifex.com/izi/teams/41243/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -247,7 +247,7 @@ msgid ""
 "    </tr>\n"
 "    <tr>\n"
 "        <td align=\"center\">\n"
-"            Powered by <a target=\"_blank\" href=\"https://www.odoo.com\">Odoo</a>.\n"
+"            Powered by <a target=\"_blank\" href=\"https://www.izi.asia\">izi</a>.\n"
 "        </td>\n"
 "    </tr>\n"
 "</tbody>\n"
@@ -551,7 +551,7 @@ msgstr ""
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
-msgid "<span title=\"Balance in Odoo\">Balance in GL</span>"
+msgid "<span title=\"Balance in izi\">Balance in GL</span>"
 msgstr "<span title=\"系統餘額\">總帳中的餘額</span>"
 
 #. module: account
@@ -616,8 +616,8 @@ msgstr "<span>查看</span>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
-msgid "<strong>-The Odoo Team</strong>"
-msgstr "<strong>-Odoo的團隊</strong>"
+msgid "<strong>-The izi Team</strong>"
+msgstr "<strong>-izi的團隊</strong>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -714,9 +714,9 @@ msgstr ""
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
-"<strong>Create the bill in Odoo</strong><br/> with a proper due date, and "
+"<strong>Create the bill in izi</strong><br/> with a proper due date, and "
 "create the vendor if it doesnt' exist yet."
-msgstr "<strong>在Odoo創建帳單</strong><br/>有正確的付款日期，如果供應商不存在，則創建。"
+msgstr "<strong>在izi創建帳單</strong><br/>有正確的付款日期，如果供應商不存在，則創建。"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.portal_invoice_report
@@ -901,7 +901,7 @@ msgstr "<strong>調節銀行對帳單</strong>"
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
 "<strong>Reconcile with existing transaction</strong><br/>\n"
-"                                        In this case, Odoo should automatically match the bank statement with the previously recorded check transaction."
+"                                        In this case, izi should automatically match the bank statement with the previously recorded check transaction."
 msgstr ""
 "<strong>與已有交易進行調節</strong><br/>\n"
 "                                        這種情況下, 系統會自動匹配銀行對帳單和之前的支票交易記錄。"
@@ -998,14 +998,14 @@ msgstr "<strong>目標移動：</strong>"
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
 "<strong>Test the following three scenarios in order to assist you in "
-"familiarizing yourself with Odoo:</strong>"
-msgstr "<strong>為了能讓您盡快熟悉Odoo系統，請測試以下三種場景</strong>"
+"familiarizing yourself with izi:</strong>"
+msgstr "<strong>為了能讓您盡快熟悉izi系統，請測試以下三種場景</strong>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
-"<strong>There are three different levels of access rights in Odoo:</strong>"
-msgstr "<strong>在Odoo中有三種不同的登陸權限：</strong>"
+"<strong>There are three different levels of access rights in izi:</strong>"
+msgstr "<strong>在izi中有三種不同的登陸權限：</strong>"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.report_overdue_document
@@ -1121,7 +1121,7 @@ msgstr "客戶和供應商的付款條款列表。"
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
-"A product in Odoo is something you sell or buy \n"
+"A product in izi is something you sell or buy \n"
 "                        whether or not it is goods, consumables, or services.\n"
 "                        Choose how you want to create your products:"
 msgstr ""
@@ -1745,11 +1745,11 @@ msgstr "合作夥伴帳齡表"
 #: model:ir.ui.view,arch_db:account.account_aged_balance_view
 msgid ""
 "Aged Partner Balance is a more detailed report of your receivables by "
-"intervals. Odoo calculates a table of credit balance by start Date. So if "
-"you request an interval of 30 days Odoo generates an analysis of creditors "
+"intervals. izi calculates a table of credit balance by start Date. So if "
+"you request an interval of 30 days izi generates an analysis of creditors "
 "for the past month, past two months, and so on."
 msgstr ""
-"合作夥伴餘額帳齡是按區間對應您應收款的更詳細報表。 Odoo 由起始日期計算貸方餘額的圖表。所以，如果您要求以30天為間隔， Odoo "
+"合作夥伴餘額帳齡是按區間對應您應收款的更詳細報表。 izi 由起始日期計算貸方餘額的圖表。所以，如果您要求以30天為間隔， izi "
 "會對過去一月、過去兩月等生成債權人分析。"
 
 #. module: account
@@ -3920,9 +3920,9 @@ msgstr "本公司會計開戶分錄的過戶日。"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_financial_year_op_opening_date
 msgid ""
-"Date from which the accounting is managed in Odoo. It is the date of the "
+"Date from which the accounting is managed in izi. It is the date of the "
 "opening entry."
-msgstr "會計在Odoo中管理的日期。這是開戶分錄的日期。"
+msgstr "會計在izi中管理的日期。這是開戶分錄的日期。"
 
 #. module: account
 #. openerp-web
@@ -4500,8 +4500,8 @@ msgstr "期末現金"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
-msgid "Enjoy your Odoo experience,"
-msgstr "好好體驗Odoo，"
+msgid "Enjoy your izi experience,"
+msgstr "好好體驗izi，"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_move_line_form
@@ -4834,10 +4834,10 @@ msgstr "輸入一個從0-100的百分率。"
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
-"For the Odoo Team,<br/>\n"
+"For the izi Team,<br/>\n"
 "                            Fabien Pinckaers, Founder"
 msgstr ""
-"關於Odoo團隊,<br/>\n"
+"關於izi團隊,<br/>\n"
 "                            Fabien Pinckaers, 創始人"
 
 #. module: account
@@ -5289,14 +5289,14 @@ msgstr ""
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
-"If you want to be able to send customer statements from Odoo, you must:"
-msgstr "如果您需要從Odoo發送客戶對帳單，您必須："
+"If you want to be able to send customer statements from izi, you must:"
+msgstr "如果您需要從izi發送客戶對帳單，您必須："
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
 "If you want to be able to send your customers their statements \n"
-"                        from Odoo, you first need to record all outstanding transactions \n"
+"                        from izi, you first need to record all outstanding transactions \n"
 "                        in the payable and receivable accounts. These would be invoices \n"
 "                        that have not been paid or payments that have not been reconciled."
 msgstr ""
@@ -5390,8 +5390,8 @@ msgstr "用支援的文件格式導入報表（QIF, OFX, CODA 或者 CSV 格式�
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
-msgid "In Odoo,"
-msgstr "在Odoo，"
+msgid "In izi,"
+msgstr "在izi，"
 
 #. module: account
 #: code:addons/account/models/account_bank_statement.py:409
@@ -5837,13 +5837,13 @@ msgid ""
 "It's common practice to change your accounting software \n"
 "                            at the end of a fiscal year. This allows you to have less \n"
 "                            data to import and balances to set. If you plan to do so, \n"
-"                            we recommend you start using Odoo for invoicing and payments \n"
+"                            we recommend you start using izi for invoicing and payments \n"
 "                            now, and then move all other accounting transactions at a later time."
 msgstr ""
 "在會計年度結束時變更您的會計軟體\n"
 "是一種常見做法。這讓您有更少的\n"
 "數據導入和平衡設定。如果您打算這麼做，\n"
-"我們建議您現在開始使用Odoo來開立發票和付款，然後在稍後時間移動所有其他會計交易。"
+"我們建議您現在開始使用izi來開立發票和付款，然後在稍後時間移動所有其他會計交易。"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -6403,7 +6403,7 @@ msgstr "減付款"
 #. openerp-web
 #: code:addons/account/static/src/xml/account_reconciliation.xml:24
 #, python-format
-msgid "Let odoo try to reconcile entries for the user"
+msgid "Let izi try to reconcile entries for the user"
 msgstr "盡量讓系統為使用者調節分錄"
 
 #. module: account
@@ -6567,40 +6567,40 @@ msgstr "手動調節"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal_inbound_payment_method_ids
 msgid ""
-"Manual: Get paid by cash, check or any other method outside of Odoo.\n"
+"Manual: Get paid by cash, check or any other method outside of izi.\n"
 "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
-"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Odoo,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
+"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in izi,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
 msgstr ""
-"手動：通過現金、支票或除 Odoo 以外的任何其他方法獲取報酬。\n"
+"手動：通過現金、支票或除 izi 以外的任何其他方法獲取報酬。\n"
 "電子方式：線上購買或訂閱時（支付指示物），通過請求客戶保存的卡上的交易，通過付款受讓人自動獲得付款。\n"
-"批量存款：通過生成批量存款立即兌現幾個客戶的支票，以便提交給銀行。在 Odoo 中編碼銀行對帳單時，建議您將交易與批量存款進行核對。從設定中啟用此選項。"
+"批量存款：通過生成批量存款立即兌現幾個客戶的支票，以便提交給銀行。在 izi 中編碼銀行對帳單時，建議您將交易與批量存款進行核對。從設定中啟用此選項。"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_abstract_payment_payment_method_id
 #: model:ir.model.fields,help:account.field_account_payment_payment_method_id
 #: model:ir.model.fields,help:account.field_account_register_payments_payment_method_id
 msgid ""
-"Manual: Get paid by cash, check or any other method outside of Odoo.\n"
+"Manual: Get paid by cash, check or any other method outside of izi.\n"
 "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
-"Check: Pay bill by check and print it from Odoo.\n"
-"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Odoo, you are suggested to reconcile the transaction with the batch deposit.To enable batch deposit,module account_batch_deposit must be installed.\n"
+"Check: Pay bill by check and print it from izi.\n"
+"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in izi, you are suggested to reconcile the transaction with the batch deposit.To enable batch deposit,module account_batch_deposit must be installed.\n"
 "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. To enable sepa credit transfer, module account_sepa must be installed "
 msgstr ""
-"手動：通過現金、支票或除 Odoo 以外的任何其他方法獲取報酬。\n"
+"手動：通過現金、支票或除 izi 以外的任何其他方法獲取報酬。\n"
 "電子方式：線上購買或訂閱時（支付指示物），通過請求客戶保存的卡上的交易，通過付款受讓人自動獲得付款。\n"
-"支票：通過支票支付帳單並從 Odoo 中列印帳單。\n"
-"批量存款：通過生成批量存款立即兌現幾個客戶的支票，以便提交給銀行。在 Odoo 中編碼銀行對帳單時，建議您將交易與批量存款進行核對。要啟用批量存款，必須安裝模組 account_batch_deposit。\n"
+"支票：通過支票支付帳單並從 izi 中列印帳單。\n"
+"批量存款：通過生成批量存款立即兌現幾個客戶的支票，以便提交給銀行。在 izi 中編碼銀行對帳單時，建議您將交易與批量存款進行核對。要啟用批量存款，必須安裝模組 account_batch_deposit。\n"
 "SEPA 信用轉帳：SEPA 信用轉帳文件中的支付帳單應提交給銀行。要啟用 sepa 信用轉帳，必須安裝 module account_sepa。從您提交給銀行的 SEPA 信用轉帳文件支付帳單。要啟用 SEPA 信用轉帳，必須安裝模組 account_sepa"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal_outbound_payment_method_ids
 msgid ""
-"Manual:Pay bill by cash or any other method outside of Odoo.\n"
-"Check:Pay bill by check and print it from Odoo.\n"
+"Manual:Pay bill by cash or any other method outside of izi.\n"
+"Check:Pay bill by check and print it from izi.\n"
 "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. Enable this option from the settings."
 msgstr ""
-"手動：現金支付或使用Odoo外的方式支付。\n"
-"支票：使用支票支付並在Odoo列印。\n"
+"手動：現金支付或使用izi外的方式支付。\n"
+"支票：使用支票支付並在izi列印。\n"
 "SEPA信用轉帳：使用SEPA信用轉帳付款並提交到您的銀行。\n"
 "從設定中啟用此選項。"
 
@@ -7073,53 +7073,53 @@ msgstr "十月"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
-msgid "Odoo Accounting has many free extra-features:"
+msgid "izi Accounting has many free extra-features:"
 msgstr "財務有很多免費額外功能："
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_bank_statement_line
 msgid ""
-"Odoo allows you to reconcile a statement line directly with\n"
+"izi allows you to reconcile a statement line directly with\n"
 "                the related sale or puchase invoice(s)."
 msgstr "能讓您直接對相應的銷售或者採購發票調節對帳單明細行"
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_bank_statement_tree
 msgid ""
-"Odoo allows you to reconcile a statement line directly with\n"
+"izi allows you to reconcile a statement line directly with\n"
 "                the related sale or puchase invoices."
 msgstr "允許調節和銷售或者採購發票相關的對帳單行"
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_move_journal_line
 msgid ""
-"Odoo automatically creates one journal entry per accounting\n"
+"izi automatically creates one journal entry per accounting\n"
 "                document: invoice, refund, vendor payment, bank statements,\n"
 "                etc. So, you should record journal entries manually only/mainly\n"
 "                for miscellaneous operations."
 msgstr ""
-"Odoo會自動根據：發票、退款、供應商付款、銀行對帳單\n"
+"izi會自動根據：發票、退款、供應商付款、銀行對帳單\n"
 "等來創建一個日記帳分錄。所以，您應該只／主要\n"
 "對雜項操作進行手工日記帳分錄。"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
-"Odoo can manage multiple companies, but we suggest to setup everything for "
+"izi can manage multiple companies, but we suggest to setup everything for "
 "your first company before configuring the other ones."
-msgstr "Odoo可以管理多家公司，但是我們建議在配置別的公司之前先配置第一個公司。"
+msgstr "izi可以管理多家公司，但是我們建議在配置別的公司之前先配置第一個公司。"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
-"Odoo has already preconfigured a few taxes according to your "
+"izi has already preconfigured a few taxes according to your "
 "country.<br/>Simply review them and check if you need more."
-msgstr "Odoo已經預先設定了一些您所在國家的稅。<br/>簡單的查看一下是否還需要用更多。"
+msgstr "izi已經預先設定了一些您所在國家的稅。<br/>簡單的查看一下是否還需要用更多。"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
-"Odoo should do most of the reconciliation work automatically, so you'll only"
+"izi should do most of the reconciliation work automatically, so you'll only"
 " need to review a few of them when a <strong>'Reconcile Items'</strong> "
 "button appears on your Vendor Bills dash."
 msgstr "能自動的操作大部分的調節，所以』調節專案『按鈕顯示在您您的客戶對帳單表上時，您只需查看他們中的一小部分。"
@@ -7127,12 +7127,12 @@ msgstr "能自動的操作大部分的調節，所以』調節專案『按鈕顯
 #. module: account
 #: model:ir.actions.act_window,help:account.action_invoice_tree1
 msgid ""
-"Odoo's electronic invoicing allows to ease and fasten the\n"
+"izi's electronic invoicing allows to ease and fasten the\n"
 "                collection of customer payments. Your customer receives the\n"
 "                invoice by email and he can pay online and/or import it\n"
 "                in his own system."
 msgstr ""
-"Odoo的電子發票能讓您快捷方便的\n"
+"izi的電子發票能讓您快捷方便的\n"
 "收集客戶的付款。您的客戶通過信件收到\n"
 "發票，然後他就可以線上付款和／或者導入自己的系統。"
 
@@ -8381,10 +8381,10 @@ msgstr "登記多張發票的付款"
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
 "Registering outstanding invoices and payments can be a huge undertaking, \n"
-"                        but you can start using Odoo without it by:"
+"                        but you can start using izi without it by:"
 msgstr ""
 "登記未清的發票和付款是個很大的工作量。\n"
-"但您可以開始使用Odoo來解決:"
+"但您可以開始使用izi來解決:"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
@@ -10170,10 +10170,10 @@ msgstr "當合作夥伴在資料庫中尚未存在的時候（或者找不到）
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
-"This guide will help you get started with Odoo Accounting.\n"
+"This guide will help you get started with izi Accounting.\n"
 "                        Once you're done, you'll benefit from:"
 msgstr ""
-"此嚮導將會幫您開啟Odoo會計。\n"
+"此嚮導將會幫您開啟izi會計。\n"
 "一旦您完成，您將會獲益於："
 
 #. module: account
@@ -10339,10 +10339,10 @@ msgstr "待付款"
 #. module: account
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
-"To manage the tax applied when invoicing a Company, Odoo uses the concept of"
+"To manage the tax applied when invoicing a Company, izi uses the concept of"
 " Fiscal Position: they serve to automatically set the right tax and/or "
 "account according to the customer country and state."
-msgstr "為了管理向公司開發票適用的稅，Odoo使用「財政狀況」的概念：它能夠根據客戶的國家和州自動的設定正確的稅金和／或科目。"
+msgstr "為了管理向公司開發票適用的稅，izi使用「財政狀況」的概念：它能夠根據客戶的國家和州自動的設定正確的稅金和／或科目。"
 
 #. module: account
 #: model:ir.ui.view,arch_db:account.invoice_supplier_tree
@@ -10989,12 +10989,12 @@ msgstr "警告"
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
 "We can handle the whole import process\n"
-"                                        for you: simply send your Odoo project\n"
+"                                        for you: simply send your izi project\n"
 "                                        manager a CSV file containing all your\n"
 "                                        data."
 msgstr ""
 "我們可以為您處理所有導入流程\n"
-"：給您的Odoo專案\n"
+"：給您的izi專案\n"
 "經理發送一份包含您公司\n"
 "所有數據的CSV文檔。"
 
@@ -11002,12 +11002,12 @@ msgstr ""
 #: model:ir.ui.view,arch_db:account.account_planner
 msgid ""
 "We can handle the whole import process\n"
-"                                        for you: simply send your Odoo project\n"
+"                                        for you: simply send your izi project\n"
 "                                        manager a CSV file containing all your\n"
 "                                        products."
 msgstr ""
 "我們可以為您處理所有導入流程\n"
-"：給您的Odoo專案\n"
+"：給您的izi專案\n"
 "經理發送一份包含您公司\n"
 "所有數據的CSV文檔。"
 

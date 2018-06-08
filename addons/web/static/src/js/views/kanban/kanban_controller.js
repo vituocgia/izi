@@ -1,4 +1,4 @@
-odoo.define('web.KanbanController', function (require) {
+izi.define('web.KanbanController', function (require) {
 "use strict";
 
 /**
@@ -161,7 +161,7 @@ var KanbanController = BasicController.extend({
      * a group and to update the renderer
      *
      * @private
-     * @param {OdooEvent} event
+     * @param {iziEvent} event
      */
     _onAddColumn: function (event) {
         var self = this;
@@ -178,7 +178,7 @@ var KanbanController = BasicController.extend({
     },
     /**
      * @private
-     * @param {OdooEvent} event
+     * @param {iziEvent} event
      */
     _onAddRecordToColumn: function (event) {
         var self = this;
@@ -200,7 +200,7 @@ var KanbanController = BasicController.extend({
      * what this handler is for.
      *
      * @private
-     * @param {OdooEvent} event
+     * @param {iziEvent} event
      */
     _onArchiveRecords: function (event) {
         var self = this;
@@ -219,7 +219,7 @@ var KanbanController = BasicController.extend({
     },
     /**
      * @private
-     * @param {OdooEvent} event
+     * @param {iziEvent} event
      */
     _onButtonClicked: function (event) {
         event.stopPropagation();
@@ -323,14 +323,14 @@ var KanbanController = BasicController.extend({
     },
     /**
      * @private
-     * @param {OdooEvent} event
+     * @param {iziEvent} event
      */
     _onColumnResequence: function (event) {
         this._resequenceRecords(event.target.db_id, event.data.ids);
     },
     /**
      * @private
-     * @param {OdooEvent} event
+     * @param {iziEvent} event
      */
     _onDeleteColumn: function (event) {
         var self = this;
@@ -353,7 +353,7 @@ var KanbanController = BasicController.extend({
      * lazy loaded)
      *
      * @private
-     * @param {OdooEvent} event
+     * @param {iziEvent} event
      */
     _onLoadColumnRecords: function (event) {
         var self = this;
@@ -368,7 +368,7 @@ var KanbanController = BasicController.extend({
     },
     /**
      * @private
-     * @param {OdooEvent} event
+     * @param {iziEvent} event
      */
     _onLoadMore: function (event) {
         var self = this;
@@ -381,7 +381,7 @@ var KanbanController = BasicController.extend({
     },
     /**
      * @private
-     * @param {OdooEvent} event
+     * @param {iziEvent} event
      */
     _onQuickCreateRecord: function (event) {
         var self = this;
@@ -431,14 +431,14 @@ var KanbanController = BasicController.extend({
     },
     /**
      * @private
-     * @param {OdooEvent} event
+     * @param {iziEvent} event
      */
     _onRecordDelete: function (event) {
         this._deleteRecords([event.data.id]);
     },
     /**
      * @private
-     * @param {OdooEvent} event
+     * @param {iziEvent} event
      */
     _onResequenceColumn: function (event) {
         var self = this;
@@ -448,7 +448,7 @@ var KanbanController = BasicController.extend({
     },
     /**
      * @private
-     * @param {OdooEvent} event
+     * @param {iziEvent} event
      * @param {boolean} [event.data.openQuickCreate=false] if true, opens the
      *   QuickCreate in the toggled column (it assumes that we are opening it)
      */
@@ -468,7 +468,7 @@ var KanbanController = BasicController.extend({
      * @todo should simply use field_changed event...
      *
      * @private
-     * @param {OdooEvent} ev
+     * @param {iziEvent} ev
      */
     _onUpdateRecord: function (ev) {
         var changes = _.clone(ev.data);

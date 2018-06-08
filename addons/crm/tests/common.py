@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
-from odoo.tests.common import TransactionCase
-from odoo.addons.mail.tests.common import BaseFunctionalTest
+from izi.tests.common import TransactionCase
+from izi.addons.mail.tests.common import BaseFunctionalTest
 
 class TestCrm(BaseFunctionalTest):
 

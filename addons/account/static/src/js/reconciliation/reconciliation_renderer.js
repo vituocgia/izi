@@ -1,4 +1,4 @@
-odoo.define('account.ReconciliationRenderer', function (require) {
+izi.define('account.ReconciliationRenderer', function (require) {
 "use strict";
 
 var Widget = require('web.Widget');
@@ -588,7 +588,7 @@ var LineRenderer = Widget.extend(FieldManagerMixin, {
     },
     /**
      * @private
-     * @param {OdooEvent} event
+     * @param {iziEvent} event
      */
     _onFieldChanged: function (event) {
         event.stopPropagation();

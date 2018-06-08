@@ -1,4 +1,4 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * website_forum
 # 
@@ -21,12 +21,12 @@
 # e2f <projects@e2f.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-24 09:00+0000\n"
 "PO-Revision-Date: 2017-10-24 09:00+0000\n"
 "Last-Translator: e2f <projects@e2f.com>, 2018\n"
-"Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
+"Language-Team: German (https://www.transifex.com/izi/teams/41243/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -2616,10 +2616,10 @@ msgstr "Die Warteschlange der markierten Beiträge ist leer."
 #: model:forum.forum,faq:website_forum.forum_help
 msgid ""
 "The goal of this site is create a relevant knowledge base that would answer\n"
-"    questions related to Odoo."
+"    questions related to izi."
 msgstr ""
 "Ziel hier ist die Schaffung einer fundierten Wissenbasis um\n"
-"Fragen zu Odoo zu beantworten."
+"Fragen zu izi zu beantworten."
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.moderation_queue
@@ -3113,8 +3113,8 @@ msgstr "Frage wurde bereits gestellt"
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.new_link
-msgid "e.g. https://www.odoo.com"
-msgstr "z.B. https://www.odoo.com"
+msgid "e.g. https://www.izi.asia"
+msgstr "z.B. https://www.izi.asia"
 
 #. module: website_forum
 #: model:ir.ui.view,arch_db:website_forum.faq
@@ -3189,9 +3189,9 @@ msgstr "Hier"
 
 #. module: website_forum
 #: model:forum.forum,faq:website_forum.forum_help
-msgid "how to configure or customize Odoo to specific business needs,"
+msgid "how to configure or customize izi to specific business needs,"
 msgstr ""
-"wie kann man Odoo konfigurieren oder an spezifische Geschäftsanforderungen "
+"wie kann man izi konfigurieren oder an spezifische Geschäftsanforderungen "
 "anpaßen,"
 
 #. module: website_forum
@@ -3201,8 +3201,8 @@ msgstr "wie kann an Module für die eigenen Anforderungen entwickeln,"
 
 #. module: website_forum
 #: model:forum.forum,faq:website_forum.forum_help
-msgid "how to install Odoo on a specific infrastructure,"
-msgstr "wie installiert man Odoo in bestimmten Umgebungen,"
+msgid "how to install izi on a specific infrastructure,"
+msgstr "wie installiert man izi in bestimmten Umgebungen,"
 
 #. module: website_forum
 #. openerp-web
@@ -3320,8 +3320,8 @@ msgstr "Spam oder Werbung"
 
 #. module: website_forum
 #: model:forum.forum,faq:website_forum.forum_help
-msgid "specific questions about Odoo service offers, etc."
-msgstr "spezifische Fragen zu Odoo-Dienstleistungsangeboten, etc."
+msgid "specific questions about izi service offers, etc."
+msgstr "spezifische Fragen zu izi-Dienstleistungsangeboten, etc."
 
 #. module: website_forum
 #: model:forum.forum,faq:website_forum.forum_help
@@ -3398,9 +3398,9 @@ msgstr "Website"
 
 #. module: website_forum
 #: model:forum.forum,faq:website_forum.forum_help
-msgid "what's the best way to use Odoo for a specific business need,"
+msgid "what's the best way to use izi for a specific business need,"
 msgstr ""
-"wie nutzt man Odoo am besten für eine spezifische Geschäftsanforderung,"
+"wie nutzt man izi am besten für eine spezifische Geschäftsanforderung,"
 
 #. module: website_forum
 #: model:forum.forum,faq:website_forum.forum_help

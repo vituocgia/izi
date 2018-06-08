@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
-from odoo import exceptions
-from odoo.addons.sale.controllers.portal import CustomerPortal
-from odoo.http import request, route
-from odoo.tools import consteq
+from izi import exceptions
+from izi.addons.sale.controllers.portal import CustomerPortal
+from izi.http import request, route
+from izi.tools import consteq
 
 
 class SaleStockPortal(CustomerPortal):

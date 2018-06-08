@@ -1,4 +1,4 @@
-odoo.define('mail.chat_client_action', function (require) {
+izi.define('mail.chat_client_action', function (require) {
 "use strict";
 
 var chat_manager = require('mail.chat_manager');
@@ -892,17 +892,17 @@ var ChatAction = Widget.extend(ControlPanelMixin, {
             def.then(function (value) {
                 if (value !== 'granted') {
                     utils.send_notification(self, _t('Permission denied'),
-                        _t('Odoo will not have the permission to send native notifications on this device.'));
+                        _t('izi will not have the permission to send native notifications on this device.'));
                 } else {
                     utils.send_notification(self, _t('Permission granted'),
-                        _t('Odoo has now the permission to send you native notifications on this device.'));
+                        _t('izi has now the permission to send you native notifications on this device.'));
                 }
             });
         }
     },
     /**
      * @private
-     * @param {OdooEvent}
+     * @param {iziEvent}
      */
     _onSearch: function (event) {
         var session = this.getSession();

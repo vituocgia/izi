@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 from lxml import etree
 
-from odoo import api, fields, models, tools, SUPERUSER_ID, _
-from odoo.exceptions import UserError, AccessError, ValidationError
-from odoo.tools.safe_eval import safe_eval
+from izi import api, fields, models, tools, SUPERUSER_ID, _
+from izi.exceptions import UserError, AccessError, ValidationError
+from izi.tools.safe_eval import safe_eval
 
 
 class ProjectTaskType(models.Model):
@@ -849,11 +849,11 @@ class Task(models.Model):
             except Exception:
                 pass
         if self.project_id:
-            current_objects = [h for h in headers.get('X-Odoo-Objects', '').split(',') if h]
+            current_objects = [h for h in headers.get('X-izi-Objects', '').split(',') if h]
             current_objects.insert(0, 'project.project-%s, ' % self.project_id.id)
-            headers['X-Odoo-Objects'] = ','.join(current_objects)
+            headers['X-izi-Objects'] = ','.join(current_objects)
         if self.tag_ids:
-            headers['X-Odoo-Tags'] = ','.join(self.tag_ids.mapped('name'))
+            headers['X-izi-Tags'] = ','.join(self.tag_ids.mapped('name'))
         res['headers'] = repr(headers)
         return res
 

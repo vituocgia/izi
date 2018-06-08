@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 import re
 import werkzeug.urls
 
-from odoo import api, fields, models, tools
+from izi import api, fields, models, tools
 
 from openerp.addons.link_tracker.models.link_tracker import URL_REGEX
 

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 import base64
 import json
@@ -9,12 +9,12 @@ import random
 from lxml import etree
 from operator import itemgetter
 
-from odoo import api, fields, models, _
-from odoo.exceptions import UserError
-from odoo.release import version_info
-from odoo.tools import pickle
-from odoo.tools.safe_eval import safe_eval
-from odoo.addons.anonymization.models.anonymization import group
+from izi import api, fields, models, _
+from izi.exceptions import UserError
+from izi.release import version_info
+from izi.tools import pickle
+from izi.tools.safe_eval import safe_eval
+from izi.addons.anonymization.models.anonymization import group
 
 WIZARD_ANONYMIZATION_STATES = [('clear', 'Clear'), ('anonymized', 'Anonymized'), ('unstable', 'Unstable')]
 

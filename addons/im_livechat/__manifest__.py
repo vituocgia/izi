@@ -6,7 +6,7 @@
     'summary': 'Live Chat with Visitors/Customers',
     'category': 'Website',
     'complexity': 'easy',
-    'website': 'https://www.odoo.com/page/live-chat',
+    'website': 'https://www.izi.asia/page/live-chat',
     'description':
         """
 Live Chat Support

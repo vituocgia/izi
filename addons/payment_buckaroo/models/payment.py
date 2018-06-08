@@ -4,11 +4,11 @@ import logging
 
 from werkzeug import urls
 
-from odoo import api, fields, models, _
-from odoo.addons.payment.models.payment_acquirer import ValidationError
-from odoo.addons.payment_buckaroo.controllers.main import BuckarooController
+from izi import api, fields, models, _
+from izi.addons.payment.models.payment_acquirer import ValidationError
+from izi.addons.payment_buckaroo.controllers.main import BuckarooController
 
-from odoo.tools.float_utils import float_compare
+from izi.tools.float_utils import float_compare
 
 _logger = logging.getLogger(__name__)
 
@@ -47,8 +47,8 @@ class AcquirerBuckaroo(models.Model):
 
         :param browse acquirer: the payment.acquirer browse record. It should
                                 have a shakey in shaky out
-        :param string inout: 'in' (odoo contacting buckaroo) or 'out' (buckaroo
-                             contacting odoo).
+        :param string inout: 'in' (izi contacting buckaroo) or 'out' (buckaroo
+                             contacting izi).
         :param dict values: transaction values
 
         :return string: shasign

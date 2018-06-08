@@ -1,4 +1,4 @@
-odoo.define('website_sale.cart', function (require) {
+izi.define('website_sale.cart', function (require) {
     "use strict";
 
     require('web.dom_ready');
@@ -46,7 +46,7 @@ odoo.define('website_sale.cart', function (require) {
     });
 });
 
-odoo.define('website_sale.website_sale_category', function (require) {
+izi.define('website_sale.website_sale_category', function (require) {
     "use strict";
 
     require('web.dom_ready');
@@ -67,7 +67,7 @@ odoo.define('website_sale.website_sale_category', function (require) {
     });
 });
 
-odoo.define('website_sale.website_sale', function (require) {
+izi.define('website_sale.website_sale', function (require) {
     "use strict";
 
     require('web.dom_ready');
@@ -76,7 +76,7 @@ odoo.define('website_sale.website_sale', function (require) {
     var utils = require('web.utils');
     var core = require('web.core');
     var config = require('web.config');
-    require("website.content.zoomodoo");
+    require("website.content.zoomizi");
     var _t = core._t;
 
     if(!$('.oe_website_sale').length) {
@@ -308,8 +308,8 @@ odoo.define('website_sale.website_sale', function (require) {
             }
             // reset zooming constructs
             $img.filter('[data-zoom-image]').attr('data-zoom-image', $img.attr('src'));
-            if ($img.data('zoomOdoo') !== undefined) {
-                $img.data('zoomOdoo').isReady = false;
+            if ($img.data('zoomizi') !== undefined) {
+                $img.data('zoomizi').isReady = false;
             }
         }
 
@@ -496,6 +496,6 @@ odoo.define('website_sale.website_sale', function (require) {
 
     // Deactivate image zoom for mobile devices, since it might prevent users to scroll
     if (config.device.size_class > config.device.SIZES.XS) {
-        $('.ecom-zoomable img[data-zoom]').zoomOdoo({ attach: '#o-carousel-product'});
+        $('.ecom-zoomable img[data-zoom]').zoomizi({ attach: '#o-carousel-product'});
     }
 });

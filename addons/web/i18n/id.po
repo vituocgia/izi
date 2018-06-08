@@ -1,11 +1,11 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * web
 # 
 # Translators:
 # Bonny Useful <bonny.useful@gmail.com>, 2017
 # Wahyu Setiawan <wahyusetiaaa@gmail.com>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux <mat@izi.asia>, 2017
 # Rachmat Aditiya <raditiya@me.com>, 2017
 # Ryanto The <ry.the77@gmail.com>, 2017
 # William Surya Permana <zarambie_game@yahoo.com>, 2017
@@ -20,12 +20,12 @@
 # C Sutanto <c@sutanto.or.id>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-01-09 10:16+0000\n"
 "PO-Revision-Date: 2018-01-09 10:16+0000\n"
 "Last-Translator: C Sutanto <c@sutanto.or.id>, 2017\n"
-"Language-Team: Indonesian (https://www.transifex.com/odoo/teams/41243/id/)\n"
+"Language-Team: Indonesian (https://www.transifex.com/izi/teams/41243/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -240,8 +240,8 @@ msgstr "<span class=\"oe_logo_edit\">Sunting data Perusahaan</span>"
 
 #. module: web
 #: model:ir.ui.view,arch_db:web.menu_secondary
-msgid "<span>Odoo</span>"
-msgstr "<span>Odoo</span>"
+msgid "<span>izi</span>"
+msgstr "<span>izi</span>"
 
 #. module: web
 #. openerp-web
@@ -1321,8 +1321,8 @@ msgstr "Formulir"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1339
 #, python-format
-msgid "Get this feature and much more with Odoo Enterprise!"
-msgstr "Dapatkan fitur ini dan lebih banyak lagi dengan Odoo Enterprise!"
+msgid "Get this feature and much more with izi Enterprise!"
+msgstr "Dapatkan fitur ini dan lebih banyak lagi dengan izi Enterprise!"
 
 #. module: web
 #. openerp-web
@@ -1681,8 +1681,8 @@ msgstr "Ke Atas"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1324
 #, python-format
-msgid "My Odoo.com account"
-msgstr "Akun Odoo.com saya"
+msgid "My izi.asia account"
+msgstr "Akun izi.asia saya"
 
 #. module: web
 #. openerp-web
@@ -1817,15 +1817,15 @@ msgstr "Obyek:"
 #. openerp-web
 #: code:addons/web/static/src/js/core/dialog.js:51
 #, python-format
-msgid "Odoo"
-msgstr "Odoo"
+msgid "izi"
+msgstr "izi"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/apps.js:148
 #, python-format
-msgid "Odoo Apps will be available soon"
-msgstr "Odoo Apps akan segera tersedia"
+msgid "izi Apps will be available soon"
+msgstr "izi Apps akan segera tersedia"
 
 #. module: web
 #. openerp-web
@@ -1833,37 +1833,37 @@ msgstr "Odoo Apps akan segera tersedia"
 #: code:addons/web/static/src/js/chrome/abstract_web_client.js:194
 #: code:addons/web/static/src/js/services/crash_manager.js:156
 #, python-format
-msgid "Odoo Client Error"
-msgstr "Eror Klien Odoo"
+msgid "izi Client Error"
+msgstr "Eror Klien izi"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/fields/upgrade_fields.js:86
 #, python-format
-msgid "Odoo Enterprise"
-msgstr "Odoo Enterprise"
+msgid "izi Enterprise"
+msgstr "izi Enterprise"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:118
 #, python-format
-msgid "Odoo Error"
-msgstr "Eror Odoo"
+msgid "izi Error"
+msgstr "Eror izi"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:58
 #, python-format
-msgid "Odoo Session Expired"
-msgstr "Sesi Odoo Kadaluarsa"
+msgid "izi Session Expired"
+msgstr "Sesi izi Kadaluarsa"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:108
 #: code:addons/web/static/src/js/services/crash_manager.js:197
 #, python-format
-msgid "Odoo Warning"
-msgstr "Peringatan Odoo"
+msgid "izi Warning"
+msgstr "Peringatan izi"
 
 #. module: web
 #. openerp-web
@@ -2084,8 +2084,8 @@ msgstr "Disajikan oleh"
 
 #. module: web
 #: model:ir.ui.view,arch_db:web.login_layout
-msgid "Powered by <span>Odoo</span>"
-msgstr "Disajikan oleh <span>Odoo</span>"
+msgid "Powered by <span>izi</span>"
+msgstr "Disajikan oleh <span>izi</span>"
 
 #. module: web
 #. openerp-web
@@ -2604,10 +2604,10 @@ msgstr ""
 #, python-format
 msgid ""
 "Timezone Mismatch : The timezone of your browser doesn't match the selected "
-"one. The time in Odoo is displayed according to your field timezone."
+"one. The time in izi is displayed according to your field timezone."
 msgstr ""
 "Kesalahan Pencocokan Zona Waktu : Zona waktu dari browser Anda tidak cocok "
-"dengan yang dipilih. Waktu yang ditampilkan di Odoo disesuaikan dengan kolom"
+"dengan yang dipilih. Waktu yang ditampilkan di izi disesuaikan dengan kolom"
 " zona waktu."
 
 #. module: web
@@ -2975,8 +2975,8 @@ msgstr ""
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:58
 #, python-format
-msgid "Your Odoo session expired. Please refresh the current web page."
-msgstr "Sesi Odoo Anda berakhir. Silakan refresh halaman web saat ini."
+msgid "Your izi session expired. Please refresh the current web page."
+msgstr "Sesi izi Anda berakhir. Silakan refresh halaman web saat ini."
 
 #. module: web
 #. openerp-web

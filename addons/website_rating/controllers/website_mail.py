@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
-from odoo import http
-from odoo.http import request
+from izi import http
+from izi.http import request
 
-from odoo.addons.portal.controllers.mail import PortalChatter
+from izi.addons.portal.controllers.mail import PortalChatter
 
 
 class WebsiteRating(PortalChatter):

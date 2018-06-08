@@ -1,11 +1,11 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * website_event_track
 # 
 # Translators:
 # salmemik <salmemik@gmail.com>, 2017
 # Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2017
-# Martin Trigaux <mat@odoo.com>, 2017
+# Martin Trigaux <mat@izi.asia>, 2017
 # Tuomo Aura <tuomo.aura@web-veistamo.fi>, 2017
 # Kari Lindgren <kari.lindgren@emsystems.fi>, 2017
 # Pekko Tuomisto <pekko.tuomisto@web-veistamo.fi>, 2017
@@ -17,12 +17,12 @@
 # Jukka Paulin <jukka.paulin@gmail.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.saas~18\n"
+"Project-Id-Version: izi Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-02 11:26+0000\n"
 "PO-Revision-Date: 2017-10-02 11:26+0000\n"
 "Last-Translator: Jukka Paulin <jukka.paulin@gmail.com>, 2017\n"
-"Language-Team: Finnish (https://www.transifex.com/odoo/teams/41243/fi/)\n"
+"Language-Team: Finnish (https://www.transifex.com/izi/teams/41243/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -130,10 +130,10 @@ msgstr ""
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track7
 msgid ""
-"A technical explanation of Odoo as a CMS and a eCommerce platform for "
+"A technical explanation of izi as a CMS and a eCommerce platform for "
 "version 8."
 msgstr ""
-"Tekninen kuvaus Odoosta sisällönhallintajärjestelmänä ja verkkokauppa-"
+"Tekninen kuvaus izista sisällönhallintajärjestelmänä ja verkkokauppa-"
 "alustana, versiolla 8."
 
 #. module: website_event_track
@@ -162,8 +162,8 @@ msgstr "Aktiivinen"
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track19
-msgid "Advanced lead management with Odoo: tips and tricks from the fields"
-msgstr "Edistynyt liidien hallinta Odoolla: vinkit ja niksit kenttätyöstä"
+msgid "Advanced lead management with izi: tips and tricks from the fields"
+msgstr "Edistynyt liidien hallinta izilla: vinkit ja niksit kenttätyöstä"
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track13
@@ -312,13 +312,13 @@ msgstr ""
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track8
 msgid ""
-"Discover Odoo CRM: How to optimize your sales, from leads to sales orders."
-msgstr "Löydä Odoo CRM: kuinka optimoida myynti liideistä myyntitilauksiksi."
+"Discover izi CRM: How to optimize your sales, from leads to sales orders."
+msgstr "Löydä izi CRM: kuinka optimoida myynti liideistä myyntitilauksiksi."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track11
-msgid "Discover Odoo Point-of-Sale: Your shop ready to use in 30 minutes."
-msgstr "Löydä Odoon kassapääte: kauppa valmiina käyttöön 30 minuutissa."
+msgid "Discover izi Point-of-Sale: Your shop ready to use in 30 minutes."
+msgstr "Löydä izin kassapääte: kauppa valmiina käyttöön 30 minuutissa."
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_sponsor_display_name
@@ -481,9 +481,9 @@ msgstr "Korkein"
 #: model:event.track,name:website_event_track.event_track18
 msgid ""
 "How to build your marketing strategy for the purpose of generating leads "
-"with Odoo."
+"with izi."
 msgstr ""
-"Kuinka luoda markkinointistrategia liidien generoimiseksi Odoon kautta."
+"Kuinka luoda markkinointistrategia liidien generoimiseksi izin kautta."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track1
@@ -492,8 +492,8 @@ msgstr "Kuinka kehittää verkkosivumoduuli"
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track4
-msgid "How to develop automated tests in the Odoo web client."
-msgstr "Kuinka kehittää automaattisia testejä Odoon verkkokäyttöliittymässä."
+msgid "How to develop automated tests in the izi web client."
+msgstr "Kuinka kehittää automaattisia testejä izin verkkokäyttöliittymässä."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track3
@@ -504,16 +504,16 @@ msgstr ""
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track2
-msgid "How to integrate hardware materials with the Odoo point of sale."
-msgstr "Kuinka integroida laitteistoa Odoon kassapääteen kanssa."
+msgid "How to integrate hardware materials with the izi point of sale."
+msgstr "Kuinka integroida laitteistoa izin kassapääteen kanssa."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track9
 msgid ""
-"How to use Odoo for your HR process: recruitment, leaves management, "
+"How to use izi for your HR process: recruitment, leaves management, "
 "appraisals, expenses, etc."
 msgstr ""
-"Kuinka käyttää Odoota henkilöstöhallinnon prosesseissa: rekry, poissalot, "
+"Kuinka käyttää izita henkilöstöhallinnon prosesseissa: rekry, poissalot, "
 "arvioinnit, kulut, yms."
 
 #. module: website_event_track
@@ -550,8 +550,8 @@ msgstr "Kanban tila"
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track23
-msgid "Key Success factors selling Odoo."
-msgstr "Avaintekijät Odoon myymisen onnistumiseen."
+msgid "Key Success factors selling izi."
+msgstr "Avaintekijät izin myymisen onnistumiseen."
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_sponsor___last_update
@@ -611,12 +611,12 @@ msgstr "Lounas"
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track22
 msgid "Manage your KPIs (recomended to openERP partners)."
-msgstr "Hallinnoi KPI-tunnuslukuja (suositellaan Odoo-partnereille)."
+msgstr "Hallinnoi KPI-tunnuslukuja (suositellaan izi-partnereille)."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track12
-msgid "Manage your events with Odoo, the new training modules."
-msgstr "Hallinnoi tapahtumia Odoolla, uudet koulutuksenhallintamoduulit."
+msgid "Manage your events with izi, the new training modules."
+msgstr "Hallinnoi tapahtumia izilla, uudet koulutuksenhallintamoduulit."
 
 #. module: website_event_track
 #: selection:event.track,priority:0
@@ -687,23 +687,23 @@ msgstr "Ei löydettyjä trackeja!"
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track15
-msgid "Odoo Mobile for Notes, Meetings and Messages."
-msgstr "Odoo mobile muistiinpanoja, tapaamisia ja viestejä varten."
+msgid "izi Mobile for Notes, Meetings and Messages."
+msgstr "izi mobile muistiinpanoja, tapaamisia ja viestejä varten."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track28
-msgid "Odoo Status & Strategy 2014"
-msgstr "Odoon tila ja strategia 2014"
+msgid "izi Status & Strategy 2014"
+msgstr "izin tila ja strategia 2014"
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track16
-msgid "Odoo as your Enterprise Social Network."
-msgstr "Odoo yrityksen sosiaalisena verkostona."
+msgid "izi as your Enterprise Social Network."
+msgstr "izi yrityksen sosiaalisena verkostona."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track27
-msgid "Odoo in 2014"
-msgstr "Odoo vuonna 2014"
+msgid "izi in 2014"
+msgstr "izi vuonna 2014"
 
 #. module: website_event_track
 #: model:ir.ui.view,arch_db:website_event_track.event_sponsor
@@ -763,8 +763,8 @@ msgstr "Nostetaan laadullisia huomioita kyselysovelluksella"
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track21
-msgid "Recruiting high skilled talents with Odoo HR apps"
-msgstr "Rekrytoidaan taidokkaita ihmisiä Odoon HR-sovelluksella"
+msgid "Recruiting high skilled talents with izi HR apps"
+msgstr "Rekrytoidaan taidokkaita ihmisiä izin HR-sovelluksella"
 
 #. module: website_event_track
 #: selection:event.track,kanban_state:0
@@ -951,8 +951,8 @@ msgstr "Kiitos ehdotuksestasi."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track17
-msgid "The Art of Making an Odoo Demo."
-msgstr "Odoo-demon luonnin taito."
+msgid "The Art of Making an izi Demo."
+msgstr "izi-demon luonnin taito."
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track29
@@ -962,8 +962,8 @@ msgstr "Uusi markkinointistrategia"
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track5
 msgid ""
-"The new way to promote your modules in the Apps platform and Odoo website."
-msgstr "Uusi tapa edistää moduuleitasi Odoon verkkosivujen sovellusalustassa."
+"The new way to promote your modules in the Apps platform and izi website."
+msgstr "Uusi tapa edistää moduuleitasi izin verkkosivujen sovellusalustassa."
 
 #. module: website_event_track
 #: model:ir.ui.view,arch_db:website_event_track.event_track_proposal

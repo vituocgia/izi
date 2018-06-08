@@ -1,4 +1,4 @@
-odoo.define('lunch.previous_orders', function (require) {
+izi.define('lunch.previous_orders', function (require) {
 "use strict";
 
 var AbstractField = require('web.AbstractField');

@@ -1,4 +1,4 @@
-odoo.define('web.ajax', function (require) {
+izi.define('web.ajax', function (require) {
 "use strict";
 
 var core = require('web.core');
@@ -262,7 +262,7 @@ function get_file(options) {
                     var nodes = body.children.length === 0 ? body.childNodes : body.children;
                     var errorParams = {};
 
-                    try { // Case of a serialized Odoo Exception: It is Json Parsable
+                    try { // Case of a serialized izi Exception: It is Json Parsable
                         var node = nodes[1] || nodes[0];
                         errorParams = JSON.parse(node.textContent);
                     } catch (e) { // Arbitrary uncaught python side exception

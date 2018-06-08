@@ -1,9 +1,9 @@
-# Translation of Odoo Server.
+# Translation of izi Server.
 # This file contains the translation of the following modules:
 # * pos_mercury
 # 
 # Translators:
-# Gab_Odoo <gab@odoo.com>, 2017
+# Gab_izi <gab@izi.asia>, 2017
 # Ermin Trevisan <trevi@twanda.com>, 2017
 # Tina Rittmüller <tr@ife.de>, 2017
 # Henry Mineehen <info@mineehen.de>, 2017
@@ -18,12 +18,12 @@
 # Katharina Moritz <kmo@e2f.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 11.0\n"
+"Project-Id-Version: izi Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-23 07:43+0000\n"
 "PO-Revision-Date: 2018-02-23 07:43+0000\n"
 "Last-Translator: Katharina Moritz <kmo@e2f.com>, 2018\n"
-"Language-Team: German (https://www.transifex.com/odoo/teams/41243/de/)\n"
+"Language-Team: German (https://www.transifex.com/izi/teams/41243/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -306,8 +306,8 @@ msgstr "Keine Antwort vom Server (mit dem Netzwerk verbunden?)"
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:414
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:567
 #, python-format
-msgid "Odoo error while processing transaction."
-msgstr "Odoo-Fehler bei der Transaktionsabwicklung."
+msgid "izi error while processing transaction."
+msgstr "izi-Fehler bei der Transaktionsabwicklung."
 
 #. module: pos_mercury
 #. openerp-web

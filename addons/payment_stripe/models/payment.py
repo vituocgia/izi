@@ -4,11 +4,11 @@ import logging
 import requests
 import pprint
 
-from odoo import api, fields, models, _
-from odoo.addons.payment.models.payment_acquirer import ValidationError
-from odoo.exceptions import UserError
-from odoo.tools.safe_eval import safe_eval
-from odoo.tools.float_utils import float_round
+from izi import api, fields, models, _
+from izi.addons.payment.models.payment_acquirer import ValidationError
+from izi.exceptions import UserError
+from izi.tools.safe_eval import safe_eval
+from izi.tools.float_utils import float_round
 
 _logger = logging.getLogger(__name__)
 

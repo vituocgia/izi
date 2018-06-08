@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'Weighing Scale Hardware Driver',
     'category': 'Point of Sale',
     'sequence': 6,
     'summary': 'Hardware Driver for Weighing Scales',
-    'website': 'https://www.odoo.com/page/point-of-sale',
+    'website': 'https://www.izi.asia/page/point-of-sale',
     'description': """
 Weighing Scale Hardware Driver
 ================================

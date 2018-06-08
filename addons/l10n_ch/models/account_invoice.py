@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 
 import re
 
-from odoo import models, fields, api, _
-from odoo.exceptions import ValidationError
-from odoo.tools.float_utils import float_split_str
-from odoo.tools.misc import mod10r
+from izi import models, fields, api, _
+from izi.exceptions import ValidationError
+from izi.tools.float_utils import float_split_str
+from izi.tools.misc import mod10r
 
 
 l10n_ch_ISR_NUMBER_LENGTH = 27

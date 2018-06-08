@@ -1,4 +1,4 @@
-odoo.define('web.pivot_tests', function (require) {
+izi.define('web.pivot_tests', function (require) {
 "use strict";
 
 var core = require('web.core');

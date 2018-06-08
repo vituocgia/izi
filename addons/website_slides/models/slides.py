@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of izi. See LICENSE file for full copyright and licensing details.
 import requests
 from PIL import Image
 
@@ -11,13 +11,13 @@ import re
 
 from werkzeug import urls
 
-from odoo import api, fields, models, SUPERUSER_ID, _
-from odoo.addons.http_routing.models.ir_http import slug
-from odoo.tools import image
-from odoo.tools.translate import html_translate
-from odoo.exceptions import Warning
-from odoo.http import request
-from odoo.addons.http_routing.models.ir_http import url_for
+from izi import api, fields, models, SUPERUSER_ID, _
+from izi.addons.http_routing.models.ir_http import slug
+from izi.tools import image
+from izi.tools.translate import html_translate
+from izi.exceptions import Warning
+from izi.http import request
+from izi.addons.http_routing.models.ir_http import url_for
 
 
 class Channel(models.Model):

@@ -1,4 +1,4 @@
-odoo.define('web.KanbanColumn', function (require) {
+izi.define('web.KanbanColumn', function (require) {
 "use strict";
 
 var config = require('web.config');
@@ -305,7 +305,7 @@ var KanbanColumn = Widget.extend({
     },
     /**
      * @private
-     * @param {OdooEvent} event
+     * @param {iziEvent} event
      */
     _onQuickCreateAddRecord: function (event) {
         this.trigger_up('quick_create_record', event.data);
@@ -320,14 +320,14 @@ var KanbanColumn = Widget.extend({
     },
     /**
      * @private
-     * @param {OdooEvent} ev
+     * @param {iziEvent} ev
      */
     _onTweakColumn: function (ev) {
         ev.data.callback(this.$el);
     },
     /**
      * @private
-     * @param {OdooEvent} ev
+     * @param {iziEvent} ev
      */
     _onTweakColumnRecords: function (ev) {
         _.each(this.records, function (record) {
