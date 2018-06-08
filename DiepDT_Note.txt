@@ -1,0 +1,1 @@
+python izi-bin -w izitm -r izitm --addons-path=addons --db-filter=diepdt$
